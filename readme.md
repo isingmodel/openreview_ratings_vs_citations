@@ -2,7 +2,7 @@
 * A simple analysis comparing ICLR openreview official ratings and the number of citations of each accepted paper. 
 * This repository contains:
 	* openreview review lists, citation data of ICLR accepted papers
-	* 
+	* Data analysis codes & results
 
 
 
