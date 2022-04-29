@@ -4,6 +4,10 @@
 	* openreview review lists, citation data of ICLR accepted papers
 	* Data analysis codes & results
 
+```
+![fitting&predcition](https://github.com/isingmodel/openreview_ratings_vs_citations/blob/master/figs/median-normalized_median_citations.png?raw=true)
+```
+
 
 
 
@@ -17,3 +21,7 @@
 
 ## Trouble shooting
 * If you cannot load pickle data files, update python or pandas version to read higher protocol version of pickle file. 
+
+
+## Ideas
+* Papers with an average rating of less than 6 may have to be excluded from the analysis because the intention of the Program Chairs is relatively reflected. (rating 6: marginally above the acceptance threshold)
