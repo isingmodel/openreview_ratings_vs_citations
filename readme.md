@@ -4,9 +4,9 @@
 	* openreview review lists, citation data of ICLR accepted papers
 	* Data analysis codes & results
 
-```
-![fitting&predcition](https://github.com/isingmodel/openreview_ratings_vs_citations/blob/master/figs/median-normalized_median_citations.png?raw=true)
-```
+
+![citations_vs_ratings](https://raw.githubusercontent.com/isingmodel/openreview_ratings_vs_citations/master/figs/median-normalized_median_citations.png?raw=true)
+
 
 
 
