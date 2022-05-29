@@ -26,3 +26,4 @@
 ## Ideas
 * Papers with an average rating of less than 6 may have to be excluded from the analysis because the intention of the Program Chairs is relatively reflected. (rating 6: marginally above the acceptance threshold)
 * Some authors crave a quick response from reviewers.(i.e. https://openreview.net/forum?id=dIVrWHP9_1i ). The response time matters?
+* Quite many papers rejected from ICLR are re-submited and accepted for ICML. What about them?
