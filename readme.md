@@ -27,3 +27,9 @@
 * Papers with an average rating of less than 6 may have to be excluded from the analysis because the intention of the Program Chairs is relatively reflected. (rating 6: marginally above the acceptance threshold)
 * Some authors crave a quick response from reviewers.(i.e. https://openreview.net/forum?id=dIVrWHP9_1i ). The response time matters?
 * Quite many papers rejected from ICLR are re-submited and accepted for ICML. What about them?
+
+## Other reference sites 
+* https://horace.io/OpenReviewExplorer/ ( https://github.com/Chillee/OpenReviewExplorer )
+* AN OPEN REVIEW OF OPENREVIEW: A CRITICAL ANALYSIS OF THE MACHINE LEARNING CONFERENCE REVIEW PROCESS https://openreview.net/forum?id=Cn706AbJaKW
+* Dynamic patterns of open review process
+https://www.sciencedirect.com/science/article/abs/pii/S0378437121005185
