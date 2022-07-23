@@ -29,6 +29,10 @@
 * Papers with an average rating of less than 6 may have to be excluded from the analysis because the intention of the Program Chairs is relatively reflected. (rating 6: marginally above the acceptance threshold)
 * Some authors crave a quick response from reviewers.(i.e. https://openreview.net/forum?id=dIVrWHP9_1i ). The response time matters?
 * Quite many papers rejected from ICLR are re-submited and accepted for ICML. What about them?
+* The correlation between and Review ratings and the number of Citations decreased over time. why?
+	* hypothesis 1: As the years passed, the number of submitted papers increased, and more reviewers had to participate in the review, reducing the quality of the reviewers.
+	* hypothesis 2: As the years passed, the number of submitted papers increased, and the quality of reviews decreased as more reviews were required per reviewer.
+	* hypothesis 3: Papers in the 2019 and 2020 have not yet been properly evaluated in terms of citations. More time is needed for the citation distribution to become clear.
 
 ## Other reference sites 
 * https://horace.io/OpenReviewExplorer/ ( https://github.com/Chillee/OpenReviewExplorer )
