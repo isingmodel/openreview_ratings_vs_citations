@@ -5,6 +5,7 @@ import random
 import numpy as np
 from tqdm import tqdm
 import json
+import openreview
 
 
 def parsing_openreview_hdf5(fn):
@@ -32,9 +33,9 @@ def parsing_openreview_hdf5(fn):
     return df_accept
 
 
-def parsing_openreview_pkl(fn):
-    with open("./all_data_iclr_2018.pkl", 'rb') as f:
-        all_data = pkl.load(f)    
+def parsing_openreview_pkl(all_data):
+    # with open("./all_data_iclr_2018.pkl", 'rb') as f:
+    #     all_data = pkl.load(f)
     decisions = []
     titles = []
     authors_list = []
@@ -129,4 +130,19 @@ def get_paperinfo_from_google_scholar(title_list, saving_path, apikey):
         json.dump(citations_raw,f)
 
 
-        
+def get_openreview_data(invitation_link='ICLR.cc/2018/Conference/-/Blind_Submission'):
+    base_url = 'https://api.openreview.net'
+    c = openreview.Client(baseurl=base_url)
+    blind_notes = [note for note in openreview.tools.iterget_notes(c,
+                                                                   invitation = invitation_link,
+                                                                   details='original')]
+    forum_list = set([h.forum for h in blind_notes])
+
+    all_data = []
+    for forum in tqdm(forum_list):
+        forum_comments = c.get_notes(forum=forum)
+        all_data.append(forum_comments)
+
+    return all_data
+
+
