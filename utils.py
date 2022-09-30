@@ -33,7 +33,7 @@ def parsing_openreview_hdf5(fn):
     return df_accept
 
 
-def parsing_openreview_pkl(all_data):
+def parsing_openreview(all_data):
     # with open("./all_data_iclr_2018.pkl", 'rb') as f:
     #     all_data = pkl.load(f)
     decisions = []
