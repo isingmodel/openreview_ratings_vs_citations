@@ -34,8 +34,6 @@ def parsing_openreview_hdf5(fn):
 
 
 def parsing_openreview(all_data):
-    # with open("./all_data_iclr_2018.pkl", 'rb') as f:
-    #     all_data = pkl.load(f)
     decisions = []
     titles = []
     authors_list = []
@@ -84,16 +82,13 @@ def parsing_openreview(all_data):
     return df
     
     
-def matching_openreview_googlescholar(googlescholar_path, df):
-    with open(googlescholar_path, "r") as f:
-        raw_googlescholar = json.load(raw_googlescholar)
-    for pn, val in raw_googlescholar.items():
+def matching_openreview_googlescholar(citation_info, df):
+    for pn, val in citation_info.items():
         df.loc[df.title == pn, "citations"] = val["num_citations"]
-
     return df
 
 
-def get_paperinfo_from_google_scholar(title_list, saving_path, apikey):
+def get_paperinfo_from_google_scholar(title_list, apikey=None):
 
     """
       apikey: ScraperAPI key for scraping google scholar results. See https://www.scraperapi.com/
@@ -102,14 +97,13 @@ def get_paperinfo_from_google_scholar(title_list, saving_path, apikey):
       You can scrape without a proxy, but if you do, Google will (soft)block your IP.
 
     """
-
-    # todo: use async
     from scholarly import scholarly, ProxyGenerator
 
     pg = ProxyGenerator()
-    API_KEY = apikey
-    success = pg.ScraperAPI(API_KEY)
-    scholarly.use_proxy(pg)
+    if apikey:
+        API_KEY = apikey
+        success = pg.ScraperAPI(API_KEY)
+        scholarly.use_proxy(pg)
 
     citations_raw = {}
 
@@ -125,9 +119,7 @@ def get_paperinfo_from_google_scholar(title_list, saving_path, apikey):
     for x in citations_raw.keys():
         del citations_raw[x]["source"]
         
-        
-    with open(saving_path, 'w') as f:
-        json.dump(citations_raw,f)
+    return citations_raw
 
 
 def get_openreview_data(invitation_link='ICLR.cc/2018/Conference/-/Blind_Submission'):
