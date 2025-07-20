@@ -9,23 +9,24 @@ import openreview
 
 
 def parsing_openreview_hdf5(fn):
-    f = h5py.File(fn, 'r')
-
+    """Parse an OpenReview hdf5 file and return a processed DataFrame."""
     ratings = []
     decisions = []
     titles = []
 
-    for k in f.keys():
-        ratings.append(f[k]['rating'][()])
-        decisions.append(f[k]['decision'][()].decode("utf-8"))
-        titles.append(f[k]['title'][()].decode("utf-8"))
+    with h5py.File(fn, "r") as f:
+        for k in f.keys():
+            ratings.append(f[k]["rating"][()])
+            decisions.append(f[k]["decision"][()].decode("utf-8"))
+            titles.append(f[k]["title"][()].decode("utf-8"))
 
-    dict_for_df = {"rating": ratings, "decision": decisions,
-                   "title": titles}
+    dict_for_df = {"rating": ratings, "decision": decisions, "title": titles}
     df = pd.DataFrame(dict_for_df)
-        
-    df_accept = df.loc[(df.decision != "Reject") \
-                       &(df.decision != "N/A")].reset_index(drop=True)
+
+    df_accept = (
+        df.loc[(df.decision != "Reject") & (df.decision != "N/A")]
+        .reset_index(drop=True)
+    )
 
     df_accept["mean_rating"] = [np.mean(x) for x in df_accept.rating]
     df_accept["var_rating"] = [np.var(x) for x in df_accept.rating]
