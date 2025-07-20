@@ -1,141 +1,158 @@
-import pandas as pd
+"""Utility functions for processing OpenReview data."""
+
+from __future__ import annotations
+
+import logging
+from typing import Iterable, List, Tuple
+
 import h5py
-import time
-import random
 import numpy as np
-from tqdm import tqdm
-import json
 import openreview
+import pandas as pd
+from tqdm import tqdm
+
+__all__ = [
+    "parse_openreview_hdf5",
+    "parse_openreview",
+    "match_openreview_googlescholar",
+    "get_paperinfo_from_google_scholar",
+    "get_openreview_data",
+]
+
+logger = logging.getLogger(__name__)
 
 
-def parsing_openreview_hdf5(fn):
-    """Parse an OpenReview hdf5 file and return a processed DataFrame."""
-    ratings = []
-    decisions = []
-    titles = []
+def parse_openreview_hdf5(filename: str) -> pd.DataFrame:
+    """Return accepted submissions with rating statistics from an HDF5 file."""
+    with h5py.File(filename, "r") as f:
+        df = pd.DataFrame(
+            {
+                "rating": [f[k]["rating"][()] for k in f.keys()],
+                "decision": [
+                    f[k]["decision"][()].decode("utf-8") for k in f.keys()
+                ],
+                "title": [f[k]["title"][()].decode("utf-8") for k in f.keys()],
+            }
+        )
 
-    with h5py.File(fn, "r") as f:
-        for k in f.keys():
-            ratings.append(f[k]["rating"][()])
-            decisions.append(f[k]["decision"][()].decode("utf-8"))
-            titles.append(f[k]["title"][()].decode("utf-8"))
-
-    dict_for_df = {"rating": ratings, "decision": decisions, "title": titles}
-    df = pd.DataFrame(dict_for_df)
-
-    df_accept = (
-        df.loc[(df.decision != "Reject") & (df.decision != "N/A")]
-        .reset_index(drop=True)
-    )
-
-    df_accept["mean_rating"] = [np.mean(x) for x in df_accept.rating]
-    df_accept["var_rating"] = [np.var(x) for x in df_accept.rating]
-
-    return df_accept
+    accepted = df.loc[(df.decision != "Reject") & (df.decision != "N/A")]
+    accepted = accepted.reset_index(drop=True)
+    accepted["mean_rating"] = accepted["rating"].apply(np.mean)
+    accepted["var_rating"] = accepted["rating"].apply(np.var)
+    return accepted
 
 
-def parsing_openreview(all_data):
-    decisions = []
-    titles = []
-    authors_list = []
-    ratings_list = []
+def _extract_forum_data(forum) -> Tuple[str, List[str], List[int], str] | None:
+    """Return basic information from a forum or ``None`` if incomplete."""
+    title = None
+    authors = None
+    ratings: List[int] = []
+    decision = None
+
+    for note in forum:
+        content = note.content
+        if "authors" in content:
+            title = content.get("title")
+            authors = content["authors"]
+        if "decision" in content:
+            decision = content["decision"]
+        if "rating" in content:
+            ratings.append(int(content["rating"].split(":")[0]))
+
+    if not authors:
+        logger.warning("No authors data for forum %s", forum)
+        return None
+    if not ratings:
+        logger.warning("%s has no review", title)
+        return None
+    if not decision:
+        logger.warning("%s has no decision", title)
+        return None
+
+    return title, authors, ratings, decision
+
+
+def parse_openreview(all_data: Iterable) -> pd.DataFrame:
+    """Parse a list of forums returned from :func:`get_openreview_data`."""
+    records = []
 
     for forum in all_data:
-        ratings = []
-        decision = False
-        authors = False
-
-        for note in forum:
-            if "authors" in note.content.keys():
-                title = note.content["title"]
-                authors = note.content["authors"]
-            if 'decision' in note.content.keys():
-                decision = note.content['decision']
-
-            if 'rating' in note.content.keys():
-                ratings.append(int(note.content['rating'].split(":")[0]))
-                
-        if not authors:
-            print("no authors data")
-            print(*forum)
+        result = _extract_forum_data(forum)
+        if result is None:
             continue
-            
-        if len(ratings) == 0:
-            print(title, "no review", "\n")
-            print(*forum)
-            continue
-            
-        if not decision:
-            print(title, "no decision", "\n")
-            continue
-            
+        title, authors, ratings, decision = result
+        records.append(
+            {
+                "decision": decision,
+                "title": title,
+                "authors": authors,
+                "rating": ratings,
+            }
+        )
 
-        decisions.append(decision)
-        titles.append(title)
-        authors_list.append(authors)
-        ratings_list.append(ratings)
-
-    summary = {"decision": decisions, "title": titles,
-               "authors": authors_list, "rating": ratings_list}
-    df = pd.DataFrame(summary)
+    df = pd.DataFrame(records)
     df = df.loc[df.decision != "Reject"].reset_index(drop=True)
-
     return df
-    
-    
-def matching_openreview_googlescholar(citation_info, df):
+
+
+def match_openreview_googlescholar(
+    citation_info: dict, df: pd.DataFrame
+) -> pd.DataFrame:
+    """Insert citation counts from Google Scholar into the OpenReview DataFrame."""
     for pn, val in citation_info.items():
-        df.loc[df.title == pn, "citations"] = val["num_citations"]
+        df.loc[df.title == pn, "citations"] = val.get("num_citations")
     return df
 
 
-def get_paperinfo_from_google_scholar(title_list, apikey=None):
+def get_paperinfo_from_google_scholar(
+    title_list: Iterable[str], apikey: str | None = None
+) -> dict:
+    """Return Google Scholar metadata for each title.
 
-    """
-      apikey: ScraperAPI key for scraping google scholar results. See https://www.scraperapi.com/
-
-      It takes long long time for now.
-      You can scrape without a proxy, but if you do, Google will (soft)block your IP.
-
+    ``apikey`` -- ScraperAPI key for proxying Google Scholar requests.
+    It can take a long time and scraping without a proxy may lead to your IP being
+    soft-blocked by Google.
     """
     from scholarly import scholarly, ProxyGenerator
 
     pg = ProxyGenerator()
     if apikey:
-        API_KEY = apikey
-        success = pg.ScraperAPI(API_KEY)
+        pg.ScraperAPI(apikey)
         scholarly.use_proxy(pg)
 
-    citations_raw = {}
+    citations_raw: dict = {}
 
     for title in tqdm(title_list):
         try:
             aa = scholarly.search_pubs(title)
-            data = next(aa) # the first result
+            data = next(aa)  # the first result
             citations_raw[title] = data
         except:
             print(title, "error")
-            
-            
+
     for x in citations_raw.keys():
         del citations_raw[x]["source"]
-        
+
     return citations_raw
 
 
-def get_openreview_data(invitation_link='ICLR.cc/2018/Conference/-/Blind_Submission'):
-    base_url = 'https://api.openreview.net'
-    c = openreview.Client(baseurl=base_url)
-    blind_notes = [note for note in openreview.tools.iterget_notes(c,
-                                                                   invitation = invitation_link,
-                                                                   details='original')]
-    forum_list = set([h.forum for h in blind_notes])
+def get_openreview_data(
+    invitation_link: str = "ICLR.cc/2018/Conference/-/Blind_Submission",
+) -> list:
+    """Download forums from OpenReview for the given invitation."""
+    base_url = "https://api.openreview.net"
+    client = openreview.Client(baseurl=base_url)
+
+    blind_notes = list(
+        openreview.tools.iterget_notes(
+            client, invitation=invitation_link, details="original"
+        )
+    )
+    forum_list = {note.forum for note in blind_notes}
 
     all_data = []
     for forum in tqdm(forum_list):
-        forum_comments = c.get_notes(forum=forum)
+        forum_comments = client.get_notes(forum=forum)
         all_data.append(forum_comments)
 
     return all_data
-
-
