@@ -25,6 +25,14 @@ project
 ![citations_vs_ratings_18](https://raw.githubusercontent.com/isingmodel/openreview_ratings_vs_citations/master/figs/Log_Citation_vs_Review_Rating_ICLR_2018.png?raw=true)
 ![citations_vs_ratings_19](https://raw.githubusercontent.com/isingmodel/openreview_ratings_vs_citations/master/figs/Log_Citation_vs_Review_Rating_ICLR_2019.png?raw=true)
 ![citations_vs_ratings_20](https://raw.githubusercontent.com/isingmodel/openreview_ratings_vs_citations/master/figs/Log_Citation_vs_Review_Rating_ICLR_2020.png?raw=true)
+## Setup
+
+Install dependencies with [uv](https://github.com/astral-sh/uv):
+
+```bash
+uv pip install -r requirements.txt
+```
+
 
 
 
