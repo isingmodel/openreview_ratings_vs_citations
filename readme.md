@@ -1,67 +1,86 @@
-## openreview ratings vs citations
-```
-project
-│   README.md
-│   utils.py
-│   Data_scrapping_Example.ipynb: data scrapping example
-│   Parsing_pre-scrapped_data.ipynb: parsing pre-scrapped_data in repo/data folder
-│
-└───data
-│   │
-│   └───ICLR20**
-│       │   preprocessed_table.pkl
-│       │   google scholar citation info.json
-│       │   openreview data.pkl or openreview data.hdf5
-```
+## OpenReview Ratings vs Citations
 
+A simple analysis comparing ICLR OpenReview official ratings and the number of citations of each accepted paper. 
 
-* A simple analysis comparing ICLR openreview official ratings and the number of citations of each accepted paper. 
-* This repository contains:
-	* openreview review lists, citation data of ICLR accepted papers
-	* Data analysis codes & results
-
+This repository contains:
+- OpenReview review lists and citation data of ICLR accepted papers (2017-2020)
+- CLI tools for scraping and analysis
+- Data analysis codes & results
 
 ![citations_vs_ratings_17](https://raw.githubusercontent.com/isingmodel/openreview_ratings_vs_citations/master/figs/Log_Citation_vs_Review_Rating_ICLR_2017.png?raw=true)
 ![citations_vs_ratings_18](https://raw.githubusercontent.com/isingmodel/openreview_ratings_vs_citations/master/figs/Log_Citation_vs_Review_Rating_ICLR_2018.png?raw=true)
 ![citations_vs_ratings_19](https://raw.githubusercontent.com/isingmodel/openreview_ratings_vs_citations/master/figs/Log_Citation_vs_Review_Rating_ICLR_2019.png?raw=true)
 ![citations_vs_ratings_20](https://raw.githubusercontent.com/isingmodel/openreview_ratings_vs_citations/master/figs/Log_Citation_vs_Review_Rating_ICLR_2020.png?raw=true)
-## Setup
 
-Install dependencies with [uv](https://github.com/astral-sh/uv):
+## Project Structure
 
-```bash
-uv pip install -r requirements.txt
+```
+project/
+├── scripts/
+│   ├── scrape_openreview.py    # Fetch data from OpenReview
+│   ├── scrape_citations.py     # Fetch Google Scholar citations
+│   ├── analyze.py              # Run correlation analysis
+│   └── convert_data.py         # Convert legacy .pkl/.hdf5 files
+├── data/
+│   └── ICLR20**/
+│       ├── preprocessed.parquet        # Processed paper data
+│       ├── openreview_raw.json         # Raw OpenReview data
+│       └── googlescholar_*.json        # Citation data
+├── figs/                               # Generated plots
+├── utils.py                            # Utility functions
+└── analysis_ipynb/                     # Legacy notebooks
 ```
 
+## Setup
 
+```bash
+pip install -r requirements.txt
+```
 
+## Usage
 
+### 1. Scrape OpenReview Data
 
-## TODO
-* Data Analysis
+Fetch paper data for a specific ICLR year:
 
+```bash
+python scripts/scrape_openreview.py --year 2024
+```
 
+### 2. Fetch Citations
 
+Get Google Scholar citations (requires ScraperAPI key for large batches):
 
+```bash
+python scripts/scrape_citations.py --input data/ICLR2024/preprocessed.parquet --apikey YOUR_KEY
+```
 
+### 3. Analyze Correlation
 
-## Trouble shooting
-* If you cannot load pickle data files, update python or pandas version to read higher protocol version of pickle file. 
+Generate correlation plot and statistics:
 
+```bash
+python scripts/analyze.py --year 2024
+```
 
-## Ideas
-* Papers with an average rating of less than 6 may have to be excluded from the analysis because the intention of the Program Chairs is relatively reflected. (rating 6: marginally above the acceptance threshold)
-* Some authors crave a quick response from reviewers.(i.e. https://openreview.net/forum?id=dIVrWHP9_1i ). The response time matters?
-* Quite many papers rejected from ICLR are re-submited and accepted for ICML. What about them?
-* The correlation between and Review ratings and the number of Citations decreased over time. why?
-	* hypothesis 1: As the years passed, the number of submitted papers increased, and more reviewers had to participate in the review, reducing the quality of the reviewers.
-	* hypothesis 2: As the years passed, the number of submitted papers increased, and the quality of reviews decreased as more reviews were required per reviewer.
-	* hypothesis 3: Papers in the 2019 and 2020 have not yet been properly evaluated in terms of citations. More time is needed for the citation distribution to become clear.
+Options:
+- `--min-rating 6.0` — Exclude papers with ratings below 6 (desk rejects)
+- `--output figs/custom/` — Custom output directory
 
-## Other reference sites 
-* https://horace.io/OpenReviewExplorer/ ( https://github.com/Chillee/OpenReviewExplorer )
-* AN OPEN REVIEW OF OPENREVIEW: A CRITICAL ANALYSIS OF THE MACHINE LEARNING CONFERENCE REVIEW PROCESS https://openreview.net/forum?id=Cn706AbJaKW
-* Dynamic patterns of open review process
-https://www.sciencedirect.com/science/article/abs/pii/S0378437121005185
+## Troubleshooting
 
-## Any idea & Qeustion? please write anything on github issues. 
+- **OpenReview API changes**: The invitation pattern varies by year. Check `scrape_openreview.py` for supported patterns.
+- **Google Scholar blocking**: Use the `--apikey` flag with a [ScraperAPI](https://www.scraperapi.com/) key to avoid IP blocks.
+- **Legacy pickle files**: Run `python scripts/convert_data.py` to convert old `.pkl`/`.hdf5` files.
+
+## Ideas for Future Analysis
+
+- Papers with ratings < 6 may be influenced by Program Chair decisions
+- The correlation between ratings and citations decreases over time — why?
+- What about ICLR rejects that were accepted at ICML?
+
+## References
+
+- [OpenReviewExplorer](https://horace.io/OpenReviewExplorer/)
+- [An Open Review of OpenReview](https://openreview.net/forum?id=Cn706AbJaKW)
+- [Dynamic Patterns of Open Review Process](https://www.sciencedirect.com/science/article/abs/pii/S0378437121005185)

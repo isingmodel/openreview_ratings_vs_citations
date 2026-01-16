@@ -9,4 +9,8 @@ dependencies = [
     "h5py",
     "openreview-py",
     "scholarly",
+    "pyarrow",
+    "matplotlib",
+    "seaborn",
+    "scipy",
 ]
