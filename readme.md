@@ -14,12 +14,12 @@
 
 **The correlation between review ratings and citations has been declining over time:**
 
-| Year | Papers | Correlation (r) | p-value |
-|------|--------|-----------------|---------|
-| 2017 | 245 | 0.40 | 6.9e-11 |
-| 2018 | 425 | 0.37 | 1.6e-15 |
-| 2019 | 502 | 0.19 | 1.2e-05 |
-| 2020 | 687 | 0.13 | 8.9e-04 |
+| Year | Papers | Pearson (r) | Spearman (ρ) |
+|------|--------|-------------|--------------|
+| 2017 | 245 | 0.40 | 0.35 |
+| 2018 | 425 | 0.37 | 0.36 |
+| 2019 | 502 | 0.19 | 0.19 |
+| 2020 | 687 | 0.13 | 0.14 |
 
 <table>
   <tr>
@@ -34,18 +34,16 @@
 
 ### Methodology
 
-We measure the relationship between **mean review rating** and **log-transformed citation counts** using **Pearson correlation coefficient (r)**.
+We report both **Pearson (r)** and **Spearman (ρ)** correlations:
+
+- **Pearson**: Measures linear relationship between mean rating and log(citations + 1). Assumes roughly normal distributions.
+- **Spearman**: Rank-based, non-parametric. More appropriate for ordinal rating data; robust to outliers.
+
+Both methods show consistent results—**the declining trend is robust to the choice of correlation metric**.
 
 **Why log(citations + 1)?**
 
-Citation counts exhibit a highly skewed, heavy-tailed distribution—a few papers receive thousands of citations while most receive very few. This is a well-documented phenomenon in bibliometrics ([Redner, 1998](https://doi.org/10.1007/s100510050276); [Radicchi et al., 2008](https://doi.org/10.1073/pnas.0806977105)).
-
-Log transformation addresses this by:
-- **Reducing outlier dominance**: A paper with 10,000 citations won't disproportionately skew the regression line
-- **Reflecting scale-level differences**: The difference between 10→100 citations is more meaningful than 10,000→10,090
-- **Normalizing the distribution**: Enables valid application of Pearson correlation (which assumes roughly normal distributions)
-
-We use `log(x + 1)` to handle papers with zero citations.
+Citation counts follow a heavy-tailed distribution ([Redner, 1998](https://doi.org/10.1007/s100510050276); [Radicchi et al., 2008](https://doi.org/10.1073/pnas.0806977105)). Log transformation reduces outlier dominance and reflects scale-level differences (10→100 is more meaningful than 10,000→10,090).
 
 ---
 
