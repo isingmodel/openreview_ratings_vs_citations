@@ -1,4 +1,4 @@
-# 📊 OpenReview Ratings vs Citations
+# OpenReview Ratings vs Citations
 
 > **Do peer review scores predict scientific impact?**  
 > An empirical analysis of ICLR papers (2017–2020)
@@ -51,17 +51,17 @@ We use `log(x + 1)` to handle papers with zero citations.
 
 ## Possible Explanations (and Their Limitations)
 
-### ❓ Hypothesis 1–2: Reviewer Quality Degradation
+### Hypothesis 1: Reviewer Quality Degradation
 > *As ICLR grew, more reviewers were needed, potentially reducing review quality.*
 
 **Limitation:** This is unfalsifiable—there's no independent measure of "reviewer quality." An alternative explanation is that competition intensified, causing papers near the acceptance threshold to converge in quality, which naturally reduces correlation.
 
-### ❓ Hypothesis 3: Citation Lag
+### Hypothesis 2: Citation Lag
 > *Recent papers haven't accumulated enough citations yet.*
 
 **Limitation:** In fast-moving ML fields, citation rankings typically stabilize within 1–2 years post-publication. Moreover, if all papers have uniformly low citations, variance decreases and correlation should actually *increase*, not decrease. This hypothesis has a logical flaw.
 
-### 🔍 Alternative Hypotheses Worth Exploring
+### Alternative Hypotheses Worth Exploring
 - **Field diversification**: As ICLR expanded, subfield-specific papers increased. Reviewers may rate fairly within their expertise, but citation counts are driven by *subfield size* (NLP >> Theory).
 - **Matthew Effect**: Famous authors/institutions get cited regardless of ratings. This effect may strengthen as the venue grows.
 - **Rating inflation/deflation**: Reviewer scoring norms may shift year-to-year.
@@ -85,7 +85,7 @@ pip install -r requirements.txt
 
 ### Scrape & Analyze
 
-> ⚠️ **Note:** Fetching citations requires a [ScraperAPI](https://www.scraperapi.com/) key to avoid Google Scholar IP blocks.
+> **Note:** Fetching citations requires a [ScraperAPI](https://www.scraperapi.com/) key to avoid Google Scholar IP blocks.
 
 ```bash
 # 1. Fetch OpenReview data
