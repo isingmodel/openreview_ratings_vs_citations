@@ -89,40 +89,77 @@ def plot_correlation(
     # Calculate correlation
     corr, p_value = stats.pearsonr(plot_df["mean_rating"], plot_df["log_citations"])
 
-    # Create plot
-    plt.figure(figsize=(10, 8))
-    sns.set_style("whitegrid")
-
-    ax = sns.scatterplot(
-        data=plot_df,
-        x="mean_rating",
-        y="log_citations",
-        alpha=0.6,
-        s=50,
+    # === Premium Plot Styling ===
+    plt.style.use('seaborn-v0_8-darkgrid')
+    fig, ax = plt.subplots(figsize=(12, 9), facecolor='#1a1a2e')
+    ax.set_facecolor('#1a1a2e')
+    
+    # Color gradient based on citation count
+    colors = plot_df["log_citations"]
+    
+    scatter = ax.scatter(
+        plot_df["mean_rating"],
+        plot_df["log_citations"],
+        c=colors,
+        cmap='plasma',
+        alpha=0.7,
+        s=60,
+        edgecolors='white',
+        linewidths=0.5,
     )
+    
+    # Add colorbar
+    cbar = plt.colorbar(scatter, ax=ax, shrink=0.8, pad=0.02)
+    cbar.set_label('Log(Citations + 1)', fontsize=11, color='white', labelpad=10)
+    cbar.ax.yaxis.set_tick_params(color='white')
+    plt.setp(plt.getp(cbar.ax.axes, 'yticklabels'), color='white')
 
-    # Add regression line
+    # Regression line with confidence interval
     sns.regplot(
         data=plot_df,
         x="mean_rating",
         y="log_citations",
         scatter=False,
-        color="red",
+        color='#00d4ff',
+        line_kws={'linewidth': 2.5, 'linestyle': '--'},
         ax=ax,
     )
 
-    plt.xlabel("Mean Review Rating", fontsize=12)
-    plt.ylabel("Log(Citations + 1)", fontsize=12)
-    plt.title(
-        f"Log Citation vs Review Rating - ICLR {year}\n"
-        f"(r = {corr:.3f}, p = {p_value:.3e}, n = {len(plot_df)})",
-        fontsize=14,
+    # Styling
+    ax.set_xlabel("Mean Review Rating", fontsize=14, color='white', labelpad=10)
+    ax.set_ylabel("Log(Citations + 1)", fontsize=14, color='white', labelpad=10)
+    ax.tick_params(colors='white', labelsize=11)
+    
+    # Title
+    ax.set_title(
+        f"ICLR {year}  •  Review Ratings vs Citations",
+        fontsize=18,
+        fontweight='bold',
+        color='white',
+        pad=20,
     )
+    
+    # Stats annotation box
+    stats_text = f"r = {corr:.3f}  |  p = {p_value:.2e}  |  n = {len(plot_df)}"
+    ax.text(
+        0.5, 0.02, stats_text,
+        transform=ax.transAxes,
+        fontsize=12,
+        color='#cccccc',
+        ha='center',
+        bbox=dict(boxstyle='round,pad=0.4', facecolor='#2d2d44', edgecolor='none', alpha=0.8),
+    )
+    
+    # Grid styling
+    ax.grid(True, alpha=0.2, color='white')
+    for spine in ax.spines.values():
+        spine.set_color('#444466')
+        spine.set_linewidth(1.5)
 
     # Save plot
     output_dir.mkdir(parents=True, exist_ok=True)
     output_path = output_dir / f"Log_Citation_vs_Review_Rating_ICLR_{year}.png"
-    plt.savefig(output_path, dpi=150, bbox_inches="tight")
+    plt.savefig(output_path, dpi=200, bbox_inches="tight", facecolor='#1a1a2e', edgecolor='none')
     plt.close()
 
     logger.info(f"Saved plot to {output_path}")
