@@ -64,14 +64,6 @@ Citation counts follow a heavy-tailed distribution ([Redner, 1998](https://doi.o
 - **Matthew Effect**: Famous authors/institutions get cited regardless of ratings. This effect may strengthen as the venue grows.
 - **Rating inflation/deflation**: Reviewer scoring norms may shift year-to-year.
 
----
-
-## For Rigorous Science-of-Science Analysis
-
-To make this publishable, consider:
-1. **Apples-to-apples comparison** — Use citations at a fixed time window (e.g., 3 years post-publication) for all years
-2. **Control for confounders** — Include author h-index, institution prestige, topic/subfield
-3. **Statistical rigor** — Bootstrap confidence intervals to test if year-over-year differences are significant
 
 ---
 
