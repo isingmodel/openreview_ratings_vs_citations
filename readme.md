@@ -59,12 +59,6 @@ Citation counts follow a heavy-tailed distribution ([Redner, 1998](https://doi.o
 
 **Limitation:** In fast-moving ML fields, citation rankings typically stabilize within 1–2 years post-publication. Moreover, if all papers have uniformly low citations, variance decreases and correlation should actually *increase*, not decrease. This hypothesis has a logical flaw.
 
-### Alternative Hypotheses Worth Exploring
-- **Field diversification**: As ICLR expanded, subfield-specific papers increased. Reviewers may rate fairly within their expertise, but citation counts are driven by *subfield size* (NLP >> Theory).
-- **Matthew Effect**: Famous authors/institutions get cited regardless of ratings. This effect may strengthen as the venue grows.
-- **Rating inflation/deflation**: Reviewer scoring norms may shift year-to-year.
-
-
 ---
 
 ## Quick Start
