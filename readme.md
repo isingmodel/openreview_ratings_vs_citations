@@ -21,10 +21,31 @@
 | 2019 | 502 | 0.19 | 1.2e-05 |
 | 2020 | 687 | 0.13 | 8.9e-04 |
 
-![2017](https://raw.githubusercontent.com/isingmodel/openreview_ratings_vs_citations/master/figs/Log_Citation_vs_Review_Rating_ICLR_2017.png?raw=true)
-![2018](https://raw.githubusercontent.com/isingmodel/openreview_ratings_vs_citations/master/figs/Log_Citation_vs_Review_Rating_ICLR_2018.png?raw=true)
-![2019](https://raw.githubusercontent.com/isingmodel/openreview_ratings_vs_citations/master/figs/Log_Citation_vs_Review_Rating_ICLR_2019.png?raw=true)
-![2020](https://raw.githubusercontent.com/isingmodel/openreview_ratings_vs_citations/master/figs/Log_Citation_vs_Review_Rating_ICLR_2020.png?raw=true)
+<table>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/isingmodel/openreview_ratings_vs_citations/master/figs/Log_Citation_vs_Review_Rating_ICLR_2017.png" width="400"/></td>
+    <td><img src="https://raw.githubusercontent.com/isingmodel/openreview_ratings_vs_citations/master/figs/Log_Citation_vs_Review_Rating_ICLR_2018.png" width="400"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/isingmodel/openreview_ratings_vs_citations/master/figs/Log_Citation_vs_Review_Rating_ICLR_2019.png" width="400"/></td>
+    <td><img src="https://raw.githubusercontent.com/isingmodel/openreview_ratings_vs_citations/master/figs/Log_Citation_vs_Review_Rating_ICLR_2020.png" width="400"/></td>
+  </tr>
+</table>
+
+### Methodology
+
+We measure the relationship between **mean review rating** and **log-transformed citation counts** using **Pearson correlation coefficient (r)**.
+
+**Why log(citations + 1)?**
+
+Citation counts exhibit a highly skewed, heavy-tailed distribution—a few papers receive thousands of citations while most receive very few. This is a well-documented phenomenon in bibliometrics ([Redner, 1998](https://doi.org/10.1007/s100510050276); [Radicchi et al., 2008](https://doi.org/10.1073/pnas.0806977105)).
+
+Log transformation addresses this by:
+- **Reducing outlier dominance**: A paper with 10,000 citations won't disproportionately skew the regression line
+- **Reflecting scale-level differences**: The difference between 10→100 citations is more meaningful than 10,000→10,090
+- **Normalizing the distribution**: Enables valid application of Pearson correlation (which assumes roughly normal distributions)
+
+We use `log(x + 1)` to handle papers with zero citations.
 
 ---
 

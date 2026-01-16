@@ -102,10 +102,10 @@ def plot_correlation(
         plot_df["log_citations"],
         c=colors,
         cmap='plasma',
-        alpha=0.7,
-        s=60,
+        alpha=0.35,
+        s=50,
         edgecolors='white',
-        linewidths=0.5,
+        linewidths=0.3,
     )
     
     # Add colorbar
