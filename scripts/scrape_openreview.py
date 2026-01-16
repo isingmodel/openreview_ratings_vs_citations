@@ -43,29 +43,52 @@ def scrape_openreview(year: int, limit: int | None = None) -> tuple[list, pd.Dat
     """
     import openreview
 
-    invitation = get_invitation(year)
-    logger.info(f"Scraping ICLR {year} with invitation: {invitation}")
+    logger.info(f"Scraping ICLR {year}...")
+
+    # Use API v1 for all years first (more reliable)
+    result = scrape_openreview_v1(year, limit)
+    
+    # If v1 returns no data for recent years, try v2
+    if len(result[1]) == 0 and year >= 2024:
+        logger.info("No data from v1, trying v2 API...")
+        result = scrape_openreview_v2(year, limit)
+    
+    return result
+
+
+def scrape_openreview_v2(year: int, limit: int | None = None) -> tuple[list, pd.DataFrame]:
+    """Scrape using OpenReview API v2 (for 2021+)."""
+    import openreview
 
     client = openreview.api.OpenReviewClient(baseurl="https://api2.openreview.net")
-
-    # Get submissions
-    logger.info("Fetching submissions...")
+    
+    venue_id = f"ICLR.cc/{year}/Conference"
+    
+    # Get accepted papers using venue query
+    logger.info(f"Fetching accepted papers from {venue_id}...")
+    
     try:
-        submissions = list(client.get_all_notes(invitation=invitation, details="replies"))
+        # Try to get submissions with accepted venue
+        submissions = list(client.get_all_notes(
+            content={"venueid": venue_id},
+            details="replies"
+        ))
+        logger.info(f"Found {len(submissions)} total notes")
+        
+        # Filter for actual submissions (not reviews/comments)
+        submissions = [s for s in submissions if hasattr(s, 'content') and 'title' in s.content]
+        
     except Exception as e:
-        logger.error(f"Failed to fetch with API v2, trying v1: {e}")
-        client = openreview.Client(baseurl="https://api.openreview.net")
-        submissions = list(
-            openreview.tools.iterget_notes(client, invitation=invitation, details="original")
-        )
+        logger.warning(f"Venue query failed: {e}, trying invitation-based query...")
+        invitation = get_invitation(year)
+        submissions = list(client.get_all_notes(invitation=invitation))
 
     if limit:
         submissions = submissions[:limit]
         logger.info(f"Limited to {limit} submissions for testing")
 
-    logger.info(f"Found {len(submissions)} submissions")
+    logger.info(f"Processing {len(submissions)} submissions...")
 
-    # Process each submission
     raw_data = []
     records = []
 
@@ -73,7 +96,7 @@ def scrape_openreview(year: int, limit: int | None = None) -> tuple[list, pd.Dat
         try:
             content = sub.content
 
-            # Extract title (handle both dict and raw content)
+            # Extract title
             title = content.get("title", {})
             if isinstance(title, dict):
                 title = title.get("value", "")
@@ -83,31 +106,116 @@ def scrape_openreview(year: int, limit: int | None = None) -> tuple[list, pd.Dat
             if isinstance(authors, dict):
                 authors = authors.get("value", [])
 
-            # Get reviews
-            ratings = []
-            decision = None
+            # Get venue (to check if accepted)
+            venue = content.get("venue", {})
+            if isinstance(venue, dict):
+                venue = venue.get("value", "")
+            
+            # Get decision
+            decision = content.get("decision", {})
+            if isinstance(decision, dict):
+                decision = decision.get("value", "")
+            
+            # Determine if accepted
+            is_accepted = False
+            if decision:
+                is_accepted = "accept" in decision.lower()
+            elif venue:
+                is_accepted = "reject" not in venue.lower() and venue != ""
 
-            # Try to get decision from replies
+            # Get ratings from replies
+            ratings = []
             if hasattr(sub, "details") and sub.details:
                 replies = sub.details.get("replies", [])
                 for reply in replies:
                     reply_content = reply.get("content", {})
+                    
+                    # Check for rating (various field names)
+                    for rating_field in ["rating", "recommendation", "score"]:
+                        if rating_field in reply_content:
+                            rating = reply_content[rating_field]
+                            rating_val = rating.get("value", rating) if isinstance(rating, dict) else rating
+                            if isinstance(rating_val, str):
+                                try:
+                                    rating_val = int(rating_val.split(":")[0])
+                                except (ValueError, IndexError):
+                                    continue
+                            if isinstance(rating_val, (int, float)):
+                                ratings.append(int(rating_val))
+                            break
 
-                    # Check for decision
-                    if "decision" in reply_content:
-                        dec = reply_content["decision"]
-                        decision = dec.get("value", dec) if isinstance(dec, dict) else dec
+            raw_data.append({
+                "id": sub.id,
+                "title": title,
+                "authors": authors,
+                "ratings": ratings,
+                "decision": decision or venue,
+            })
 
-                    # Check for rating
-                    if "rating" in reply_content:
-                        rating = reply_content["rating"]
-                        rating_val = rating.get("value", rating) if isinstance(rating, dict) else rating
-                        if isinstance(rating_val, str):
-                            try:
-                                rating_val = int(rating_val.split(":")[0])
-                            except (ValueError, IndexError):
-                                continue
-                        ratings.append(rating_val)
+            if is_accepted and ratings:
+                records.append({
+                    "title": title,
+                    "authors": authors,
+                    "rating": ratings,
+                    "decision": decision or venue,
+                    "mean_rating": sum(ratings) / len(ratings) if ratings else None,
+                    "var_rating": pd.Series(ratings).var() if len(ratings) > 1 else 0,
+                })
+
+        except Exception as e:
+            logger.warning(f"Error processing submission {sub.id}: {e}")
+            continue
+
+    df = pd.DataFrame(records)
+    logger.info(f"Processed {len(records)} accepted papers with ratings")
+
+    return raw_data, df
+
+
+def scrape_openreview_v1(year: int, limit: int | None = None) -> tuple[list, pd.DataFrame]:
+    """Scrape using OpenReview API v1 (for pre-2021)."""
+    import openreview
+
+    invitation = get_invitation(year)
+    logger.info(f"Using invitation: {invitation}")
+
+    client = openreview.Client(baseurl="https://api.openreview.net")
+    
+    submissions = list(
+        openreview.tools.iterget_notes(client, invitation=invitation, details="original")
+    )
+
+    if limit:
+        submissions = submissions[:limit]
+        logger.info(f"Limited to {limit} submissions for testing")
+
+    logger.info(f"Found {len(submissions)} submissions")
+
+    raw_data = []
+    records = []
+
+    for sub in tqdm(submissions, desc="Processing"):
+        try:
+            content = sub.content
+            title = content.get("title", "")
+            authors = content.get("authors", [])
+            
+            # Get forum replies for ratings and decision
+            forum_notes = client.get_notes(forum=sub.forum)
+            
+            ratings = []
+            decision = None
+            
+            for note in forum_notes:
+                note_content = note.content
+                if "rating" in note_content:
+                    rating_str = note_content["rating"]
+                    try:
+                        ratings.append(int(rating_str.split(":")[0]))
+                    except:
+                        pass
+                if "decision" in note_content:
+                    decision = note_content["decision"]
 
             raw_data.append({
                 "id": sub.id,
@@ -117,18 +225,18 @@ def scrape_openreview(year: int, limit: int | None = None) -> tuple[list, pd.Dat
                 "decision": decision,
             })
 
-            if decision and "reject" not in decision.lower():
+            if decision and "reject" not in decision.lower() and ratings:
                 records.append({
                     "title": title,
                     "authors": authors,
                     "rating": ratings,
                     "decision": decision,
-                    "mean_rating": sum(ratings) / len(ratings) if ratings else None,
-                    "var_rating": pd.Series(ratings).var() if ratings else None,
+                    "mean_rating": sum(ratings) / len(ratings),
+                    "var_rating": pd.Series(ratings).var() if len(ratings) > 1 else 0,
                 })
 
         except Exception as e:
-            logger.warning(f"Error processing submission {sub.id}: {e}")
+            logger.warning(f"Error processing {sub.id}: {e}")
             continue
 
     df = pd.DataFrame(records)
