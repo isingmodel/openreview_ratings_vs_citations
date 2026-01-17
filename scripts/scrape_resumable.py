@@ -92,7 +92,7 @@ def scrape_year(year: int, output_dir: Path):
     
     for i, sub in enumerate(tqdm(to_process, desc=f"ICLR {year}")):
         try:
-            time.sleep(0.2)
+            time.sleep(0.5)
             content = sub.content
             title = content.get("title", "")
             authors = content.get("authors", [])
