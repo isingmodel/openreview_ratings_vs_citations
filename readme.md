@@ -1,7 +1,7 @@
 # OpenReview Ratings vs Citations
 
 > **Do peer review scores predict scientific impact?**  
-> An empirical analysis of ICLR papers (2017–2020)
+> An empirical analysis of ICLR papers (2017–2022)
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
@@ -14,32 +14,35 @@
 
 **The correlation between review ratings and citations has been declining over time:**
 
-| Year | Papers | Pearson (r) | Spearman (ρ) |
-|------|--------|-------------|--------------|
-| 2017 | 245 | 0.40 | 0.35 |
-| 2018 | 425 | 0.37 | 0.36 |
-| 2019 | 502 | 0.19 | 0.19 |
-| 2020 | 687 | 0.13 | 0.14 |
+| Year | Papers | Pearson (r) |
+|------|--------|-------------|
+| 2017 | 245 | 0.37 |
+| 2018 | 425 | 0.29 |
+| 2019 | 502 | 0.17 |
+| 2020 | 687 | 0.12 |
+| 2021 | 865 | 0.13 |
+| 2022 | 1094 | 0.13 |
 
 <table>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/isingmodel/openreview_ratings_vs_citations/master/figs/Log_Citation_vs_Review_Rating_ICLR_2017.png" width="400"/></td>
-    <td><img src="https://raw.githubusercontent.com/isingmodel/openreview_ratings_vs_citations/master/figs/Log_Citation_vs_Review_Rating_ICLR_2018.png" width="400"/></td>
+    <td><img src="figs/Log_Citation_vs_Review_Rating_ICLR_2017.png" width="400"/></td>
+    <td><img src="figs/Log_Citation_vs_Review_Rating_ICLR_2018.png" width="400"/></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/isingmodel/openreview_ratings_vs_citations/master/figs/Log_Citation_vs_Review_Rating_ICLR_2019.png" width="400"/></td>
-    <td><img src="https://raw.githubusercontent.com/isingmodel/openreview_ratings_vs_citations/master/figs/Log_Citation_vs_Review_Rating_ICLR_2020.png" width="400"/></td>
+    <td><img src="figs/Log_Citation_vs_Review_Rating_ICLR_2019.png" width="400"/></td>
+    <td><img src="figs/Log_Citation_vs_Review_Rating_ICLR_2020.png" width="400"/></td>
+  </tr>
+  <tr>
+    <td><img src="figs/Log_Citation_vs_Review_Rating_ICLR_2021.png" width="400"/></td>
+    <td><img src="figs/Log_Citation_vs_Review_Rating_ICLR_2022.png" width="400"/></td>
   </tr>
 </table>
 
 ### Methodology
 
-We report both **Pearson (r)** and **Spearman (ρ)** correlations:
-
 - **Pearson**: Measures linear relationship between mean rating and log(citations + 1). Assumes roughly normal distributions.
-- **Spearman**: Rank-based, non-parametric. More appropriate for ordinal rating data; robust to outliers.
 
-Both methods show consistent results—**the declining trend is robust to the choice of correlation metric**.
+**The declining trend is robust.**
 
 **Why log(citations + 1)?**
 
@@ -69,14 +72,12 @@ pip install -r requirements.txt
 
 ### Scrape & Analyze
 
-> **Note:** Fetching citations requires a [ScraperAPI](https://www.scraperapi.com/) key to avoid Google Scholar IP blocks.
-
 ```bash
 # 1. Fetch OpenReview data
 python scripts/scrape_openreview.py --year 2024
 
-# 2. Get Google Scholar citations
-python scripts/scrape_citations.py --input data/ICLR2024/preprocessed.parquet --apikey YOUR_KEY
+# 2. Get OpenAlex citations
+python scripts/scrape_citations_openalex.py --input data/ICLR2024/preprocessed.parquet --email your_email@example.com
 
 # 3. Generate correlation plot
 python scripts/analyze.py --year 2024
@@ -92,12 +93,13 @@ python scripts/analyze.py --year 2024
 
 ```
 ├── scripts/
-│   ├── scrape_openreview.py    # Fetch data from OpenReview
-│   ├── scrape_citations.py     # Fetch Google Scholar citations
-│   └── analyze.py              # Run correlation analysis
+│   ├── scrape_openreview.py          # Fetch data from OpenReview
+│   ├── scrape_citations_openalex.py  # Fetch OpenAlex citations
+│   ├── scrape_citations.py           # Fetch Google Scholar citations (Deprecated)
+│   └── analyze.py                    # Run correlation analysis
 ├── data/ICLR20**/
 │   ├── preprocessed.parquet    # Processed paper data
-│   └── googlescholar_*.json    # Citation data
+│   └── openalex_*.json         # Citation data
 └── figs/                       # Generated plots
 ```
 

@@ -1,0 +1,3396 @@
+{
+  "Progressive Growing of GANs for Improved Quality, Stability, and Variation": {
+    "title": "Progressive Growing of GANs for Improved Quality, Stability, and Variation",
+    "error": "API Error 400"
+  },
+  "Loss-aware Weight Quantization of Deep Networks": {
+    "title": "Loss-aware Weight Quantization of Deep Networks",
+    "openalex_id": "https://openalex.org/W2786548044",
+    "num_citations": 57,
+    "year": 2018,
+    "url": "https://openalex.org/W2786548044",
+    "similarity": 1.0
+  },
+  "Deep Neural Networks as Gaussian Processes": {
+    "title": "Deep Neural Networks as Gaussian Processes",
+    "openalex_id": "https://openalex.org/W2766678531",
+    "num_citations": 335,
+    "year": 2017,
+    "url": "https://openalex.org/W2766678531",
+    "similarity": 1.0
+  },
+  "Stochastic Variational Video Prediction": {
+    "title": "Stochastic Variational Video Prediction",
+    "openalex_id": "https://openalex.org/W2765363933",
+    "num_citations": 74,
+    "year": 2017,
+    "url": "https://openalex.org/W2765363933",
+    "similarity": 1.0
+  },
+  "mixup: Beyond Empirical Risk Minimization": {
+    "title": "mixup: Beyond Empirical Risk Minimization",
+    "openalex_id": "https://openalex.org/W2765407302",
+    "num_citations": 4682,
+    "year": 2017,
+    "url": "https://openalex.org/W2765407302",
+    "similarity": 1.0
+  },
+  "cGANs with Projection Discriminator": {
+    "title": "cGANs with Projection Discriminator",
+    "openalex_id": "https://openalex.org/W2787579267",
+    "num_citations": 411,
+    "year": 2018,
+    "url": "https://openalex.org/W2787579267",
+    "similarity": 1.0
+  },
+  "Spectral Normalization for Generative Adversarial Networks": {
+    "title": "Spectral Normalization for Generative Adversarial Networks",
+    "openalex_id": "https://openalex.org/W2785678896",
+    "num_citations": 2288,
+    "year": 2018,
+    "url": "https://openalex.org/W2785678896",
+    "similarity": 1.0
+  },
+  "Go for a Walk and Arrive at the Answer: Reasoning Over Paths in Knowledge Bases using Reinforcement Learning": {
+    "title": "Go for a Walk and Arrive at the Answer: Reasoning Over Paths in Knowledge Bases using Reinforcement Learning",
+    "openalex_id": "https://openalex.org/W2769099080",
+    "num_citations": 355,
+    "year": 2017,
+    "url": "https://openalex.org/W2769099080",
+    "similarity": 1.0
+  },
+  "Towards Deep Learning Models Resistant to Adversarial Attacks": {
+    "title": "Towards Deep Learning Models Resistant to Adversarial Attacks",
+    "openalex_id": "https://openalex.org/W2640329709",
+    "num_citations": 1538,
+    "year": 2017,
+    "url": "https://openalex.org/W2640329709",
+    "similarity": 1.0
+  },
+  "Parameter Space Noise for Exploration": {
+    "title": "Parameter Space Noise for Exploration",
+    "openalex_id": "https://openalex.org/W2623491082",
+    "num_citations": 364,
+    "year": 2017,
+    "url": "https://openalex.org/W2623491082",
+    "similarity": 1.0
+  },
+  "Breaking the Softmax Bottleneck: A High-Rank RNN Language Model": {
+    "title": "Breaking the Softmax Bottleneck: A High-Rank RNN Language Model",
+    "openalex_id": "https://openalex.org/W2767321762",
+    "num_citations": 64,
+    "year": 2017,
+    "url": "https://openalex.org/W2767321762",
+    "similarity": 1.0
+  },
+  "Distributed Distributional Deterministic Policy Gradients": {
+    "title": "Distributed Distributional Deterministic Policy Gradients",
+    "openalex_id": "https://openalex.org/W2798705390",
+    "num_citations": 282,
+    "year": 2018,
+    "url": "https://openalex.org/W2798705390",
+    "similarity": 1.0
+  },
+  "Spherical CNNs": {
+    "title": "Spherical CNNs",
+    "openalex_id": "https://openalex.org/W2796422723",
+    "num_citations": 395,
+    "year": 2018,
+    "url": "https://openalex.org/W2796422723",
+    "similarity": 0.3880597014925373,
+    "error": "low_confidence_match",
+    "found_title": "Learning SO(3) Equivariant Representations with Spherical CNNs"
+  },
+  "Graph Attention Networks": {
+    "title": "Graph Attention Networks",
+    "openalex_id": "https://openalex.org/W4297733535",
+    "num_citations": 8226,
+    "year": 2017,
+    "url": "https://openalex.org/W4297733535",
+    "similarity": 1.0
+  },
+  "Expressive power of recurrent neural networks": {
+    "title": "Expressive power of recurrent neural networks",
+    "openalex_id": "https://openalex.org/W2766808838",
+    "num_citations": 9,
+    "year": 2017,
+    "url": "https://openalex.org/W2766808838",
+    "similarity": 1.0
+  },
+  "META LEARNING SHARED HIERARCHIES": {
+    "title": "META LEARNING SHARED HIERARCHIES",
+    "openalex_id": "https://openalex.org/W2765602917",
+    "num_citations": 116,
+    "year": 2017,
+    "url": "https://openalex.org/W2765602917",
+    "similarity": 1.0
+  },
+  "Mixed Precision Training": {
+    "title": "Mixed Precision Training",
+    "openalex_id": "https://openalex.org/W2763421725",
+    "num_citations": 861,
+    "year": 2017,
+    "url": "https://openalex.org/W2763421725",
+    "similarity": 1.0
+  },
+  "Learning to Represent Programs with Graphs": {
+    "title": "Learning to Represent Programs with Graphs",
+    "openalex_id": "https://openalex.org/W2765574772",
+    "num_citations": 47,
+    "year": 2017,
+    "url": "https://openalex.org/W2765574772",
+    "similarity": 1.0
+  },
+  "Defense-GAN: Protecting Classifiers Against Adversarial Attacks Using Generative Models": {
+    "title": "Defense-GAN: Protecting Classifiers Against Adversarial Attacks Using Generative Models",
+    "openalex_id": "https://openalex.org/W2787496614",
+    "num_citations": 284,
+    "year": 2018,
+    "url": "https://openalex.org/W2787496614",
+    "similarity": 1.0
+  },
+  "Unsupervised Representation Learning by Predicting Image Rotations": {
+    "title": "Unsupervised Representation Learning by Predicting Image Rotations",
+    "openalex_id": "https://openalex.org/W2785325870",
+    "num_citations": 1531,
+    "year": 2018,
+    "url": "https://openalex.org/W2785325870",
+    "similarity": 1.0
+  },
+  "On the Convergence of Adam and Beyond": {
+    "title": "On the Convergence of Adam and Beyond",
+    "openalex_id": "https://openalex.org/W2785523195",
+    "num_citations": 1607,
+    "year": 2019,
+    "url": "https://openalex.org/W2785523195",
+    "similarity": 1.0
+  },
+  "WSNet: Learning Compact and Efficient Networks with Weight Sampling": {
+    "title": "WSNet: Learning Compact and Efficient Networks with Weight Sampling",
+    "openalex_id": "https://openalex.org/W2787591293",
+    "num_citations": 0,
+    "year": 2018,
+    "url": "https://openalex.org/W2787591293",
+    "similarity": 1.0
+  },
+  "Fast and Accurate Text Classification: Skimming, Rereading and Early Stopping": {
+    "title": "Fast and Accurate Text Classification: Skimming, Rereading and Early Stopping",
+    "error": "API Error 400"
+  },
+  "Neuron as an Agent": {
+    "title": "Neuron as an Agent",
+    "openalex_id": "https://openalex.org/W1529343790",
+    "num_citations": 64,
+    "year": 1996,
+    "url": "https://openalex.org/W1529343790",
+    "similarity": 0.30952380952380953,
+    "error": "low_confidence_match",
+    "found_title": "Increased inorganic mercury in spinal motor neurons following chelating agents."
+  },
+  "Cross-View Training for Semi-Supervised Learning": {
+    "title": "Cross-View Training for Semi-Supervised Learning",
+    "openalex_id": "https://openalex.org/W2785554650",
+    "num_citations": 7,
+    "year": 2018,
+    "url": "https://openalex.org/W2785554650",
+    "similarity": 1.0
+  },
+  "Learning to Infer": {
+    "title": "Learning to Infer",
+    "openalex_id": "https://openalex.org/W206739251",
+    "num_citations": 676,
+    "year": 2007,
+    "url": "https://openalex.org/W206739251",
+    "similarity": 0.45614035087719296,
+    "error": "low_confidence_match",
+    "found_title": "Learning and inferring transportation routines"
+  },
+  "Multiple Source Domain Adaptation with Adversarial Learning": {
+    "title": "Multiple Source Domain Adaptation with Adversarial Learning",
+    "openalex_id": "https://openalex.org/W2786081970",
+    "num_citations": 58,
+    "year": 2018,
+    "url": "https://openalex.org/W2786081970",
+    "similarity": 1.0
+  },
+  "Exploring Deep Recurrent Models with Reinforcement Learning for Molecule Design": {
+    "title": "Exploring Deep Recurrent Models with Reinforcement Learning for Molecule Design",
+    "openalex_id": "https://openalex.org/W2786785157",
+    "num_citations": 75,
+    "year": 2018,
+    "url": "https://openalex.org/W2786785157",
+    "similarity": 1.0
+  },
+  "Faster Discovery of Neural Architectures by Searching for Paths in a Large Model": {
+    "title": "Faster Discovery of Neural Architectures by Searching for Paths in a Large Model",
+    "openalex_id": "https://openalex.org/W2787387029",
+    "num_citations": 15,
+    "year": 2018,
+    "url": "https://openalex.org/W2787387029",
+    "similarity": 1.0
+  },
+  "GANITE: Estimation of Individualized Treatment Effects using Generative Adversarial Nets": {
+    "title": "GANITE: Estimation of Individualized Treatment Effects using Generative Adversarial Nets",
+    "openalex_id": "https://openalex.org/W2785777814",
+    "num_citations": 184,
+    "year": 2018,
+    "url": "https://openalex.org/W2785777814",
+    "similarity": 1.0
+  },
+  "LEARNING TO ORGANIZE KNOWLEDGE WITH N-GRAM MACHINES": {
+    "title": "LEARNING TO ORGANIZE KNOWLEDGE WITH N-GRAM MACHINES",
+    "openalex_id": "https://openalex.org/W2768697750",
+    "num_citations": 3,
+    "year": 2017,
+    "url": "https://openalex.org/W2768697750",
+    "similarity": 1.0
+  },
+  "Convolutional Sequence Modeling Revisited": {
+    "title": "Convolutional Sequence Modeling Revisited",
+    "openalex_id": "https://openalex.org/W2786228682",
+    "num_citations": 44,
+    "year": 2018,
+    "url": "https://openalex.org/W2786228682",
+    "similarity": 1.0
+  },
+  "Towards Effective GANs for Data Distributions with Diverse Modes": {
+    "title": "Towards Effective GANs for Data Distributions with Diverse Modes",
+    "openalex_id": "https://openalex.org/W2787289516",
+    "num_citations": 1,
+    "year": 2018,
+    "url": "https://openalex.org/W2787289516",
+    "similarity": 1.0
+  },
+  "Natural Language Inference with External Knowledge": {
+    "title": "Natural Language Inference with External Knowledge",
+    "openalex_id": "https://openalex.org/W2963895422",
+    "num_citations": 146,
+    "year": 2019,
+    "url": "https://openalex.org/W2963895422",
+    "similarity": 0.6614173228346457,
+    "error": "low_confidence_match",
+    "found_title": "Improving Natural Language Inference Using External Knowledge in the Science Questions Domain"
+  },
+  "DropMax: Adaptive Stochastic Softmax": {
+    "title": "DropMax: Adaptive Stochastic Softmax",
+    "openalex_id": "https://openalex.org/W2775831456",
+    "num_citations": 2,
+    "year": 2017,
+    "url": "https://openalex.org/W2775831456",
+    "similarity": 1.0
+  },
+  "Autoregressive Generative Adversarial Networks": {
+    "title": "Autoregressive Generative Adversarial Networks",
+    "openalex_id": "https://openalex.org/W2787151388",
+    "num_citations": 5,
+    "year": 2018,
+    "url": "https://openalex.org/W2787151388",
+    "similarity": 1.0
+  },
+  "Deep Sensing: Active Sensing using Multi-directional Recurrent Neural Networks": {
+    "title": "Deep Sensing: Active Sensing using Multi-directional Recurrent Neural Networks",
+    "openalex_id": "https://openalex.org/W2786733527",
+    "num_citations": 20,
+    "year": 2018,
+    "url": "https://openalex.org/W2786733527",
+    "similarity": 1.0
+  },
+  "THE EFFECTIVENESS OF A TWO-LAYER NEURAL NETWORK FOR RECOMMENDATIONS": {
+    "title": "THE EFFECTIVENESS OF A TWO-LAYER NEURAL NETWORK FOR RECOMMENDATIONS",
+    "openalex_id": "https://openalex.org/W2787705006",
+    "num_citations": 4,
+    "year": 2018,
+    "url": "https://openalex.org/W2787705006",
+    "similarity": 1.0
+  },
+  "A New Method of Region Embedding for Text Classification": {
+    "title": "A New Method of Region Embedding for Text Classification",
+    "openalex_id": "https://openalex.org/W2786959368",
+    "num_citations": 51,
+    "year": 2018,
+    "url": "https://openalex.org/W2786959368",
+    "similarity": 1.0
+  },
+  "Decoupling the Layers in Residual Networks": {
+    "title": "Decoupling the Layers in Residual Networks",
+    "openalex_id": "https://openalex.org/W2787217782",
+    "num_citations": 2,
+    "year": 2018,
+    "url": "https://openalex.org/W2787217782",
+    "similarity": 1.0
+  },
+  "Overcoming Catastrophic Interference using Conceptor-Aided Backpropagation": {
+    "title": "Overcoming Catastrophic Interference using Conceptor-Aided Backpropagation",
+    "openalex_id": "https://openalex.org/W2785567898",
+    "num_citations": 76,
+    "year": 2018,
+    "url": "https://openalex.org/W2785567898",
+    "similarity": 1.0
+  },
+  "Few-Shot Learning with Graph Neural Networks": {
+    "title": "Few-Shot Learning with Graph Neural Networks",
+    "openalex_id": "https://openalex.org/W2770468159",
+    "num_citations": 437,
+    "year": 2017,
+    "url": "https://openalex.org/W2770468159",
+    "similarity": 1.0
+  },
+  "Wavelet Pooling for Convolutional Neural Networks": {
+    "title": "Wavelet Pooling for Convolutional Neural Networks",
+    "openalex_id": "https://openalex.org/W2786128974",
+    "num_citations": 133,
+    "year": 2018,
+    "url": "https://openalex.org/W2786128974",
+    "similarity": 1.0
+  },
+  "Debiasing Evidence Approximations: On Importance-weighted Autoencoders and Jackknife Variational Inference": {
+    "title": "Debiasing Evidence Approximations: On Importance-weighted Autoencoders and Jackknife Variational Inference",
+    "openalex_id": "https://openalex.org/W2785443624",
+    "num_citations": 38,
+    "year": 2018,
+    "url": "https://openalex.org/W2785443624",
+    "similarity": 1.0
+  },
+  "Deep Autoencoding Gaussian Mixture Model for Unsupervised Anomaly Detection": {
+    "title": "Deep Autoencoding Gaussian Mixture Model for Unsupervised Anomaly Detection",
+    "openalex_id": "https://openalex.org/W2786088545",
+    "num_citations": 1088,
+    "year": 2018,
+    "url": "https://openalex.org/W2786088545",
+    "similarity": 1.0
+  },
+  "Boundary Seeking GANs": {
+    "title": "Boundary Seeking GANs",
+    "openalex_id": "https://openalex.org/W2787038193",
+    "num_citations": 6,
+    "year": 2018,
+    "url": "https://openalex.org/W2787038193",
+    "similarity": 1.0
+  },
+  "Multi-Task Learning for Document Ranking and Query Suggestion": {
+    "title": "Multi-Task Learning for Document Ranking and Query Suggestion",
+    "openalex_id": "https://openalex.org/W2786171444",
+    "num_citations": 36,
+    "year": 2018,
+    "url": "https://openalex.org/W2786171444",
+    "similarity": 1.0
+  },
+  "Kronecker-factored Curvature Approximations for Recurrent Neural Networks": {
+    "title": "Kronecker-factored Curvature Approximations for Recurrent Neural Networks",
+    "openalex_id": "https://openalex.org/W2786263712",
+    "num_citations": 48,
+    "year": 2018,
+    "url": "https://openalex.org/W2786263712",
+    "similarity": 1.0
+  },
+  "Variational Network Quantization": {
+    "title": "Variational Network Quantization",
+    "openalex_id": "https://openalex.org/W2785916643",
+    "num_citations": 51,
+    "year": 2018,
+    "url": "https://openalex.org/W2785916643",
+    "similarity": 1.0
+  },
+  "A Framework for the Quantitative Evaluation of Disentangled Representations": {
+    "title": "A Framework for the Quantitative Evaluation of Disentangled Representations",
+    "openalex_id": "https://openalex.org/W2785961484",
+    "num_citations": 228,
+    "year": 2018,
+    "url": "https://openalex.org/W2785961484",
+    "similarity": 1.0
+  },
+  "Monotonic Chunkwise Attention": {
+    "title": "Monotonic Chunkwise Attention",
+    "openalex_id": "https://openalex.org/W2773781902",
+    "num_citations": 33,
+    "year": 2017,
+    "url": "https://openalex.org/W2773781902",
+    "similarity": 1.0
+  },
+  "Simulated+Unsupervised Learning With Adaptive Data Generation and Bidirectional Mappings": {
+    "title": "Simulated+Unsupervised Learning With Adaptive Data Generation and Bidirectional Mappings",
+    "openalex_id": "https://openalex.org/W2785967764",
+    "num_citations": 14,
+    "year": 2018,
+    "url": "https://openalex.org/W2785967764",
+    "similarity": 1.0
+  },
+  "Action-dependent Control Variates for Policy Optimization via Stein Identity": {
+    "title": "Action-dependent Control Variates for Policy Optimization via Stein Identity",
+    "openalex_id": "https://openalex.org/W2786887383",
+    "num_citations": 35,
+    "year": 2018,
+    "url": "https://openalex.org/W2786887383",
+    "similarity": 1.0
+  },
+  "Large Scale Optimal Transport and Mapping Estimation": {
+    "title": "Large Scale Optimal Transport and Mapping Estimation",
+    "openalex_id": "https://openalex.org/W2767358676",
+    "num_citations": 79,
+    "year": 2017,
+    "url": "https://openalex.org/W2767358676",
+    "similarity": 1.0
+  },
+  "Adaptive Quantization of Neural Networks": {
+    "title": "Adaptive Quantization of Neural Networks",
+    "openalex_id": "https://openalex.org/W2786098160",
+    "num_citations": 38,
+    "year": 2018,
+    "url": "https://openalex.org/W2786098160",
+    "similarity": 1.0
+  },
+  "Learning Sparse Neural Networks through L_0 Regularization": {
+    "title": "Learning Sparse Neural Networks through L_0 Regularization",
+    "openalex_id": "https://openalex.org/W2771655537",
+    "num_citations": 149,
+    "year": 2017,
+    "url": "https://openalex.org/W2771655537",
+    "similarity": 1.0
+  },
+  "A Scalable Laplace Approximation for Neural Networks": {
+    "title": "A Scalable Laplace Approximation for Neural Networks",
+    "openalex_id": "https://openalex.org/W2786857698",
+    "num_citations": 171,
+    "year": 2018,
+    "url": "https://openalex.org/W2786857698",
+    "similarity": 1.0
+  },
+  "Deep Learning with Logged Bandit Feedback": {
+    "title": "Deep Learning with Logged Bandit Feedback",
+    "openalex_id": "https://openalex.org/W2785875001",
+    "num_citations": 68,
+    "year": 2018,
+    "url": "https://openalex.org/W2785875001",
+    "similarity": 1.0
+  },
+  "AmbientGAN: Generative models from lossy measurements": {
+    "title": "AmbientGAN: Generative models from lossy measurements",
+    "openalex_id": "https://openalex.org/W2785532149",
+    "num_citations": 107,
+    "year": 2018,
+    "url": "https://openalex.org/W2785532149",
+    "similarity": 1.0
+  },
+  "Dynamic Neural Program Embeddings for Program Repair": {
+    "title": "Dynamic Neural Program Embeddings for Program Repair",
+    "openalex_id": "https://openalex.org/W2769343112",
+    "num_citations": 54,
+    "year": 2017,
+    "url": "https://openalex.org/W2769343112",
+    "similarity": 0.989010989010989
+  },
+  "Do GANs learn the distribution? Some Theory and Empirics": {
+    "title": "Do GANs learn the distribution? Some Theory and Empirics",
+    "openalex_id": "https://openalex.org/W2785838823",
+    "num_citations": 117,
+    "year": 2018,
+    "url": "https://openalex.org/W2785838823",
+    "similarity": 1.0
+  },
+  "On the Information Bottleneck Theory of Deep Learning": {
+    "title": "On the Information Bottleneck Theory of Deep Learning",
+    "openalex_id": "https://openalex.org/W2785885194",
+    "num_citations": 142,
+    "year": 2019,
+    "url": "https://openalex.org/W2785885194",
+    "similarity": 1.0
+  },
+  "A Compressed Sensing View of Unsupervised Text Embeddings, Bag-of-n-Grams, and LSTMs": {
+    "title": "A Compressed Sensing View of Unsupervised Text Embeddings, Bag-of-n-Grams, and LSTMs",
+    "error": "API Error 400"
+  },
+  "MGAN: Training Generative Adversarial Nets with Multiple Generators": {
+    "title": "MGAN: Training Generative Adversarial Nets with Multiple Generators",
+    "openalex_id": "https://openalex.org/W2787223504",
+    "num_citations": 173,
+    "year": 2018,
+    "url": "https://openalex.org/W2787223504",
+    "similarity": 1.0
+  },
+  "MaskGAN: Better Text Generation via Filling in the _______": {
+    "title": "MaskGAN: Better Text Generation via Filling in the _______",
+    "openalex_id": "https://openalex.org/W2784823820",
+    "num_citations": 256,
+    "year": 2018,
+    "url": "https://openalex.org/W2784823820",
+    "similarity": 1.0
+  },
+  "Memory Architectures in Recurrent Neural Network Language Models": {
+    "title": "Memory Architectures in Recurrent Neural Network Language Models",
+    "openalex_id": "https://openalex.org/W2786167576",
+    "num_citations": 48,
+    "year": 2018,
+    "url": "https://openalex.org/W2786167576",
+    "similarity": 1.0
+  },
+  "Matrix capsules with EM routing": {
+    "title": "Matrix capsules with EM routing",
+    "openalex_id": "https://openalex.org/W2785994986",
+    "num_citations": 740,
+    "year": 2018,
+    "url": "https://openalex.org/W2785994986",
+    "similarity": 1.0
+  },
+  "NerveNet: Learning Structured Policy with Graph Neural Networks": {
+    "title": "NerveNet: Learning Structured Policy with Graph Neural Networks",
+    "openalex_id": "https://openalex.org/W2785948534",
+    "num_citations": 155,
+    "year": 2018,
+    "url": "https://openalex.org/W2785948534",
+    "similarity": 1.0
+  },
+  "Decision Boundary Analysis of Adversarial Examples": {
+    "title": "Decision Boundary Analysis of Adversarial Examples",
+    "openalex_id": "https://openalex.org/W2785557471",
+    "num_citations": 88,
+    "year": 2018,
+    "url": "https://openalex.org/W2785557471",
+    "similarity": 1.0
+  },
+  "Residual Loss Prediction: Reinforcement Learning With No Incremental Feedback": {
+    "title": "Residual Loss Prediction: Reinforcement Learning With No Incremental Feedback",
+    "openalex_id": "https://openalex.org/W2786930135",
+    "num_citations": 4,
+    "year": 2018,
+    "url": "https://openalex.org/W2786930135",
+    "similarity": 1.0
+  },
+  "Minimax Curriculum Learning: Machine Teaching with Desirable Difficulties and Scheduled Diversity": {
+    "title": "Minimax Curriculum Learning: Machine Teaching with Desirable Difficulties and Scheduled Diversity",
+    "openalex_id": "https://openalex.org/W2917620156",
+    "num_citations": 23,
+    "year": 2018,
+    "url": "https://openalex.org/W2917620156",
+    "similarity": 1.0
+  },
+  "Variational image compression with a scale hyperprior": {
+    "title": "Variational image compression with a scale hyperprior",
+    "openalex_id": "https://openalex.org/W2785562966",
+    "num_citations": 1085,
+    "year": 2018,
+    "url": "https://openalex.org/W2785562966",
+    "similarity": 1.0
+  },
+  "Maximum a Posteriori Policy Optimisation": {
+    "title": "Maximum a Posteriori Policy Optimisation",
+    "openalex_id": "https://openalex.org/W2785738552",
+    "num_citations": 166,
+    "year": 2018,
+    "url": "https://openalex.org/W2785738552",
+    "similarity": 1.0
+  },
+  "The Reactor: A fast and sample-efficient Actor-Critic agent for  Reinforcement Learning": {
+    "title": "The Reactor: A fast and sample-efficient Actor-Critic agent for  Reinforcement Learning",
+    "openalex_id": "https://openalex.org/W2787613197",
+    "num_citations": 24,
+    "year": 2017,
+    "url": "https://openalex.org/W2787613197",
+    "similarity": 1.0
+  },
+  "A Neural Representation of Sketch Drawings": {
+    "title": "A Neural Representation of Sketch Drawings",
+    "openalex_id": "https://openalex.org/W2606712314",
+    "num_citations": 545,
+    "year": 2017,
+    "url": "https://openalex.org/W2606712314",
+    "similarity": 1.0
+  },
+  "Unbiased Online Recurrent Optimization": {
+    "title": "Unbiased Online Recurrent Optimization",
+    "openalex_id": "https://openalex.org/W2962759636",
+    "num_citations": 25,
+    "year": 2017,
+    "url": "https://openalex.org/W2962759636",
+    "similarity": 1.0
+  },
+  "An Online Learning Approach to Generative Adversarial Networks": {
+    "title": "An Online Learning Approach to Generative Adversarial Networks",
+    "openalex_id": "https://openalex.org/W2626982520",
+    "num_citations": 15,
+    "year": 2017,
+    "url": "https://openalex.org/W2626982520",
+    "similarity": 1.0
+  },
+  "Temporally Efficient Deep Learning with Spikes": {
+    "title": "Temporally Efficient Deep Learning with Spikes",
+    "openalex_id": "https://openalex.org/W2626740116",
+    "num_citations": 11,
+    "year": 2017,
+    "url": "https://openalex.org/W2626740116",
+    "similarity": 1.0
+  },
+  "Depthwise Separable Convolutions for Neural Machine Translation": {
+    "title": "Depthwise Separable Convolutions for Neural Machine Translation",
+    "openalex_id": "https://openalex.org/W2953333557",
+    "num_citations": 244,
+    "year": 2017,
+    "url": "https://openalex.org/W2953333557",
+    "similarity": 1.0
+  },
+  "Distributional Adversarial Networks": {
+    "title": "Distributional Adversarial Networks",
+    "openalex_id": "https://openalex.org/W3100806676",
+    "num_citations": 401,
+    "year": 2019,
+    "url": "https://openalex.org/W3100806676",
+    "similarity": 0.42201834862385323,
+    "error": "low_confidence_match",
+    "found_title": "Quantum Generative Adversarial Networks for learning and loading random distributions"
+  },
+  "Regularizing and Optimizing LSTM Language Models": {
+    "title": "Regularizing and Optimizing LSTM Language Models",
+    "openalex_id": "https://openalex.org/W2743945814",
+    "num_citations": 468,
+    "year": 2017,
+    "url": "https://openalex.org/W2743945814",
+    "similarity": 1.0
+  },
+  "SMASH: One-Shot Model Architecture Search through HyperNetworks": {
+    "title": "SMASH: One-Shot Model Architecture Search through HyperNetworks",
+    "openalex_id": "https://openalex.org/W2748513770",
+    "num_citations": 391,
+    "year": 2017,
+    "url": "https://openalex.org/W2748513770",
+    "similarity": 1.0
+  },
+  "CausalGAN: Learning Causal Implicit Generative Models with Adversarial Training": {
+    "title": "CausalGAN: Learning Causal Implicit Generative Models with Adversarial Training",
+    "openalex_id": "https://openalex.org/W2752819974",
+    "num_citations": 73,
+    "year": 2017,
+    "url": "https://openalex.org/W2752819974",
+    "similarity": 1.0
+  },
+  "Learning how to explain neural networks: PatternNet and PatternAttribution": {
+    "title": "Learning how to explain neural networks: PatternNet and PatternAttribution",
+    "openalex_id": "https://openalex.org/W2773497437",
+    "num_citations": 245,
+    "year": 2017,
+    "url": "https://openalex.org/W2773497437",
+    "similarity": 1.0
+  },
+  "Rotational Unit of Memory ": {
+    "title": "Rotational Unit of Memory ",
+    "openalex_id": "https://openalex.org/W2936368166",
+    "num_citations": 21,
+    "year": 2019,
+    "url": "https://openalex.org/W2936368166",
+    "similarity": 0.4444444444444444,
+    "error": "low_confidence_match",
+    "found_title": "Rotational Unit of Memory: A Novel Representation Unit for RNNs with Scalable Applications"
+  },
+  "Searching for Activation Functions": {
+    "title": "Searching for Activation Functions",
+    "openalex_id": "https://openalex.org/W2767286248",
+    "num_citations": 750,
+    "year": 2017,
+    "url": "https://openalex.org/W2767286248",
+    "similarity": 1.0
+  },
+  "Exponentially vanishing sub-optimal local minima in multilayer neural networks": {
+    "title": "Exponentially vanishing sub-optimal local minima in multilayer neural networks",
+    "openalex_id": "https://openalex.org/W2618003483",
+    "num_citations": 53,
+    "year": 2017,
+    "url": "https://openalex.org/W2618003483",
+    "similarity": 1.0
+  },
+  "The Role of Minimal Complexity Functions in Unsupervised Learning of Semantic Mappings": {
+    "title": "The Role of Minimal Complexity Functions in Unsupervised Learning of Semantic Mappings",
+    "openalex_id": "https://openalex.org/W2768209089",
+    "num_citations": 11,
+    "year": 2017,
+    "url": "https://openalex.org/W2768209089",
+    "similarity": 1.0
+  },
+  "Multi-View Data Generation Without View Supervision": {
+    "title": "Multi-View Data Generation Without View Supervision",
+    "openalex_id": "https://openalex.org/W2766283167",
+    "num_citations": 9,
+    "year": 2017,
+    "url": "https://openalex.org/W2766283167",
+    "similarity": 1.0
+  },
+  "Challenges in Disentangling Independent Factors of Variation": {
+    "title": "Challenges in Disentangling Independent Factors of Variation",
+    "openalex_id": "https://openalex.org/W2767614780",
+    "num_citations": 32,
+    "year": 2017,
+    "url": "https://openalex.org/W2767614780",
+    "similarity": 1.0
+  },
+  "Variational Inference of Disentangled Latent Concepts from Unlabeled Observations": {
+    "title": "Variational Inference of Disentangled Latent Concepts from Unlabeled Observations",
+    "openalex_id": "https://openalex.org/W2766761127",
+    "num_citations": 50,
+    "year": 2017,
+    "url": "https://openalex.org/W2766761127",
+    "similarity": 1.0
+  },
+  "Intriguing Properties of Adversarial Examples": {
+    "title": "Intriguing Properties of Adversarial Examples",
+    "openalex_id": "https://openalex.org/W2767961413",
+    "num_citations": 23,
+    "year": 2017,
+    "url": "https://openalex.org/W2767961413",
+    "similarity": 1.0
+  },
+  "DCN+: Mixed Objective And Deep Residual Coattention for Question Answering": {
+    "title": "DCN+: Mixed Objective And Deep Residual Coattention for Question Answering",
+    "openalex_id": "https://openalex.org/W2766371743",
+    "num_citations": 86,
+    "year": 2017,
+    "url": "https://openalex.org/W2766371743",
+    "similarity": 1.0
+  },
+  "Simple and efficient architecture search for Convolutional Neural Networks": {
+    "title": "Simple and efficient architecture search for Convolutional Neural Networks",
+    "openalex_id": "https://openalex.org/W2769653148",
+    "num_citations": 184,
+    "year": 2017,
+    "url": "https://openalex.org/W2769653148",
+    "similarity": 1.0
+  },
+  "To Prune, or Not to Prune: Exploring the Efficacy of Pruning for Model Compression": {
+    "title": "To Prune, or Not to Prune: Exploring the Efficacy of Pruning for Model Compression",
+    "error": "API Error 400"
+  },
+  "A Deep Reinforced Model for Abstractive Summarization": {
+    "title": "A Deep Reinforced Model for Abstractive Summarization",
+    "openalex_id": "https://openalex.org/W2612675303",
+    "num_citations": 1272,
+    "year": 2017,
+    "url": "https://openalex.org/W2612675303",
+    "similarity": 1.0
+  },
+  "Sobolev GAN": {
+    "title": "Sobolev GAN",
+    "openalex_id": "https://openalex.org/W3139466389",
+    "num_citations": 18,
+    "year": 2018,
+    "url": "https://openalex.org/W3139466389",
+    "similarity": 1.0
+  },
+  "Compressing Word Embeddings via Deep Compositional Code Learning": {
+    "title": "Compressing Word Embeddings via Deep Compositional Code Learning",
+    "openalex_id": "https://openalex.org/W2766061613",
+    "num_citations": 29,
+    "year": 2017,
+    "url": "https://openalex.org/W2766061613",
+    "similarity": 1.0
+  },
+  "On the State of the Art of Evaluation in Neural Language Models": {
+    "title": "On the State of the Art of Evaluation in Neural Language Models",
+    "openalex_id": "https://openalex.org/W2739255396",
+    "num_citations": 47,
+    "year": 2017,
+    "url": "https://openalex.org/W2739255396",
+    "similarity": 1.0
+  },
+  "Minimal-Entropy Correlation Alignment for Unsupervised Deep Domain Adaptation": {
+    "title": "Minimal-Entropy Correlation Alignment for Unsupervised Deep Domain Adaptation",
+    "openalex_id": "https://openalex.org/W2769004955",
+    "num_citations": 41,
+    "year": 2017,
+    "url": "https://openalex.org/W2769004955",
+    "similarity": 1.0
+  },
+  "Modular Continual Learning in a Unified Visual Environment": {
+    "title": "Modular Continual Learning in a Unified Visual Environment",
+    "openalex_id": "https://openalex.org/W2768815665",
+    "num_citations": 0,
+    "year": 2017,
+    "url": "https://openalex.org/W2768815665",
+    "similarity": 1.0
+  },
+  "N2N learning: Network to Network Compression via Policy Gradient Reinforcement Learning": {
+    "title": "N2N learning: Network to Network Compression via Policy Gradient Reinforcement Learning",
+    "openalex_id": "https://openalex.org/W2756085244",
+    "num_citations": 116,
+    "year": 2017,
+    "url": "https://openalex.org/W2756085244",
+    "similarity": 1.0
+  },
+  "A Flexible Approach to Automated RNN Architecture Generation": {
+    "title": "A Flexible Approach to Automated RNN Architecture Generation",
+    "openalex_id": "https://openalex.org/W2780625659",
+    "num_citations": 11,
+    "year": 2017,
+    "url": "https://openalex.org/W2780625659",
+    "similarity": 1.0
+  },
+  "Boosting the Actor with Dual Critic": {
+    "title": "Boosting the Actor with Dual Critic",
+    "openalex_id": "https://openalex.org/W2776124380",
+    "num_citations": 7,
+    "year": 2017,
+    "url": "https://openalex.org/W2776124380",
+    "similarity": 1.0
+  },
+  "Routing Networks: Adaptive Selection of Non-Linear Functions for Multi-Task Learning": {
+    "title": "Routing Networks: Adaptive Selection of Non-Linear Functions for Multi-Task Learning",
+    "openalex_id": "https://openalex.org/W2767175863",
+    "num_citations": 37,
+    "year": 2017,
+    "url": "https://openalex.org/W2767175863",
+    "similarity": 1.0
+  },
+  "Covariant Compositional Networks For Learning Graphs": {
+    "title": "Covariant Compositional Networks For Learning Graphs",
+    "openalex_id": "https://openalex.org/W2783378529",
+    "num_citations": 88,
+    "year": 2018,
+    "url": "https://openalex.org/W2783378529",
+    "similarity": 1.0
+  },
+  "Deep Learning for Physical Processes: Incorporating Prior Scientific Knowledge": {
+    "title": "Deep Learning for Physical Processes: Incorporating Prior Scientific Knowledge",
+    "openalex_id": "https://openalex.org/W2770705252",
+    "num_citations": 58,
+    "year": 2019,
+    "url": "https://openalex.org/W2770705252",
+    "similarity": 1.0
+  },
+  "Spatially Transformed Adversarial Examples": {
+    "title": "Spatially Transformed Adversarial Examples",
+    "openalex_id": "https://openalex.org/W2783784437",
+    "num_citations": 240,
+    "year": 2018,
+    "url": "https://openalex.org/W2783784437",
+    "similarity": 1.0
+  },
+  "Adversarial Spheres": {
+    "title": "Adversarial Spheres",
+    "openalex_id": "https://openalex.org/W2787480667",
+    "num_citations": 47,
+    "year": 2018,
+    "url": "https://openalex.org/W2787480667",
+    "similarity": 1.0
+  },
+  "Unsupervised Cipher Cracking Using Discrete GANs": {
+    "title": "Unsupervised Cipher Cracking Using Discrete GANs",
+    "openalex_id": "https://openalex.org/W2784107021",
+    "num_citations": 24,
+    "year": 2018,
+    "url": "https://openalex.org/W2784107021",
+    "similarity": 1.0
+  },
+  "Stochastic gradient descent performs variational inference, converges to limit cycles for deep networks": {
+    "title": "Stochastic gradient descent performs variational inference, converges to limit cycles for deep networks",
+    "error": "API Error 400"
+  },
+  "Hyperparameter optimization: a spectral approach": {
+    "title": "Hyperparameter optimization: a spectral approach",
+    "openalex_id": "https://openalex.org/W2620622614",
+    "num_citations": 27,
+    "year": 2017,
+    "url": "https://openalex.org/W2620622614",
+    "similarity": 1.0
+  },
+  "Countering Adversarial Images using Input Transformations": {
+    "title": "Countering Adversarial Images using Input Transformations",
+    "openalex_id": "https://openalex.org/W2765384636",
+    "num_citations": 436,
+    "year": 2017,
+    "url": "https://openalex.org/W2765384636",
+    "similarity": 1.0
+  },
+  "Certified Defenses against Adversarial Examples ": {
+    "title": "Certified Defenses against Adversarial Examples ",
+    "openalex_id": "https://openalex.org/W2786163515",
+    "num_citations": 339,
+    "year": 2018,
+    "url": "https://openalex.org/W2786163515",
+    "similarity": 1.0
+  },
+  "Coulomb GANs: Provably Optimal Nash Equilibria via Potential Fields": {
+    "title": "Coulomb GANs: Provably Optimal Nash Equilibria via Potential Fields",
+    "openalex_id": "https://openalex.org/W2751565964",
+    "num_citations": 29,
+    "year": 2017,
+    "url": "https://openalex.org/W2751565964",
+    "similarity": 1.0
+  },
+  "Word translation without parallel data": {
+    "title": "Word translation without parallel data",
+    "openalex_id": "https://openalex.org/W2963118869",
+    "num_citations": 648,
+    "year": 2018,
+    "url": "https://openalex.org/W2963118869",
+    "similarity": 1.0
+  },
+  "Activation Maximization Generative Adversarial Nets": {
+    "title": "Activation Maximization Generative Adversarial Nets",
+    "openalex_id": "https://openalex.org/W2749617271",
+    "num_citations": 46,
+    "year": 2017,
+    "url": "https://openalex.org/W2749617271",
+    "similarity": 1.0
+  },
+  "Ensemble Adversarial Training: Attacks and Defenses": {
+    "title": "Ensemble Adversarial Training: Attacks and Defenses",
+    "openalex_id": "https://openalex.org/W2620038827",
+    "num_citations": 1106,
+    "year": 2017,
+    "url": "https://openalex.org/W2620038827",
+    "similarity": 1.0
+  },
+  "Generating Wikipedia by Summarizing Long Sequences": {
+    "title": "Generating Wikipedia by Summarizing Long Sequences",
+    "openalex_id": "https://openalex.org/W2787214294",
+    "num_citations": 74,
+    "year": 2018,
+    "url": "https://openalex.org/W2787214294",
+    "similarity": 1.0
+  },
+  "FastGCN: Fast Learning with Graph Convolutional Networks via Importance Sampling": {
+    "title": "FastGCN: Fast Learning with Graph Convolutional Networks via Importance Sampling",
+    "openalex_id": "https://openalex.org/W2786915849",
+    "num_citations": 456,
+    "year": 2018,
+    "url": "https://openalex.org/W2786915849",
+    "similarity": 1.0
+  },
+  "Attacking Binarized Neural Networks": {
+    "title": "Attacking Binarized Neural Networks",
+    "openalex_id": "https://openalex.org/W2766324147",
+    "num_citations": 22,
+    "year": 2017,
+    "url": "https://openalex.org/W2766324147",
+    "similarity": 1.0
+  },
+  "Evaluating the Robustness of Neural Networks: An Extreme Value Theory Approach": {
+    "title": "Evaluating the Robustness of Neural Networks: An Extreme Value Theory Approach",
+    "openalex_id": "https://openalex.org/W2786977288",
+    "num_citations": 157,
+    "year": 2018,
+    "url": "https://openalex.org/W2786977288",
+    "similarity": 1.0
+  },
+  "Alternating Multi-bit Quantization for Recurrent Neural Networks": {
+    "title": "Alternating Multi-bit Quantization for Recurrent Neural Networks",
+    "openalex_id": "https://openalex.org/W2963318827",
+    "num_citations": 60,
+    "year": 2018,
+    "url": "https://openalex.org/W2963318827",
+    "similarity": 1.0
+  },
+  "Polar Transformer Networks": {
+    "title": "Polar Transformer Networks",
+    "openalex_id": "https://openalex.org/W2751473119",
+    "num_citations": 31,
+    "year": 2017,
+    "url": "https://openalex.org/W2751473119",
+    "similarity": 1.0
+  },
+  "Lifelong Learning with Dynamically Expandable Networks": {
+    "title": "Lifelong Learning with Dynamically Expandable Networks",
+    "openalex_id": "https://openalex.org/W2744654301",
+    "num_citations": 181,
+    "year": 2017,
+    "url": "https://openalex.org/W2744654301",
+    "similarity": 1.0
+  },
+  "VoiceLoop: Voice Fitting and Synthesis via a Phonological Loop": {
+    "title": "VoiceLoop: Voice Fitting and Synthesis via a Phonological Loop",
+    "openalex_id": "https://openalex.org/W2766557690",
+    "num_citations": 13,
+    "year": 2017,
+    "url": "https://openalex.org/W2766557690",
+    "similarity": 1.0
+  },
+  "Adaptive Memory Networks": {
+    "title": "Adaptive Memory Networks",
+    "openalex_id": "https://openalex.org/W4206118545",
+    "num_citations": 105,
+    "year": 2022,
+    "url": "https://openalex.org/W4206118545",
+    "similarity": 0.43564356435643564,
+    "error": "low_confidence_match",
+    "found_title": "Adaptive Memory Networks With Self-Supervised Learning for Unsupervised Anomaly Detection"
+  },
+  "Multi-level Residual Networks from Dynamical Systems View": {
+    "title": "Multi-level Residual Networks from Dynamical Systems View",
+    "openalex_id": "https://openalex.org/W2766207105",
+    "num_citations": 68,
+    "year": 2017,
+    "url": "https://openalex.org/W2766207105",
+    "similarity": 1.0
+  },
+  "Learning Discrete Weights Using the Local Reparameterization Trick": {
+    "title": "Learning Discrete Weights Using the Local Reparameterization Trick",
+    "openalex_id": "https://openalex.org/W2766207311",
+    "num_citations": 11,
+    "year": 2017,
+    "url": "https://openalex.org/W2766207311",
+    "similarity": 1.0
+  },
+  "Rethinking the Smaller-Norm-Less-Informative Assumption in Channel Pruning of Convolution Layers": {
+    "title": "Rethinking the Smaller-Norm-Less-Informative Assumption in Channel Pruning of Convolution Layers",
+    "openalex_id": "https://openalex.org/W2786054724",
+    "num_citations": 153,
+    "year": 2018,
+    "url": "https://openalex.org/W2786054724",
+    "similarity": 1.0
+  },
+  "FusionNet: Fusing via Fully-aware Attention with Application to Machine Comprehension": {
+    "title": "FusionNet: Fusing via Fully-aware Attention with Application to Machine Comprehension",
+    "openalex_id": "https://openalex.org/W2770970123",
+    "num_citations": 86,
+    "year": 2017,
+    "url": "https://openalex.org/W2770970123",
+    "similarity": 1.0
+  },
+  "Deep Rewiring: Training very sparse deep networks": {
+    "title": "Deep Rewiring: Training very sparse deep networks",
+    "openalex_id": "https://openalex.org/W2768501777",
+    "num_citations": 133,
+    "year": 2017,
+    "url": "https://openalex.org/W2768501777",
+    "similarity": 1.0
+  },
+  "Skip RNN: Learning to Skip State Updates in Recurrent Neural Networks": {
+    "title": "Skip RNN: Learning to Skip State Updates in Recurrent Neural Networks",
+    "openalex_id": "https://openalex.org/W2749590927",
+    "num_citations": 38,
+    "year": 2017,
+    "url": "https://openalex.org/W2749590927",
+    "similarity": 1.0
+  },
+  "Deep Gradient Compression: Reducing the Communication Bandwidth for Distributed Training": {
+    "title": "Deep Gradient Compression: Reducing the Communication Bandwidth for Distributed Training",
+    "openalex_id": "https://openalex.org/W2774000609",
+    "num_citations": 645,
+    "year": 2017,
+    "url": "https://openalex.org/W2774000609",
+    "similarity": 1.0
+  },
+  "Stabilizing Adversarial Nets with Prediction Methods": {
+    "title": "Stabilizing Adversarial Nets with Prediction Methods",
+    "openalex_id": "https://openalex.org/W2617965654",
+    "num_citations": 10,
+    "year": 2017,
+    "url": "https://openalex.org/W2617965654",
+    "similarity": 1.0
+  },
+  "Learning Latent Representations in Neural Networks for Clustering through Pseudo Supervision and Graph-based Activity Regularization": {
+    "title": "Learning Latent Representations in Neural Networks for Clustering through Pseudo Supervision and Graph-based Activity Regularization",
+    "openalex_id": "https://openalex.org/W2786935817",
+    "num_citations": 18,
+    "year": 2018,
+    "url": "https://openalex.org/W2786935817",
+    "similarity": 1.0
+  },
+  "Learning Intrinsic Sparse Structures within Long Short-Term Memory": {
+    "title": "Learning Intrinsic Sparse Structures within Long Short-Term Memory",
+    "openalex_id": "https://openalex.org/W2754526845",
+    "num_citations": 103,
+    "year": 2017,
+    "url": "https://openalex.org/W2754526845",
+    "similarity": 1.0
+  },
+  "Beyond Shared Hierarchies: Deep Multitask Learning through Soft Layer Ordering": {
+    "title": "Beyond Shared Hierarchies: Deep Multitask Learning through Soft Layer Ordering",
+    "openalex_id": "https://openalex.org/W2765991965",
+    "num_citations": 20,
+    "year": 2017,
+    "url": "https://openalex.org/W2765991965",
+    "similarity": 1.0
+  },
+  "Training and Inference with Integers in Deep Neural Networks": {
+    "title": "Training and Inference with Integers in Deep Neural Networks",
+    "openalex_id": "https://openalex.org/W2964164125",
+    "num_citations": 217,
+    "year": 2018,
+    "url": "https://openalex.org/W2964164125",
+    "similarity": 1.0
+  },
+  "Training GANs with Optimism": {
+    "title": "Training GANs with Optimism",
+    "openalex_id": "https://openalex.org/W2964334726",
+    "num_citations": 138,
+    "year": 2017,
+    "url": "https://openalex.org/W2964334726",
+    "similarity": 1.0
+  },
+  "Towards Reverse-Engineering Black-Box Neural Networks": {
+    "title": "Towards Reverse-Engineering Black-Box Neural Networks",
+    "openalex_id": "https://openalex.org/W2789304371",
+    "num_citations": 259,
+    "year": 2019,
+    "url": "https://openalex.org/W2789304371",
+    "similarity": 1.0
+  },
+  "Noisy Networks For Exploration": {
+    "title": "Noisy Networks For Exploration",
+    "openalex_id": "https://openalex.org/W2724169821",
+    "num_citations": 387,
+    "year": 2017,
+    "url": "https://openalex.org/W2724169821",
+    "similarity": 1.0
+  },
+  "Model compression via distillation and quantization": {
+    "title": "Model compression via distillation and quantization",
+    "openalex_id": "https://openalex.org/W2787752464",
+    "num_citations": 262,
+    "year": 2018,
+    "url": "https://openalex.org/W2787752464",
+    "similarity": 1.0
+  },
+  "Learning to Count Objects in Natural Images for Visual Question Answering": {
+    "title": "Learning to Count Objects in Natural Images for Visual Question Answering",
+    "openalex_id": "https://openalex.org/W2787119853",
+    "num_citations": 155,
+    "year": 2018,
+    "url": "https://openalex.org/W2787119853",
+    "similarity": 1.0
+  },
+  "Decision-Based Adversarial Attacks: Reliable Attacks Against Black-Box Machine Learning Models": {
+    "title": "Decision-Based Adversarial Attacks: Reliable Attacks Against Black-Box Machine Learning Models",
+    "openalex_id": "https://openalex.org/W2773022113",
+    "num_citations": 134,
+    "year": 2017,
+    "url": "https://openalex.org/W2773022113",
+    "similarity": 1.0
+  },
+  "Jointly Learning to Construct and Control Agents using Deep Reinforcement Learning": {
+    "title": "Jointly Learning to Construct and Control Agents using Deep Reinforcement Learning",
+    "openalex_id": "https://openalex.org/W2782446262",
+    "num_citations": 7,
+    "year": 2019,
+    "url": "https://openalex.org/W2782446262",
+    "similarity": 1.0
+  },
+  "Efficient Sparse-Winograd Convolutional Neural Networks": {
+    "title": "Efficient Sparse-Winograd Convolutional Neural Networks",
+    "openalex_id": "https://openalex.org/W4243682116",
+    "num_citations": 73,
+    "year": 2018,
+    "url": "https://openalex.org/W4243682116",
+    "similarity": 0.8064516129032258
+  },
+  "Neural Language Modeling by Jointly Learning Syntax and Lexicon": {
+    "title": "Neural Language Modeling by Jointly Learning Syntax and Lexicon",
+    "openalex_id": "https://openalex.org/W2768091364",
+    "num_citations": 22,
+    "year": 2017,
+    "url": "https://openalex.org/W2768091364",
+    "similarity": 1.0
+  },
+  "Variance-based Gradient Compression for Efficient Distributed Deep Learning": {
+    "title": "Variance-based Gradient Compression for Efficient Distributed Deep Learning",
+    "openalex_id": "https://openalex.org/W2785456003",
+    "num_citations": 50,
+    "year": 2018,
+    "url": "https://openalex.org/W2785456003",
+    "similarity": 1.0
+  },
+  "Self-ensembling for visual domain adaptation": {
+    "title": "Self-ensembling for visual domain adaptation",
+    "openalex_id": "https://openalex.org/W2767722847",
+    "num_citations": 63,
+    "year": 2017,
+    "url": "https://openalex.org/W2767722847",
+    "similarity": 1.0
+  },
+  "i-RevNet: Deep Invertible Networks": {
+    "title": "i-RevNet: Deep Invertible Networks",
+    "openalex_id": "https://openalex.org/W2786178913",
+    "num_citations": 59,
+    "year": 2018,
+    "url": "https://openalex.org/W2786178913",
+    "similarity": 1.0
+  },
+  "Proximal Backpropagation": {
+    "title": "Proximal Backpropagation",
+    "openalex_id": "https://openalex.org/W2787289530",
+    "num_citations": 9,
+    "year": 2017,
+    "url": "https://openalex.org/W2787289530",
+    "similarity": 1.0
+  },
+  "Many Paths to Equilibrium: GANs Do Not Need to Decrease a Divergence At Every Step": {
+    "title": "Many Paths to Equilibrium: GANs Do Not Need to Decrease a Divergence At Every Step",
+    "openalex_id": "https://openalex.org/W2766290211",
+    "num_citations": 100,
+    "year": 2017,
+    "url": "https://openalex.org/W2766290211",
+    "similarity": 1.0
+  },
+  "Smooth Loss Functions for Deep Top-k Classification": {
+    "title": "Smooth Loss Functions for Deep Top-k Classification",
+    "openalex_id": "https://openalex.org/W2786807178",
+    "num_citations": 53,
+    "year": 2018,
+    "url": "https://openalex.org/W2786807178",
+    "similarity": 1.0
+  },
+  "Guide Actor-Critic for Continuous Control": {
+    "title": "Guide Actor-Critic for Continuous Control",
+    "openalex_id": "https://openalex.org/W2786685267",
+    "num_citations": 1,
+    "year": 2017,
+    "url": "https://openalex.org/W2786685267",
+    "similarity": 1.0
+  },
+  "Deep Voice 3: Scaling Text-to-Speech with Convolutional Sequence Learning": {
+    "title": "Deep Voice 3: Scaling Text-to-Speech with Convolutional Sequence Learning",
+    "openalex_id": "https://openalex.org/W2792995953",
+    "num_citations": 103,
+    "year": 2017,
+    "url": "https://openalex.org/W2792995953",
+    "similarity": 1.0
+  },
+  "Semantically Decomposing the Latent Spaces of Generative Adversarial Networks": {
+    "title": "Semantically Decomposing the Latent Spaces of Generative Adversarial Networks",
+    "openalex_id": "https://openalex.org/W2618104702",
+    "num_citations": 31,
+    "year": 2017,
+    "url": "https://openalex.org/W2618104702",
+    "similarity": 1.0
+  },
+  "Diffusion Convolutional Recurrent Neural Network: Data-Driven Traffic Forecasting": {
+    "title": "Diffusion Convolutional Recurrent Neural Network: Data-Driven Traffic Forecasting",
+    "openalex_id": "https://openalex.org/W2768008502",
+    "num_citations": 503,
+    "year": 2017,
+    "url": "https://openalex.org/W2768008502",
+    "similarity": 1.0
+  },
+  "Trust-PCL: An Off-Policy Trust Region Method for Continuous Control": {
+    "title": "Trust-PCL: An Off-Policy Trust Region Method for Continuous Control",
+    "openalex_id": "https://openalex.org/W2727576081",
+    "num_citations": 31,
+    "year": 2017,
+    "url": "https://openalex.org/W2727576081",
+    "similarity": 1.0
+  },
+  "FigureQA: An Annotated Figure Dataset for Visual Reasoning": {
+    "title": "FigureQA: An Annotated Figure Dataset for Visual Reasoning",
+    "openalex_id": "https://openalex.org/W2766732270",
+    "num_citations": 122,
+    "year": 2017,
+    "url": "https://openalex.org/W2766732270",
+    "similarity": 1.0
+  },
+  "Training wide residual networks for deployment using a single bit for each weight": {
+    "title": "Training wide residual networks for deployment using a single bit for each weight",
+    "openalex_id": "https://openalex.org/W2787759954",
+    "num_citations": 42,
+    "year": 2018,
+    "url": "https://openalex.org/W2787759954",
+    "similarity": 1.0
+  },
+  "Kernel Implicit Variational Inference": {
+    "title": "Kernel Implicit Variational Inference",
+    "openalex_id": "https://openalex.org/W2785391921",
+    "num_citations": 7,
+    "year": 2017,
+    "url": "https://openalex.org/W2785391921",
+    "similarity": 1.0
+  },
+  "Continuous Adaptation via Meta-Learning in Nonstationary and Competitive Environments": {
+    "title": "Continuous Adaptation via Meta-Learning in Nonstationary and Competitive Environments",
+    "openalex_id": "https://openalex.org/W2762872434",
+    "num_citations": 157,
+    "year": 2017,
+    "url": "https://openalex.org/W2762872434",
+    "similarity": 1.0
+  },
+  "Mixed Precision Training of Convolutional Neural Networks using Integer Operations": {
+    "title": "Mixed Precision Training of Convolutional Neural Networks using Integer Operations",
+    "openalex_id": "https://openalex.org/W2785961331",
+    "num_citations": 114,
+    "year": 2018,
+    "url": "https://openalex.org/W2785961331",
+    "similarity": 1.0
+  },
+  "Learning Latent Permutations with Gumbel-Sinkhorn Networks": {
+    "title": "Learning Latent Permutations with Gumbel-Sinkhorn Networks",
+    "openalex_id": "https://openalex.org/W2787434568",
+    "num_citations": 93,
+    "year": 2018,
+    "url": "https://openalex.org/W2787434568",
+    "similarity": 1.0
+  },
+  "Training Confidence-calibrated Classifiers for Detecting Out-of-Distribution Samples": {
+    "title": "Training Confidence-calibrated Classifiers for Detecting Out-of-Distribution Samples",
+    "openalex_id": "https://openalex.org/W2768927604",
+    "num_citations": 115,
+    "year": 2017,
+    "url": "https://openalex.org/W2768927604",
+    "similarity": 1.0
+  },
+  "Twin Networks: Matching the Future for Sequence Generation": {
+    "title": "Twin Networks: Matching the Future for Sequence Generation",
+    "openalex_id": "https://openalex.org/W2963905071",
+    "num_citations": 43,
+    "year": 2018,
+    "url": "https://openalex.org/W2963905071",
+    "similarity": 1.0
+  },
+  "FearNet: Brain-Inspired Model for Incremental Learning": {
+    "title": "FearNet: Brain-Inspired Model for Incremental Learning",
+    "openalex_id": "https://openalex.org/W2771964490",
+    "num_citations": 271,
+    "year": 2017,
+    "url": "https://openalex.org/W2771964490",
+    "similarity": 1.0
+  },
+  "Eigenoption Discovery through the Deep Successor Representation": {
+    "title": "Eigenoption Discovery through the Deep Successor Representation",
+    "openalex_id": "https://openalex.org/W2765308067",
+    "num_citations": 61,
+    "year": 2017,
+    "url": "https://openalex.org/W2765308067",
+    "similarity": 1.0
+  },
+  "Backpropagation through the Void: Optimizing control variates for black-box gradient estimation": {
+    "title": "Backpropagation through the Void: Optimizing control variates for black-box gradient estimation",
+    "openalex_id": "https://openalex.org/W2767002724",
+    "num_citations": 99,
+    "year": 2017,
+    "url": "https://openalex.org/W2767002724",
+    "similarity": 1.0
+  },
+  "Generating Natural Adversarial Examples": {
+    "title": "Generating Natural Adversarial Examples",
+    "openalex_id": "https://openalex.org/W2766108848",
+    "num_citations": 363,
+    "year": 2017,
+    "url": "https://openalex.org/W2766108848",
+    "similarity": 1.0
+  },
+  "Don't Decay the Learning Rate, Increase the Batch Size": {
+    "title": "Don't Decay the Learning Rate, Increase the Batch Size",
+    "error": "API Error 400"
+  },
+  "Syntax-Directed Variational Autoencoder for Structured Data": {
+    "title": "Syntax-Directed Variational Autoencoder for Structured Data",
+    "openalex_id": "https://openalex.org/W2786565076",
+    "num_citations": 200,
+    "year": 2018,
+    "url": "https://openalex.org/W2786565076",
+    "similarity": 1.0
+  },
+  "Reinforcement Learning on Web Interfaces using Workflow-Guided Exploration": {
+    "title": "Reinforcement Learning on Web Interfaces using Workflow-Guided Exploration",
+    "openalex_id": "https://openalex.org/W2786616516",
+    "num_citations": 16,
+    "year": 2018,
+    "url": "https://openalex.org/W2786616516",
+    "similarity": 1.0
+  },
+  "On the Expressive Power of Overlapping Architectures of Deep Learning": {
+    "title": "On the Expressive Power of Overlapping Architectures of Deep Learning",
+    "openalex_id": "https://openalex.org/W2766224267",
+    "num_citations": 23,
+    "year": 2017,
+    "url": "https://openalex.org/W2766224267",
+    "similarity": 1.0
+  },
+  "Synthetic and Natural Noise Both Break Neural Machine Translation": {
+    "title": "Synthetic and Natural Noise Both Break Neural Machine Translation",
+    "openalex_id": "https://openalex.org/W2767899794",
+    "num_citations": 397,
+    "year": 2017,
+    "url": "https://openalex.org/W2767899794",
+    "similarity": 1.0
+  },
+  "Scalable Private Learning with PATE": {
+    "title": "Scalable Private Learning with PATE",
+    "openalex_id": "https://openalex.org/W2785361959",
+    "num_citations": 247,
+    "year": 2018,
+    "url": "https://openalex.org/W2785361959",
+    "similarity": 1.0
+  },
+  "A Simple Neural Attentive Meta-Learner": {
+    "title": "A Simple Neural Attentive Meta-Learner",
+    "openalex_id": "https://openalex.org/W2787501667",
+    "num_citations": 758,
+    "year": 2017,
+    "url": "https://openalex.org/W2787501667",
+    "similarity": 1.0
+  },
+  "Generative Models of Visually Grounded Imagination": {
+    "title": "Generative Models of Visually Grounded Imagination",
+    "openalex_id": "https://openalex.org/W2617934075",
+    "num_citations": 50,
+    "year": 2017,
+    "url": "https://openalex.org/W2617934075",
+    "similarity": 1.0
+  },
+  "Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks": {
+    "title": "Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks",
+    "openalex_id": "https://openalex.org/W2767414122",
+    "num_citations": 648,
+    "year": 2017,
+    "url": "https://openalex.org/W2767414122",
+    "similarity": 1.0
+  },
+  "Deep Complex Networks": {
+    "title": "Deep Complex Networks",
+    "openalex_id": "https://openalex.org/W2618946976",
+    "num_citations": 166,
+    "year": 2017,
+    "url": "https://openalex.org/W2618946976",
+    "similarity": 1.0
+  },
+  "Online Learning Rate Adaptation with Hypergradient Descent": {
+    "title": "Online Learning Rate Adaptation with Hypergradient Descent",
+    "openalex_id": "https://openalex.org/W2597452529",
+    "num_citations": 77,
+    "year": 2017,
+    "url": "https://openalex.org/W2597452529",
+    "similarity": 1.0
+  },
+  "Deep Bayesian Bandits Showdown:  An Empirical Comparison of Bayesian Deep Networks for Thompson Sampling": {
+    "title": "Deep Bayesian Bandits Showdown:  An Empirical Comparison of Bayesian Deep Networks for Thompson Sampling",
+    "openalex_id": "https://openalex.org/W2785917027",
+    "num_citations": 14,
+    "year": 2018,
+    "url": "https://openalex.org/W2785917027",
+    "similarity": 1.0
+  },
+  "Unsupervised Neural Machine Translation": {
+    "title": "Unsupervised Neural Machine Translation",
+    "openalex_id": "https://openalex.org/W2964013027",
+    "num_citations": 135,
+    "year": 2018,
+    "url": "https://openalex.org/W2964013027",
+    "similarity": 0.8089887640449438
+  },
+  "Understanding image motion with group representations ": {
+    "title": "Understanding image motion with group representations ",
+    "openalex_id": "https://openalex.org/W2787876686",
+    "num_citations": 1,
+    "year": 2016,
+    "url": "https://openalex.org/W2787876686",
+    "similarity": 1.0
+  },
+  "Not-So-Random Features": {
+    "title": "Not-So-Random Features",
+    "openalex_id": "https://openalex.org/W4382539198",
+    "num_citations": 3,
+    "year": 2023,
+    "url": "https://openalex.org/W4382539198",
+    "similarity": 0.3333333333333333,
+    "error": "low_confidence_match",
+    "found_title": "Not so random acts of violence: Shared social–ecological features of violence against women and school shootings."
+  },
+  "Deep Gaussian Embedding of Graphs: Unsupervised Inductive Learning via Ranking": {
+    "title": "Deep Gaussian Embedding of Graphs: Unsupervised Inductive Learning via Ranking",
+    "openalex_id": "https://openalex.org/W2771035597",
+    "num_citations": 188,
+    "year": 2017,
+    "url": "https://openalex.org/W2771035597",
+    "similarity": 1.0
+  },
+  "Detecting Statistical Interactions from Neural Network Weights": {
+    "title": "Detecting Statistical Interactions from Neural Network Weights",
+    "openalex_id": "https://openalex.org/W2616267373",
+    "num_citations": 34,
+    "year": 2017,
+    "url": "https://openalex.org/W2616267373",
+    "similarity": 1.0
+  },
+  "Relational Neural Expectation Maximization: Unsupervised Discovery of Objects and their Interactions": {
+    "title": "Relational Neural Expectation Maximization: Unsupervised Discovery of Objects and their Interactions",
+    "openalex_id": "https://openalex.org/W2786615588",
+    "num_citations": 134,
+    "year": 2018,
+    "url": "https://openalex.org/W2786615588",
+    "similarity": 1.0
+  },
+  "Learning from Between-class Examples for Deep Sound Recognition": {
+    "title": "Learning from Between-class Examples for Deep Sound Recognition",
+    "openalex_id": "https://openalex.org/W2768188490",
+    "num_citations": 153,
+    "year": 2017,
+    "url": "https://openalex.org/W2768188490",
+    "similarity": 1.0
+  },
+  "Memory-based Parameter Adaptation": {
+    "title": "Memory-based Parameter Adaptation",
+    "openalex_id": "https://openalex.org/W2786465559",
+    "num_citations": 26,
+    "year": 2018,
+    "url": "https://openalex.org/W2786465559",
+    "similarity": 1.0
+  },
+  "Few-shot Autoregressive Density Estimation: Towards Learning to Learn Distributions": {
+    "title": "Few-shot Autoregressive Density Estimation: Towards Learning to Learn Distributions",
+    "openalex_id": "https://openalex.org/W2766669584",
+    "num_citations": 40,
+    "year": 2017,
+    "url": "https://openalex.org/W2766669584",
+    "similarity": 1.0
+  },
+  "Model-Ensemble Trust-Region Policy Optimization": {
+    "title": "Model-Ensemble Trust-Region Policy Optimization",
+    "openalex_id": "https://openalex.org/W2785389871",
+    "num_citations": 218,
+    "year": 2018,
+    "url": "https://openalex.org/W2785389871",
+    "similarity": 1.0
+  },
+  "Mitigating Adversarial Effects Through Randomization": {
+    "title": "Mitigating Adversarial Effects Through Randomization",
+    "openalex_id": "https://openalex.org/W2767962654",
+    "num_citations": 195,
+    "year": 2017,
+    "url": "https://openalex.org/W2767962654",
+    "similarity": 1.0
+  },
+  "Adversarial Dropout Regularization": {
+    "title": "Adversarial Dropout Regularization",
+    "openalex_id": "https://openalex.org/W2767382337",
+    "num_citations": 50,
+    "year": 2017,
+    "url": "https://openalex.org/W2767382337",
+    "similarity": 1.0
+  },
+  "Meta-Learning for Semi-Supervised Few-Shot Classification": {
+    "title": "Meta-Learning for Semi-Supervised Few-Shot Classification",
+    "openalex_id": "https://openalex.org/W2787035179",
+    "num_citations": 725,
+    "year": 2018,
+    "url": "https://openalex.org/W2787035179",
+    "similarity": 1.0
+  },
+  "Interpretable Counting for Visual Question Answering": {
+    "title": "Interpretable Counting for Visual Question Answering",
+    "openalex_id": "https://openalex.org/W2963907708",
+    "num_citations": 33,
+    "year": 2018,
+    "url": "https://openalex.org/W2963907708",
+    "similarity": 1.0
+  },
+  "Ask the Right Questions: Active Question Reformulation with Reinforcement Learning": {
+    "title": "Ask the Right Questions: Active Question Reformulation with Reinforcement Learning",
+    "openalex_id": "https://openalex.org/W2963343509",
+    "num_citations": 89,
+    "year": 2018,
+    "url": "https://openalex.org/W2963343509",
+    "similarity": 1.0
+  },
+  "Distributed Prioritized Experience Replay": {
+    "title": "Distributed Prioritized Experience Replay",
+    "openalex_id": "https://openalex.org/W2786928559",
+    "num_citations": 411,
+    "year": 2018,
+    "url": "https://openalex.org/W2786928559",
+    "similarity": 1.0
+  },
+  "Generalizing Hamiltonian Monte Carlo with Neural Networks": {
+    "title": "Generalizing Hamiltonian Monte Carlo with Neural Networks",
+    "openalex_id": "https://openalex.org/W2769603572",
+    "num_citations": 25,
+    "year": 2017,
+    "url": "https://openalex.org/W2769603572",
+    "similarity": 1.0
+  },
+  "Some Considerations on Learning to Explore via Meta-Reinforcement Learning": {
+    "title": "Some Considerations on Learning to Explore via Meta-Reinforcement Learning",
+    "openalex_id": "https://openalex.org/W2785397462",
+    "num_citations": 71,
+    "year": 2018,
+    "url": "https://openalex.org/W2785397462",
+    "similarity": 1.0
+  },
+  "Improving the Improved Training of Wasserstein GANs: A Consistency Term and Its Dual Effect": {
+    "title": "Improving the Improved Training of Wasserstein GANs: A Consistency Term and Its Dual Effect",
+    "openalex_id": "https://openalex.org/W2790871512",
+    "num_citations": 52,
+    "year": 2018,
+    "url": "https://openalex.org/W2790871512",
+    "similarity": 1.0
+  },
+  "On the regularization of Wasserstein GANs": {
+    "title": "On the regularization of Wasserstein GANs",
+    "openalex_id": "https://openalex.org/W2759973161",
+    "num_citations": 128,
+    "year": 2017,
+    "url": "https://openalex.org/W2759973161",
+    "similarity": 1.0
+  },
+  "Visualizing the Loss Landscape of Neural Nets": {
+    "title": "Visualizing the Loss Landscape of Neural Nets",
+    "openalex_id": "https://openalex.org/W2777662428",
+    "num_citations": 621,
+    "year": 2017,
+    "url": "https://openalex.org/W2777662428",
+    "similarity": 1.0
+  },
+  "Understanding Short-Horizon Bias in Stochastic Meta-Optimization": {
+    "title": "Understanding Short-Horizon Bias in Stochastic Meta-Optimization",
+    "openalex_id": "https://openalex.org/W2786615446",
+    "num_citations": 45,
+    "year": 2018,
+    "url": "https://openalex.org/W2786615446",
+    "similarity": 1.0
+  },
+  "Unsupervised Learning of Goal Spaces for Intrinsically Motivated Goal Exploration": {
+    "title": "Unsupervised Learning of Goal Spaces for Intrinsically Motivated Goal Exploration",
+    "openalex_id": "https://openalex.org/W2786917922",
+    "num_citations": 49,
+    "year": 2018,
+    "url": "https://openalex.org/W2786917922",
+    "similarity": 1.0
+  },
+  "HexaConv": {
+    "title": "HexaConv",
+    "openalex_id": "https://openalex.org/W4295135164",
+    "num_citations": 10,
+    "year": 2018,
+    "url": "https://openalex.org/W4295135164",
+    "similarity": 1.0
+  },
+  "Towards better understanding of gradient-based attribution methods for Deep Neural Networks": {
+    "title": "Towards better understanding of gradient-based attribution methods for Deep Neural Networks",
+    "openalex_id": "https://openalex.org/W2785760873",
+    "num_citations": 385,
+    "year": 2018,
+    "url": "https://openalex.org/W2785760873",
+    "similarity": 1.0
+  },
+  "An efficient framework for learning sentence representations": {
+    "title": "An efficient framework for learning sentence representations",
+    "openalex_id": "https://openalex.org/W2786464815",
+    "num_citations": 299,
+    "year": 2018,
+    "url": "https://openalex.org/W2786464815",
+    "similarity": 1.0
+  },
+  "TreeQN and ATreeC: Differentiable Tree-Structured Models for Deep Reinforcement Learning": {
+    "title": "TreeQN and ATreeC: Differentiable Tree-Structured Models for Deep Reinforcement Learning",
+    "openalex_id": "https://openalex.org/W2788049526",
+    "num_citations": 28,
+    "year": 2017,
+    "url": "https://openalex.org/W2788049526",
+    "similarity": 1.0
+  },
+  "Residual Connections Encourage Iterative Inference": {
+    "title": "Residual Connections Encourage Iterative Inference",
+    "openalex_id": "https://openalex.org/W2765720631",
+    "num_citations": 42,
+    "year": 2017,
+    "url": "https://openalex.org/W2765720631",
+    "similarity": 1.0
+  },
+  "Non-Autoregressive Neural Machine Translation": {
+    "title": "Non-Autoregressive Neural Machine Translation",
+    "openalex_id": "https://openalex.org/W2767206889",
+    "num_citations": 449,
+    "year": 2017,
+    "url": "https://openalex.org/W2767206889",
+    "similarity": 1.0
+  },
+  "Learning Approximate Inference Networks for Structured Prediction": {
+    "title": "Learning Approximate Inference Networks for Structured Prediction",
+    "openalex_id": "https://openalex.org/W2962791537",
+    "num_citations": 27,
+    "year": 2018,
+    "url": "https://openalex.org/W2962791537",
+    "similarity": 1.0
+  },
+  "Memorization Precedes Generation: Learning Unsupervised GANs with Memory Networks": {
+    "title": "Memorization Precedes Generation: Learning Unsupervised GANs with Memory Networks",
+    "openalex_id": "https://openalex.org/W2963133080",
+    "num_citations": 20,
+    "year": 2018,
+    "url": "https://openalex.org/W2963133080",
+    "similarity": 1.0
+  },
+  "Wasserstein Auto-Encoders": {
+    "title": "Wasserstein Auto-Encoders",
+    "openalex_id": "https://openalex.org/W2963746531",
+    "num_citations": 537,
+    "year": 2018,
+    "url": "https://openalex.org/W2963746531",
+    "similarity": 1.0
+  },
+  "Characterizing Adversarial Subspaces Using Local Intrinsic Dimensionality": {
+    "title": "Characterizing Adversarial Subspaces Using Local Intrinsic Dimensionality",
+    "openalex_id": "https://openalex.org/W2963158386",
+    "num_citations": 401,
+    "year": 2018,
+    "url": "https://openalex.org/W2963158386",
+    "similarity": 1.0
+  },
+  "Emergent Complexity via Multi-Agent Competition": {
+    "title": "Emergent Complexity via Multi-Agent Competition",
+    "openalex_id": "https://openalex.org/W2762117857",
+    "num_citations": 146,
+    "year": 2017,
+    "url": "https://openalex.org/W2762117857",
+    "similarity": 1.0
+  },
+  "Shifting Mean Activation Towards Zero with Bipolar Activation Functions": {
+    "title": "Shifting Mean Activation Towards Zero with Bipolar Activation Functions",
+    "openalex_id": "https://openalex.org/W2755304340",
+    "num_citations": 10,
+    "year": 2017,
+    "url": "https://openalex.org/W2755304340",
+    "similarity": 1.0
+  },
+  "Improving GANs Using Optimal Transport": {
+    "title": "Improving GANs Using Optimal Transport",
+    "openalex_id": "https://openalex.org/W2785672818",
+    "num_citations": 46,
+    "year": 2018,
+    "url": "https://openalex.org/W2785672818",
+    "similarity": 1.0
+  },
+  "On the insufficiency of existing momentum schemes for Stochastic Optimization": {
+    "title": "On the insufficiency of existing momentum schemes for Stochastic Optimization",
+    "openalex_id": "https://openalex.org/W2787481791",
+    "num_citations": 10,
+    "year": 2018,
+    "url": "https://openalex.org/W2787481791",
+    "similarity": 1.0
+  },
+  "Graph Partition Neural Networks for Semi-Supervised Classification": {
+    "title": "Graph Partition Neural Networks for Semi-Supervised Classification",
+    "openalex_id": "https://openalex.org/W2773131141",
+    "num_citations": 45,
+    "year": 2018,
+    "url": "https://openalex.org/W2773131141",
+    "similarity": 1.0
+  },
+  "Learning to cluster in order to transfer across domains and tasks": {
+    "title": "Learning to cluster in order to transfer across domains and tasks",
+    "openalex_id": "https://openalex.org/W2769159728",
+    "num_citations": 92,
+    "year": 2017,
+    "url": "https://openalex.org/W2769159728",
+    "similarity": 1.0
+  },
+  "Cascade Adversarial Machine Learning Regularized with a Unified Embedding": {
+    "title": "Cascade Adversarial Machine Learning Regularized with a Unified Embedding",
+    "openalex_id": "https://openalex.org/W2744026832",
+    "num_citations": 62,
+    "year": 2017,
+    "url": "https://openalex.org/W2744026832",
+    "similarity": 1.0
+  },
+  "A DIRT-T Approach to Unsupervised Domain Adaptation": {
+    "title": "A DIRT-T Approach to Unsupervised Domain Adaptation",
+    "openalex_id": "https://openalex.org/W2786559811",
+    "num_citations": 293,
+    "year": 2018,
+    "url": "https://openalex.org/W2786559811",
+    "similarity": 1.0
+  },
+  "All-but-the-Top: Simple and Effective Postprocessing for Word Representations": {
+    "title": "All-but-the-Top: Simple and Effective Postprocessing for Word Representations",
+    "openalex_id": "https://openalex.org/W2964073004",
+    "num_citations": 134,
+    "year": 2018,
+    "url": "https://openalex.org/W2964073004",
+    "similarity": 1.0
+  },
+  "Variance Reduction for Policy Gradient with Action-Dependent Factorized Baselines": {
+    "title": "Variance Reduction for Policy Gradient with Action-Dependent Factorized Baselines",
+    "openalex_id": "https://openalex.org/W2786303200",
+    "num_citations": 72,
+    "year": 2018,
+    "url": "https://openalex.org/W2786303200",
+    "similarity": 1.0
+  },
+  "Fix your classifier: the marginal value of training the last weight layer": {
+    "title": "Fix your classifier: the marginal value of training the last weight layer",
+    "openalex_id": "https://openalex.org/W2783297929",
+    "num_citations": 12,
+    "year": 2018,
+    "url": "https://openalex.org/W2783297929",
+    "similarity": 1.0
+  },
+  "Demystifying MMD GANs": {
+    "title": "Demystifying MMD GANs",
+    "openalex_id": "https://openalex.org/W2782010268",
+    "num_citations": 99,
+    "year": 2018,
+    "url": "https://openalex.org/W2782010268",
+    "similarity": 1.0
+  },
+  "The Implicit Bias of Gradient Descent on Separable Data": {
+    "title": "The Implicit Bias of Gradient Descent on Separable Data",
+    "openalex_id": "https://openalex.org/W2766965791",
+    "num_citations": 15,
+    "year": 2017,
+    "url": "https://openalex.org/W2766965791",
+    "similarity": 1.0
+  },
+  "Data Augmentation Generative Adversarial Networks": {
+    "title": "Data Augmentation Generative Adversarial Networks",
+    "openalex_id": "https://openalex.org/W2770173563",
+    "num_citations": 804,
+    "year": 2017,
+    "url": "https://openalex.org/W2770173563",
+    "similarity": 1.0
+  },
+  "DNA-GAN: Learning Disentangled Representations from Multi-Attribute Images": {
+    "title": "DNA-GAN: Learning Disentangled Representations from Multi-Attribute Images",
+    "openalex_id": "https://openalex.org/W2963008857",
+    "num_citations": 53,
+    "year": 2017,
+    "url": "https://openalex.org/W2963008857",
+    "similarity": 1.0
+  },
+  "Fraternal Dropout": {
+    "title": "Fraternal Dropout",
+    "openalex_id": "https://openalex.org/W2951643768",
+    "num_citations": 8,
+    "year": 2017,
+    "url": "https://openalex.org/W2951643768",
+    "similarity": 1.0
+  },
+  "Neural Speed Reading via Skim-RNN": {
+    "title": "Neural Speed Reading via Skim-RNN",
+    "openalex_id": "https://openalex.org/W2767693128",
+    "num_citations": 53,
+    "year": 2017,
+    "url": "https://openalex.org/W2767693128",
+    "similarity": 1.0
+  },
+  "Learning General Purpose Distributed Sentence Representations via Large Scale Multi-task Learning": {
+    "title": "Learning General Purpose Distributed Sentence Representations via Large Scale Multi-task Learning",
+    "openalex_id": "https://openalex.org/W2786685006",
+    "num_citations": 101,
+    "year": 2018,
+    "url": "https://openalex.org/W2786685006",
+    "similarity": 1.0
+  },
+  "Flipout: Efficient Pseudo-Independent Weight Perturbations on Mini-Batches": {
+    "title": "Flipout: Efficient Pseudo-Independent Weight Perturbations on Mini-Batches",
+    "openalex_id": "https://openalex.org/W2785606994",
+    "num_citations": 175,
+    "year": 2018,
+    "url": "https://openalex.org/W2785606994",
+    "similarity": 1.0
+  },
+  "Bi-Directional Block Self-Attention for Fast and Memory-Efficient Sequence Modeling": {
+    "title": "Bi-Directional Block Self-Attention for Fast and Memory-Efficient Sequence Modeling",
+    "openalex_id": "https://openalex.org/W2786396726",
+    "num_citations": 77,
+    "year": 2018,
+    "url": "https://openalex.org/W2786396726",
+    "similarity": 1.0
+  },
+  "SpectralNet: Spectral Clustering using Deep Neural Networks": {
+    "title": "SpectralNet: Spectral Clustering using Deep Neural Networks",
+    "openalex_id": "https://openalex.org/W2781711557",
+    "num_citations": 118,
+    "year": 2018,
+    "url": "https://openalex.org/W2781711557",
+    "similarity": 1.0
+  },
+  "Compositional Obverter Communication Learning from Raw Visual Input": {
+    "title": "Compositional Obverter Communication Learning from Raw Visual Input",
+    "openalex_id": "https://openalex.org/W2963536577",
+    "num_citations": 36,
+    "year": 2018,
+    "url": "https://openalex.org/W2963536577",
+    "similarity": 1.0
+  },
+  "Building Generalizable Agents with a Realistic and Rich 3D Environment": {
+    "title": "Building Generalizable Agents with a Realistic and Rich 3D Environment",
+    "openalex_id": "https://openalex.org/W2783375473",
+    "num_citations": 253,
+    "year": 2018,
+    "url": "https://openalex.org/W2783375473",
+    "similarity": 1.0
+  },
+  "Emergent Translation in Multi-Agent Communication": {
+    "title": "Emergent Translation in Multi-Agent Communication",
+    "openalex_id": "https://openalex.org/W2766184602",
+    "num_citations": 40,
+    "year": 2017,
+    "url": "https://openalex.org/W2766184602",
+    "similarity": 1.0
+  },
+  "DORA The Explorer: Directed Outreaching Reinforcement Action-Selection": {
+    "title": "DORA The Explorer: Directed Outreaching Reinforcement Action-Selection",
+    "openalex_id": "https://openalex.org/W2787236409",
+    "num_citations": 37,
+    "year": 2018,
+    "url": "https://openalex.org/W2787236409",
+    "similarity": 1.0
+  },
+  "Neural Sketch Learning for Conditional Program Generation": {
+    "title": "Neural Sketch Learning for Conditional Program Generation",
+    "openalex_id": "https://openalex.org/W2786407536",
+    "num_citations": 52,
+    "year": 2017,
+    "url": "https://openalex.org/W2786407536",
+    "similarity": 1.0
+  },
+  "Unsupervised Machine Translation Using Monolingual Corpora Only": {
+    "title": "Unsupervised Machine Translation Using Monolingual Corpora Only",
+    "openalex_id": "https://openalex.org/W2765961751",
+    "num_citations": 198,
+    "year": 2017,
+    "url": "https://openalex.org/W2765961751",
+    "similarity": 1.0
+  },
+  "Learning a Generative Model for Validity in Complex Discrete Structures": {
+    "title": "Learning a Generative Model for Validity in Complex Discrete Structures",
+    "openalex_id": "https://openalex.org/W2963315974",
+    "num_citations": 12,
+    "year": 2017,
+    "url": "https://openalex.org/W2963315974",
+    "similarity": 1.0
+  },
+  "Emergent Communication in a Multi-Modal, Multi-Step Referential Game": {
+    "title": "Emergent Communication in a Multi-Modal, Multi-Step Referential Game",
+    "error": "API Error 400"
+  },
+  "Deep Learning as a Mixed Convex-Combinatorial Optimization Problem": {
+    "title": "Deep Learning as a Mixed Convex-Combinatorial Optimization Problem",
+    "openalex_id": "https://openalex.org/W2765185632",
+    "num_citations": 17,
+    "year": 2017,
+    "url": "https://openalex.org/W2765185632",
+    "similarity": 1.0
+  },
+  "Synthesizing realistic neural population activity patterns using Generative Adversarial Networks": {
+    "title": "Synthesizing realistic neural population activity patterns using Generative Adversarial Networks",
+    "openalex_id": "https://openalex.org/W2785469625",
+    "num_citations": 25,
+    "year": 2018,
+    "url": "https://openalex.org/W2785469625",
+    "similarity": 1.0
+  },
+  "Learning Awareness Models": {
+    "title": "Learning Awareness Models",
+    "openalex_id": "https://openalex.org/W2785937356",
+    "num_citations": 13,
+    "year": 2018,
+    "url": "https://openalex.org/W2785937356",
+    "similarity": 1.0
+  },
+  "Towards Neural Phrase-based Machine Translation": {
+    "title": "Towards Neural Phrase-based Machine Translation",
+    "openalex_id": "https://openalex.org/W2755806193",
+    "num_citations": 24,
+    "year": 2017,
+    "url": "https://openalex.org/W2755806193",
+    "similarity": 1.0
+  },
+  "QANet: Combining Local Convolution with Global Self-Attention for Reading Comprehension": {
+    "title": "QANet: Combining Local Convolution with Global Self-Attention for Reading Comprehension",
+    "openalex_id": "https://openalex.org/W2798858969",
+    "num_citations": 417,
+    "year": 2018,
+    "url": "https://openalex.org/W2798858969",
+    "similarity": 1.0
+  },
+  "Zero-Shot Visual Imitation": {
+    "title": "Zero-Shot Visual Imitation",
+    "openalex_id": "https://openalex.org/W2786487443",
+    "num_citations": 73,
+    "year": 2018,
+    "url": "https://openalex.org/W2786487443",
+    "similarity": 1.0
+  },
+  "Measuring the Intrinsic Dimension of Objective Landscapes": {
+    "title": "Measuring the Intrinsic Dimension of Objective Landscapes",
+    "openalex_id": "https://openalex.org/W2785533664",
+    "num_citations": 63,
+    "year": 2018,
+    "url": "https://openalex.org/W2785533664",
+    "similarity": 1.0
+  },
+  "Compositional Attention Networks for Machine Reasoning": {
+    "title": "Compositional Attention Networks for Machine Reasoning",
+    "openalex_id": "https://openalex.org/W2786209943",
+    "num_citations": 132,
+    "year": 2018,
+    "url": "https://openalex.org/W2786209943",
+    "similarity": 1.0
+  },
+  "Interactive Grounded Language Acquisition and Generalization in a 2D World": {
+    "title": "Interactive Grounded Language Acquisition and Generalization in a 2D World",
+    "openalex_id": "https://openalex.org/W2785955089",
+    "num_citations": 31,
+    "year": 2018,
+    "url": "https://openalex.org/W2785955089",
+    "similarity": 1.0
+  },
+  "Hierarchical Density Order Embeddings": {
+    "title": "Hierarchical Density Order Embeddings",
+    "openalex_id": "https://openalex.org/W2799174950",
+    "num_citations": 4,
+    "year": 2018,
+    "url": "https://openalex.org/W2799174950",
+    "similarity": 1.0
+  },
+  "Gradient Estimators for Implicit Models": {
+    "title": "Gradient Estimators for Implicit Models",
+    "openalex_id": "https://openalex.org/W2620283749",
+    "num_citations": 35,
+    "year": 2017,
+    "url": "https://openalex.org/W2620283749",
+    "similarity": 1.0
+  },
+  "Learn to Pay Attention": {
+    "title": "Learn to Pay Attention",
+    "openalex_id": "https://openalex.org/W2787420051",
+    "num_citations": 124,
+    "year": 2018,
+    "url": "https://openalex.org/W2787420051",
+    "similarity": 1.0
+  },
+  "Evidence Aggregation for Answer Re-Ranking in Open-Domain Question Answering": {
+    "title": "Evidence Aggregation for Answer Re-Ranking in Open-Domain Question Answering",
+    "openalex_id": "https://openalex.org/W2963195889",
+    "num_citations": 108,
+    "year": 2017,
+    "url": "https://openalex.org/W2963195889",
+    "similarity": 1.0
+  },
+  "Combining Symbolic Expressions and Black-box Function Evaluations in Neural Programs": {
+    "title": "Combining Symbolic Expressions and Black-box Function Evaluations in Neural Programs",
+    "openalex_id": "https://openalex.org/W2798872050",
+    "num_citations": 9,
+    "year": 2018,
+    "url": "https://openalex.org/W2798872050",
+    "similarity": 1.0
+  },
+  "Divide-and-Conquer Reinforcement Learning": {
+    "title": "Divide-and-Conquer Reinforcement Learning",
+    "openalex_id": "https://openalex.org/W2768578623",
+    "num_citations": 13,
+    "year": 2017,
+    "url": "https://openalex.org/W2768578623",
+    "similarity": 1.0
+  },
+  "Intrinsic Motivation and Automatic Curricula via Asymmetric Self-Play": {
+    "title": "Intrinsic Motivation and Automatic Curricula via Asymmetric Self-Play",
+    "openalex_id": "https://openalex.org/W2603088459",
+    "num_citations": 142,
+    "year": 2017,
+    "url": "https://openalex.org/W2603088459",
+    "similarity": 1.0
+  },
+  "Beyond Word Importance:  Contextual Decomposition to Extract Interactions from LSTMs": {
+    "title": "Beyond Word Importance:  Contextual Decomposition to Extract Interactions from LSTMs",
+    "openalex_id": "https://openalex.org/W2782630856",
+    "num_citations": 118,
+    "year": 2018,
+    "url": "https://openalex.org/W2782630856",
+    "similarity": 1.0
+  },
+  "Quantitatively Evaluating GANs With Divergences Proposed for Training": {
+    "title": "Quantitatively Evaluating GANs With Divergences Proposed for Training",
+    "openalex_id": "https://openalex.org/W2786148629",
+    "num_citations": 15,
+    "year": 2018,
+    "url": "https://openalex.org/W2786148629",
+    "similarity": 1.0
+  },
+  "Gaussian Process Behaviour in Wide Deep Neural Networks": {
+    "title": "Gaussian Process Behaviour in Wide Deep Neural Networks",
+    "openalex_id": "https://openalex.org/W4294205985",
+    "num_citations": 90,
+    "year": 2018,
+    "url": "https://openalex.org/W4294205985",
+    "similarity": 1.0
+  },
+  "Generalizing Across Domains via Cross-Gradient Training": {
+    "title": "Generalizing Across Domains via Cross-Gradient Training",
+    "openalex_id": "https://openalex.org/W2787226294",
+    "num_citations": 268,
+    "year": 2018,
+    "url": "https://openalex.org/W2787226294",
+    "similarity": 1.0
+  },
+  "Learning to Teach": {
+    "title": "Learning to Teach",
+    "openalex_id": "https://openalex.org/W1964560776",
+    "num_citations": 5067,
+    "year": 2003,
+    "url": "https://openalex.org/W1964560776",
+    "similarity": 0.6382978723404256,
+    "error": "low_confidence_match",
+    "found_title": "Learning to Teach in Higher Education"
+  },
+  "Improving GAN Training via Binarized Representation Entropy (BRE) Regularization": {
+    "title": "Improving GAN Training via Binarized Representation Entropy (BRE) Regularization",
+    "openalex_id": "https://openalex.org/W2786720420",
+    "num_citations": 9,
+    "year": 2018,
+    "url": "https://openalex.org/W2786720420",
+    "similarity": 1.0
+  },
+  "Decoding Decoders: Finding Optimal Representation Spaces for Unsupervised Similarity Tasks": {
+    "title": "Decoding Decoders: Finding Optimal Representation Spaces for Unsupervised Similarity Tasks",
+    "openalex_id": "https://openalex.org/W2964314423",
+    "num_citations": 5,
+    "year": 2018,
+    "url": "https://openalex.org/W2964314423",
+    "similarity": 1.0
+  },
+  "Generative networks as inverse problems with Scattering transforms": {
+    "title": "Generative networks as inverse problems with Scattering transforms",
+    "openalex_id": "https://openalex.org/W2786052568",
+    "num_citations": 7,
+    "year": 2018,
+    "url": "https://openalex.org/W2786052568",
+    "similarity": 1.0
+  },
+  "Learning From Noisy Singly-labeled Data": {
+    "title": "Learning From Noisy Singly-labeled Data",
+    "openalex_id": "https://openalex.org/W2772357980",
+    "num_citations": 85,
+    "year": 2017,
+    "url": "https://openalex.org/W2772357980",
+    "similarity": 1.0
+  },
+  "Variational Continual Learning": {
+    "title": "Variational Continual Learning",
+    "openalex_id": "https://openalex.org/W2765101016",
+    "num_citations": 294,
+    "year": 2017,
+    "url": "https://openalex.org/W2765101016",
+    "similarity": 1.0
+  },
+  "PixelDefend: Leveraging Generative Models to Understand and Defend against Adversarial Examples": {
+    "title": "PixelDefend: Leveraging Generative Models to Understand and Defend against Adversarial Examples",
+    "openalex_id": "https://openalex.org/W2765233338",
+    "num_citations": 293,
+    "year": 2017,
+    "url": "https://openalex.org/W2765233338",
+    "similarity": 1.0
+  },
+  "Divide and Conquer Networks": {
+    "title": "Divide and Conquer Networks",
+    "openalex_id": "https://openalex.org/W3035679448",
+    "num_citations": 128,
+    "year": 2020,
+    "url": "https://openalex.org/W3035679448",
+    "similarity": 0.5333333333333333,
+    "error": "low_confidence_match",
+    "found_title": "SDC-Depth: Semantic Divide-and-Conquer Network for Monocular Depth Estimation"
+  },
+  "Communication Algorithms via Deep Learning": {
+    "title": "Communication Algorithms via Deep Learning",
+    "openalex_id": "https://openalex.org/W2787490206",
+    "num_citations": 48,
+    "year": 2018,
+    "url": "https://openalex.org/W2787490206",
+    "similarity": 1.0
+  },
+  "Natural Language Inference over Interaction Space": {
+    "title": "Natural Language Inference over Interaction Space",
+    "openalex_id": "https://openalex.org/W2756386045",
+    "num_citations": 192,
+    "year": 2017,
+    "url": "https://openalex.org/W2756386045",
+    "similarity": 1.0
+  },
+  "TRUNCATED HORIZON POLICY SEARCH: COMBINING REINFORCEMENT LEARNING & IMITATION LEARNING": {
+    "title": "TRUNCATED HORIZON POLICY SEARCH: COMBINING REINFORCEMENT LEARNING & IMITATION LEARNING",
+    "openalex_id": "https://openalex.org/W2805805280",
+    "num_citations": 38,
+    "year": 2018,
+    "url": "https://openalex.org/W2805805280",
+    "similarity": 1.0
+  },
+  "Multi-Mention Learning for Reading Comprehension with Neural Cascades": {
+    "title": "Multi-Mention Learning for Reading Comprehension with Neural Cascades",
+    "openalex_id": "https://openalex.org/W2765235230",
+    "num_citations": 3,
+    "year": 2017,
+    "url": "https://openalex.org/W2765235230",
+    "similarity": 1.0
+  },
+  "Active Learning for Convolutional Neural Networks: A Core-Set Approach": {
+    "title": "Active Learning for Convolutional Neural Networks: A Core-Set Approach",
+    "openalex_id": "https://openalex.org/W2774918944",
+    "num_citations": 680,
+    "year": 2017,
+    "url": "https://openalex.org/W2774918944",
+    "similarity": 1.0
+  },
+  "TD or not TD: Analyzing the Role of Temporal Differencing in Deep Reinforcement Learning": {
+    "title": "TD or not TD: Analyzing the Role of Temporal Differencing in Deep Reinforcement Learning",
+    "openalex_id": "https://openalex.org/W2796278121",
+    "num_citations": 8,
+    "year": 2018,
+    "url": "https://openalex.org/W2796278121",
+    "similarity": 1.0
+  },
+  "SCAN: Learning Hierarchical Compositional Visual Concepts": {
+    "title": "SCAN: Learning Hierarchical Compositional Visual Concepts",
+    "openalex_id": "https://openalex.org/W2786897815",
+    "num_citations": 56,
+    "year": 2017,
+    "url": "https://openalex.org/W2786897815",
+    "similarity": 1.0
+  },
+  "Multi-Scale Dense Networks for Resource Efficient Image Classification": {
+    "title": "Multi-Scale Dense Networks for Resource Efficient Image Classification",
+    "openalex_id": "https://openalex.org/W2767421475",
+    "num_citations": 245,
+    "year": 2017,
+    "url": "https://openalex.org/W2767421475",
+    "similarity": 1.0
+  },
+  "An image representation based convolutional network for DNA classification": {
+    "title": "An image representation based convolutional network for DNA classification",
+    "openalex_id": "https://openalex.org/W2963600922",
+    "num_citations": 18,
+    "year": 2018,
+    "url": "https://openalex.org/W2963600922",
+    "similarity": 1.0
+  },
+  "Variational Message Passing with Structured Inference Networks": {
+    "title": "Variational Message Passing with Structured Inference Networks",
+    "openalex_id": "https://openalex.org/W2787698019",
+    "num_citations": 21,
+    "year": 2018,
+    "url": "https://openalex.org/W2787698019",
+    "similarity": 1.0
+  },
+  "Certifying Some Distributional Robustness with Principled Adversarial Training": {
+    "title": "Certifying Some Distributional Robustness with Principled Adversarial Training",
+    "openalex_id": "https://openalex.org/W2767075075",
+    "num_citations": 345,
+    "year": 2017,
+    "url": "https://openalex.org/W2767075075",
+    "similarity": 1.0
+  },
+  "Weightless: Lossy Weight Encoding For Deep Neural Network Compression": {
+    "title": "Weightless: Lossy Weight Encoding For Deep Neural Network Compression",
+    "openalex_id": "https://openalex.org/W2770398148",
+    "num_citations": 28,
+    "year": 2017,
+    "url": "https://openalex.org/W2770398148",
+    "similarity": 1.0
+  },
+  "The Kanerva Machine: A Generative Distributed Memory": {
+    "title": "The Kanerva Machine: A Generative Distributed Memory",
+    "openalex_id": "https://openalex.org/W2786713498",
+    "num_citations": 13,
+    "year": 2018,
+    "url": "https://openalex.org/W2786713498",
+    "similarity": 1.0
+  },
+  "On the importance of single directions for generalization": {
+    "title": "On the importance of single directions for generalization",
+    "openalex_id": "https://openalex.org/W2785648721",
+    "num_citations": 195,
+    "year": 2018,
+    "url": "https://openalex.org/W2785648721",
+    "similarity": 1.0
+  },
+  "Simulating Action Dynamics with Neural Process Networks": {
+    "title": "Simulating Action Dynamics with Neural Process Networks",
+    "openalex_id": "https://openalex.org/W2770056630",
+    "num_citations": 26,
+    "year": 2017,
+    "url": "https://openalex.org/W2770056630",
+    "similarity": 1.0
+  },
+  "Reinforcement Learning Algorithm Selection": {
+    "title": "Reinforcement Learning Algorithm Selection",
+    "openalex_id": "https://openalex.org/W1492936035",
+    "num_citations": 135,
+    "year": 2000,
+    "url": "https://openalex.org/W1492936035",
+    "similarity": 0.5060240963855421,
+    "error": "low_confidence_match",
+    "found_title": "Algorithm Selection using Reinforcement Learning"
+  },
+  "Feature Incay for Representation Regularization": {
+    "title": "Feature Incay for Representation Regularization",
+    "openalex_id": "https://openalex.org/W2617274020",
+    "num_citations": 13,
+    "year": 2017,
+    "url": "https://openalex.org/W2617274020",
+    "similarity": 1.0
+  },
+  "Distributed Fine-tuning of Language Models on Private Data": {
+    "title": "Distributed Fine-tuning of Language Models on Private Data",
+    "openalex_id": "https://openalex.org/W2785390762",
+    "num_citations": 10,
+    "year": 2018,
+    "url": "https://openalex.org/W2785390762",
+    "similarity": 1.0
+  },
+  "Parametrized Hierarchical Procedures for Neural Programming": {
+    "title": "Parametrized Hierarchical Procedures for Neural Programming",
+    "openalex_id": "https://openalex.org/W2786760026",
+    "num_citations": 20,
+    "year": 2018,
+    "url": "https://openalex.org/W2786760026",
+    "similarity": 1.0
+  },
+  "Learning Sparse Latent Representations with the Deep Copula Information Bottleneck": {
+    "title": "Learning Sparse Latent Representations with the Deep Copula Information Bottleneck",
+    "openalex_id": "https://openalex.org/W2785319177",
+    "num_citations": 14,
+    "year": 2018,
+    "url": "https://openalex.org/W2785319177",
+    "similarity": 1.0
+  },
+  "Tree-to-tree Neural Networks for Program Translation": {
+    "title": "Tree-to-tree Neural Networks for Program Translation",
+    "openalex_id": "https://openalex.org/W2786865417",
+    "num_citations": 83,
+    "year": 2018,
+    "url": "https://openalex.org/W2786865417",
+    "similarity": 1.0
+  },
+  "Towards Synthesizing Complex Programs From Input-Output Examples": {
+    "title": "Towards Synthesizing Complex Programs From Input-Output Examples",
+    "openalex_id": "https://openalex.org/W2962688617",
+    "num_citations": 22,
+    "year": 2018,
+    "url": "https://openalex.org/W2962688617",
+    "similarity": 1.0
+  },
+  "SGD Learns Over-parameterized Networks that Provably Generalize on Linearly Separable Data": {
+    "title": "SGD Learns Over-parameterized Networks that Provably Generalize on Linearly Separable Data",
+    "openalex_id": "https://openalex.org/W2765861987",
+    "num_citations": 37,
+    "year": 2017,
+    "url": "https://openalex.org/W2765861987",
+    "similarity": 1.0
+  },
+  "Universal Agent for Disentangling Environments and Tasks": {
+    "title": "Universal Agent for Disentangling Environments and Tasks",
+    "openalex_id": "https://openalex.org/W2786916331",
+    "num_citations": 6,
+    "year": 2018,
+    "url": "https://openalex.org/W2786916331",
+    "similarity": 1.0
+  },
+  "Apprentice: Using Knowledge Distillation Techniques To Improve Low-Precision Network Accuracy": {
+    "title": "Apprentice: Using Knowledge Distillation Techniques To Improve Low-Precision Network Accuracy",
+    "openalex_id": "https://openalex.org/W2769312802",
+    "num_citations": 154,
+    "year": 2017,
+    "url": "https://openalex.org/W2769312802",
+    "similarity": 1.0
+  },
+  "Semi-parametric topological memory for navigation": {
+    "title": "Semi-parametric topological memory for navigation",
+    "openalex_id": "https://openalex.org/W2786472725",
+    "num_citations": 55,
+    "year": 2018,
+    "url": "https://openalex.org/W2786472725",
+    "similarity": 1.0
+  },
+  "Automatically Inferring Data Quality for Spatiotemporal Forecasting": {
+    "title": "Automatically Inferring Data Quality for Spatiotemporal Forecasting",
+    "openalex_id": "https://openalex.org/W2785573599",
+    "num_citations": 4,
+    "year": 2018,
+    "url": "https://openalex.org/W2785573599",
+    "similarity": 1.0
+  },
+  "Hierarchical and Interpretable Skill Acquisition in Multi-task Reinforcement Learning": {
+    "title": "Hierarchical and Interpretable Skill Acquisition in Multi-task Reinforcement Learning",
+    "openalex_id": "https://openalex.org/W2780057514",
+    "num_citations": 57,
+    "year": 2017,
+    "url": "https://openalex.org/W2780057514",
+    "similarity": 1.0
+  },
+  "Learning to Multi-Task by Active Sampling": {
+    "title": "Learning to Multi-Task by Active Sampling",
+    "openalex_id": "https://openalex.org/W2680401079",
+    "num_citations": 10,
+    "year": 2017,
+    "url": "https://openalex.org/W2680401079",
+    "similarity": 1.0
+  },
+  "Consequentialist conditional cooperation in social dilemmas with imperfect information": {
+    "title": "Consequentialist conditional cooperation in social dilemmas with imperfect information",
+    "openalex_id": "https://openalex.org/W2766328909",
+    "num_citations": 21,
+    "year": 2017,
+    "url": "https://openalex.org/W2766328909",
+    "similarity": 1.0
+  },
+  "Leveraging Grammar and Reinforcement Learning for Neural Program Synthesis": {
+    "title": "Leveraging Grammar and Reinforcement Learning for Neural Program Synthesis",
+    "openalex_id": "https://openalex.org/W2785423445",
+    "num_citations": 48,
+    "year": 2018,
+    "url": "https://openalex.org/W2785423445",
+    "similarity": 1.0
+  },
+  "Stochastic Activation Pruning for Robust Adversarial Defense": {
+    "title": "Stochastic Activation Pruning for Robust Adversarial Defense",
+    "openalex_id": "https://openalex.org/W2787733970",
+    "num_citations": 206,
+    "year": 2018,
+    "url": "https://openalex.org/W2787733970",
+    "similarity": 1.0
+  },
+  "Temporal Difference Models: Model-Free Deep RL for Model-Based Control": {
+    "title": "Temporal Difference Models: Model-Free Deep RL for Model-Based Control",
+    "openalex_id": "https://openalex.org/W2964036701",
+    "num_citations": 127,
+    "year": 2018,
+    "url": "https://openalex.org/W2964036701",
+    "similarity": 1.0
+  },
+  "On Unifying Deep Generative Models": {
+    "title": "On Unifying Deep Generative Models",
+    "openalex_id": "https://openalex.org/W2621386477",
+    "num_citations": 75,
+    "year": 2017,
+    "url": "https://openalex.org/W2621386477",
+    "similarity": 1.0
+  },
+  "Emergence of grid-like representations by training recurrent neural networks to perform spatial localization": {
+    "title": "Emergence of grid-like representations by training recurrent neural networks to perform spatial localization",
+    "openalex_id": "https://openalex.org/W2785527097",
+    "num_citations": 194,
+    "year": 2018,
+    "url": "https://openalex.org/W2785527097",
+    "similarity": 1.0
+  },
+  "Emergence of Linguistic Communication from  Referential Games with Symbolic and Pixel Input": {
+    "title": "Emergence of Linguistic Communication from  Referential Games with Symbolic and Pixel Input",
+    "openalex_id": "https://openalex.org/W2787615430",
+    "num_citations": 33,
+    "year": 2018,
+    "url": "https://openalex.org/W2787615430",
+    "similarity": 1.0
+  },
+  "Auto-Encoding Sequential Monte Carlo": {
+    "title": "Auto-Encoding Sequential Monte Carlo",
+    "openalex_id": "https://openalex.org/W2963723789",
+    "num_citations": 54,
+    "year": 2018,
+    "url": "https://openalex.org/W2963723789",
+    "similarity": 1.0
+  },
+  "Recasting Gradient-Based Meta-Learning as Hierarchical Bayes": {
+    "title": "Recasting Gradient-Based Meta-Learning as Hierarchical Bayes",
+    "openalex_id": "https://openalex.org/W2784596339",
+    "num_citations": 167,
+    "year": 2018,
+    "url": "https://openalex.org/W2784596339",
+    "similarity": 1.0
+  },
+  "Policy Optimization by Genetic Distillation ": {
+    "title": "Policy Optimization by Genetic Distillation ",
+    "openalex_id": "https://openalex.org/W2794487566",
+    "num_citations": 11,
+    "year": 2017,
+    "url": "https://openalex.org/W2794487566",
+    "similarity": 1.0
+  },
+  "Active Neural Localization": {
+    "title": "Active Neural Localization",
+    "openalex_id": "https://openalex.org/W2962958942",
+    "num_citations": 35,
+    "year": 2018,
+    "url": "https://openalex.org/W2962958942",
+    "similarity": 1.0
+  },
+  "The power of deeper networks for expressing natural functions": {
+    "title": "The power of deeper networks for expressing natural functions",
+    "openalex_id": "https://openalex.org/W2616463902",
+    "num_citations": 90,
+    "year": 2017,
+    "url": "https://openalex.org/W2616463902",
+    "similarity": 1.0
+  },
+  "Auto-Conditioned Recurrent Networks for Extended Complex Human Motion Synthesis": {
+    "title": "Auto-Conditioned Recurrent Networks for Extended Complex Human Motion Synthesis",
+    "openalex_id": "https://openalex.org/W2784473436",
+    "num_citations": 16,
+    "year": 2017,
+    "url": "https://openalex.org/W2784473436",
+    "similarity": 1.0
+  },
+  "A Hierarchical Model for Device Placement": {
+    "title": "A Hierarchical Model for Device Placement",
+    "openalex_id": "https://openalex.org/W2786414509",
+    "num_citations": 91,
+    "year": 2018,
+    "url": "https://openalex.org/W2786414509",
+    "similarity": 1.0
+  },
+  "Understanding Deep Neural Networks with Rectified Linear Units": {
+    "title": "Understanding Deep Neural Networks with Rectified Linear Units",
+    "openalex_id": "https://openalex.org/W2555745781",
+    "num_citations": 127,
+    "year": 2016,
+    "url": "https://openalex.org/W2555745781",
+    "similarity": 1.0
+  },
+  "Learning a neural response metric for retinal prosthesis": {
+    "title": "Learning a neural response metric for retinal prosthesis",
+    "openalex_id": "https://openalex.org/W2771430488",
+    "num_citations": 10,
+    "year": 2017,
+    "url": "https://openalex.org/W2771430488",
+    "similarity": 1.0
+  },
+  "Neural-Guided Deductive Search for Real-Time Program Synthesis from Examples": {
+    "title": "Neural-Guided Deductive Search for Real-Time Program Synthesis from Examples",
+    "openalex_id": "https://openalex.org/W2786248241",
+    "num_citations": 56,
+    "year": 2018,
+    "url": "https://openalex.org/W2786248241",
+    "similarity": 1.0
+  },
+  "Learning an Embedding Space for Transferable Robot Skills": {
+    "title": "Learning an Embedding Space for Transferable Robot Skills",
+    "openalex_id": "https://openalex.org/W2785342287",
+    "num_citations": 190,
+    "year": 2018,
+    "url": "https://openalex.org/W2785342287",
+    "similarity": 1.0
+  },
+  "Learning Differentially Private Recurrent Language Models": {
+    "title": "Learning Differentially Private Recurrent Language Models",
+    "openalex_id": "https://openalex.org/W2784621220",
+    "num_citations": 670,
+    "year": 2017,
+    "url": "https://openalex.org/W2784621220",
+    "similarity": 1.0
+  },
+  "Emergent Communication through Negotiation": {
+    "title": "Emergent Communication through Negotiation",
+    "openalex_id": "https://openalex.org/W2786533521",
+    "num_citations": 47,
+    "year": 2018,
+    "url": "https://openalex.org/W2786533521",
+    "similarity": 1.0
+  },
+  "Global Optimality Conditions for Deep Neural Networks": {
+    "title": "Global Optimality Conditions for Deep Neural Networks",
+    "openalex_id": "https://openalex.org/W2736030546",
+    "num_citations": 56,
+    "year": 2017,
+    "url": "https://openalex.org/W2736030546",
+    "similarity": 1.0
+  },
+  "Leave no Trace: Learning to Reset for Safe and Autonomous Reinforcement Learning": {
+    "title": "Leave no Trace: Learning to Reset for Safe and Autonomous Reinforcement Learning",
+    "openalex_id": "https://openalex.org/W2963780574",
+    "num_citations": 61,
+    "year": 2018,
+    "url": "https://openalex.org/W2963780574",
+    "similarity": 1.0
+  },
+  "Sensitivity and Generalization in Neural Networks: an Empirical Study": {
+    "title": "Sensitivity and Generalization in Neural Networks: an Empirical Study",
+    "openalex_id": "https://openalex.org/W2786622092",
+    "num_citations": 224,
+    "year": 2018,
+    "url": "https://openalex.org/W2786622092",
+    "similarity": 1.0
+  },
+  "Fidelity-Weighted Learning": {
+    "title": "Fidelity-Weighted Learning",
+    "openalex_id": "https://openalex.org/W2767272365",
+    "num_citations": 7,
+    "year": 2017,
+    "url": "https://openalex.org/W2767272365",
+    "similarity": 1.0
+  },
+  "A PAC-Bayesian Approach to Spectrally-Normalized Margin Bounds for Neural Networks": {
+    "title": "A PAC-Bayesian Approach to Spectrally-Normalized Margin Bounds for Neural Networks",
+    "openalex_id": "https://openalex.org/W2963285844",
+    "num_citations": 253,
+    "year": 2017,
+    "url": "https://openalex.org/W2963285844",
+    "similarity": 1.0
+  },
+  "On the Discrimination-Generalization Tradeoff in GANs": {
+    "title": "On the Discrimination-Generalization Tradeoff in GANs",
+    "openalex_id": "https://openalex.org/W2767609405",
+    "num_citations": 34,
+    "year": 2017,
+    "url": "https://openalex.org/W2767609405",
+    "similarity": 1.0
+  },
+  "Predicting Floor-Level for 911 Calls with Neural Networks and Smartphone Sensor Data": {
+    "title": "Predicting Floor-Level for 911 Calls with Neural Networks and Smartphone Sensor Data",
+    "openalex_id": "https://openalex.org/W2785344931",
+    "num_citations": 5,
+    "year": 2017,
+    "url": "https://openalex.org/W2785344931",
+    "similarity": 1.0
+  },
+  "Towards Image Understanding from Deep Compression Without Decoding": {
+    "title": "Towards Image Understanding from Deep Compression Without Decoding",
+    "openalex_id": "https://openalex.org/W2786977213",
+    "num_citations": 101,
+    "year": 2018,
+    "url": "https://openalex.org/W2786977213",
+    "similarity": 1.0
+  },
+  "Learning One-hidden-layer Neural Networks with Landscape Design": {
+    "title": "Learning One-hidden-layer Neural Networks with Landscape Design",
+    "openalex_id": "https://openalex.org/W2766371994",
+    "num_citations": 112,
+    "year": 2017,
+    "url": "https://openalex.org/W2766371994",
+    "similarity": 1.0
+  },
+  "Sparse Persistent RNNs: Squeezing Large Recurrent Networks On-Chip": {
+    "title": "Sparse Persistent RNNs: Squeezing Large Recurrent Networks On-Chip",
+    "openalex_id": "https://openalex.org/W2785566364",
+    "num_citations": 1,
+    "year": 2018,
+    "url": "https://openalex.org/W2785566364",
+    "similarity": 1.0
+  },
+  "Robustness of Classifiers to Universal Perturbations: A Geometric Perspective": {
+    "title": "Robustness of Classifiers to Universal Perturbations: A Geometric Perspective",
+    "openalex_id": "https://openalex.org/W2785887350",
+    "num_citations": 45,
+    "year": 2017,
+    "url": "https://openalex.org/W2785887350",
+    "similarity": 1.0
+  },
+  "Mastering the Dungeon: Grounded Language Learning by Mechanical Turker Descent": {
+    "title": "Mastering the Dungeon: Grounded Language Learning by Mechanical Turker Descent",
+    "openalex_id": "https://openalex.org/W2770646692",
+    "num_citations": 2,
+    "year": 2017,
+    "url": "https://openalex.org/W2770646692",
+    "similarity": 1.0
+  },
+  " Neural Map: Structured Memory for Deep Reinforcement Learning": {
+    "title": " Neural Map: Structured Memory for Deep Reinforcement Learning",
+    "openalex_id": "https://openalex.org/W2594903727",
+    "num_citations": 102,
+    "year": 2017,
+    "url": "https://openalex.org/W2594903727",
+    "similarity": 1.0
+  },
+  "Learning Wasserstein Embeddings": {
+    "title": "Learning Wasserstein Embeddings",
+    "openalex_id": "https://openalex.org/W2765562515",
+    "num_citations": 9,
+    "year": 2017,
+    "url": "https://openalex.org/W2765562515",
+    "similarity": 1.0
+  },
+  "Hierarchical Subtask Discovery with Non-Negative Matrix Factorization": {
+    "title": "Hierarchical Subtask Discovery with Non-Negative Matrix Factorization",
+    "openalex_id": "https://openalex.org/W2744733356",
+    "num_citations": 5,
+    "year": 2017,
+    "url": "https://openalex.org/W2744733356",
+    "similarity": 1.0
+  },
+  "Can Neural Networks Understand Logical Entailment?": {
+    "title": "Can Neural Networks Understand Logical Entailment?",
+    "openalex_id": "https://openalex.org/W2787525746",
+    "num_citations": 10,
+    "year": 2018,
+    "url": "https://openalex.org/W2787525746",
+    "similarity": 1.0
+  },
+  "SEARNN: Training RNNs with global-local losses": {
+    "title": "SEARNN: Training RNNs with global-local losses",
+    "openalex_id": "https://openalex.org/W2626177496",
+    "num_citations": 12,
+    "year": 2017,
+    "url": "https://openalex.org/W2626177496",
+    "similarity": 1.0
+  },
+  "Initialization matters: Orthogonal Predictive State Recurrent Neural Networks": {
+    "title": "Initialization matters: Orthogonal Predictive State Recurrent Neural Networks",
+    "openalex_id": "https://openalex.org/W2787365188",
+    "num_citations": 18,
+    "year": 2018,
+    "url": "https://openalex.org/W2787365188",
+    "similarity": 1.0
+  },
+  "Learning Deep Mean Field Games for Modeling Large Population Behavior": {
+    "title": "Learning Deep Mean Field Games for Modeling Large Population Behavior",
+    "openalex_id": "https://openalex.org/W2799002770",
+    "num_citations": 9,
+    "year": 2017,
+    "url": "https://openalex.org/W2799002770",
+    "similarity": 1.0
+  },
+  "Thermometer Encoding: One Hot Way To Resist Adversarial Examples": {
+    "title": "Thermometer Encoding: One Hot Way To Resist Adversarial Examples",
+    "openalex_id": "https://openalex.org/W2786118190",
+    "num_citations": 473,
+    "year": 2018,
+    "url": "https://openalex.org/W2786118190",
+    "similarity": 1.0
+  },
+  "Hierarchical Representations for Efficient Architecture Search": {
+    "title": "Hierarchical Representations for Efficient Architecture Search",
+    "openalex_id": "https://openalex.org/W2767002384",
+    "num_citations": 227,
+    "year": 2017,
+    "url": "https://openalex.org/W2767002384",
+    "similarity": 1.0
+  },
+  "Empirical Risk Landscape Analysis for Understanding Deep Neural Networks": {
+    "title": "Empirical Risk Landscape Analysis for Understanding Deep Neural Networks",
+    "openalex_id": "https://openalex.org/W2787799709",
+    "num_citations": 12,
+    "year": 2018,
+    "url": "https://openalex.org/W2787799709",
+    "similarity": 1.0
+  },
+  "Adaptive Dropout with Rademacher Complexity Regularization": {
+    "title": "Adaptive Dropout with Rademacher Complexity Regularization",
+    "openalex_id": "https://openalex.org/W2786968269",
+    "num_citations": 22,
+    "year": 2018,
+    "url": "https://openalex.org/W2786968269",
+    "similarity": 1.0
+  },
+  "Learning Robust Rewards with Adverserial Inverse Reinforcement Learning": {
+    "title": "Learning Robust Rewards with Adverserial Inverse Reinforcement Learning",
+    "error": "not_found"
+  },
+  "Identifying Analogies Across Domains": {
+    "title": "Identifying Analogies Across Domains",
+    "openalex_id": "https://openalex.org/W2786378416",
+    "num_citations": 13,
+    "year": 2018,
+    "url": "https://openalex.org/W2786378416",
+    "similarity": 1.0
+  },
+  "Can recurrent neural networks warp time?": {
+    "title": "Can recurrent neural networks warp time?",
+    "openalex_id": "https://openalex.org/W2786406400",
+    "num_citations": 17,
+    "year": 2018,
+    "url": "https://openalex.org/W2786406400",
+    "similarity": 1.0
+  },
+  "PixelNN: Example-based Image Synthesis": {
+    "title": "PixelNN: Example-based Image Synthesis",
+    "openalex_id": "https://openalex.org/W2746073525",
+    "num_citations": 6,
+    "year": 2017,
+    "url": "https://openalex.org/W2746073525",
+    "similarity": 1.0
+  },
+  "Deep Learning and Quantum Entanglement: Fundamental Connections with Implications to Network Design": {
+    "title": "Deep Learning and Quantum Entanglement: Fundamental Connections with Implications to Network Design",
+    "openalex_id": "https://openalex.org/W2612051204",
+    "num_citations": 35,
+    "year": 2017,
+    "url": "https://openalex.org/W2612051204",
+    "similarity": 1.0
+  },
+  "Critical Percolation as a Framework to Analyze the Training of Deep Networks": {
+    "title": "Critical Percolation as a Framework to Analyze the Training of Deep Networks",
+    "openalex_id": "https://openalex.org/W2786718343",
+    "num_citations": 1,
+    "year": 2018,
+    "url": "https://openalex.org/W2786718343",
+    "similarity": 1.0
+  },
+  "Parallelizing Linear Recurrent Neural Nets Over Sequence Length": {
+    "title": "Parallelizing Linear Recurrent Neural Nets Over Sequence Length",
+    "openalex_id": "https://openalex.org/W2754232744",
+    "num_citations": 15,
+    "year": 2017,
+    "url": "https://openalex.org/W2754232744",
+    "similarity": 1.0
+  },
+  "When is a Convolutional Filter Easy to Learn?": {
+    "title": "When is a Convolutional Filter Easy to Learn?",
+    "openalex_id": "https://openalex.org/W2758053331",
+    "num_citations": 43,
+    "year": 2017,
+    "url": "https://openalex.org/W2758053331",
+    "similarity": 1.0
+  },
+  "WRPN: Wide Reduced-Precision Networks": {
+    "title": "WRPN: Wide Reduced-Precision Networks",
+    "openalex_id": "https://openalex.org/W2751477244",
+    "num_citations": 181,
+    "year": 2017,
+    "url": "https://openalex.org/W2751477244",
+    "similarity": 1.0
+  },
+  "Skip Connections Eliminate Singularities": {
+    "title": "Skip Connections Eliminate Singularities",
+    "openalex_id": "https://openalex.org/W2623790698",
+    "num_citations": 86,
+    "year": 2017,
+    "url": "https://openalex.org/W2623790698",
+    "similarity": 1.0
+  },
+  "The High-Dimensional Geometry of Binary Neural Networks": {
+    "title": "The High-Dimensional Geometry of Binary Neural Networks",
+    "openalex_id": "https://openalex.org/W2617825408",
+    "num_citations": 14,
+    "year": 2017,
+    "url": "https://openalex.org/W2617825408",
+    "similarity": 1.0
+  },
+  "Critical Points of Linear Neural Networks: Analytical Forms and Landscape Properties": {
+    "title": "Critical Points of Linear Neural Networks: Analytical Forms and Landscape Properties",
+    "openalex_id": "https://openalex.org/W2963651774",
+    "num_citations": 43,
+    "year": 2018,
+    "url": "https://openalex.org/W2963651774",
+    "similarity": 1.0
+  },
+  "Imitation Learning from Visual Data with Multiple Intentions": {
+    "title": "Imitation Learning from Visual Data with Multiple Intentions",
+    "openalex_id": "https://openalex.org/W2787065812",
+    "num_citations": 6,
+    "year": 2018,
+    "url": "https://openalex.org/W2787065812",
+    "similarity": 1.0
+  },
+  "Neumann Optimizer: A Practical Optimization Algorithm for Deep Neural Networks": {
+    "title": "Neumann Optimizer: A Practical Optimization Algorithm for Deep Neural Networks",
+    "openalex_id": "https://openalex.org/W2775067729",
+    "num_citations": 3,
+    "year": 2017,
+    "url": "https://openalex.org/W2775067729",
+    "similarity": 1.0
+  },
+  "Latent Constraints: Learning to Generate Conditionally from Unconditional Generative Models": {
+    "title": "Latent Constraints: Learning to Generate Conditionally from Unconditional Generative Models",
+    "openalex_id": "https://openalex.org/W2769811909",
+    "num_citations": 25,
+    "year": 2017,
+    "url": "https://openalex.org/W2769811909",
+    "similarity": 1.0
+  },
+  "Learning Representations and Generative Models for 3D Point Clouds": {
+    "title": "Learning Representations and Generative Models for 3D Point Clouds",
+    "openalex_id": "https://openalex.org/W2784996692",
+    "num_citations": 538,
+    "year": 2017,
+    "url": "https://openalex.org/W2784996692",
+    "similarity": 1.0
+  },
+  "Memory Augmented Control Networks": {
+    "title": "Memory Augmented Control Networks",
+    "openalex_id": "https://openalex.org/W2754261200",
+    "num_citations": 38,
+    "year": 2017,
+    "url": "https://openalex.org/W2754261200",
+    "similarity": 1.0
+  },
+  "Boosting Dilated Convolutional Networks with Mixed Tensor Decompositions": {
+    "title": "Boosting Dilated Convolutional Networks with Mixed Tensor Decompositions",
+    "openalex_id": "https://openalex.org/W2952856356",
+    "num_citations": 5,
+    "year": 2017,
+    "url": "https://openalex.org/W2952856356",
+    "similarity": 1.0
+  },
+  "GeoSeq2Seq: Information Geometric Sequence-to-Sequence Networks": {
+    "title": "GeoSeq2Seq: Information Geometric Sequence-to-Sequence Networks",
+    "openalex_id": "https://openalex.org/W2765538105",
+    "num_citations": 1,
+    "year": 2017,
+    "url": "https://openalex.org/W2765538105",
+    "similarity": 1.0
+  },
+  "Adversarial Policy Gradient for Alternating Markov Games": {
+    "title": "Adversarial Policy Gradient for Alternating Markov Games",
+    "openalex_id": "https://openalex.org/W2786478526",
+    "num_citations": 7,
+    "year": 2018,
+    "url": "https://openalex.org/W2786478526",
+    "similarity": 1.0
+  },
+  "PDE-Net: Learning PDEs from Data": {
+    "title": "PDE-Net: Learning PDEs from Data",
+    "openalex_id": "https://openalex.org/W2765872171",
+    "num_citations": 219,
+    "year": 2017,
+    "url": "https://openalex.org/W2765872171",
+    "similarity": 1.0
+  },
+  "Espresso: Efficient Forward Propagation for Binary Deep Neural Networks": {
+    "title": "Espresso: Efficient Forward Propagation for Binary Deep Neural Networks",
+    "openalex_id": "https://openalex.org/W2786406308",
+    "num_citations": 13,
+    "year": 2018,
+    "url": "https://openalex.org/W2786406308",
+    "similarity": 1.0
+  },
+  "Progressive Reinforcement Learning with Distillation for Multi-Skilled Motion Control": {
+    "title": "Progressive Reinforcement Learning with Distillation for Multi-Skilled Motion Control",
+    "openalex_id": "https://openalex.org/W2785998551",
+    "num_citations": 22,
+    "year": 2018,
+    "url": "https://openalex.org/W2785998551",
+    "similarity": 1.0
+  },
+  "A Bayesian Perspective on Generalization and Stochastic Gradient Descent": {
+    "title": "A Bayesian Perspective on Generalization and Stochastic Gradient Descent",
+    "openalex_id": "https://openalex.org/W2765733029",
+    "num_citations": 24,
+    "year": 2017,
+    "url": "https://openalex.org/W2765733029",
+    "similarity": 1.0
+  },
+  "COLD FUSION: TRAINING SEQ2SEQ MODELS TOGETHER WITH LANGUAGE MODELS": {
+    "title": "COLD FUSION: TRAINING SEQ2SEQ MODELS TOGETHER WITH LANGUAGE MODELS",
+    "openalex_id": "https://openalex.org/W2748679025",
+    "num_citations": 51,
+    "year": 2018,
+    "url": "https://openalex.org/W2748679025",
+    "similarity": 1.0
+  },
+  "AUTOMATED DESIGN USING NEURAL NETWORKS AND GRADIENT DESCENT": {
+    "title": "AUTOMATED DESIGN USING NEURAL NETWORKS AND GRADIENT DESCENT",
+    "openalex_id": "https://openalex.org/W2765385782",
+    "num_citations": 7,
+    "year": 2017,
+    "url": "https://openalex.org/W2765385782",
+    "similarity": 1.0
+  },
+  "Implicit Causal Models for Genome-wide Association Studies": {
+    "title": "Implicit Causal Models for Genome-wide Association Studies",
+    "openalex_id": "https://openalex.org/W2765116287",
+    "num_citations": 17,
+    "year": 2017,
+    "url": "https://openalex.org/W2765116287",
+    "similarity": 1.0
+  },
+  "TRAINING GENERATIVE ADVERSARIAL NETWORKS VIA PRIMAL-DUAL SUBGRADIENT METHODS: A LAGRANGIAN PERSPECTIVE ON GAN": {
+    "title": "TRAINING GENERATIVE ADVERSARIAL NETWORKS VIA PRIMAL-DUAL SUBGRADIENT METHODS: A LAGRANGIAN PERSPECTIVE ON GAN",
+    "openalex_id": "https://openalex.org/W2785359650",
+    "num_citations": 8,
+    "year": 2018,
+    "url": "https://openalex.org/W2785359650",
+    "similarity": 1.0
+  },
+  "Viterbi-based Pruning for Sparse Matrix with Fixed and High Index Compression Ratio": {
+    "title": "Viterbi-based Pruning for Sparse Matrix with Fixed and High Index Compression Ratio",
+    "openalex_id": "https://openalex.org/W2786791912",
+    "num_citations": 13,
+    "year": 2018,
+    "url": "https://openalex.org/W2786791912",
+    "similarity": 1.0
+  },
+  "Large scale distributed neural network training through online distillation": {
+    "title": "Large scale distributed neural network training through online distillation",
+    "openalex_id": "https://openalex.org/W2787017828",
+    "num_citations": 152,
+    "year": 2018,
+    "url": "https://openalex.org/W2787017828",
+    "similarity": 1.0
+  },
+  "Kronecker Recurrent Units": {
+    "title": "Kronecker Recurrent Units",
+    "openalex_id": "https://openalex.org/W2620263509",
+    "num_citations": 11,
+    "year": 2017,
+    "url": "https://openalex.org/W2620263509",
+    "similarity": 1.0
+  },
+  "Still not systematic after all these years: On the compositional skills of sequence-to-sequence recurrent networks": {
+    "title": "Still not systematic after all these years: On the compositional skills of sequence-to-sequence recurrent networks",
+    "openalex_id": "https://openalex.org/W2766179782",
+    "num_citations": 51,
+    "year": 2017,
+    "url": "https://openalex.org/W2766179782",
+    "similarity": 1.0
+  },
+  "Ensemble Robustness and Generalization of Stochastic Deep Learning Algorithms": {
+    "title": "Ensemble Robustness and Generalization of Stochastic Deep Learning Algorithms",
+    "openalex_id": "https://openalex.org/W2768015416",
+    "num_citations": 10,
+    "year": 2016,
+    "url": "https://openalex.org/W2768015416",
+    "similarity": 1.0
+  },
+  "Capturing Human Category Representations by Sampling in Deep Feature Spaces": {
+    "title": "Capturing Human Category Representations by Sampling in Deep Feature Spaces",
+    "openalex_id": "https://openalex.org/W2787535773",
+    "num_citations": 7,
+    "year": 2018,
+    "url": "https://openalex.org/W2787535773",
+    "similarity": 1.0
+  },
+  "Cross-Corpus Training with TreeLSTM for the Extraction of Biomedical Relationships from Text": {
+    "title": "Cross-Corpus Training with TreeLSTM for the Extraction of Biomedical Relationships from Text",
+    "openalex_id": "https://openalex.org/W2787684305",
+    "num_citations": 0,
+    "year": 2018,
+    "url": "https://openalex.org/W2787684305",
+    "similarity": 1.0
+  },
+  "Beyond Finite Layer Neural Networks: Bridging Deep Architectures and Numerical Differential Equations": {
+    "title": "Beyond Finite Layer Neural Networks: Bridging Deep Architectures and Numerical Differential Equations",
+    "openalex_id": "https://openalex.org/W2767008699",
+    "num_citations": 153,
+    "year": 2017,
+    "url": "https://openalex.org/W2767008699",
+    "similarity": 1.0
+  },
+  "Topic-Based Question Generation": {
+    "title": "Topic-Based Question Generation",
+    "openalex_id": "https://openalex.org/W2786696504",
+    "num_citations": 3,
+    "year": 2018,
+    "url": "https://openalex.org/W2786696504",
+    "similarity": 1.0
+  },
+  "Semantic Code Repair using Neuro-Symbolic Transformation Networks": {
+    "title": "Semantic Code Repair using Neuro-Symbolic Transformation Networks",
+    "openalex_id": "https://openalex.org/W2766875678",
+    "num_citations": 29,
+    "year": 2017,
+    "url": "https://openalex.org/W2766875678",
+    "similarity": 1.0
+  },
+  "Benefits of Depth for Long-Term Memory of Recurrent Networks": {
+    "title": "Benefits of Depth for Long-Term Memory of Recurrent Networks",
+    "openalex_id": "https://openalex.org/W2767017507",
+    "num_citations": 8,
+    "year": 2018,
+    "url": "https://openalex.org/W2767017507",
+    "similarity": 1.0
+  },
+  "Improving the Universality and Learnability of Neural Programmer-Interpreters with Combinator Abstraction": {
+    "title": "Improving the Universality and Learnability of Neural Programmer-Interpreters with Combinator Abstraction",
+    "openalex_id": "https://openalex.org/W2964253110",
+    "num_citations": 9,
+    "year": 2018,
+    "url": "https://openalex.org/W2964253110",
+    "similarity": 1.0
+  },
+  "The loss surface and expressivity of deep convolutional neural networks": {
+    "title": "The loss surface and expressivity of deep convolutional neural networks",
+    "openalex_id": "https://openalex.org/W2766873928",
+    "num_citations": 18,
+    "year": 2017,
+    "url": "https://openalex.org/W2766873928",
+    "similarity": 1.0
+  },
+  "Meta-Learning and Universality: Deep Representations and Gradient Descent can Approximate any Learning Algorithm": {
+    "title": "Meta-Learning and Universality: Deep Representations and Gradient Descent can Approximate any Learning Algorithm",
+    "openalex_id": "https://openalex.org/W2766363782",
+    "num_citations": 96,
+    "year": 2017,
+    "url": "https://openalex.org/W2766363782",
+    "similarity": 1.0
+  },
+  "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor": {
+    "title": "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor",
+    "openalex_id": "https://openalex.org/W2781726626",
+    "num_citations": 3471,
+    "year": 2018,
+    "url": "https://openalex.org/W2781726626",
+    "similarity": 1.0
+  },
+  "Learning Deep Generative Models of Graphs": {
+    "title": "Learning Deep Generative Models of Graphs",
+    "openalex_id": "https://openalex.org/W2786103815",
+    "num_citations": 446,
+    "year": 2018,
+    "url": "https://openalex.org/W2786103815",
+    "similarity": 1.0
+  },
+  "Towards Provable Control for Unknown Linear Dynamical Systems": {
+    "title": "Towards Provable Control for Unknown Linear Dynamical Systems",
+    "openalex_id": "https://openalex.org/W2786709902",
+    "num_citations": 25,
+    "year": 2018,
+    "url": "https://openalex.org/W2786709902",
+    "similarity": 1.0
+  },
+  "Fast Node Embeddings: Learning Ego-Centric Representations": {
+    "title": "Fast Node Embeddings: Learning Ego-Centric Representations",
+    "openalex_id": "https://openalex.org/W2786074862",
+    "num_citations": 21,
+    "year": 2018,
+    "url": "https://openalex.org/W2786074862",
+    "similarity": 1.0
+  },
+  "Empirical Analysis of the Hessian of Over-Parametrized Neural Networks": {
+    "title": "Empirical Analysis of the Hessian of Over-Parametrized Neural Networks",
+    "openalex_id": "https://openalex.org/W2626325961",
+    "num_citations": 167,
+    "year": 2017,
+    "url": "https://openalex.org/W2626325961",
+    "similarity": 1.0
+  },
+  "DLVM: A modern compiler infrastructure for deep learning systems": {
+    "title": "DLVM: A modern compiler infrastructure for deep learning systems",
+    "openalex_id": "https://openalex.org/W2767935072",
+    "num_citations": 34,
+    "year": 2017,
+    "url": "https://openalex.org/W2767935072",
+    "similarity": 1.0
+  },
+  "Latent Space Oddity: on the Curvature of Deep Generative Models": {
+    "title": "Latent Space Oddity: on the Curvature of Deep Generative Models",
+    "openalex_id": "https://openalex.org/W2765934517",
+    "num_citations": 25,
+    "year": 2017,
+    "url": "https://openalex.org/W2765934517",
+    "similarity": 1.0
+  },
+  "Can Deep Reinforcement Learning solve Erdos-Selfridge-Spencer Games?": {
+    "title": "Can Deep Reinforcement Learning solve Erdos-Selfridge-Spencer Games?",
+    "openalex_id": "https://openalex.org/W2767617058",
+    "num_citations": 12,
+    "year": 2017,
+    "url": "https://openalex.org/W2767617058",
+    "similarity": 1.0
+  },
+  "Deep Active Learning for Named Entity Recognition": {
+    "title": "Deep Active Learning for Named Entity Recognition",
+    "openalex_id": "https://openalex.org/W2785787385",
+    "num_citations": 368,
+    "year": 2017,
+    "url": "https://openalex.org/W2785787385",
+    "similarity": 1.0
+  },
+  "On the limitations of first order approximation in GAN dynamics": {
+    "title": "On the limitations of first order approximation in GAN dynamics",
+    "openalex_id": "https://openalex.org/W2949186514",
+    "num_citations": 33,
+    "year": 2017,
+    "url": "https://openalex.org/W2949186514",
+    "similarity": 1.0
+  },
+  "Regret Minimization for Partially Observable Deep Reinforcement Learning": {
+    "title": "Regret Minimization for Partially Observable Deep Reinforcement Learning",
+    "openalex_id": "https://openalex.org/W2766768413",
+    "num_citations": 21,
+    "year": 2017,
+    "url": "https://openalex.org/W2766768413",
+    "similarity": 1.0
+  },
+  "Semantic Interpolation in Implicit Models": {
+    "title": "Semantic Interpolation in Implicit Models",
+    "openalex_id": "https://openalex.org/W2766998272",
+    "num_citations": 3,
+    "year": 2017,
+    "url": "https://openalex.org/W2766998272",
+    "similarity": 1.0
+  },
+  "Adversarially Regularized Autoencoders": {
+    "title": "Adversarially Regularized Autoencoders",
+    "openalex_id": "https://openalex.org/W2808987817",
+    "num_citations": 187,
+    "year": 2018,
+    "url": "https://openalex.org/W2808987817",
+    "similarity": 0.6545454545454545,
+    "error": "low_confidence_match",
+    "found_title": "Learning Deep Network Representations with Adversarially Regularized Autoencoders"
+  },
+  "Analyzing and Exploiting NARX Recurrent Neural Networks for Long-Term Dependencies": {
+    "title": "Analyzing and Exploiting NARX Recurrent Neural Networks for Long-Term Dependencies",
+    "openalex_id": "https://openalex.org/W2735708297",
+    "num_citations": 21,
+    "year": 2017,
+    "url": "https://openalex.org/W2735708297",
+    "similarity": 1.0
+  },
+  "Neural Program Search: Solving Data Processing Tasks from Description and Examples": {
+    "title": "Neural Program Search: Solving Data Processing Tasks from Description and Examples",
+    "openalex_id": "https://openalex.org/W2785992207",
+    "num_citations": 5,
+    "year": 2018,
+    "url": "https://openalex.org/W2785992207",
+    "similarity": 1.0
+  },
+  "Not-So-CLEVR: Visual Relations Strain Feedforward Neural Networks": {
+    "title": "Not-So-CLEVR: Visual Relations Strain Feedforward Neural Networks",
+    "openalex_id": "https://openalex.org/W2787421903",
+    "num_citations": 15,
+    "year": 2018,
+    "url": "https://openalex.org/W2787421903",
+    "similarity": 1.0
+  },
+  "No Spurious Local Minima in a Two Hidden Unit ReLU Network": {
+    "title": "No Spurious Local Minima in a Two Hidden Unit ReLU Network",
+    "openalex_id": "https://openalex.org/W2786983307",
+    "num_citations": 11,
+    "year": 2018,
+    "url": "https://openalex.org/W2786983307",
+    "similarity": 1.0
+  },
+  "Stable Distribution Alignment Using the Dual of the Adversarial Distance": {
+    "title": "Stable Distribution Alignment Using the Dual of the Adversarial Distance",
+    "openalex_id": "https://openalex.org/W2963745360",
+    "num_citations": 2,
+    "year": 2018,
+    "url": "https://openalex.org/W2963745360",
+    "similarity": 1.0
+  },
+  "Reinforcement Learning from Imperfect Demonstrations": {
+    "title": "Reinforcement Learning from Imperfect Demonstrations",
+    "openalex_id": "https://openalex.org/W2785379783",
+    "num_citations": 98,
+    "year": 2018,
+    "url": "https://openalex.org/W2785379783",
+    "similarity": 1.0
+  },
+  "Value Propagation Networks": {
+    "title": "Value Propagation Networks",
+    "openalex_id": "https://openalex.org/W2962712652",
+    "num_citations": 11,
+    "year": 2018,
+    "url": "https://openalex.org/W2962712652",
+    "similarity": 1.0
+  },
+  "Parametric Adversarial Divergences are Good Task Losses for Generative Modeling": {
+    "title": "Parametric Adversarial Divergences are Good Task Losses for Generative Modeling",
+    "openalex_id": "https://openalex.org/W2773981138",
+    "num_citations": 10,
+    "year": 2017,
+    "url": "https://openalex.org/W2773981138",
+    "similarity": 1.0
+  },
+  "Time-Dependent Representation for Neural Event Sequence Prediction": {
+    "title": "Time-Dependent Representation for Neural Event Sequence Prediction",
+    "openalex_id": "https://openalex.org/W2739639530",
+    "num_citations": 5,
+    "year": 2017,
+    "url": "https://openalex.org/W2739639530",
+    "similarity": 1.0
+  },
+  "Learning Parametric Closed-Loop Policies for Markov Potential Games": {
+    "title": "Learning Parametric Closed-Loop Policies for Markov Potential Games",
+    "openalex_id": "https://openalex.org/W2786479217",
+    "num_citations": 7,
+    "year": 2018,
+    "url": "https://openalex.org/W2786479217",
+    "similarity": 1.0
+  },
+  "Inference Suboptimality in Variational Autoencoders": {
+    "title": "Inference Suboptimality in Variational Autoencoders",
+    "openalex_id": "https://openalex.org/W2784067649",
+    "num_citations": 85,
+    "year": 2018,
+    "url": "https://openalex.org/W2784067649",
+    "similarity": 1.0
+  },
+  "Investigating Human Priors for Playing Video Games": {
+    "title": "Investigating Human Priors for Playing Video Games",
+    "openalex_id": "https://openalex.org/W2785693718",
+    "num_citations": 94,
+    "year": 2018,
+    "url": "https://openalex.org/W2785693718",
+    "similarity": 1.0
+  },
+  "Learning Deep Models: Critical Points and Local Openness": {
+    "title": "Learning Deep Models: Critical Points and Local Openness",
+    "openalex_id": "https://openalex.org/W2787525328",
+    "num_citations": 11,
+    "year": 2021,
+    "url": "https://openalex.org/W2787525328",
+    "similarity": 1.0
+  },
+  "Deep Mean Field Theory: Layerwise Variance and Width Variation as Methods to Control Gradient Explosion": {
+    "title": "Deep Mean Field Theory: Layerwise Variance and Width Variation as Methods to Control Gradient Explosion",
+    "openalex_id": "https://openalex.org/W2787173309",
+    "num_citations": 14,
+    "year": 2018,
+    "url": "https://openalex.org/W2787173309",
+    "similarity": 1.0
+  },
+  "Accelerating Neural Architecture Search using Performance Prediction": {
+    "title": "Accelerating Neural Architecture Search using Performance Prediction",
+    "openalex_id": "https://openalex.org/W2767274188",
+    "num_citations": 43,
+    "year": 2017,
+    "url": "https://openalex.org/W2767274188",
+    "similarity": 1.0
+  },
+  "Gradients explode - Deep Networks are shallow - ResNet explained": {
+    "title": "Gradients explode - Deep Networks are shallow - ResNet explained",
+    "openalex_id": "https://openalex.org/W2772798650",
+    "num_citations": 35,
+    "year": 2018,
+    "url": "https://openalex.org/W2772798650",
+    "similarity": 1.0
+  },
+  "Predict Responsibly: Increasing Fairness by Learning to Defer": {
+    "title": "Predict Responsibly: Increasing Fairness by Learning to Defer",
+    "openalex_id": "https://openalex.org/W2770024286",
+    "num_citations": 4,
+    "year": 2017,
+    "url": "https://openalex.org/W2770024286",
+    "similarity": 1.0
+  },
+  "Extending the Framework of Equilibrium Propagation to General Dynamics": {
+    "title": "Extending the Framework of Equilibrium Propagation to General Dynamics",
+    "openalex_id": "https://openalex.org/W2787849668",
+    "num_citations": 5,
+    "year": 2018,
+    "url": "https://openalex.org/W2787849668",
+    "similarity": 1.0
+  },
+  "WHAI: Weibull Hybrid Autoencoding Inference for Deep Topic Modeling": {
+    "title": "WHAI: Weibull Hybrid Autoencoding Inference for Deep Topic Modeling",
+    "openalex_id": "https://openalex.org/W2787803546",
+    "num_citations": 51,
+    "year": 2018,
+    "url": "https://openalex.org/W2787803546",
+    "similarity": 1.0
+  },
+  "LSH-SAMPLING BREAKS THE COMPUTATIONAL CHICKEN-AND-EGG LOOP IN ADAPTIVE STOCHASTIC GRADIENT ESTIMATION": {
+    "title": "LSH-SAMPLING BREAKS THE COMPUTATIONAL CHICKEN-AND-EGG LOOP IN ADAPTIVE STOCHASTIC GRADIENT ESTIMATION",
+    "openalex_id": "https://openalex.org/W2786676604",
+    "num_citations": 6,
+    "year": 2018,
+    "url": "https://openalex.org/W2786676604",
+    "similarity": 1.0
+  },
+  "LEARNING TO SHARE: SIMULTANEOUS PARAMETER TYING AND SPARSIFICATION IN DEEP LEARNING": {
+    "title": "LEARNING TO SHARE: SIMULTANEOUS PARAMETER TYING AND SPARSIFICATION IN DEEP LEARNING",
+    "openalex_id": "https://openalex.org/W2787178869",
+    "num_citations": 28,
+    "year": 2018,
+    "url": "https://openalex.org/W2787178869",
+    "similarity": 1.0
+  },
+  "Regularization Neural Networks via Constrained Virtual  Movement Field": {
+    "title": "Regularization Neural Networks via Constrained Virtual  Movement Field",
+    "openalex_id": "https://openalex.org/W2786887187",
+    "num_citations": 0,
+    "year": 2018,
+    "url": "https://openalex.org/W2786887187",
+    "similarity": 1.0
+  },
+  "Learning to Write by Learning the Objective": {
+    "title": "Learning to Write by Learning the Objective",
+    "openalex_id": "https://openalex.org/W2981862581",
+    "num_citations": 129,
+    "year": 2017,
+    "url": "https://openalex.org/W2981862581",
+    "similarity": 0.4473684210526316,
+    "error": "low_confidence_match",
+    "found_title": "How to Write Well-Defined Learning Objectives"
+  },
+  "Deep learning mutation prediction enables early stage lung cancer detection in liquid biopsy": {
+    "title": "Deep learning mutation prediction enables early stage lung cancer detection in liquid biopsy",
+    "openalex_id": "https://openalex.org/W2786230348",
+    "num_citations": 20,
+    "year": 2018,
+    "url": "https://openalex.org/W2786230348",
+    "similarity": 1.0
+  },
+  "Learning Efficient Tensor Representations with Ring Structure Networks": {
+    "title": "Learning Efficient Tensor Representations with Ring Structure Networks",
+    "openalex_id": "https://openalex.org/W2954228910",
+    "num_citations": 78,
+    "year": 2019,
+    "url": "https://openalex.org/W2954228910",
+    "similarity": 0.9921259842519685
+  }
+}

@@ -16,6 +16,9 @@ logger = logging.getLogger(__name__)
 
 def scrape_citations(titles: list[str], apikey: str | None = None) -> dict:
     """Fetch citation counts from Google Scholar.
+
+    .. deprecated:: 2026.01
+       Use scrape_citations_openalex.py instead for more reliable results.
     
     Args:
         titles: List of paper titles to search

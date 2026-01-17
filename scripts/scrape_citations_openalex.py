@@ -1,5 +1,4 @@
-
-"""Fetch citation data from Semantic Scholar API with strict rate limiting and resumption."""
+"""Fetch citation data from OpenAlex API with rate limiting and resumption."""
 
 from __future__ import annotations
 
@@ -7,15 +6,15 @@ import argparse
 import json
 import logging
 import time
-import math
 from datetime import datetime
+import urllib.parse
 from difflib import SequenceMatcher
 from pathlib import Path
 
 import pandas as pd
 import requests
 from tqdm import tqdm
-time.sleep(7200)
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s: %(message)s",
@@ -23,16 +22,14 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-SEMANTIC_SCHOLAR_API = "https://api.semanticscholar.org/graph/v1"
+OPENALEX_API = "https://api.openalex.org/works"
 
 
 class RateLimiter:
-    """Strict rate limiter to comply with API usage limits."""
+    """Rate limiter to comply with API usage limits."""
     
-    def __init__(self, requests_per_minute: int = 20):
-        # 100 req / 5 min = 20 req / min = 1 req / 3 sec
-        # We add a small buffer: 1 req / 3.1 sec
-        self.interval = 60.0 / requests_per_minute
+    def __init__(self, requests_per_second: float = 10.0):
+        self.interval = 1.0 / requests_per_second
         self.last_call = 0.0
 
     def wait(self):
@@ -54,36 +51,32 @@ def similarity(a: str, b: str) -> float:
     return SequenceMatcher(None, normalize_title(a), normalize_title(b)).ratio()
 
 
-def fetch_paper_data(title: str, session: requests.Session, limiter: RateLimiter, api_key: str = None) -> dict:
-    """Fetch paper data from Semantic Scholar using title search."""
-    headers = {}
-    if api_key:
-        headers["x-api-key"] = api_key
-        
+def fetch_paper_data(title: str, session: requests.Session, limiter: RateLimiter, email: str = None) -> dict:
+    """Fetch paper data from OpenAlex using title search."""
+    params = {
+        "filter": f"title.search:{title}",
+        "per-page": 1,
+    }
+    if email:
+        params["mailto"] = email
+
     try:
         limiter.wait()
         
-        params = {
-            "query": title,
-            "limit": 1,
-            "fields": "title,citationCount,year,url,authors"
-        }
         response = session.get(
-            f"{SEMANTIC_SCHOLAR_API}/paper/search", 
+            OPENALEX_API, 
             params=params, 
-            headers=headers,
             timeout=10
         )
         
         while response.status_code == 429:
-            retry_after = int(response.headers.get("Retry-After", 10))
+            retry_after = int(response.headers.get("Retry-After", 2))
             logger.warning(f"Rate limit hit. Sleeping for {retry_after}s...")
             time.sleep(retry_after)
             limiter.wait()
             response = session.get(
-                f"{SEMANTIC_SCHOLAR_API}/paper/search", 
+                OPENALEX_API, 
                 params=params, 
-                headers=headers,
                 timeout=10
             )
 
@@ -91,26 +84,27 @@ def fetch_paper_data(title: str, session: requests.Session, limiter: RateLimiter
             return {"title": title, "error": f"API Error {response.status_code}"}
             
         data = response.json()
-        if not data.get("data"):
+        if not data.get("results"):
             return {"title": title, "error": "not_found"}
             
-        result = data["data"][0]
+        result = data["results"][0]
         
         # Verify match
-        sim = similarity(title, result["title"])
+        found_title = result.get("display_name", "") or result.get("title", "")
+        sim = similarity(title, found_title)
+        
         match_data = {
             "title": title,
-            "semantic_id": result.get("paperId"),
-            "num_citations": result.get("citationCount"),
-            "year": result.get("year"),
-            "url": result.get("url"),
-            "authors": [a["name"] for a in result.get("authors", [])],
+            "openalex_id": result.get("id"),
+            "num_citations": result.get("cited_by_count"),
+            "year": result.get("publication_year"),
+            "url": result.get("ids", {}).get("openalex"),
             "similarity": sim
         }
 
         if sim < 0.8:
             match_data["error"] = "low_confidence_match"
-            match_data["found_title"] = result["title"]
+            match_data["found_title"] = found_title
             
         return match_data
         
@@ -131,12 +125,11 @@ def save_checkpoint(path: Path, data: dict):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Fetch Semantic Scholar citations")
+    parser = argparse.ArgumentParser(description="Fetch OpenAlex citations")
     parser.add_argument("--input", type=Path, required=True, help="Path to preprocessed.parquet")
     parser.add_argument("--output", type=Path, default=None, help="Output JSON file")
     parser.add_argument("--limit", type=int, default=None, help="Limit number of papers")
-    parser.add_argument("--api-key", type=str, default=None, help="Semantic Scholar API Key")
-    parser.add_argument("--requests-per-min", type=int, default=None, help="Override RPS limit")
+    parser.add_argument("--email", type=str, default=None, help="Email for 'Polite Pool' (recommended)")
     
     args = parser.parse_args()
 
@@ -144,21 +137,16 @@ def main():
         logger.error(f"Input file not found: {args.input}")
         return
 
-    # Determine rate limit
-    # Free tier: 100 / 5 min = 20 / min
-    # Authenticated: Depends on tier, usually higher (e.g. 10/sec = 600/min)
-    if args.requests_per_min:
-        rpm = args.requests_per_min
-    elif args.api_key:
-        rpm = 100  # Conservative authenticated default
-    else:
-        rpm = 19   # Conservative free default (19 < 20)
-
-    limiter = RateLimiter(requests_per_minute=rpm)
-    logger.info(f"Rate limit set to {rpm} requests/minute (1 req every {60/rpm:.2f}s)")
-
+    # OpenAlex is generous, ~10 req/s is usually fine without email, but email is better.
+    # We'll stick to a safe default.
+    limiter = RateLimiter(requests_per_second=5.0) 
+    
     # Load data
     df = pd.read_parquet(args.input)
+    if "title" not in df.columns:
+        logger.error("Input file must contain a 'title' column")
+        return
+        
     titles = df["title"].tolist()
     
     if args.limit:
@@ -166,7 +154,9 @@ def main():
         logger.info(f"Limiting to first {args.limit} papers")
 
     # Output paths
-    output_path = args.output or args.input.parent / "semanticscholar_citations.json"
+    date_str = datetime.now().strftime("%y%m%d")
+    output_filename = f"openalex_citations_{date_str}.json"
+    output_path = args.output or args.input.parent / output_filename
     checkpoint_path = output_path.with_suffix(".checkpoint.json")
     
     # Resume
@@ -179,18 +169,17 @@ def main():
     logger.info(f"Remaining papers to process: {len(to_process)}")
 
     session = requests.Session()
-    save_interval = 20
+    save_interval = 50
     
     try:
         for i, title in enumerate(tqdm(to_process, desc="Fetching")):
-            # Fetch
-            time.sleep(5)
-            result = fetch_paper_data(title, session, limiter, args.api_key)
+            result = fetch_paper_data(title, session, limiter, args.email)
             results[title] = result
             
             # Save checkpoint
             if (i + 1) % save_interval == 0:
                 save_checkpoint(checkpoint_path, results)
+            time.sleep(0.1)
                 
     except KeyboardInterrupt:
         logger.warning("\nInterrupted! Saving checkpoint...")

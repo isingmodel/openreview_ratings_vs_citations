@@ -50,18 +50,21 @@ def load_data(data_dir: Path) -> pd.DataFrame:
     df["mean_rating"] = df["rating"].apply(lambda x: np.mean(x) if x else None)
 
     # Load citations
-    citation_files = list(data_dir.glob("googlescholar*.json"))
+    citation_files = list(data_dir.glob("openalex*.json"))
+    
     if citation_files:
-        with open(citation_files[0], "r", encoding="utf-8") as f:
+        # Sort to pick the latest file if multiple exist
+        citation_file = sorted(citation_files)[-1]
+        with open(citation_file, "r", encoding="utf-8") as f:
             citations = json.load(f)
 
         # Merge citations
         df["citations"] = df["title"].apply(
-            lambda t: citations.get(t, {}).get("num_citations")
+            lambda t: citations.get(str(t), {}).get("num_citations")
         )
-        logger.info(f"Merged citations from {citation_files[0].name}")
+        logger.info(f"Merged citations from {citation_file.name}")
     else:
-        logger.warning("No citation file found!")
+        logger.warning(f"No OpenAlex citation file found in {data_dir}!")
 
     return df
 
