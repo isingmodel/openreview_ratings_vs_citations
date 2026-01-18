@@ -62,7 +62,7 @@ Citation counts follow a heavy-tailed distribution ([Redner, 1998](https://doi.o
 
 Log transformation reduces outlier dominance and reflects scale-level differences (10→100 is more meaningful than 10,000→10,090).
 
-### [New!] Confidence Analysis
+### Confidence Analysis
 
 **Do experts predict impact best?**
 Surprisingly, no. Our [Deep Dive Analysis](Confidence_Analysis.md) reveals that **Low Confidence** reviewers (outsiders/generalists) were actually the *strongest* predictors of future citation impact ($r=0.16$), while "Experts" had a negative correlation.
