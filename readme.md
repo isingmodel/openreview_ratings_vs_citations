@@ -12,9 +12,9 @@
 
 ## Overview
 
-This project explores the question: **"Can reviewers recognize the 'sprouts' (떡잎) of seminal research?"**
+This project explores the question: **"Can reviewers recognize the 'sprouts' of seminal research?"**
 
-Inspired by the [PyCon Korea 2022 talk](https://www.youtube.com/watch?v=MqM2ROgWwhU), this analysis investigates whether peer review scores on OpenReview effectively predict the future impact (citation count) of papers. With the rapid growth of the ML field, the hypothesis is that the predictive power of reviews may be declining due to reviewer fatigue and the influx of less experienced reviewers with the explosion of paper submissions.
+This analysis investigates whether peer review scores on OpenReview effectively predict the future impact (citation count) of papers. With the rapid growth of the ML field, the hypothesis is that the predictive power of reviews may be declining due to reviewer fatigue and the influx of less experienced reviewers with the explosion of paper submissions.
 
 ---
 
@@ -60,7 +60,14 @@ Inspired by the [PyCon Korea 2022 talk](https://www.youtube.com/watch?v=MqM2ROgW
 
 Citation counts follow a heavy-tailed distribution ([Redner, 1998](https://doi.org/10.1007/s100510050276); [Radicchi et al., 2008](https://doi.org/10.1073/pnas.0806977105)). Log transformation reduces outlier dominance and reflects scale-level differences (10→100 is more meaningful than 10,000→10,090).
 
----
+Log transformation reduces outlier dominance and reflects scale-level differences (10→100 is more meaningful than 10,000→10,090).
+
+### [New!] Confidence Analysis
+
+**Do experts predict impact best?**
+Surprisingly, no. Our [Deep Dive Analysis](Confidence_Analysis.md) reveals that **Low Confidence** reviewers (outsiders/generalists) were actually the *strongest* predictors of future citation impact ($r=0.16$), while "Experts" had a negative correlation.
+> *Takeaway: A "Strong Accept" from a generalist may signal broader appeal than one from a domain expert.*
+
 
 ## Possible Explanations (and Their Limitations)
 
