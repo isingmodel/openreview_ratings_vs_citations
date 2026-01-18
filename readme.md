@@ -1,12 +1,20 @@
 # OpenReview Ratings vs Citations
 
 > **Do peer review scores predict scientific impact?**  
-> An empirical analysis of ICLR papers (2017–2022)
+> An empirical analysis of ICLR papers (2017–2023)
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 📺 **[PyCon Korea 2022 talk (Korean)](https://www.youtube.com/watch?v=MqM2ROgWwhU)**
+
+---
+
+## Overview
+
+This project explores the question: **"Can reviewers recognize the 'sprouts' (떡잎) of seminal research?"**
+
+Inspired by the [PyCon Korea 2022 talk](https://www.youtube.com/watch?v=MqM2ROgWwhU), this analysis investigates whether peer review scores on OpenReview effectively predict the future impact (citation count) of papers. With the rapid growth of the ML field, the hypothesis is that the predictive power of reviews may be declining due to reviewer fatigue and the influx of less experienced reviewers with the explosion of paper submissions.
 
 ---
 
@@ -41,6 +49,10 @@
 ### Methodology
 
 - **Pearson**: Measures linear relationship between mean rating and log(citations + 1). Assumes roughly normal distributions.
+- **Data Source**: 
+    - **Citations**: [OpenAlex](https://openalex.org/) (Migrated from Google Scholar to improve reliability and scale).
+    - **Ratings**: [OpenReview](https://openreview.net/).
+
 
 **The declining trend is robust.**
 
@@ -55,12 +67,18 @@ Citation counts follow a heavy-tailed distribution ([Redner, 1998](https://doi.o
 ### Hypothesis 1: Reviewer Quality Degradation
 > *As ICLR grew, more reviewers were needed, potentially reducing review quality.*
 
-**Limitation:** This is unfalsifiable—there's no independent measure of "reviewer quality." An alternative explanation is that competition intensified, causing papers near the acceptance threshold to converge in quality, which naturally reduces correlation.
+**Supporting Evidence:**
+- **Inexperience**: A 2020 survey revealed that **47%** of reviewers had not published a single paper in the field they were reviewing.
+- **Reviewer Fatigue**: The number of submissions has grown exponentially (500 in 2017 → 2,500+ in 2020), while the pool of qualified (Ph.D. level) reviewers has not kept pace. This forces the inclusion of less experienced reviewers and increases workload, potentially lowering review quality.
 
-### Hypothesis 2: Citation Lag
+### Hypothesis 2: Citation Lag (Debunked?)
 > *Recent papers haven't accumulated enough citations yet.*
 
-**Limitation:** In fast-moving ML fields, citation rankings typically stabilize within 1–2 years post-publication. Moreover, if all papers have uniformly low citations, variance decreases and correlation should actually *increase*, not decrease. This hypothesis has a logical flaw.
+**Counter-Evidence (Indirect Verification):**
+- We compared the correlation for **2017 papers** using citations collected in **2018** (early) versus citations collected in **2022** (mature).
+- **Result**: The correlation coefficients were nearly identical.
+- **Conclusion**: If "citation lag" were the main factor, the correlation for 2017 papers should have been much lower in 2018 than in 2022. The fact that it was stable suggests that the *initialsignal* (or lack thereof) appears early, and simply waiting longer does not necessarily restore the correlation.
+
 
 ---
 
