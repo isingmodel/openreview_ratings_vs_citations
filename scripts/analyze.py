@@ -90,13 +90,13 @@ def load_data(data_dir: Path) -> pd.DataFrame:
     
     # Calculate high confidence mean rating (Confidence >= 4)
     def mean_high_conf(ratings):
-        vals = [r["rating"] for r in ratings if r.get("confidence", 0) >= 4]
+        vals = [r["rating"] for r in ratings if (r.get("confidence") or 0) >= 4]
         return np.mean(vals) if vals else None
     df["high_conf_rating"] = df["rating_data"].apply(mean_high_conf)
     
     # Calculate low confidence mean rating (Confidence < 4)
     def mean_low_conf(ratings):
-        vals = [r["rating"] for r in ratings if r.get("confidence", 0) < 4 and r.get("confidence") is not None]
+        vals = [r["rating"] for r in ratings if (r.get("confidence") or 0) < 4 and r.get("confidence") is not None]
         return np.mean(vals) if vals else None
     df["low_conf_rating"] = df["rating_data"].apply(mean_low_conf)
 

@@ -35,7 +35,7 @@ def get_invitation(year: int) -> str:
     return f"ICLR.cc/{year}/Conference/-/Submission"
 
 
-def scrape_openreview(year: int, limit: int | None = None) -> tuple[list, pd.DataFrame]:
+def scrape_openreview(year: int, limit: int | None = None, offset: int = 0) -> tuple[list, pd.DataFrame]:
     """Scrape OpenReview data for an ICLR year.
     
     Returns:
@@ -46,7 +46,7 @@ def scrape_openreview(year: int, limit: int | None = None) -> tuple[list, pd.Dat
     logger.info(f"Scraping ICLR {year}...")
 
     # Use API v1 for all years first (more reliable)
-    result = scrape_openreview_v1(year, limit)
+    result = scrape_openreview_v1(year, limit, offset)
     
     # If v1 returns no data for recent years, try v2
     if len(result[1]) == 0 and year >= 2021:
@@ -201,7 +201,7 @@ def scrape_openreview_v2(year: int, limit: int | None = None) -> tuple[list, pd.
     return raw_data, df
 
 
-def scrape_openreview_v1(year: int, limit: int | None = None) -> tuple[list, pd.DataFrame]:
+def scrape_openreview_v1(year: int, limit: int | None = None, offset: int = 0) -> tuple[list, pd.DataFrame]:
     """Scrape using OpenReview API v1 (for pre-2021)."""
     import openreview
 
@@ -213,10 +213,15 @@ def scrape_openreview_v1(year: int, limit: int | None = None) -> tuple[list, pd.
     submissions = list(
         openreview.tools.iterget_notes(client, invitation=invitation, details="original")
     )
-
+    
+    # Apply offset and limit
+    if offset:
+        submissions = submissions[offset:]
+        logger.info(f"Starting from offset {offset}")
+        
     if limit:
         submissions = submissions[:limit]
-        logger.info(f"Limited to {limit} submissions for testing")
+        logger.info(f"Limited to {limit} submissions")
 
     logger.info(f"Found {len(submissions)} submissions")
 
@@ -277,6 +282,8 @@ def scrape_openreview_v1(year: int, limit: int | None = None) -> tuple[list, pd.
 
                 if "decision" in note_content:
                     decision = note_content["decision"]
+                elif "recommendation" in note_content and ("Meta_Review" in note.invitation or "Decision" in note.invitation):
+                     decision = note_content["recommendation"]
 
             # Fallback to venue for decision
             final_decision = decision
@@ -347,15 +354,26 @@ def main():
         default=None,
         help="Limit number of submissions (for testing)",
     )
+    parser.add_argument(
+        "--offset",
+        type=int,
+        default=0,
+        help="Offset to start scraping from",
+    )
     args = parser.parse_args()
 
     output_dir = args.output or Path(__file__).parent.parent / "data" / f"ICLR{args.year}"
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    raw_data, df = scrape_openreview(args.year, args.limit)
-
+    raw_data, df = scrape_openreview(args.year, args.limit, args.offset)
+    
+    # Save with unique name if offset/limit used to avoid overwrite
+    suffix = ""
+    if args.offset or args.limit:
+        suffix = f"_{args.offset}_{args.limit or 'end'}"
+    
     # Save raw data as JSON
-    raw_path = output_dir / "openreview_raw.json"
+    raw_path = output_dir / f"openreview_raw{suffix}.json"
     with open(raw_path, "w", encoding="utf-8") as f:
         json.dump(raw_data, f, indent=2, ensure_ascii=False, default=str)
     logger.info(f"Saved raw data to {raw_path}")

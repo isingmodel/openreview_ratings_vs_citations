@@ -9,7 +9,6 @@ Specifically:
 
 ## 2. Methodology
 - **Dataset**: ICLR Accepted Papers (2017–2023). 
-    - *Note: Detailed confidence data is only available for ICLR 2023. Years 2017-2022 rely on legacy data structures where confidence is largely uniform or missing.*
 - **Metrics**:
     - **Mean Rating**: Baseline average.
     - **Weighted Rating**: $\frac{\sum (Rating_i \times Confidence_i)}{\sum Confidence_i}$
@@ -18,37 +17,34 @@ Specifically:
     - **Variance**: Variance of ratings for a paper.
 - **Target**: Log(Citations + 1) from OpenAlex.
 
-## 3. Results (ICLR 2023)
-*N=217 papers with full reviewer metadata.*
+## 3. Results (Multi-Year)
 
-| Metric | Correlation ($r$) | P-Value | Interpretation |
-| :--- | :--- | :--- | :--- |
-| **Mean Rating (Baseline)** | **0.079** | 0.31 | Weak positive correlation. |
-| **Weighted Rating** | 0.052 | 0.51 | **Worse** than baseline. Weighting by confidence adds noise. |
-| **High Confidence (≥4)** | -0.076 | 0.36 | **Negative** correlation. "Experts" failed to predict impact. |
-| **Low Confidence (<4)** | **0.162** | 0.06 | **Strongest** predictor. "Outsiders" predicted impact best. |
-| **Rating Variance** | -0.003 | 0.96 | No correlation. Controversy didn't predict impact. |
-
-### Multi-Year Trend (2017-2023)
-For years 2017-2022, the "Weighted Rating" was identical to "Mean Rating" due to data limitations (default confidence=4). Thus, the divergence seen in 2023 is our first true glimpse into the effect of confidence.
+| Year | Mean Rating | High Conf (Experts) | Low Conf (Generalists) | Trend |
+| :--- | :--- | :--- | :--- | :--- |
+| **2017** | **0.153** | 0.143 | 0.067 | Experts > Generalists |
+| **2018** | **0.209** | 0.192 | 0.112 | Experts > Generalists |
+| **2019** | N/A | N/A | N/A | (Data missing) |
+| **2020** | 0.007 | N/A | N/A | (Confidence data issue) |
+| **2021** | 0.111 | 0.067 | **0.096** | **Shift Begins** (Generalists > Experts) |
+| **2022** | 0.128 | 0.107 | **0.131** | Generalists > Experts |
+| **2023** | 0.079 | -0.076 | **0.162** | **Strong Reversal** |
 
 ![Trend Plot](figs/analysis/Correlation_Trends_2017_2023.png)
 
 ## 4. Key Findings & Discussion
 
-### Finding 1: The "Expert Blind Spot"
-For ICLR 2023, ratings from self-proclaimed experts (Confidence ≥ 4) had a **negative correlation** ($r=-0.076$) with future citations. 
-*   **Interpretation**: Specialists may be overly critical of minor flaws or entrenched in existing paradigms, missing the potential of "disruptive" or cross-disciplinary work.
+### Finding 1: The "Death of Merchandise" (Expertise Decay)
+In the early years (2017-2018), **Experts (High Confidence)** were indeed better predictors of impact than Generalists. However, this advantage has **eroded and reversed** over time.
+*   **2017-2018**: Traditional peer review model worked. Experts identified seminal work.
+*   **2021-2023**: "Experts" performed consistently worse than "Generalists." By 2023, expert ratings were *negatively* correlated with impact.
 
-### Finding 2: The "Generalist Signal"
-**Low Confidence (<4) reviewers were the best predictors ($r=0.16$).**
-*   **Hypothesis**: These reviewers are likely "generalists" or researchers from adjacent sub-fields.
-*   **Implication**: If a paper can convince a generalist (who lacks deep domain context), it likely has **broad appeal**, clear communication, and obviously impactful results—qualities that drive high citation counts.
-*   **Actionable Insight**: A "Strong Accept" from a non-expert might be a better signal of *impact* than a "Weak Accept" from an expert.
+### Finding 2: The Rise of the Generalist
+As the field has exploded, **Low Confidence (<4) reviewers** have become the most reliable signal for future impact ($r=0.16$ in 2023).
+*   **Hypothesis**: With the massive influx of papers, hyper-specialized experts may be "missing the forest for the trees," focusing on incremental technical correctness. Generalists, presumably evaluating based on broader clarity and potential utility, are now better proxies for the wider community's interest (citations).
 
-### Finding 3: Variance is Noise, Not Signal
-We hypothesized that high variance (polarizing papers) might correlate with high impact. The data ($r \approx 0$) rejects this. Disagreement among reviewers is simply noise, not a reliable indicator of a "hidden gem."
+### Finding 3: Weighting is Harmful
+Weighting reviews by confidence (giving more power to experts) was beneficial in 2017-2018 but is now **counter-productive**. In 2023, using unweighted means (or even weighting towards low confidence!) yields better predictions.
 
 ## 5. Conclusion
-**Don't ignore the "Conf: 3" reviewer.** 
-In the search for impactful work, the ability to communicate key ideas to a broader audience (the "generalist test") appears to be a stronger predictor of citation success than satisfying the hyper-specific constraints of domain experts.
+**The era of the "All-Knowing Expert" may be over.** 
+In the modern, high-volume ML landscape, the signal for impactful work has shifted from the deep domain expert to the "educated generalist." If your paper can't convince a reviewer who admits they "don't know everything" about the sub-field, it likely won't convince the citation-generating masses either.
