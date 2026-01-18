@@ -21,7 +21,7 @@ INVITATION_PATTERNS = {
     2020: "ICLR.cc/2020/Conference/-/Blind_Submission",
     2021: "ICLR.cc/2021/Conference/-/Blind_Submission",
     2022: "ICLR.cc/2022/Conference/-/Blind_Submission",
-    2023: "ICLR.cc/2023/Conference/-/Submission",
+    2023: "ICLR.cc/2023/Conference/-/Blind_Submission",
     2024: "ICLR.cc/2024/Conference/-/Submission",
     2025: "ICLR.cc/2025/Conference/-/Submission",
 }
@@ -49,7 +49,7 @@ def scrape_openreview(year: int, limit: int | None = None) -> tuple[list, pd.Dat
     result = scrape_openreview_v1(year, limit)
     
     # If v1 returns no data for recent years, try v2
-    if len(result[1]) == 0 and year >= 2024:
+    if len(result[1]) == 0 and year >= 2021:
         logger.info("No data from v1, trying v2 API...")
         result = scrape_openreview_v2(year, limit)
     
@@ -75,13 +75,16 @@ def scrape_openreview_v2(year: int, limit: int | None = None) -> tuple[list, pd.
         ))
         logger.info(f"Found {len(submissions)} total notes")
         
-        # Filter for actual submissions (not reviews/comments)
+        # Filter for actual submissions
         submissions = [s for s in submissions if hasattr(s, 'content') and 'title' in s.content]
         
+        if not submissions:
+            raise ValueError("No submissions found using venue_id query")
+            
     except Exception as e:
-        logger.warning(f"Venue query failed: {e}, trying invitation-based query...")
-        invitation = get_invitation(year)
-        submissions = list(client.get_all_notes(invitation=invitation))
+        logger.warning(f"Venue query failed/empty: {e}, trying invitation-based query...")
+        invitation = get_invitation(year) # Now returns Blind_Submission for 2023
+        submissions = list(client.get_all_notes(invitation=invitation, details="replies"))
 
     if limit:
         submissions = submissions[:limit]
@@ -130,19 +133,43 @@ def scrape_openreview_v2(year: int, limit: int | None = None) -> tuple[list, pd.
                 for reply in replies:
                     reply_content = reply.get("content", {})
                     
-                    # Check for rating (various field names)
-                    for rating_field in ["rating", "recommendation", "score"]:
-                        if rating_field in reply_content:
-                            rating = reply_content[rating_field]
-                            rating_val = rating.get("value", rating) if isinstance(rating, dict) else rating
-                            if isinstance(rating_val, str):
+                    # Check for rating and confidence
+                    rating_val = None
+                    confidence_val = None
+
+                    # Extract Rating
+                    for field in ["rating", "recommendation", "score"]:
+                        if field in reply_content:
+                            val = reply_content[field]
+                            val = val.get("value", val) if isinstance(val, dict) else val
+                            if isinstance(val, str):
                                 try:
-                                    rating_val = int(rating_val.split(":")[0])
+                                    rating_val = int(val.split(":")[0])
                                 except (ValueError, IndexError):
                                     continue
-                            if isinstance(rating_val, (int, float)):
-                                ratings.append(int(rating_val))
+                            elif isinstance(val, (int, float)):
+                                rating_val = int(val)
                             break
+                    
+                    # Extract Confidence
+                    for field in ["confidence"]:
+                        if field in reply_content:
+                            val = reply_content[field]
+                            val = val.get("value", val) if isinstance(val, dict) else val
+                            if isinstance(val, str):
+                                try:
+                                    confidence_val = int(val.split(":")[0])
+                                except (ValueError, IndexError):
+                                    continue
+                            elif isinstance(val, (int, float)):
+                                confidence_val = int(val)
+                            break
+
+                    if rating_val is not None:
+                        ratings.append({
+                            "rating": rating_val,
+                            "confidence": confidence_val
+                        })
 
             raw_data.append({
                 "id": sub.id,
@@ -152,14 +179,16 @@ def scrape_openreview_v2(year: int, limit: int | None = None) -> tuple[list, pd.
                 "decision": decision or venue,
             })
 
+            # Calculate stats for V2
             if is_accepted and ratings:
+                rating_values = [r["rating"] for r in ratings]
                 records.append({
                     "title": title,
                     "authors": authors,
-                    "rating": ratings,
+                    "rating": ratings,  # List of dicts
                     "decision": decision or venue,
-                    "mean_rating": sum(ratings) / len(ratings) if ratings else None,
-                    "var_rating": pd.Series(ratings).var() if len(ratings) > 1 else 0,
+                    "mean_rating": sum(rating_values) / len(rating_values) if rating_values else None,
+                    "var_rating": pd.Series(rating_values).var() if len(rating_values) > 1 else 0,
                 })
 
         except Exception as e:
@@ -200,39 +229,92 @@ def scrape_openreview_v1(year: int, limit: int | None = None) -> tuple[list, pd.
             title = content.get("title", "")
             authors = content.get("authors", [])
             
+            venue = content.get("venue", "")
+            venue_id = content.get("venueid", "")
+            
             # Get forum replies for ratings and decision
             forum_notes = client.get_notes(forum=sub.forum)
             
             ratings = []
             decision = None
             
-            for note in forum_notes:
+            for i, note in enumerate(forum_notes):
                 note_content = note.content
-                if "rating" in note_content:
-                    rating_str = note_content["rating"]
+                
+                # Check for rating
+                rating_val = None
+                confidence_val = None
+
+                # Extract Rating (check multiple fields)
+                for field in ["rating", "recommendation", "score"]:
+                    if field in note_content:
+                        val = note_content[field]
+                        try:
+                            # Parse "8: ..." or just 8
+                            if isinstance(val, str):
+                                rating_val = int(val.split(":")[0])
+                            elif isinstance(val, (int, float)):
+                                rating_val = int(val)
+                            
+                            # Break if found valid rating
+                            if rating_val is not None:
+                                break
+                        except:
+                            continue
+                
+                if "confidence" in note_content:
+                    conf_str = note_content["confidence"]
                     try:
-                        ratings.append(int(rating_str.split(":")[0]))
+                        confidence_val = int(conf_str.split(":")[0])
                     except:
                         pass
+                
+                if rating_val is not None:
+                    ratings.append({
+                        "rating": rating_val,
+                        "confidence": confidence_val
+                    })
+
                 if "decision" in note_content:
                     decision = note_content["decision"]
+
+            # Fallback to venue for decision
+            final_decision = decision
+            if not final_decision:
+                if "Accept" in venue or "Poster" in venue or "Spotlight" in venue or "Oral" in venue:
+                    final_decision = venue
+                elif "Reject" in venue:
+                    final_decision = "Reject"
+                elif venue:
+                     final_decision = venue
+
+            if len(raw_data) < 5:
+                print(f"DEBUG: ID={sub.id} Venue='{venue}' Decision='{decision}' Final='{final_decision}'")
 
             raw_data.append({
                 "id": sub.id,
                 "title": title,
                 "authors": authors,
                 "ratings": ratings,
-                "decision": decision,
+                "decision": final_decision,
             })
 
-            if decision and "reject" not in decision.lower() and ratings:
+            # Check acceptance using final_decision
+            is_accepted = False
+            if final_decision:
+                is_accepted = "Accept" in final_decision or "Poster" in final_decision or "Spotlight" in final_decision or "Oral" in final_decision or "notable" in final_decision.lower()
+                if "Reject" in final_decision:
+                    is_accepted = False
+
+            if is_accepted and ratings:
+                rating_values = [r["rating"] for r in ratings]
                 records.append({
                     "title": title,
                     "authors": authors,
-                    "rating": ratings,
-                    "decision": decision,
-                    "mean_rating": sum(ratings) / len(ratings),
-                    "var_rating": pd.Series(ratings).var() if len(ratings) > 1 else 0,
+                    "rating": ratings, # List of dicts
+                    "decision": final_decision,
+                    "mean_rating": sum(rating_values) / len(rating_values),
+                    "var_rating": pd.Series(rating_values).var() if len(rating_values) > 1 else 0,
                 })
 
         except Exception as e:

@@ -17,37 +17,88 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
 
 
-def parse_rating(rating_str):
-    """Parse rating from various string formats."""
-    if isinstance(rating_str, (list, np.ndarray)):
-        return list(rating_str)
-    if not isinstance(rating_str, str):
+def parse_rating_data(rating_data):
+    """Parse rating data which can be a list of ints or list of dicts."""
+    if isinstance(rating_data, str):
+        try:
+            rating_data = json.loads(rating_data)
+        except:
+            return []
+            
+    if not isinstance(rating_data, list):
         return []
-    
-    # Try JSON format first: [1, 2, 3]
-    try:
-        return json.loads(rating_str)
-    except json.JSONDecodeError:
-        pass
-    
-    # Try numpy array string format: [1 2 3]
-    if rating_str.startswith("[") and rating_str.endswith("]"):
-        inner = rating_str[1:-1].strip()
-        if inner:
-            return [int(x) for x in inner.split()]
-    
+
+    # Check if it's list of ints or dicts
+    if not rating_data:
+        return []
+        
+    if isinstance(rating_data[0], int):
+        # Legacy format: [6, 6, 8] -> treat as confidence 4 (average)
+        return [{"rating": r, "confidence": 4} for r in rating_data]
+        
+    if isinstance(rating_data[0], dict):
+        return rating_data
+        
     return []
 
+def calculate_weighted_rating(ratings):
+    """Calculate confidence-weighted average rating."""
+    if not ratings:
+        return None
+    
+    total_score = 0
+    total_conf = 0
+    
+    for r in ratings:
+        val = r.get("rating")
+        conf = r.get("confidence")
+        
+        if val is None:
+            continue
+            
+        # Default confidence to 1 if missing (or maybe 3? using 1 for safe low weight)
+        weight = conf if conf is not None else 1
+        
+        total_score += val * weight
+        total_conf += weight
+        
+    if total_conf == 0:
+        return None
+        
+    return total_score / total_conf
 
 def load_data(data_dir: Path) -> pd.DataFrame:
     """Load preprocessed data and merge with citations."""
     # Load preprocessed data
     parquet_path = data_dir / "preprocessed.parquet"
+    if not parquet_path.exists():
+        # Fallback to older parquet name or raw if needed, but for now assume it exists
+        return pd.DataFrame()
+        
     df = pd.read_parquet(parquet_path)
 
-    # Parse rating from string
-    df["rating"] = df["rating"].apply(parse_rating)
-    df["mean_rating"] = df["rating"].apply(lambda x: np.mean(x) if x else None)
+    # Parse rating data
+    df["rating_data"] = df["rating"].apply(parse_rating_data)
+    
+    # Calculate simple mean rating
+    df["mean_rating"] = df["rating_data"].apply(
+        lambda x: np.mean([r["rating"] for r in x]) if x else None
+    )
+    
+    # Calculate weighted mean rating
+    df["weighted_rating"] = df["rating_data"].apply(calculate_weighted_rating)
+    
+    # Calculate high confidence mean rating (Confidence >= 4)
+    def mean_high_conf(ratings):
+        vals = [r["rating"] for r in ratings if r.get("confidence", 0) >= 4]
+        return np.mean(vals) if vals else None
+    df["high_conf_rating"] = df["rating_data"].apply(mean_high_conf)
+    
+    # Calculate low confidence mean rating (Confidence < 4)
+    def mean_low_conf(ratings):
+        vals = [r["rating"] for r in ratings if r.get("confidence", 0) < 4 and r.get("confidence") is not None]
+        return np.mean(vals) if vals else None
+    df["low_conf_rating"] = df["rating_data"].apply(mean_low_conf)
 
     # Load citations
     citation_files = list(data_dir.glob("openalex*.json"))
@@ -169,6 +220,69 @@ def plot_correlation(
     return output_path
 
 
+def plot_confidence_analysis(df: pd.DataFrame, year: int, output_dir: Path) -> None:
+    """Generate plots comparing confidence-weighted metrics."""
+    plt.style.use('seaborn-v0_8-darkgrid')
+    
+    # Filter valid data
+    df = df.dropna(subset=["citations", "mean_rating"]).copy()
+    if df.empty:
+        return
+
+    df["log_citations"] = np.log1p(df["citations"])
+    
+    # 1. Compare Correlations of Different Metrics
+    metrics = {
+        "Mean Rating": "mean_rating",
+        "Weighted Rating": "weighted_rating",
+        "High Conf (>4)": "high_conf_rating",
+        "Low Conf (<4)": "low_conf_rating"
+    }
+    
+    results = []
+    
+    for label, col in metrics.items():
+        sub_df = df.dropna(subset=[col])
+        if len(sub_df) < 5:
+            continue
+        corr, p = stats.pearsonr(sub_df[col], sub_df["log_citations"])
+        results.append({
+            "Metric": label,
+            "Correlation": corr,
+            "P-value": p,
+            "Count": len(sub_df)
+        })
+        
+    print("\nConfidence Analysis Results:")
+    print(pd.DataFrame(results))
+    
+    # Visualization: Bar chart of Correlations
+    if results:
+        res_df = pd.DataFrame(results)
+        fig, ax = plt.subplots(figsize=(10, 6), facecolor='#1a1a2e')
+        ax.set_facecolor('#1a1a2e')
+        
+        bars = ax.bar(res_df["Metric"], res_df["Correlation"], color=['#4facfe', '#00f2fe', '#43e97b', '#fa709a'])
+        
+        ax.set_title(f"ICLR {year}: Predictive Power of Different Rating Aggregations", color='white', fontsize=14)
+        ax.set_ylabel("Pearson Correlation with Log(Citations)", color='white')
+        ax.tick_params(colors='white')
+        ax.set_ylim(0, max(res_df["Correlation"]) * 1.2)
+        
+        # Add labels
+        for bar in bars:
+            height = bar.get_height()
+            ax.text(bar.get_x() + bar.get_width()/2., height,
+                    f'{height:.3f}',
+                    ha='center', va='bottom', color='white')
+            
+        output_dir.mkdir(parents=True, exist_ok=True)
+        out_path = output_dir / f"Confidence_Analysis_ICLR_{year}.png"
+        plt.savefig(out_path, dpi=200, bbox_inches="tight", facecolor='#1a1a2e')
+        plt.close()
+        logger.info(f"Saved confidence analysis plot to {out_path}")
+
+
 def print_summary(df: pd.DataFrame, year: int):
     """Print summary statistics."""
     plot_df = df.dropna(subset=["mean_rating", "citations"])
@@ -180,6 +294,9 @@ def print_summary(df: pd.DataFrame, year: int):
     print(f"Papers with citation data: {len(plot_df)}")
     print(f"\nRating statistics:")
     print(f"  Mean: {plot_df['mean_rating'].mean():.2f}")
+    if 'weighted_rating' in df.columns:
+        print(f"  Weighted Mean: {plot_df['weighted_rating'].mean():.2f}")
+        
     print(f"  Std:  {plot_df['mean_rating'].std():.2f}")
     print(f"  Range: {plot_df['mean_rating'].min():.1f} - {plot_df['mean_rating'].max():.1f}")
     print(f"\nCitation statistics:")
@@ -232,6 +349,7 @@ def main():
     df = load_data(data_dir)
     print_summary(df, args.year)
     plot_correlation(df, args.year, output_dir, args.min_rating)
+    plot_confidence_analysis(df, args.year, output_dir)
 
 
 if __name__ == "__main__":
