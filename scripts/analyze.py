@@ -109,9 +109,17 @@ def load_data(data_dir: Path) -> pd.DataFrame:
         with open(citation_file, "r", encoding="utf-8") as f:
             citations = json.load(f)
 
-        # Merge citations
+        # Build case-insensitive lookup (normalize: lowercase + strip whitespace)
+        citation_lookup = {
+            " ".join(str(t).lower().split()): v 
+            for t, v in citations.items()
+        }
+        
+        # Merge citations with case-insensitive matching
         df["citations"] = df["title"].apply(
-            lambda t: citations.get(str(t), {}).get("num_citations")
+            lambda t: citation_lookup.get(
+                " ".join(str(t).lower().split()), {}
+            ).get("num_citations")
         )
         logger.info(f"Merged citations from {citation_file.name}")
     else:

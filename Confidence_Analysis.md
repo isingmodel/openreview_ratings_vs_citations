@@ -23,7 +23,7 @@ Specifically:
 | :--- | :--- | :--- | :--- | :--- |
 | **2017** | **0.153** | 0.143 | 0.067 | Experts > Generalists |
 | **2018** | **0.209** | 0.192 | 0.112 | Experts > Generalists |
-| **2019** | 0.091 | -0.016 | **0.296** | **Generalists > Experts** |
+| **2019** | **0.170** | 0.146 | 0.127 | Experts > Generalists |
 | **2020** | 0.007 | N/A | N/A | (Confidence data issue) |
 | **2021** | 0.111 | 0.067 | **0.096** | **Shift Begins** (Generalists > Experts) |
 | **2022** | 0.128 | 0.107 | **0.131** | Generalists > Experts |
