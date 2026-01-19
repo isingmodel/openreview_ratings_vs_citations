@@ -17,7 +17,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 class TestTitleNormalization:
     """Test title normalization for case-insensitive matching.
     
-    Based on the fix applied to analyze.py load_data():
+    Based on the fix applied to analyze_correlation.py load_data():
     - Lowercase conversion
     - Whitespace normalization (multiple spaces -> single space)
     """

@@ -7,7 +7,7 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
-from analyze import load_data
+from analyze_correlation import load_data
 from scipy import stats
 
 import numpy as np
@@ -102,7 +102,9 @@ def plot_trends(results: list, output_dir: Path):
             color=colors[i % len(colors)]
         )
 
-    ax.set_title("Evolution of Reviewer Predictive Power (2017-2023)", fontsize=16, color='white', pad=20)
+    min_year = df.index.min()
+    max_year = df.index.max()
+    ax.set_title(f"Correlation Trends ({min_year}-{max_year})", fontsize=16, color='white', pad=20)
     ax.set_xlabel("Year", fontsize=12, color='white')
     ax.set_ylabel("Pearson Correlation with Log(Citations)", fontsize=12, color='white')
     ax.tick_params(colors='white')
@@ -114,7 +116,7 @@ def plot_trends(results: list, output_dir: Path):
     ax.axhline(0, color='#666666', linestyle='--', alpha=0.5)
 
     output_dir.mkdir(parents=True, exist_ok=True)
-    out_path = output_dir / "Correlation_Trends_2017_2023.png"
+    out_path = output_dir / "correlation_trends.png"
     plt.savefig(out_path, dpi=200, bbox_inches="tight", facecolor='#1a1a2e')
     plt.close()
     
@@ -151,7 +153,7 @@ def main():
         
         args.output_dir.mkdir(parents=True, exist_ok=True)
         res_df = pd.DataFrame(results).set_index("Year")
-        md_path = args.output_dir / "result.md"
+        md_path = args.output_dir / "correlation_trends.md"
         with open(md_path, "w") as f:
             f.write("# Correlation Trends Analysis\n\n")
             f.write(res_df.to_markdown())

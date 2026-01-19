@@ -105,7 +105,7 @@ python scripts/scrape_openreview.py --year 2024
 python scripts/scrape_citations_openalex.py --input data/ICLR2024/preprocessed.parquet --email your_email@example.com
 
 # 3. Generate correlation plot
-python scripts/analyze.py --year 2024
+python scripts/analyze_correlation.py --year 2024
 # **Options:**
 #- `--min-rating 6.0` — Exclude papers below 6 (filter desk #rejects influenced by Program Chairs)
 #- `--output figs/custom/` — Custom output directory
@@ -118,8 +118,8 @@ python scripts/analyze.py --year 2024
 ├── scripts/
 │   ├── scrape_openreview.py          # Fetch data from OpenReview (v1/v2 API)
 │   ├── scrape_citations_openalex.py  # Fetch OpenAlex citations
-│   ├── analyze.py                    # Run correlation analysis
-│   └── analyze_multi_year.py         # Multi-year trend analysis
+│   ├── analyze_correlation.py        # Run correlation analysis
+│   └── analyze_correlation_trends.py # Multi-year trend analysis
 ├── tests/                            # Unit tests
 ├── docs/
 │   └── SCRIPTS.md                    # Detailed script documentation

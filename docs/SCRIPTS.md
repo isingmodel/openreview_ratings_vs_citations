@@ -65,7 +65,7 @@ data/ICLR{year}/openalex_citations_{YYMMDD}.json
 
 ---
 
-## 3. analyze.py
+## 3. analyze_correlation.py
 
 Analyzes the correlation between review scores and citation counts.
 
@@ -91,25 +91,25 @@ low_conf_rating    # Mean of reviews with Confidence < 4
 
 ```bash
 # Basic analysis
-python scripts/analyze.py --year 2024
+python scripts/analyze_correlation.py --year 2024
 
 # Filter by minimum rating
-python scripts/analyze.py --year 2019 --min-rating 6.0
+python scripts/analyze_correlation.py --year 2019 --min-rating 6.0
 
 # Custom output directory
-python scripts/analyze.py --year 2024 --output figs/custom/
+python scripts/analyze_correlation.py --year 2024 --output figs/custom/
 ```
 
 ---
 
-## 4. analyze_multi_year.py
+## 4. analyze_correlation_trends.py
 
 Analyzes trends across multiple years.
 
 ### Usage
 
 ```bash
-python scripts/analyze_multi_year.py --years 2017 2018 2019 2020 2021 2022 2023
+python scripts/analyze_correlation_trends.py --years 2017 2018 2019 2020 2021 2022 2023
 ```
 
 ### Output

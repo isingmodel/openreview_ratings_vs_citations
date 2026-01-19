@@ -10,8 +10,8 @@ Key Features:
     - Generate correlation plots and confidence analysis visualizations
 
 Usage:
-    python analyze.py --year 2024
-    python analyze.py --year 2019 --min-rating 6.0
+    python analyze_correlation.py --year 2024
+    python analyze_correlation.py --year 2019 --min-rating 6.0
 """
 
 from __future__ import annotations
