@@ -14,6 +14,9 @@ import pytest
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
 
+from src import normalize_title
+
+
 class TestTitleNormalization:
     """Test title normalization for case-insensitive matching.
     
@@ -23,8 +26,8 @@ class TestTitleNormalization:
     """
 
     def normalize(self, title: str) -> str:
-        """Normalize title for matching (same logic as analyze.py)."""
-        return " ".join(str(title).lower().split())
+        """Normalize title for matching (wraps src.normalize_title)."""
+        return normalize_title(title)
 
     def test_case_insensitive(self):
         """Titles differing only in case should match."""

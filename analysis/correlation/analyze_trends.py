@@ -2,15 +2,18 @@
 
 import argparse
 import logging
+import sys
 from pathlib import Path
 
+# Add project root
+sys.path.append(str(Path(__file__).resolve().parents[2]))
+
 import matplotlib.pyplot as plt
+import numpy as np
 import pandas as pd
-import seaborn as sns
-from analyze_correlation import load_data
 from scipy import stats
 
-import numpy as np
+from scripts.src import load_data
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
@@ -35,7 +38,7 @@ def compute_metrics_for_year(year: int, data_dir: Path) -> dict:
         return None
 
     # Log transform citations
-    df["log_citations"] = pd.Series(df["citations"]).apply(lambda x: 0 if x < 0 else x).add(1).apply(lambda x: np.log(x)) # Handle potential negative or zero
+    df["log_citations"] = pd.Series(df["citations"]).apply(lambda x: 0 if x < 0 else x).add(1).apply(lambda x: np.log(x))
 
     metrics = {}
     
@@ -57,18 +60,11 @@ def compute_metrics_for_year(year: int, data_dir: Path) -> dict:
                 metrics[label] = None
 
     # 2. Variance Metric
-    # Hypothesis: Higher variance (controversial) -> Higher impact?
     if "var_rating" in df.columns:
         sub = df.dropna(subset=["var_rating", "log_citations"])
         if len(sub) > 10:
             r, p = stats.pearsonr(sub["var_rating"], sub["log_citations"])
             metrics["Rating Variance"] = r
-
-    # 3. Decision Type (Oral vs Poster)
-    # This requires 'decision' column parsing which might vary by year.
-    # Simple check: Does Oral predict better? (Point-biserial correlation)
-    # Mapping various accept types to Oral=1, Others=0 is complex across years.
-    # We will skip this specific correlation for now to avoid noise.
 
     return metrics
 
@@ -126,9 +122,13 @@ def plot_trends(results: list, output_dir: Path):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--years", nargs="+", type=int, default=[2017, 2018, 2019, 2020, 2021, 2022, 2023]) 
-    parser.add_argument("--data-dir", type=Path, default=Path("data"))
-    parser.add_argument("--output-dir", type=Path, default=Path("analysis"))
+    parser.add_argument("--data-dir", type=Path, default=None)
+    parser.add_argument("--output-dir", type=Path, default=None)
     args = parser.parse_args()
+    
+    repo_root = Path(__file__).resolve().parents[2]
+    data_dir = args.data_dir or repo_root / "data"
+    output_dir = args.output_dir or Path(__file__).parent / "figs"
     
     results = []
     
@@ -136,7 +136,7 @@ def main():
     print("-" * 65)
 
     for year in args.years:
-        metrics = compute_metrics_for_year(year, args.data_dir)
+        metrics = compute_metrics_for_year(year, data_dir)
         if metrics:
             metrics["Year"] = year
             results.append(metrics)
@@ -147,13 +147,14 @@ def main():
             print(f"{year:<6} | {fmt(metrics.get('Mean Rating'))}    | {fmt(metrics.get('Weighted Rating'))}    | {fmt(metrics.get('High Conf (>4)'))}    | {fmt(metrics.get('Low Conf (<4)'))}    | {fmt(metrics.get('Rating Variance'))}")
     
     if results:
-        # Save plots to figs/analysis/ still, but markdown to analysis/
-        plot_dir = Path("figs/analysis")
-        plot_trends(results, plot_dir)
+        # Save plots to analysis/correlation/figs
+        plot_trends(results, output_dir)
         
-        args.output_dir.mkdir(parents=True, exist_ok=True)
+        # Save markdown to analysis/correlation/ (parent of figs)
+        md_dir = output_dir.parent
+        md_dir.mkdir(parents=True, exist_ok=True)
         res_df = pd.DataFrame(results).set_index("Year")
-        md_path = args.output_dir / "correlation_trends.md"
+        md_path = md_dir / "correlation_trends.md"
         with open(md_path, "w") as f:
             f.write("# Correlation Trends Analysis\n\n")
             f.write(res_df.to_markdown())
