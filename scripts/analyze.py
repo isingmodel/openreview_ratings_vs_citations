@@ -1,4 +1,18 @@
-"""Analyze correlation between review ratings and citations."""
+"""Analyze correlation between review ratings and citations.
+
+This module provides functions to analyze the relationship between
+peer review ratings and future citation impact for ICLR papers.
+
+Key Features:
+    - Load preprocessed paper data with ratings and confidence scores
+    - Match papers with OpenAlex citation data (case-insensitive)
+    - Calculate various rating aggregations (mean, weighted, high/low conf)
+    - Generate correlation plots and confidence analysis visualizations
+
+Usage:
+    python analyze.py --year 2024
+    python analyze.py --year 2019 --min-rating 6.0
+"""
 
 from __future__ import annotations
 
@@ -18,7 +32,26 @@ logger = logging.getLogger(__name__)
 
 
 def parse_rating_data(rating_data):
-    """Parse rating data which can be a list of ints or list of dicts."""
+    """Parse rating data from various formats into a standardized list of dicts.
+    
+    Rating data in the preprocessed parquet may be stored as:
+    - JSON string: '[{"rating": 6, "confidence": 4}, ...]'
+    - List of ints (legacy): [6, 7, 8]
+    - List of dicts: [{'rating': 6, 'confidence': 4}, ...]
+    
+    Args:
+        rating_data: Raw rating data in any of the above formats.
+    
+    Returns:
+        list: Standardized list of dicts with 'rating' and 'confidence' keys.
+              Empty list if parsing fails.
+    
+    Example:
+        >>> parse_rating_data('[{"rating": 6, "confidence": 4}]')
+        [{'rating': 6, 'confidence': 4}]
+        >>> parse_rating_data([6, 7, 8])  # Legacy format
+        [{'rating': 6, 'confidence': 4}, {'rating': 7, 'confidence': 4}, ...]
+    """
     if isinstance(rating_data, str):
         try:
             rating_data = json.loads(rating_data)
@@ -42,7 +75,23 @@ def parse_rating_data(rating_data):
     return []
 
 def calculate_weighted_rating(ratings):
-    """Calculate confidence-weighted average rating."""
+    """Calculate confidence-weighted average rating.
+    
+    Computes: sum(rating_i * confidence_i) / sum(confidence_i)
+    
+    This weights each reviewer's rating by their stated confidence,
+    giving more influence to reviewers who are more certain.
+    
+    Args:
+        ratings: List of dicts with 'rating' and 'confidence' keys.
+    
+    Returns:
+        float: Weighted average rating, or None if no valid ratings.
+    
+    Note:
+        If confidence is missing for a rating, it defaults to 1
+        (minimal weight) to avoid giving undue influence.
+    """
     if not ratings:
         return None
     
@@ -68,7 +117,29 @@ def calculate_weighted_rating(ratings):
     return total_score / total_conf
 
 def load_data(data_dir: Path) -> pd.DataFrame:
-    """Load preprocessed data and merge with citations."""
+    """Load preprocessed paper data and merge with citation data.
+    
+    Loads the preprocessed.parquet file and matches papers with OpenAlex
+    citation counts using case-insensitive, whitespace-normalized title matching.
+    
+    Args:
+        data_dir: Path to the ICLR year directory (e.g., data/ICLR2019/).
+    
+    Returns:
+        pd.DataFrame with columns:
+            - title, authors, rating, decision (from parquet)
+            - rating_data: Parsed list of rating dicts
+            - mean_rating: Simple average of ratings
+            - weighted_rating: Confidence-weighted average
+            - high_conf_rating: Mean of ratings with confidence >= 4
+            - low_conf_rating: Mean of ratings with confidence < 4
+            - citations: Citation count from OpenAlex (or None if not matched)
+    
+    Title Matching:
+        Uses case-insensitive matching with whitespace normalization:
+        `" ".join(title.lower().split())` ensures titles like
+        'Learning Multi-Level Hierarchies' matches 'learning multi-level hierarchies'.
+    """
     # Load preprocessed data
     parquet_path = data_dir / "preprocessed.parquet"
     if not parquet_path.exists():

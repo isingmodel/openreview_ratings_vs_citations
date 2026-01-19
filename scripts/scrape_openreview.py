@@ -1,4 +1,21 @@
-"""Scrape paper data from OpenReview for a given ICLR year."""
+"""Scrape paper data from OpenReview for a given ICLR year.
+
+This module provides functions to scrape ICLR paper data from OpenReview,
+including ratings, confidence scores, and acceptance decisions.
+
+API Versioning:
+    - **API v1** (pre-2021): Uses `openreview.Client` with legacy endpoints.
+      More reliable for historical data (2017-2020).
+    - **API v2** (2021+): Uses `openreview.api.OpenReviewClient` with new endpoints.
+      Required for recent conferences as v1 may not have complete data.
+
+The main entry point `scrape_openreview()` automatically selects the appropriate
+API version based on the year, with fallback logic if one fails.
+
+Usage:
+    python scrape_openreview.py --year 2024
+    python scrape_openreview.py --year 2019 --limit 100
+"""
 
 from __future__ import annotations
 
@@ -36,10 +53,25 @@ def get_invitation(year: int) -> str:
 
 
 def scrape_openreview(year: int, limit: int | None = None, offset: int = 0) -> tuple[list, pd.DataFrame]:
-    """Scrape OpenReview data for an ICLR year.
+    """Scrape OpenReview data for an ICLR year with automatic API version selection.
+    
+    This is the main entry point for scraping. It first attempts to use API v1
+    (which is more reliable for historical data), then falls back to API v2
+    for years >= 2021 if v1 returns no data.
+    
+    Args:
+        year: ICLR conference year (e.g., 2024).
+        limit: Maximum number of submissions to process (for testing).
+        offset: Starting offset for pagination (v1 only).
     
     Returns:
-        Tuple of (raw_data, preprocessed_dataframe)
+        tuple: (raw_data, preprocessed_df)
+            - raw_data: List of dicts with all paper info including rejected ones.
+            - preprocessed_df: DataFrame with accepted papers and computed metrics.
+    
+    API Version Selection:
+        - Years 2017-2020: Uses v1 only (v2 has incomplete data).
+        - Years 2021+: Tries v1 first, falls back to v2 if empty.
     """
     import openreview
 
@@ -57,7 +89,28 @@ def scrape_openreview(year: int, limit: int | None = None, offset: int = 0) -> t
 
 
 def scrape_openreview_v2(year: int, limit: int | None = None) -> tuple[list, pd.DataFrame]:
-    """Scrape using OpenReview API v2 (for 2021+)."""
+    """Scrape using OpenReview API v2 (recommended for 2021+).
+    
+    Uses the newer `openreview.api.OpenReviewClient` which connects to
+    `api2.openreview.net`. This API returns structured content with nested
+    dictionaries (e.g., `{"value": "..."}`) for fields.
+    
+    Args:
+        year: ICLR conference year.
+        limit: Maximum submissions to process.
+    
+    Returns:
+        tuple: (raw_data, preprocessed_df)
+    
+    Rating/Confidence Extraction:
+        - Ratings may be in 'rating', 'recommendation', or 'score' fields.
+        - Format: Either integer or string like "8: Top 50% of accepted papers".
+        - Confidence: Usually 1-5 scale in 'confidence' field.
+    
+    Note:
+        The v2 API uses venue_id queries first, falling back to invitation-based
+        queries if that fails. This handles API changes across years.
+    """
     import openreview
 
     client = openreview.api.OpenReviewClient(baseurl="https://api2.openreview.net")
@@ -202,7 +255,31 @@ def scrape_openreview_v2(year: int, limit: int | None = None) -> tuple[list, pd.
 
 
 def scrape_openreview_v1(year: int, limit: int | None = None, offset: int = 0) -> tuple[list, pd.DataFrame]:
-    """Scrape using OpenReview API v1 (for pre-2021)."""
+    """Scrape using OpenReview API v1 (recommended for 2017-2020).
+    
+    Uses the legacy `openreview.Client` which connects to `api.openreview.net`.
+    This API returns flat content dictionaries and is more reliable for
+    historical conferences.
+    
+    Args:
+        year: ICLR conference year.
+        limit: Maximum submissions to process.
+        offset: Starting offset for resuming interrupted scrapes.
+    
+    Returns:
+        tuple: (raw_data, preprocessed_df)
+    
+    Rating/Confidence Extraction:
+        - Iterates through forum notes (replies) to find review notes.
+        - Ratings: Parsed from 'rating', 'recommendation', or 'score' fields.
+        - Confidence: Parsed from 'confidence' field (usually 1-5 scale).
+        - Format: String like "8: Top 50%..." parsed to integer.
+    
+    Decision Detection:
+        - Primary: 'decision' field in meta-review notes.
+        - Fallback: 'venue' field indicating acceptance status.
+        - Patterns: "Accept", "Poster", "Spotlight", "Oral" → accepted.
+    """
     import openreview
 
     invitation = get_invitation(year)

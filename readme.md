@@ -65,7 +65,7 @@ Log transformation reduces outlier dominance and reflects scale-level difference
 ### Confidence Analysis
 
 **Do experts predict impact best?**
-Surprisingly, no. Our [Deep Dive Analysis](Confidence_Analysis.md) reveals that **Low Confidence** reviewers (outsiders/generalists) were actually the *strongest* predictors of future citation impact ($r=0.16$), while "Experts" had a negative correlation.
+Surprisingly, no. Our [Deep Dive Analysis](docs/Confidence_Analysis.md) reveals that **Low Confidence** reviewers (outsiders/generalists) were actually the *strongest* predictors of future citation impact ($r=0.16$), while "Experts" had a negative correlation.
 > *Takeaway: A "Strong Accept" from a generalist may signal broader appeal than one from a domain expert.*
 
 
@@ -118,15 +118,20 @@ python scripts/analyze.py --year 2024
 
 ```
 ├── scripts/
-│   ├── scrape_openreview.py          # Fetch data from OpenReview
+│   ├── scrape_openreview.py          # Fetch data from OpenReview (v1/v2 API)
 │   ├── scrape_citations_openalex.py  # Fetch OpenAlex citations
-│   ├── scrape_citations.py           # Fetch Google Scholar citations (Deprecated)
-│   └── analyze.py                    # Run correlation analysis
+│   ├── analyze.py                    # Run correlation analysis
+│   └── analyze_multi_year.py         # Multi-year trend analysis
+├── tests/                            # Unit tests
+├── docs/
+│   └── SCRIPTS.md                    # Detailed script documentation
 ├── data/ICLR20**/
 │   ├── preprocessed.parquet    # Processed paper data
 │   └── openalex_*.json         # Citation data
 └── figs/                       # Generated plots
 ```
+
+📖 **[Detailed Script Documentation](docs/SCRIPTS.md)** — API versioning, usage examples, testing
 
 ---
 
