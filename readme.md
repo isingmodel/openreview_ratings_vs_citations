@@ -106,12 +106,10 @@ python scripts/scrape_citations_openalex.py --input data/ICLR2024/preprocessed.p
 
 # 3. Generate correlation plot
 python scripts/analyze.py --year 2024
+# **Options:**
+#- `--min-rating 6.0` — Exclude papers below 6 (filter desk #rejects influenced by Program Chairs)
+#- `--output figs/custom/` — Custom output directory
 ```
-
-**Options:**
-- `--min-rating 6.0` — Exclude papers below 6 (filter desk rejects influenced by Program Chairs)
-- `--output figs/custom/` — Custom output directory
-
 ---
 
 ## Project Structure
