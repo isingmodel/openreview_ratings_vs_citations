@@ -148,14 +148,14 @@ def print_summary(df: pd.DataFrame, year: int):
         print(f"  p = {p_value:.3e}")
 
 
-def main():
+def main(year):
     parser = argparse.ArgumentParser(description="Analyze ratings vs citations")
-    parser.add_argument(
-        "--year",
-        type=int,
-        required=True,
-        help="ICLR year to analyze",
-    )
+    # parser.add_argument(
+    #     "--year",
+    #     type=int,
+    #     required=True,
+    #     help="ICLR year to analyze",
+    # )
     parser.add_argument(
         "--data-dir",
         type=Path,
@@ -178,7 +178,7 @@ def main():
 
     # Determine paths based on new structure
     repo_root = Path(__file__).resolve().parents[2]
-    data_dir = args.data_dir or repo_root / "data" / f"ICLR{args.year}"
+    data_dir = args.data_dir or repo_root / "data" / f"ICLR{year}"
     # Default output is current directory's figs subdir
     output_dir = args.output or Path(__file__).parent / "figs"
 
@@ -187,9 +187,10 @@ def main():
         return
 
     df = load_data(data_dir)
-    print_summary(df, args.year)
-    plot_correlation(df, args.year, output_dir, args.min_rating)
+    print_summary(df, year)
+    plot_correlation(df, year, output_dir, args.min_rating)
 
 
 if __name__ == "__main__":
-    main()
+    for x in range(2017, 2024):
+        main(x)

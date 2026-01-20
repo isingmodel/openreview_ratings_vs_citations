@@ -22,27 +22,31 @@ This analysis investigates whether peer review scores on OpenReview effectively 
 
 **The correlation between review ratings and citations has been declining over time:**
 
-| Year | Papers | Pearson (r) |
-|------|--------|-------------|
-| 2017 | 245 | 0.37 |
-| 2018 | 425 | 0.29 |
-| 2019 | 502 | 0.17 |
-| 2020 | 687 | 0.12 |
-| 2021 | 865 | 0.13 |
-| 2022 | 1094 | 0.13 |
+| Year | Pearson (r) |
+|------|-------------|
+| 2017 | 0.153 |
+| 2018 | 0.209 |
+| 2019 | 0.170 |
+| 2020 | 0.114 |
+| 2021 | 0.111 |
+| 2022 | 0.128 |
+| 2023 | 0.079 |
 
 <table>
   <tr>
-    <td><img src="figs/Log_Citation_vs_Review_Rating_ICLR_2017.png" width="400"/></td>
-    <td><img src="figs/Log_Citation_vs_Review_Rating_ICLR_2018.png" width="400"/></td>
+    <td><img src="analysis/correlation/figs/Log_Citation_vs_Review_Rating_ICLR_2017.png" width="400"/></td>
+    <td><img src="analysis/correlation/figs/Log_Citation_vs_Review_Rating_ICLR_2018.png" width="400"/></td>
   </tr>
   <tr>
-    <td><img src="figs/Log_Citation_vs_Review_Rating_ICLR_2019.png" width="400"/></td>
-    <td><img src="figs/Log_Citation_vs_Review_Rating_ICLR_2020.png" width="400"/></td>
+    <td><img src="analysis/correlation/figs/Log_Citation_vs_Review_Rating_ICLR_2019.png" width="400"/></td>
+    <td><img src="analysis/correlation/figs/Log_Citation_vs_Review_Rating_ICLR_2020.png" width="400"/></td>
   </tr>
   <tr>
-    <td><img src="figs/Log_Citation_vs_Review_Rating_ICLR_2021.png" width="400"/></td>
-    <td><img src="figs/Log_Citation_vs_Review_Rating_ICLR_2022.png" width="400"/></td>
+    <td><img src="analysis/correlation/figs/Log_Citation_vs_Review_Rating_ICLR_2021.png" width="400"/></td>
+    <td><img src="analysis/correlation/figs/Log_Citation_vs_Review_Rating_ICLR_2022.png" width="400"/></td>
+  </tr>
+  <tr>
+    <td><img src="analysis/correlation/figs/Log_Citation_vs_Review_Rating_ICLR_2023.png" width="400"/></td>
   </tr>
 </table>
 
