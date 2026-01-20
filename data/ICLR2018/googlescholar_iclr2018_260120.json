@@ -7202,5 +7202,1910 @@
     "num_citations": 267,
     "citedby_url": "https://scholar.google.com/scholar?cites=5291501502665174038&as_sdt=5,28&sciodt=0,28&hl=en",
     "scraped_at": "2026-01-20T13:46:50.742885"
+  },
+  "COLD FUSION: TRAINING SEQ2SEQ MODELS TOGETHER WITH LANGUAGE MODELS": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Cold fusion: Training seq2seq models together with language models",
+      "author": [
+        "A Sriram",
+        "H Jun",
+        "S Satheesh",
+        "A Coates - arXiv preprint arXiv:1708.06426",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "arxiv.org",
+      "abstract": "Sequence-to-sequence (Seq2Seq) models with attention have excelled at tasks which involve generating natural language sentences such as machine translation, image captioning and speech recognition. Performance has further been improved by leveraging unlabeled data, often in the form of a language model. In this work, we present the Cold Fusion method, which leverages a pre-trained language model during training, and show its effectiveness on the speech recognition task. We show that Seq2Seq models with Cold …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1708.06426",
+    "num_citations": 385,
+    "citedby_url": "https://scholar.google.com/scholar?cites=5249519533302773894&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:06:28.412162"
+  },
+  "Fast and Accurate Text Classification: Skimming, Rereading and Early Stopping": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Fast and accurate text classification: Skimming, rereading and early stopping",
+      "author": [
+        "K Yu",
+        "Y Liu",
+        "AG Schwing",
+        "J Peng"
+      ],
+      "pub_year": "2018",
+      "venue": "",
+      "abstract": "… a technique for skimming, re-reading, early stopping and … (ii) to enable fast and accurate text \nclassification. Specifically, … next token to read by skimming/skipping or to stop to form a final …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=ryZ8sz-Ab",
+    "num_citations": 27,
+    "citedby_url": "https://scholar.google.com/scholar?cites=14990680647694185204&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:06:30.436760"
+  },
+  "Beyond Finite Layer Neural Networks: Bridging Deep Architectures and Numerical Differential Equations": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Beyond finite layer neural networks: Bridging deep architectures and numerical differential equations",
+      "author": [
+        "Y Lu",
+        "A Zhong",
+        "Q Li",
+        "B Dong - International conference on",
+        "2018"
+      ],
+      "pub_year": "2018",
+      "venue": "proceedings.mlr.press",
+      "abstract": "Deep neural networks have become the state-of-the-art models in numerous machine learning tasks. However, general guidance to network architecture design is still missing. In our work, we bridge deep neural network design with numerical differential equations. We show that many effective networks, such as ResNet, PolyNet, FractalNet and RevNet, can be interpreted as different numerical discretizations of differential equations. This finding brings us a brand new perspective on the design of effective deep architectures. We can take …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "http://proceedings.mlr.press/v80/lu18d.html",
+    "num_citations": 727,
+    "citedby_url": "https://scholar.google.com/scholar?cites=15552677819794260504&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:06:32.517437"
+  },
+  "DLVM: A modern compiler infrastructure for deep learning systems": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "DLVM: A modern compiler infrastructure for deep learning systems",
+      "author": [
+        "R Wei",
+        "L Schwartz",
+        "V Adve - arXiv preprint arXiv:1711.03016",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "arxiv.org",
+      "abstract": "Deep learning software demands reliability and performance. However, many of the existing deep learning frameworks are software libraries that act as an unsafe DSL in Python and a computation graph interpreter. We present DLVM, a design and implementation of a compiler infrastructure with a linear algebra intermediate representation, algorithmic differentiation by adjoint code generation, domain-specific optimizations and a code generator targeting GPU via LLVM. Designed as a modern compiler infrastructure inspired …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1711.03016",
+    "num_citations": 68,
+    "citedby_url": "https://scholar.google.com/scholar?cites=16251965692390475803&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:06:34.719538"
+  },
+  "Multiple Source Domain Adaptation with Adversarial Learning": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Multiple source domain adaptation with adversarial learning",
+      "author": [
+        "H Zhao",
+        "S Zhang",
+        "G Wu",
+        "GJ Gordon"
+      ],
+      "pub_year": "2018",
+      "venue": "",
+      "abstract": "While domain adaptation has been actively researched in recent years, most theoretical results and algorithms focus on the single-source-single-target adaptation setting. Naive application of such algorithms on multiple source domain adaptation problem may lead to suboptimal solutions. We propose a new generalization bound for domain adaptation when there are multiple source domains with labeled instances and one target domain with unlabeled instances. Compared with existing bounds, the new bound does not require …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=ryDNZZZAW",
+    "num_citations": 70,
+    "citedby_url": "https://scholar.google.com/scholar?cites=1668472442399839002&as_sdt=5,39&sciodt=0,39&hl=en",
+    "scraped_at": "2026-01-20T21:06:36.988778"
+  },
+  "Feature Incay for Representation Regularization": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Feature incay for representation regularization",
+      "author": [
+        "Y Yuan",
+        "K Yang",
+        "C Zhang - arXiv preprint arXiv:1705.10284",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "arxiv.org",
+      "abstract": "Softmax loss is widely used in deep neural networks for multi-class classification, where each class is represented by a weight vector, a sample is represented as a feature vector, and the feature vector has the largest projection on the weight vector of the correct category when the model correctly classifies a sample. To ensure generalization, weight decay that shrinks the weight norm is often used as regularizer. Different from traditional learning algorithms where features are fixed and only weights are tunable, features are also tunable …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1705.10284",
+    "num_citations": 21,
+    "citedby_url": "https://scholar.google.com/scholar?cites=5598503891155965069&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:06:39.142412"
+  },
+  "Tree-to-tree Neural Networks for Program Translation": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Tree-to-tree neural networks for program translation",
+      "author": [
+        "X Chen",
+        "C Liu",
+        "D Song - Advances in neural information",
+        "2018"
+      ],
+      "pub_year": "2018",
+      "venue": "proceedings.neurips.cc",
+      "abstract": "Program translation is an important tool to migrate legacy code in one language into an ecosystem built in a different language. In this work, we are the first to employ deep neural networks toward tackling this problem. We observe that program translation is a modular procedure, in which a sub-tree of the source tree is translated into the corresponding target sub-tree at each step. To capture this intuition, we design a tree-to-tree neural network to translate a source tree into a target one. Meanwhile, we develop an attention mechanism for …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://proceedings.neurips.cc/paper/7521-tree-to-tree-neural-networks-for-program-translation",
+    "num_citations": 384,
+    "citedby_url": "https://scholar.google.com/scholar?cites=5077386959127255183&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:06:41.503690"
+  },
+  "Building Generalizable Agents with a Realistic and Rich 3D Environment": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Building generalizable agents with a realistic and rich 3d environment",
+      "author": [
+        "Y Wu",
+        "Y Wu",
+        "G Gkioxari",
+        "Y Tian - arXiv preprint arXiv:1801.02209",
+        "2018"
+      ],
+      "pub_year": "2018",
+      "venue": "arxiv.org",
+      "abstract": "Teaching an agent to navigate in an unseen 3D environment is a challenging task, even in the event of simulated environments. To generalize to unseen environments, an agent needs to be robust to low-level variations (eg color, texture, object changes), and also high-level variations (eg layout changes of the environment). To improve overall generalization, all types of variations in the environment have to be taken under consideration via different level of data augmentation steps. To this end, we propose House3D, a rich, extensible and …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1801.02209",
+    "num_citations": 287,
+    "citedby_url": "https://scholar.google.com/scholar?cites=4231304732134350725&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:06:43.376607"
+  },
+  "Parametric Adversarial Divergences are Good Task Losses for Generative Modeling": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Parametric adversarial divergences are good task losses for generative modeling",
+      "author": [
+        "G Huang",
+        "H Berard",
+        "A Touati",
+        "G Gidel",
+        "P Vincent"
+      ],
+      "pub_year": "2018",
+      "venue": "",
+      "abstract": "Generative modeling of high dimensional data like images is a notoriously difficult and ill-defined problem. In particular, how to evaluate a learned generative model is unclear. In this paper, we argue that* adversarial learning*, pioneered with generative adversarial networks (GANs), provides an interesting framework to implicitly define more meaningful task losses for unsupervised tasks, such as for generating\" visually realistic\" images. By relating GANs and structured prediction under the framework of statistical decision theory, we put into light …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=B1TgRe-Iz",
+    "num_citations": 4,
+    "citedby_url": "https://scholar.google.com/scholar?cites=1846743194234830491&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:06:45.759375"
+  },
+  "Variance-based Gradient Compression for Efficient Distributed Deep Learning": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Variance-based gradient compression for efficient distributed deep learning",
+      "author": [
+        "Y Tsuzuku",
+        "H Imachi",
+        "T Akiba - arXiv preprint arXiv:1802.06058",
+        "2018"
+      ],
+      "pub_year": "2018",
+      "venue": "arxiv.org",
+      "abstract": "Due to the substantial computational cost, training state-of-the-art deep neural networks for large-scale datasets often requires distributed training using multiple computation workers. However, by nature, workers need to frequently communicate gradients, causing severe bottlenecks, especially on lower bandwidth connections. A few methods have been proposed to compress gradient for efficient communication, but they either suffer a low compression ratio or significantly harm the resulting model accuracy, particularly when …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1802.06058",
+    "num_citations": 100,
+    "citedby_url": "https://scholar.google.com/scholar?cites=12956190793258262639&as_sdt=5,39&sciodt=0,39&hl=en",
+    "scraped_at": "2026-01-20T21:06:47.822529"
+  },
+  "Convolutional Sequence Modeling Revisited": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Convolutional sequence modeling revisited",
+      "author": [
+        "S Bai",
+        "JZ Kolter",
+        "V Koltun"
+      ],
+      "pub_year": "2018",
+      "venue": "",
+      "abstract": "… is to revisit this folk wisdom, and thereby make a counterclaim. We argue that with the tools \nof modern convolutional … ), in fact convolutional architectures typically outperform recurrent …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=BJEX-H1Pf",
+    "num_citations": 92,
+    "citedby_url": "https://scholar.google.com/scholar?cites=1953324364890601770&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:06:49.923780"
+  },
+  "Intriguing Properties of Adversarial Examples": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Intriguing properties of adversarial examples",
+      "author": [
+        "ED Cubuk",
+        "B Zoph",
+        "SS Schoenholz",
+        "QV Le - arXiv preprint arXiv",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "arxiv.org",
+      "abstract": "It is becoming increasingly clear that many machine learning classifiers are vulnerable to adversarial examples. In attempting to explain the origin of adversarial examples, previous studies have typically focused on the fact that neural networks operate on high dimensional data, they overfit, or they are too linear. Here we argue that the origin of adversarial examples is primarily due to an inherent uncertainty that neural networks have about their predictions. We show that the functional form of this uncertainty is independent of …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1711.02846",
+    "num_citations": 108,
+    "citedby_url": "https://scholar.google.com/scholar?cites=18221611654607406641&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:06:52.006461"
+  },
+  "Graph Partition Neural Networks for Semi-Supervised Classification": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Graph partition neural networks for semi-supervised classification",
+      "author": [
+        "R Liao",
+        "M Brockschmidt",
+        "D Tarlow",
+        "AL Gaunt - arXiv preprint arXiv",
+        "2018"
+      ],
+      "pub_year": "2018",
+      "venue": "arxiv.org",
+      "abstract": "… We present graph partition neural networks (GPNN), an extension of graph neural networks … \nA mix of the two ideas leads to our Graph Partition Neural Networks (GPNN), which we will …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1803.06272",
+    "num_citations": 98,
+    "citedby_url": "https://scholar.google.com/scholar?cites=5737279776683826768&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:06:54.305887"
+  },
+  "Topic-Based Question Generation": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Topic-based question generation",
+      "author": [
+        "W Hu",
+        "B Liu",
+        "R Yan",
+        "D Zhao",
+        "J Ma"
+      ],
+      "pub_year": "2018",
+      "venue": "",
+      "abstract": "… on question generation. Although there are existing works on question generation based on \n… In the paper, we propose a new question generation problem, which also requires the input …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=rk3pnae0b",
+    "num_citations": 5,
+    "citedby_url": "https://scholar.google.com/scholar?cites=3396280879557052203&as_sdt=5,39&sciodt=0,39&hl=en",
+    "scraped_at": "2026-01-20T21:06:56.588072"
+  },
+  "Empirical Analysis of the Hessian of Over-Parametrized Neural Networks": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Empirical analysis of the hessian of over-parametrized neural networks",
+      "author": [
+        "L Sagun",
+        "U Evci",
+        "VU Guney",
+        "Y Dauphin - arXiv preprint arXiv",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "arxiv.org",
+      "abstract": "We study the properties of common loss surfaces through their Hessian matrix. In particular, in the context of deep learning, we empirically show that the spectrum of the Hessian is composed of two parts:(1) the bulk centered near zero,(2) and outliers away from the bulk. We present numerical evidence and mathematical justifications to the following conjectures laid out by Sagun et al.(2016): Fixing data, increasing the number of parameters merely scales the bulk of the spectrum; fixing the dimension and changing the data (for instance …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1706.04454",
+    "num_citations": 485,
+    "citedby_url": "https://scholar.google.com/scholar?cites=17796454990684335723&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:06:58.524484"
+  },
+  "Adversarial Policy Gradient for Alternating Markov Games": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Adversarial policy gradient for alternating markov games",
+      "author": [
+        "C Gao",
+        "M Mueller",
+        "R Hayward"
+      ],
+      "pub_year": "2018",
+      "venue": "",
+      "abstract": "Policy gradient reinforcement learning has been applied to two-player alternate-turn zero-sum games, eg, in AlphaGo, self-play REINFORCE was used to improve the neural net model after supervised learning. In this paper, we emphasize that two-player zero-sum games with alternating turns, which have been previously formulated as Alternating Markov Games (AMGs), are different from standard MDP because of their two-agent nature. We exploit the difference in associated Bellman equations, which leads to different policy …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=ByINFNJDz",
+    "num_citations": 8,
+    "citedby_url": "https://scholar.google.com/scholar?cites=4441054404755805801&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:07:01.978308"
+  },
+  "Autoregressive Generative Adversarial Networks": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Autoregressive generative adversarial networks",
+      "author": [
+        "Y Yazici",
+        "KH Yap",
+        "S Winkler"
+      ],
+      "pub_year": "2018",
+      "venue": "",
+      "abstract": "Generative Adversarial Networks (GANs) learn a generative model by playing an adversarial game between a generator and an auxiliary discriminator, which classifies data samples vs.\\generated ones. However, it does not explicitly model feature co-occurrences in samples. In this paper, we propose a novel Autoregressive Generative Adversarial Network (ARGAN), that models the latent distribution of data using an autoregressive model, rather than relying on binary classification of samples into data/generated categories. In this way …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=Hyo9zDuIz",
+    "num_citations": 7,
+    "citedby_url": "https://scholar.google.com/scholar?cites=4766517190463868938&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:07:04.044014"
+  },
+  "Deep Mean Field Theory: Layerwise Variance and Width Variation as Methods to Control Gradient Explosion": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Deep mean field theory: Layerwise variance and width variation as methods to control gradient explosion",
+      "author": [
+        "G Yang",
+        "SS Schoenholz"
+      ],
+      "pub_year": "2018",
+      "venue": "",
+      "abstract": "… Based on insights from past works in deep mean field theory and information geometry, we \nalso provide a new perspective on the gradient explosion/vanishing problems: they lead to ill-…"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=rJGY8GbR-",
+    "num_citations": 15,
+    "citedby_url": "https://scholar.google.com/scholar?cites=3947818681877352708&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:07:06.052040"
+  },
+  "Analyzing and Exploiting NARX Recurrent Neural Networks for Long-Term Dependencies": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Analyzing and exploiting NARX recurrent neural networks for long-term dependencies",
+      "author": [
+        "R DiPietro",
+        "C Rupprecht",
+        "N Navab - arXiv preprint arXiv",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "arxiv.org",
+      "abstract": "Recurrent neural networks (RNNs) have achieved state-of-the-art performance on many diverse tasks, from machine translation to surgical activity recognition, yet training RNNs to capture long-term dependencies remains difficult. To date, the vast majority of successful RNN architectures alleviate this problem using nearly-additive connections between states, as introduced by long short-term memory (LSTM). We take an orthogonal approach and introduce MIST RNNs, a NARX RNN architecture that allows direct connections from the …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1702.07805",
+    "num_citations": 36,
+    "citedby_url": "https://scholar.google.com/scholar?cites=11151885715547948232&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:07:11.434045"
+  },
+  "Learning to Write by Learning the Objective": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Writing and using learning objectives",
+      "author": [
+        "RB Orr",
+        "MM Csikari",
+        "S Freeman - CBE—Life Sciences",
+        "2022"
+      ],
+      "pub_year": "2022",
+      "venue": "lifescied.org",
+      "abstract": "Learning objectives (LOs) are used to communicate … /learning-objectives . The guide contains \ncondensed summaries of key research findings organized by recommendations for writing …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://www.lifescied.org/doi/abs/10.1187/cbe.22-04-0073",
+    "num_citations": 92,
+    "citedby_url": "https://scholar.google.com/scholar?cites=978021732009570345&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:07:13.453366"
+  },
+  "Semantic Code Repair using Neuro-Symbolic Transformation Networks": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Semantic code repair using neuro-symbolic transformation networks",
+      "author": [
+        "J Devlin",
+        "J Uesato",
+        "R Singh",
+        "P Kohli - arXiv preprint arXiv:1710.11054",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "arxiv.org",
+      "abstract": "We study the problem of semantic code repair, which can be broadly defined as automatically fixing non-syntactic bugs in source code. The majority of past work in semantic code repair assumed access to unit tests against which candidate repairs could be validated. In contrast, the goal here is to develop a strong statistical model to accurately predict both bug locations and exact fixes without access to information about the intended correct behavior of the program. Achieving such a goal requires a robust contextual repair …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1710.11054",
+    "num_citations": 57,
+    "citedby_url": "https://scholar.google.com/scholar?cites=14522043052219246742&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:07:15.699068"
+  },
+  "Ensemble Robustness and Generalization of Stochastic Deep Learning Algorithms": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Ensemble robustness and generalization of stochastic deep learning algorithms",
+      "author": [
+        "T Zahavy",
+        "B Kang",
+        "A Sivak",
+        "J Feng",
+        "H Xu - arXiv preprint arXiv",
+        "2016"
+      ],
+      "pub_year": "2016",
+      "venue": "arxiv.org",
+      "abstract": "The question why deep learning algorithms generalize so well has attracted increasing research interest. However, most of the well-established approaches, such as hypothesis capacity, stability or sparseness, have not provided complete explanations (Zhang et al., 2016; Kawaguchi et al., 2017). In this work, we focus on the robustness approach (Xu & Mannor, 2012), ie, if the error of a hypothesis will not change much due to perturbations of its training examples, then it will also generalize well. As most deep learning algorithms are …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1602.02389",
+    "num_citations": 24,
+    "citedby_url": "https://scholar.google.com/scholar?cites=5276177564991433700&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:07:17.916654"
+  },
+  "FigureQA: An Annotated Figure Dataset for Visual Reasoning": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Figureqa: An annotated figure dataset for visual reasoning",
+      "author": [
+        "SE Kahou",
+        "V Michalski",
+        "A Atkinson",
+        "Á Kádár - arXiv preprint arXiv",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "arxiv.org",
+      "abstract": "… We introduce FigureQA, a visual reasoning corpus of … figures from five classes: line plots, \ndot-line plots, vertical and horizontal bar graphs, and pie charts. We formulate our reasoning …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1710.07300",
+    "num_citations": 451,
+    "citedby_url": "https://scholar.google.com/scholar?cites=7004678543332000257&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:07:20.172044"
+  },
+  "DNA-GAN: Learning Disentangled Representations from Multi-Attribute Images": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Dna-gan: Learning disentangled representations from multi-attribute images",
+      "author": [
+        "T Xiao",
+        "J Hong",
+        "J Ma - arXiv preprint arXiv:1711.05415",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "arxiv.org",
+      "abstract": "Disentangling factors of variation has become a very challenging problem on representation learning. Existing algorithms suffer from many limitations, such as unpredictable disentangling factors, poor quality of generated images from encodings, lack of identity information, etc. In this paper, we propose a supervised learning model called DNA-GAN which tries to disentangle different factors or attributes of images. The latent representations of images are DNA-like, in which each individual piece (of the encoding) represents an …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1711.05415",
+    "num_citations": 99,
+    "citedby_url": "https://scholar.google.com/scholar?cites=10316950315000655632&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:07:22.194966"
+  },
+  "PDE-Net: Learning PDEs from Data": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Pde-net: Learning pdes from data",
+      "author": [
+        "Z Long",
+        "Y Lu",
+        "X Ma",
+        "B Dong -  on machine learning",
+        "2018"
+      ],
+      "pub_year": "2018",
+      "venue": "proceedings.mlr.press",
+      "abstract": "… Such vast quantity of data offers new opportunities for data-driven discovery of physical laws… \ndesigns in deep learning, we propose a new feed-forward deep network, called PDENet, to …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "http://proceedings.mlr.press/v80/long18a.html?ref=https://githubhelp.com",
+    "num_citations": 1074,
+    "citedby_url": "https://scholar.google.com/scholar?cites=12110088803814108713&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:07:24.214851"
+  },
+  "Jointly Learning to Construct and Control Agents using Deep Reinforcement Learning": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Jointly learning to construct and control agents using deep reinforcement learning",
+      "author": [
+        "C Schaff",
+        "D Yunis",
+        "A Chakrabarti -  conference on robotics",
+        "2019"
+      ],
+      "pub_year": "2019",
+      "venue": "ieeexplore.ieee.org",
+      "abstract": "The physical design of a robot and the policy that controls its motion are inherently coupled, and should be determined according to the task and environment. In an increasing number of applications, data-driven and learning-based approaches, such as deep reinforcement learning, have proven effective at designing control policies. For most tasks, the only way to evaluate a physical design with respect to such control policies is empirical-ie, by picking a design and training a control policy for it. Since training these policies is time-consuming, it …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://ieeexplore.ieee.org/abstract/document/8793537/",
+    "num_citations": 161,
+    "citedby_url": "https://scholar.google.com/scholar?cites=16524130189701551253&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:07:26.176688"
+  },
+  "LSH-SAMPLING BREAKS THE COMPUTATIONAL CHICKEN-AND-EGG LOOP IN ADAPTIVE STOCHASTIC GRADIENT ESTIMATION": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Lsh-sampling breaks the computation chicken-and-egg loop in adaptive stochastic gradient estimation",
+      "author": [
+        "B Chen",
+        "Y Xu",
+        "A Shrivastava - arXiv preprint arXiv:1910.14162",
+        "2019"
+      ],
+      "pub_year": "1910",
+      "venue": "arxiv.org",
+      "abstract": "Stochastic Gradient Descent or SGD is the most popular optimization algorithm for large-scale problems. SGD estimates the gradient by uniform sampling with sample size one. There have been several other works that suggest faster epoch-wise convergence by using weighted non-uniform sampling for better gradient estimates. Unfortunately, the per-iteration cost of maintaining this adaptive distribution for gradient estimation is more than calculating the full gradient itself, which we call the chicken-and-the-egg loop. As a result, the false …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1910.14162",
+    "num_citations": 13,
+    "citedby_url": "https://scholar.google.com/scholar?cites=12992592929726991567&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:07:28.165333"
+  },
+  "Adversarial Spheres": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Adversarial spheres",
+      "author": [
+        "J Gilmer",
+        "L Metz",
+        "F Faghri",
+        "SS Schoenholz - arXiv preprint arXiv",
+        "2018"
+      ],
+      "pub_year": "2018",
+      "venue": "arxiv.org",
+      "abstract": "… back on the sphere by normalizing ||x||2. To find nearby adversarial examples we terminate \nPGD … for all 1000 steps, potentially walking very far along the sphere from the starting point x. …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1801.02774",
+    "num_citations": 450,
+    "citedby_url": "https://scholar.google.com/scholar?cites=16463129449367579533&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:07:30.102978"
+  },
+  "Simple and efficient architecture search for Convolutional Neural Networks": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Simple and efficient architecture search for convolutional neural networks",
+      "author": [
+        "T Elsken",
+        "JH Metzen",
+        "F Hutter - arXiv preprint arXiv:1711.04528",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "arxiv.org",
+      "abstract": "Neural networks have recently had a lot of success for many tasks. However, neural network architectures that perform well are still typically designed manually by experts in a cumbersome trial-and-error process. We propose a new method to automatically search for well-performing CNN architectures based on a simple hill climbing procedure whose operators apply network morphisms, followed by short optimization runs by cosine annealing. Surprisingly, this simple method yields competitive results, despite only requiring …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1711.04528",
+    "num_citations": 342,
+    "citedby_url": "https://scholar.google.com/scholar?cites=10705593020526188892&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:07:32.124953"
+  },
+  "Distributional Adversarial Networks": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Distributional adversarial networks",
+      "author": [
+        "C Li",
+        "D Alvarez-Melis",
+        "K Xu",
+        "S Jegelka",
+        "S Sra - arXiv preprint arXiv",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "arxiv.org",
+      "abstract": "… • We introduce a new distributional framework for adversarial training of neural networks, which \n… We propose two types of adversarial networks based on this distributional approach, and …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1706.09549",
+    "num_citations": 32,
+    "citedby_url": "https://scholar.google.com/scholar?cites=4318799851448472619&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:07:33.988583"
+  },
+  "DropMax: Adaptive Stochastic Softmax": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "DropMax: Adaptive variational softmax",
+      "author": [
+        "HB Lee",
+        "J Lee",
+        "S Kim",
+        "E Yang - Advances in Neural",
+        "2018"
+      ],
+      "pub_year": "2018",
+      "venue": "proceedings.neurips.cc",
+      "abstract": "… We propose DropMax, a stochastic version of softmax classifier … This stochastic regularization \nhas an effect of building an … accuracy over the regular softmax classifier and other baselines…"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://proceedings.neurips.cc/paper_files/paper/2018/hash/389bc7bb1e1c2a5e7e147703232a88f6-Abstract.html",
+    "num_citations": 19,
+    "citedby_url": "https://scholar.google.com/scholar?cites=6113755016125254061&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:07:36.092809"
+  },
+  "Natural Language Inference with External Knowledge": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Natural language inference with external knowledge",
+      "author": [
+        "Q Chen",
+        "X Zhu",
+        "ZH Ling",
+        "D Inkpen"
+      ],
+      "pub_year": "2018",
+      "venue": "",
+      "abstract": "Modeling informal inference in natural language is very challenging. With the recent availability of large annotated data, it has become feasible to train complex models such as neural networks to perform natural language inference (NLI), which have achieved state-of-the-art performance. Although there exist relatively large annotated data, can machines learn all knowledge needed to perform NLI from the data? If not, how can NLI models benefit from external knowledge and how to build NLI models to leverage it? In this paper, we aim to …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=Sy3XxCx0Z",
+    "num_citations": 43,
+    "citedby_url": "https://scholar.google.com/scholar?cites=16671344003810594601&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:07:38.142280"
+  },
+  "Challenges in Disentangling Independent Factors of Variation": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Challenges in disentangling independent factors of variation",
+      "author": [
+        "A Szabó",
+        "Q Hu",
+        "T Portenier",
+        "M Zwicker - arXiv preprint arXiv",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "arxiv.org",
+      "abstract": "We study the problem of building models that disentangle independent factors of variation. Such models could be used to encode features that can efficiently be used for classification and to transfer attributes between different images in image synthesis. As data we use a weakly labeled training set. Our weak labels indicate what single factor has changed between two data samples, although the relative value of the change is unknown. This labeling is of particular interest as it may be readily available without annotation costs. To …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1711.02245",
+    "num_citations": 65,
+    "citedby_url": "https://scholar.google.com/scholar?cites=1225796184074177533&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:07:40.254062"
+  },
+  "Some Considerations on Learning to Explore via Meta-Reinforcement Learning": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Some considerations on learning to explore via meta-reinforcement learning",
+      "author": [
+        "BC Stadie",
+        "G Yang",
+        "R Houthooft",
+        "X Chen - arXiv preprint arXiv",
+        "2018"
+      ],
+      "pub_year": "2018",
+      "venue": "arxiv.org",
+      "abstract": "We consider the problem of exploration in meta reinforcement learning. Two new meta reinforcement learning algorithms are suggested: E-MAML and E-$\\text {RL}^ 2$. Results are presented on a novel environment we callKrazy World'and a set of maze environments. We show E-MAML and E-$\\text {RL}^ 2$ deliver better performance on tasks where exploration is important."
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1803.01118",
+    "num_citations": 161,
+    "citedby_url": "https://scholar.google.com/scholar?cites=4346250006714927023&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:07:42.374583"
+  },
+  "GeoSeq2Seq: Information Geometric Sequence-to-Sequence Networks": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Geoseq2seq: Information geometric sequence-to-sequence networks",
+      "author": [
+        "A Bay",
+        "B Sengupta - arXiv preprint arXiv:1710.09363",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "arxiv.org",
+      "abstract": "The Fisher information metric is an important foundation of information geometry, wherein it allows us to approximate the local geometry of a probability distribution. Recurrent neural networks such as the Sequence-to-Sequence (Seq2Seq) networks that have lately been used to yield state-of-the-art performance on speech translation or image captioning have so far ignored the geometry of the latent embedding, that they iteratively learn. We propose the information geometric Seq2Seq (GeoSeq2Seq) network which abridges the gap between …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1710.09363",
+    "num_citations": 6,
+    "citedby_url": "https://scholar.google.com/scholar?cites=18328231735975908644&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:07:44.616848"
+  },
+  "A Flexible Approach to Automated RNN Architecture Generation": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "A flexible approach to automated RNN architecture generation",
+      "author": [
+        "M Schrimpf",
+        "S Merity",
+        "J Bradbury",
+        "R Socher - arXiv preprint arXiv",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "arxiv.org",
+      "abstract": "The process of designing neural architectures requires expert knowledge and extensive trial and error. While automated architecture search may simplify these requirements, the recurrent neural network (RNN) architectures generated by existing methods are limited in both flexibility and components. We propose a domain-specific language (DSL) for use in automated architecture search which can produce novel RNNs of arbitrary depth and width. The DSL is flexible enough to define standard architectures such as the Gated Recurrent …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1712.07316",
+    "num_citations": 22,
+    "citedby_url": "https://scholar.google.com/scholar?cites=8111960316421570736&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:07:46.710501"
+  },
+  "Regularization Neural Networks via Constrained Virtual  Movement Field": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Regularization Neural Networks via Constrained Virtual Movement Field",
+      "author": [
+        "Z Zhang",
+        "C Jung"
+      ],
+      "pub_year": "2018",
+      "venue": "",
+      "abstract": "We provide a novel thinking of regularization neural networks. We smooth the objective of neural networks wrt small adversarial perturbations of the inputs. Different from previous works, we assume the adversarial perturbations are caused by the movement field. When the magnitude of movement field approaches 0, we call it virtual movement field. By introducing the movement field, we cast the problem of finding adversarial perturbations into the problem of finding adversarial movement field. By adding proper geometrical constraints …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=SkHl6MWC-",
+    "num_citations": 0,
+    "citedby_url": "",
+    "scraped_at": "2026-01-20T21:07:48.739504"
+  },
+  "Searching for Activation Functions": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Searching for activation functions",
+      "author": [
+        "P Ramachandran",
+        "B Zoph",
+        "QV Le - arXiv preprint arXiv:1710.05941",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "arxiv.org",
+      "abstract": "… scalar, because scalar activation functions can be used to replace the ReLU function without \n… learning-based search, we find a number of novel activation functions that show promising …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1710.05941",
+    "num_citations": 5595,
+    "citedby_url": "https://scholar.google.com/scholar?cites=665017396840630897&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:07:50.870471"
+  },
+  "Rotational Unit of Memory ": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Rotational unit of memory: a novel representation unit for RNNs with scalable applications",
+      "author": [
+        "R Dangovski",
+        "L Jing",
+        "P Nakov",
+        "M Tatalović - Transactions of the",
+        "2019"
+      ],
+      "pub_year": "2019",
+      "venue": "direct.mit.edu",
+      "abstract": "… memory state, Rotational Unit of Memory (RUM), that unifies the concepts of unitary learning \nand associative memory… tasks such as memory copying and memory recall much better than …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://direct.mit.edu/tacl/article-abstract/doi/10.1162/tacl_a_00258/43512",
+    "num_citations": 41,
+    "citedby_url": "https://scholar.google.com/scholar?cites=15810795672672123726&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:07:52.831036"
+  },
+  "Fast Node Embeddings: Learning Ego-Centric Representations": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Fast node embeddings: Learning ego-centric representations",
+      "author": [
+        "T Pimentel",
+        "A Veloso",
+        "N Ziviani"
+      ],
+      "pub_year": "2018",
+      "venue": "",
+      "abstract": "Representation learning is one of the foundations of Deep Learning and allowed important improvements on several Machine Learning tasks, such as Neural Machine Translation, Question Answering and Speech Recognition. Recent works have proposed new methods for learning representations for nodes and edges in graphs. Several of these methods are based on the SkipGram algorithm, and they usually process a large number of multi-hop neighbors in order to produce the context from which node representations are learned. In …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=B10ZSeWCb",
+    "num_citations": 22,
+    "citedby_url": "https://scholar.google.com/scholar?cites=11491617788373538815&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:07:55.051653"
+  },
+  "Adaptive Memory Networks": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Adaptive memory networks with self-supervised learning for unsupervised anomaly detection",
+      "author": [
+        "Y Zhang",
+        "J Wang",
+        "Y Chen",
+        "H Yu - IEEE Transactions on",
+        "2022"
+      ],
+      "pub_year": "2022",
+      "venue": "ieeexplore.ieee.org",
+      "abstract": "… In this paper, we propose a novel approach called Adaptive Memory Network with Self-supervised … \nthe memory network. Then, we present our adaptive memory fusion module in detail. …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://ieeexplore.ieee.org/abstract/document/9669068/",
+    "num_citations": 139,
+    "citedby_url": "https://scholar.google.com/scholar?cites=7622421933834727227&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:07:57.289020"
+  },
+  "Predict Responsibly: Increasing Fairness by Learning to Defer": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Predict responsibly: Increasing fairness by learning to defer",
+      "author": [
+        "D Madras",
+        "T Pitassi",
+        "R Zemel"
+      ],
+      "pub_year": "2018",
+      "venue": "",
+      "abstract": "When machine learning models are used for high-stakes decisions, they should predict accurately, fairly, and responsibly. To fulfill these three requirements, a model must be able to output a reject option (ie say\"``I Don't Know\") when it is not qualified to make a prediction. In this work, we propose learning to defer, a method by which a model can defer judgment to a downstream decision-maker such as a human user. We show that learning to defer generalizes the rejection learning framework in two ways: by considering the effect of other …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=HyjVKLJwz",
+    "num_citations": 16,
+    "citedby_url": "https://scholar.google.com/scholar?cites=1751996927908217686&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:07:59.337838"
+  },
+  "Extending the Framework of Equilibrium Propagation to General Dynamics": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Extending the framework of equilibrium propagation to general dynamics",
+      "author": [
+        "B Scellier",
+        "A Goyal",
+        "J Binas",
+        "T Mesnard",
+        "Y Bengio"
+      ],
+      "pub_year": "2018",
+      "venue": "",
+      "abstract": "The biological plausibility of the backpropagation algorithm has long been doubted by neuroscientists. Two major reasons are that neurons would need to send two different types of signal in the forward and backward phases, and that pairs of neurons would need to communicate through symmetric bidirectional connections. We present a simple two-phase learning procedure for fixed point recurrent networks that addresses both these issues. In our model, neurons perform leaky integration and synaptic weights are updated through a …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=BJ5V4ICIG",
+    "num_citations": 6,
+    "citedby_url": "https://scholar.google.com/scholar?cites=15673369876435147928&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:08:01.438645"
+  },
+  "Time-Dependent Representation for Neural Event Sequence Prediction": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Time-dependent representation for neural event sequence prediction",
+      "author": [
+        "Y Li",
+        "N Du",
+        "S Bengio - arXiv preprint arXiv:1708.00065",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "arxiv.org",
+      "abstract": "Existing sequence prediction methods are mostly concerned with time-independent sequences, in which the actual time span between events is irrelevant and the distance between events is simply the difference between their order positions in the sequence. While this time-independent view of sequences is applicable for data such as natural languages, eg, dealing with words in a sentence, it is inappropriate and inefficient for many real world events that are observed and collected at unequally spaced points of time as they …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1708.00065",
+    "num_citations": 90,
+    "citedby_url": "https://scholar.google.com/scholar?cites=3807850542614666163&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:08:03.512011"
+  },
+  "Weightless: Lossy Weight Encoding For Deep Neural Network Compression": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Weightless: Lossy weight encoding for deep neural network compression",
+      "author": [
+        "B Reagan",
+        "U Gupta",
+        "B Adolf - International",
+        "2018"
+      ],
+      "pub_year": "2018",
+      "venue": "proceedings.mlr.press",
+      "abstract": "The large memory requirements of deep neural networks limit their deployment and adoption on many devices. Model compression methods effectively reduce the memory requirements of these models, usually through applying transformations such as weight pruning or quantization. In this paper, we present a novel scheme for lossy weight encoding co-designed with weight simplification techniques. The encoding is based on the Bloomier filter, a probabilistic data structure that can save space at the cost of introducing random …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "http://proceedings.mlr.press/v80/reagan18a.html?ref=https://githubhelp.com",
+    "num_citations": 59,
+    "citedby_url": "https://scholar.google.com/scholar?cites=15524028552507582001&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:08:05.769506"
+  },
+  "To Prune, or Not to Prune: Exploring the Efficacy of Pruning for Model Compression": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "To prune, or not to prune: exploring the efficacy of pruning for model compression",
+      "author": [
+        "M Zhu",
+        "S Gupta - arXiv preprint arXiv:1710.01878",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "arxiv.org",
+      "abstract": "… -off in model size and accuracy. We investigate these two distinct paths for model compression \n… gradual pruning technique that is simple and straightforward to apply across a variety of …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1710.01878",
+    "num_citations": 1815,
+    "citedby_url": "https://scholar.google.com/scholar?cites=14305028926417652827&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:08:08.009493"
+  },
+  "Covariant Compositional Networks For Learning Graphs": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Covariant compositional networks for learning graphs",
+      "author": [
+        "R Kondor",
+        "HT Son",
+        "H Pan",
+        "B Anderson - arXiv preprint arXiv",
+        "2018"
+      ],
+      "pub_year": "2018",
+      "venue": "arxiv.org",
+      "abstract": "Most existing neural networks for learning graphs address permutation invariance by conceiving of the network as a message passing scheme, where each node sums the feature vectors coming from its neighbors. We argue that this imposes a limitation on their representation power, and instead propose a new general architecture for representing objects consisting of a hierarchy of parts, which we call Covariant Compositional Networks (CCNs). Here, covariance means that the activation of each neuron must transform in a …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1801.02144",
+    "num_citations": 157,
+    "citedby_url": "https://scholar.google.com/scholar?cites=4275267252416864115&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:08:10.183778"
+  },
+  "Cross-Corpus Training with TreeLSTM for the Extraction of Biomedical Relationships from Text": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Cross-corpus training with treeLSTM for the extraction of biomedical relationships from text",
+      "author": [
+        "L Joël",
+        "Y Toussaint",
+        "C Raïssi",
+        "A Coulet"
+      ],
+      "pub_year": "2018",
+      "venue": "",
+      "abstract": "A bottleneck problem in machine learning-based relationship extraction (RE) algorithms, and particularly of deep learning-based ones, is the availability of training data in the form of annotated corpora. For specific domains, such as biomedicine, the long time and high expertise required for the development of manually annotated corpora explain that most of the existing one are relatively small (ie, hundreds of sentences). Beside, larger corpora focusing on general or domain-specific relationships (such as citizenship or drug-drug …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=S1LXVnxRb",
+    "num_citations": 1,
+    "citedby_url": "https://scholar.google.com/scholar?cites=9302852459521362742&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:08:12.291576"
+  },
+  "Data Augmentation Generative Adversarial Networks": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Data augmentation generative adversarial networks",
+      "author": [
+        "A Antoniou",
+        "A Storkey",
+        "H Edwards - arXiv preprint arXiv:1711.04340",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "arxiv.org",
+      "abstract": "Effective training of neural networks requires much data. In the low-data regime, parameters are underdetermined, and learnt networks generalise poorly. Data Augmentation alleviates this by using existing data more effectively. However standard data augmentation produces only limited plausible alternative data. Given there is potential to generate a much broader set of augmentations, we design and train a generative model to do data augmentation. The model, based on image conditional Generative Adversarial Networks, takes data from a …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1711.04340",
+    "num_citations": 1644,
+    "citedby_url": "https://scholar.google.com/scholar?cites=9773523094742397382&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:08:14.366451"
+  },
+  "Not-So-CLEVR: Visual Relations Strain Feedforward Neural Networks": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Not-So-CLEVR: learning same–different relations strains feedforward neural networks",
+      "author": [
+        "J Kim",
+        "M Ricci",
+        "T Serre - Interface focus",
+        "2018"
+      ],
+      "pub_year": "2018",
+      "venue": "royalsocietypublishing.org",
+      "abstract": "… on visual recognition tasks like image classification and face recognition. However, here we \nwill show that feedforward neural networks struggle to learn abstract visual relations that are …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://royalsocietypublishing.org/doi/abs/10.1098/rsfs.2018.0011",
+    "num_citations": 129,
+    "citedby_url": "https://scholar.google.com/scholar?cites=2397954887165904082&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:08:16.509713"
+  },
+  "Towards Effective GANs for Data Distributions with Diverse Modes": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Towards Effective GANs for Data Distributions with Diverse Modes",
+      "author": [
+        "S Agrawal",
+        "G Singh",
+        "M Khapra"
+      ],
+      "pub_year": "2018",
+      "venue": "",
+      "abstract": "Generative Adversarial Networks (GANs), when trained on large datasets with diverse modes, are known to produce conflated images which do not distinctly belong to any of the modes. We hypothesize that this problem occurs due to the interaction between two facts:(1) For datasets with large variety, it is likely that the modes lie on separate manifolds.(2) The generator (G) is formulated as a continuous function, and the input noise is derived from a connected set, due to which G's output is a connected set. If G covers all modes, then there …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=HyDMX0l0Z",
+    "num_citations": 0,
+    "citedby_url": "",
+    "scraped_at": "2026-01-20T21:08:18.685398"
+  },
+  "Learning Deep Generative Models of Graphs": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Learning deep generative models of graphs",
+      "author": [
+        "Y Li",
+        "O Vinyals",
+        "C Dyer",
+        "R Pascanu - arXiv preprint arXiv",
+        "2018"
+      ],
+      "pub_year": "2018",
+      "venue": "arxiv.org",
+      "abstract": "Graphs are fundamental data structures which concisely capture the relational structure in many important real-world domains, such as knowledge graphs, physical and social interactions, language, and chemistry. Here we introduce a powerful new approach for learning generative models over graphs, which can capture both their structure and attributes. Our approach uses graph neural networks to express probabilistic dependencies among a graph's nodes and edges, and can, in principle, learn distributions over any …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1803.03324",
+    "num_citations": 848,
+    "citedby_url": "https://scholar.google.com/scholar?cites=17513730911496359317&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:08:20.666257"
+  },
+  "Gradients explode - Deep Networks are shallow - ResNet explained": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Gradients explode-deep networks are shallow-resnet explained",
+      "author": [
+        "G Philipp",
+        "D Song",
+        "JG Carbonell"
+      ],
+      "pub_year": "2018",
+      "venue": "",
+      "abstract": "Whereas it is believed that techniques such as Adam, batch normalization and, more recently, SeLU nonlinearities\" solve\" the exploding gradient problem, we show that this is not the case and that in a range of popular MLP architectures, exploding gradients exist and that they limit the depth to which networks can be effectively trained, both in theory and in practice. We explain why exploding gradients occur and highlight the* collapsing domain problem*, which can arise in architectures that avoid exploding gradients. ResNets have …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=rJjcdFkPM",
+    "num_citations": 69,
+    "citedby_url": "https://scholar.google.com/scholar?cites=16347061525099758909&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:08:22.755977"
+  },
+  "Visualizing the Loss Landscape of Neural Nets": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Visualizing the loss landscape of neural nets",
+      "author": [
+        "H Li",
+        "Z Xu",
+        "G Taylor",
+        "C Studer - Advances in neural",
+        "2018"
+      ],
+      "pub_year": "2018",
+      "venue": "proceedings.neurips.cc",
+      "abstract": "Neural network training relies on our ability to find\" good\" minimizers of highly non-convex loss functions. It is well known that certain network architecture designs (eg, skip connections) produce loss functions that train easier, and well-chosen training parameters (batch size, learning rate, optimizer) produce minimizers that generalize better. However, the reasons for these differences, and their effect on the underlying loss landscape, is not well understood. In this paper, we explore the structure of neural loss functions, and the effect of …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://proceedings.neurips.cc/paper/2018/hash/a41b3bb3e6b050b6c9067c67f663b915-Abstract.html",
+    "num_citations": 2863,
+    "citedby_url": "https://scholar.google.com/scholar?cites=11650483902238288010&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:08:24.742856"
+  },
+  "Exponentially vanishing sub-optimal local minima in multilayer neural networks": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Exponentially vanishing sub-optimal local minima in multilayer neural networks",
+      "author": [
+        "D Soudry",
+        "E Hoffer - arXiv preprint arXiv:1702.05777",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "arxiv.org",
+      "abstract": "Background: Statistical mechanics results (Dauphin et al.(2014); Choromanska et al.(2015)) suggest that local minima with high error are exponentially rare in high dimensions. However, to prove low error guarantees for Multilayer Neural Networks (MNNs), previous works so far required either a heavily modified MNN model or training method, strong assumptions on the labels (eg,\" near\" linear separability), or an unrealistic hidden layer with $\\Omega\\left (N\\right) $ units. Results: We examine a MNN with one hidden layer of …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1702.05777",
+    "num_citations": 113,
+    "citedby_url": "https://scholar.google.com/scholar?cites=16572109840860859919&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:08:27.290698"
+  },
+  "Exploring Deep Recurrent Models with Reinforcement Learning for Molecule Design": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Exploring deep recurrent models with reinforcement learning for molecule design",
+      "author": [
+        "D Neil",
+        "M Segler",
+        "L Guasch",
+        "M Ahmed",
+        "D Plumbley"
+      ],
+      "pub_year": "2018",
+      "venue": "",
+      "abstract": "The design of small molecules with bespoke properties is of central importance to drug discovery. However significant challenges yet remain for computational methods, despite recent advances such as deep recurrent networks and reinforcement learning strategies for sequence generation, and it can be difficult to compare results across different works. This work proposes 19 benchmarks selected by subject experts, expands smaller datasets previously used to approximately 1.1 million training molecules, and explores how to apply …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=HkcTe-bR-&source=post_page-----a942a1c523a3----------------------",
+    "num_citations": 111,
+    "citedby_url": "https://scholar.google.com/scholar?cites=4864809591239422911&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:08:29.326757"
+  },
+  "Learning Efficient Tensor Representations with Ring Structure Networks": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Learning efficient tensor representations with ring-structured networks",
+      "author": [
+        "Q Zhao",
+        "M Sugiyama",
+        "L Yuan - ICASSP 2019-2019",
+        "2019"
+      ],
+      "pub_year": "2019",
+      "venue": "ieeexplore.ieee.org",
+      "abstract": "Tensor train decomposition is a powerful representation for high-order tensors, which has been successfully applied to various machine learning tasks in recent years. In this paper, we study a more generalized tensor decomposition with a ring-structured network by employing circular multilinear products over a sequence of lower-order core tensors. We refer to such tensor decomposition as tensor ring (TR) representation. Our goal is to introduce learning algorithms including sequential singular value decompositions and …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://ieeexplore.ieee.org/abstract/document/8682231/",
+    "num_citations": 121,
+    "citedby_url": "https://scholar.google.com/scholar?cites=6150302399397072593&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:08:31.364200"
+  },
+  "Can Deep Reinforcement Learning solve Erdos-Selfridge-Spencer Games?": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Can deep reinforcement learning solve Erdos-Selfridge-Spencer games?",
+      "author": [
+        "M Raghu",
+        "A Irpan",
+        "J Andreas - International",
+        "2018"
+      ],
+      "pub_year": "2018",
+      "venue": "proceedings.mlr.press",
+      "abstract": "Deep reinforcement learning has achieved many recent successes, but our understanding of its strengths and limitations is hampered by the lack of rich environments in which we can fully characterize optimal behavior, and correspondingly diagnose individual actions against such a characterization. Here we consider a family of combinatorial games, arising from work of Erdos, Selfridge, and Spencer, and we propose their use as environments for evaluating and comparing different approaches to reinforcement learning. These games …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://proceedings.mlr.press/v80/raghu18a.html",
+    "num_citations": 44,
+    "citedby_url": "https://scholar.google.com/scholar?cites=5045759722516886464&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:08:33.344131"
+  },
+  "Investigating Human Priors for Playing Video Games": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Investigating human priors for playing video games",
+      "author": [
+        "R Dubey",
+        "P Agrawal",
+        "D Pathak",
+        "TL Griffiths - arXiv preprint arXiv",
+        "2018"
+      ],
+      "pub_year": "2018",
+      "venue": "arxiv.org",
+      "abstract": "What makes humans so good at solving seemingly complex video games? Unlike computers, humans bring in a great deal of prior knowledge about the world, enabling efficient decision making. This paper investigates the role of human priors for solving video games. Given a sample game, we conduct a series of ablation studies to quantify the importance of various priors on human performance. We do this by modifying the video game environment to systematically mask different types of visual information that could be …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1802.10217",
+    "num_citations": 215,
+    "citedby_url": "https://scholar.google.com/scholar?cites=2202192690517876762&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:08:35.348869"
+  },
+  "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Soft actor-critic: Off-policy maximum entropy deep reinforcement learning with a stochastic actor",
+      "author": [
+        "T Haarnoja",
+        "A Zhou",
+        "P Abbeel -  on machine learning",
+        "2018"
+      ],
+      "pub_year": "2018",
+      "venue": "proceedings.mlr.press",
+      "abstract": "… Both of these challenges severely limit the applicability of such … soft actor-critic, an offpolicy \nactor-critic deep RL algorithm based on the maximum entropy reinforcement learning frame…"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://proceedings.mlr.press/v80/haarnoja18b",
+    "num_citations": 13733,
+    "citedby_url": "https://scholar.google.com/scholar?cites=13282174879342015249&as_sdt=5,28&sciodt=0,28&hl=en",
+    "scraped_at": "2026-01-20T21:08:37.410976"
+  },
+  "On the limitations of first order approximation in GAN dynamics": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "On the limitations of first-order approximation in GAN dynamics",
+      "author": [
+        "J Li",
+        "A Madry",
+        "J Peebles -  conference on machine",
+        "2018"
+      ],
+      "pub_year": "2018",
+      "venue": "proceedings.mlr.press",
+      "abstract": "… dynamics are not yet well understood, both in theory and in practice. To address this issue, \nwe study GAN dynamics in … difference between two GAN dynamics: a “first order” dynamics, in …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://proceedings.mlr.press/v80/li18d.html",
+    "num_citations": 80,
+    "citedby_url": "https://scholar.google.com/scholar?cites=12853395852540879423&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:08:39.550620"
+  },
+  "Benefits of Depth for Long-Term Memory of Recurrent Networks": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Benefits of depth for long-term memory of recurrent networks",
+      "author": [
+        "Y Levine",
+        "O Sharir",
+        "A Shashua"
+      ],
+      "pub_year": "2018",
+      "venue": "",
+      "abstract": "The key attribute that drives the unprecedented success of modern Recurrent Neural Networks (RNNs) on learning tasks which involve sequential data, is their ever-improving ability to model intricate long-term temporal dependencies. However, a well established measure of RNNs' long-term memory capacity is lacking, and thus formal understanding of their ability to correlate data throughout time is limited. Though depth efficiency in convolutional networks is well established by now, it does not suffice in order to account for …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=BJKt3VyPz",
+    "num_citations": 28,
+    "citedby_url": "https://scholar.google.com/scholar?cites=8355261120160301560&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:08:42.107406"
+  },
+  "DuoRC: Towards Complex Language Understanding with Paraphrased Reading Comprehension": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "DuoRC: Towards complex language understanding with paraphrased reading comprehension",
+      "author": [
+        "A Saha",
+        "R Aralikatte",
+        "MM Khapra - arXiv preprint arXiv",
+        "2018"
+      ],
+      "pub_year": "2018",
+      "venue": "arxiv.org",
+      "abstract": "We propose DuoRC, a novel dataset for Reading Comprehension (RC) that motivates several new challenges for neural approaches in language understanding beyond those offered by existing RC datasets. DuoRC contains 186,089 unique question-answer pairs created from a collection of 7680 pairs of movie plots where each pair in the collection reflects two versions of the same movie-one from Wikipedia and the other from IMDb-written by two different authors. We asked crowdsourced workers to create questions from one …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1804.07927",
+    "num_citations": 176,
+    "citedby_url": "https://scholar.google.com/scholar?cites=5661347701461811081&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:08:44.135469"
+  },
+  "Kronecker Recurrent Units": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Kronecker recurrent units",
+      "author": [
+        "C Jose",
+        "M Cissé",
+        "F Fleuret - International Conference on",
+        "2018"
+      ],
+      "pub_year": "2018",
+      "venue": "proceedings.mlr.press",
+      "abstract": "… We present a flexible recurrent neural network model called Kronecker Recurrent Units (… \nAt the heart of KRU, we use Kronecker factored recurrent matrix which provide an elegant way …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "http://proceedings.mlr.press/v80/jose18a.html",
+    "num_citations": 57,
+    "citedby_url": "https://scholar.google.com/scholar?cites=14809178725284478631&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:08:46.386994"
+  },
+  "WSNet: Learning Compact and Efficient Networks with Weight Sampling": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "WSNet: Learning Compact and Efficient Networks with Weight Sampling",
+      "author": [
+        "X Jin",
+        "Y Yang",
+        "N Xu",
+        "J Yang",
+        "J Feng",
+        "S Yan"
+      ],
+      "pub_year": "2018",
+      "venue": "",
+      "abstract": "We present a new approach and a novel architecture, termed WSNet, for learning compact and efficient deep neural networks. Existing approaches conventionally learn full model parameters independently and then compress them via\\emph {ad hoc} processing such as model pruning or filter factorization. Alternatively, WSNet proposes learning model parameters by sampling from a compact set of learnable parameters, which naturally enforces {parameter sharing} throughout the learning process. We demonstrate that such a …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=H1I3M7Z0b",
+    "num_citations": 0,
+    "citedby_url": "",
+    "scraped_at": "2026-01-20T21:08:48.653605"
+  },
+  "Deep learning mutation prediction enables early stage lung cancer detection in liquid biopsy": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Deep learning mutation prediction enables early stage lung cancer detection in liquid biopsy",
+      "author": [
+        "ST Kothen-Hill",
+        "A Zviran",
+        "RC Schulman",
+        "S Deochand"
+      ],
+      "pub_year": "2018",
+      "venue": "",
+      "abstract": "Somatic cancer mutation detection at ultra-low variant allele frequencies (VAFs) is an unmet challenge that is intractable with current state-of-the-art mutation calling methods. Specifically, the limit of VAF detection is closely related to the depth of coverage, due to the requirement of multiple supporting reads in extant methods, precluding the detection of mutations at VAFs that are orders of magnitude lower than the depth of coverage. Nevertheless, the ability to detect cancer-associated mutations in ultra low VAFs is a …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=H1DkN7ZCZ",
+    "num_citations": 27,
+    "citedby_url": "https://scholar.google.com/scholar?cites=3508223998822102158&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:08:50.674526"
+  },
+  "Still not systematic after all these years: On the compositional skills of sequence-to-sequence recurrent networks": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Still not systematic after all these years: On the compositional skills of sequence-to-sequence recurrent networks",
+      "author": [
+        "B Lake",
+        "M Baroni"
+      ],
+      "pub_year": "2018",
+      "venue": "",
+      "abstract": "Humans can understand and produce new utterances effortlessly, thanks to their systematic compositional skills. Once a person learns the meaning of a new verb\" dax,\" he or she can immediately understand the meaning of\" dax twice\" or\" sing and dax.\" In this paper, we introduce the SCAN domain, consisting of a set of simple compositional navigation commands paired with the corresponding action sequences. We then test the zero-shot generalization capabilities of a variety of recurrent neural networks (RNNs) trained on SCAN …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=H18WqugAb",
+    "num_citations": 87,
+    "citedby_url": "https://scholar.google.com/scholar?cites=2251211046909792457&as_sdt=5,39&sciodt=0,39&hl=en",
+    "scraped_at": "2026-01-20T21:08:52.620544"
+  },
+  "Learning Deep Models: Critical Points and Local Openness": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Learning deep models: Critical points and local openness",
+      "author": [
+        "M Nouiehed",
+        "M Razaviyayn - INFORMS Journal on",
+        "2022"
+      ],
+      "pub_year": "2022",
+      "venue": "pubsonline.informs.org",
+      "abstract": "With the increasing popularity of nonconvex deep models, developing a unifying theory for studying the optimization problems that arise from training these models becomes very significant. Toward this end, we present in this paper a unifying landscape analysis framework that can be used when the training objective function is the composite of simple functions. Using the local openness property of the underlying training models, we provide simple sufficient conditions under which any local optimum of the resulting optimization …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://pubsonline.informs.org/doi/abs/10.1287/ijoo.2021.0062",
+    "num_citations": 51,
+    "citedby_url": "https://scholar.google.com/scholar?cites=518693101108020479&as_sdt=4005&sciodt=0,6&hl=en",
+    "scraped_at": "2026-01-20T21:08:55.227830"
+  },
+  "Towards Provable Control for Unknown Linear Dynamical Systems": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Towards provable control for unknown linear dynamical systems",
+      "author": [
+        "S Arora",
+        "E Hazan",
+        "H Lee",
+        "K Singh",
+        "C Zhang",
+        "Y Zhang"
+      ],
+      "pub_year": "2018",
+      "venue": "",
+      "abstract": "We study the control of symmetric linear dynamical systems with unknown dynamics and a hidden state. Using a recent spectral filtering technique for concisely representing such systems in a linear basis, we formulate optimal control in this setting as a convex program. This approach eliminates the need to solve the non-convex problem of explicit identification of the system and its latent state, and allows for provable optimality guarantees for the control signal. We give the first efficient algorithm for finding the optimal control signal with …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=BygpQlbA-",
+    "num_citations": 31,
+    "citedby_url": "https://scholar.google.com/scholar?cites=9814362943393714119&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:08:57.487144"
+  },
+  "Decoding Decoders: Finding Optimal Representation Spaces for Unsupervised Similarity Tasks": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Decoding decoders: finding optimal representation spaces for unsupervised similarity tasks",
+      "author": [
+        "V Zhelezniak",
+        "D Busbridge",
+        "A Shen",
+        "SL Smith - arXiv preprint arXiv",
+        "2018"
+      ],
+      "pub_year": "2018",
+      "venue": "arxiv.org",
+      "abstract": "Experimental evidence indicates that simple models outperform complex deep networks on many unsupervised similarity tasks. We provide a simple yet rigorous explanation for this behaviour by introducing the concept of an optimal representation space, in which semantically close symbols are mapped to representations that are close under a similarity measure induced by the model's objective function. In addition, we present a straightforward procedure that, without any retraining or architectural modifications, allows deep recurrent …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1805.03435",
+    "num_citations": 8,
+    "citedby_url": "https://scholar.google.com/scholar?cites=17960191900263632298&as_sdt=5,28&sciodt=0,28&hl=en",
+    "scraped_at": "2026-01-20T21:08:59.806942"
+  },
+  "AUTOMATED DESIGN USING NEURAL NETWORKS AND GRADIENT DESCENT": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Automated design using neural networks and gradient descent",
+      "author": [
+        "O Hennigh - arXiv preprint arXiv:1710.10352",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "arxiv.org",
+      "abstract": "We propose a novel method that makes use of deep neural networks and gradient decent to perform automated design on complex real world engineering tasks. Our approach works by training a neural network to mimic the fitness function of a design optimization task and then, using the differential nature of the neural network, perform gradient decent to maximize the fitness. We demonstrate this methods effectiveness by designing an optimized heat sink and both 2D and 3D airfoils that maximize the lift drag ratio under steady state flow conditions …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1710.10352",
+    "num_citations": 14,
+    "citedby_url": "https://scholar.google.com/scholar?cites=4265610575771216491&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:09:01.807292"
+  },
+  "Value Propagation Networks": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Value propagation networks",
+      "author": [
+        "N Nardelli",
+        "G Synnaeve",
+        "Z Lin",
+        "P Kohli - arXiv preprint arXiv",
+        "2018"
+      ],
+      "pub_year": "2018",
+      "venue": "arxiv.org",
+      "abstract": "… We present Value Propagation (VProp), a set of parameter-efficient differentiable planning \nmodules built on Value Iteration which can successfully be trained using reinforcement …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1805.11199",
+    "num_citations": 39,
+    "citedby_url": "https://scholar.google.com/scholar?cites=9180230208406770561&as_sdt=5,33&sciodt=0,33&hl=en",
+    "scraped_at": "2026-01-20T21:09:03.702693"
+  },
+  "Faster Discovery of Neural Architectures by Searching for Paths in a Large Model": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Faster discovery of neural architectures by searching for paths in a large model",
+      "author": [
+        "H Pham",
+        "MY Guan",
+        "B Zoph",
+        "QV Le",
+        "J Dean"
+      ],
+      "pub_year": "2018",
+      "venue": "",
+      "abstract": "We propose Efficient Neural Architecture Search (ENAS), a faster and less expensive approach to automated model design than previous methods. In ENAS, a controller learns to discover neural network architectures by searching for an optimal path within a larger model. The controller is trained with policy gradient to select a path that maximizes the expected reward on the validation set. Meanwhile the model corresponding to the selected path is trained to minimize the cross entropy loss. On the Penn Treebank dataset, ENAS can …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=ByQZjx-0-",
+    "num_citations": 17,
+    "citedby_url": "https://scholar.google.com/scholar?cites=286449918794248844&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:09:05.752619"
+  },
+  "LEARNING TO ORGANIZE KNOWLEDGE WITH N-GRAM MACHINES": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Learning to Organize Knowledge and Answer Questions with N-Gram Machines",
+      "author": [
+        "F Yang",
+        "J Nie",
+        "WW Cohen",
+        "N Lao - arXiv preprint arXiv:1711.06744",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "arxiv.org",
+      "abstract": "… We apply the N-Gram Machine (NGM) to solve a set of text reasoning tasks in the Facebook \nbAbI dataset [30]. We first demonstrate that the model can learn to build knowledge storage …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1711.06744",
+    "num_citations": 4,
+    "citedby_url": "https://scholar.google.com/scholar?cites=18428994136255261592&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:09:07.909403"
+  },
+  "Shifting Mean Activation Towards Zero with Bipolar Activation Functions": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Shifting mean activation towards zero with bipolar activation functions",
+      "author": [
+        "L Eidnes",
+        "A Nøkland - arXiv preprint arXiv:1709.04054",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "arxiv.org",
+      "abstract": "We propose a simple extension to the ReLU-family of activation functions that allows them to shift the mean activation across a layer towards zero. Combined with proper weight initialization, this alleviates the need for normalization layers. We explore the training of deep vanilla recurrent neural networks (RNNs) with up to 144 layers, and show that bipolar activation functions help learning in this setting. On the Penn Treebank and Text8 language modeling tasks we obtain competitive results, improving on the best reported results for non …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1709.04054",
+    "num_citations": 25,
+    "citedby_url": "https://scholar.google.com/scholar?cites=4922137843063373202&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:09:10.182376"
+  },
+  "Inference Suboptimality in Variational Autoencoders": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Inference suboptimality in variational autoencoders",
+      "author": [
+        "C Cremer",
+        "X Li",
+        "D Duvenaud - International conference on",
+        "2018"
+      ],
+      "pub_year": "2018",
+      "venue": "proceedings.mlr.press",
+      "abstract": "Amortized inference allows latent-variable models trained via variational learning to scale to large datasets. The quality of approximate inference is determined by two factors: a) the capacity of the variational distribution to match the true posterior and b) the ability of the recognition network to produce good variational parameters for each datapoint. We examine approximate inference in variational autoencoders in terms of these factors. We find that divergence from the true posterior is often due to imperfect recognition networks, rather than …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://proceedings.mlr.press/v80/cremer18a.html",
+    "num_citations": 370,
+    "citedby_url": "https://scholar.google.com/scholar?cites=16046280884129751666&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:09:12.095679"
+  },
+  "Neuron as an Agent": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Neuron as an Agent",
+      "author": [
+        "S Ohsawa",
+        "K Akuzawa",
+        "T Matsushima",
+        "G Bezerra"
+      ],
+      "pub_year": "2018",
+      "venue": "",
+      "abstract": "… NaaA enables representation trades in peer-to-peer environments and, ultimately, regards \nneural network units as agents. As NaaA is capable of regarding units as agents without …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=BkfEzz-0-",
+    "num_citations": 7,
+    "citedby_url": "https://scholar.google.com/scholar?cites=16334435829222554033&as_sdt=5,33&sciodt=0,33&hl=en",
+    "scraped_at": "2026-01-20T21:09:14.120820"
+  },
+  "Adversarially Regularized Autoencoders": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Adversarially regularized autoencoders",
+      "author": [
+        "J Zhao",
+        "Y Kim",
+        "K Zhang",
+        "A Rush -  conference on machine",
+        "2018"
+      ],
+      "pub_year": "2018",
+      "venue": "proceedings.mlr.press",
+      "abstract": "… Impact of Regularization on Discrete Encoding We further examine the impact of adversarial \nregularization on the encoded representation produced by the model as it is trained. Figure …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "http://proceedings.mlr.press/v80/zhao18b.html?ref=https://githubhelp.com",
+    "num_citations": 368,
+    "citedby_url": "https://scholar.google.com/scholar?cites=5024716526871945774&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:09:16.093855"
+  },
+  "Regret Minimization for Partially Observable Deep Reinforcement Learning": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Regret minimization for partially observable deep reinforcement learning",
+      "author": [
+        "P Jin",
+        "K Keutzer",
+        "S Levine - International conference on",
+        "2018"
+      ],
+      "pub_year": "2018",
+      "venue": "proceedings.mlr.press",
+      "abstract": "Deep reinforcement learning algorithms that estimate state and state-action value functions have been shown to be effective in a variety of challenging domains, including learning control strategies from raw image pixels. However, algorithms that estimate state and state-action value functions typically assume a fully observed state and must compensate for partial observations by using finite length observation histories or recurrent networks. In this work, we propose a new deep reinforcement learning algorithm based on counterfactual …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "http://proceedings.mlr.press/v80/jin18c.html",
+    "num_citations": 68,
+    "citedby_url": "https://scholar.google.com/scholar?cites=43031357070841216&as_sdt=5,39&sciodt=0,39&hl=en",
+    "scraped_at": "2026-01-20T21:09:18.140392"
+  },
+  "Stable Distribution Alignment Using the Dual of the Adversarial Distance": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Stable distribution alignment using the dual of the adversarial distance",
+      "author": [
+        "B Usman",
+        "K Saenko",
+        "B Kulis - arXiv preprint arXiv:1707.04046",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "arxiv.org",
+      "abstract": "Methods that align distributions by minimizing an adversarial distance between them have recently achieved impressive results. However, these approaches are difficult to optimize with gradient descent and they often do not converge well without careful hyperparameter tuning and proper initialization. We investigate whether turning the adversarial min-max problem into an optimization problem by replacing the maximization part with its dual improves the quality of the resulting alignment and explore its connections to Maximum …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1707.04046",
+    "num_citations": 4,
+    "citedby_url": "https://scholar.google.com/scholar?cites=12132112581759253285&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:09:20.340566"
+  },
+  "Accelerating Neural Architecture Search using Performance Prediction": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Accelerating neural architecture search using performance prediction",
+      "author": [
+        "B Baker",
+        "O Gupta",
+        "R Raskar",
+        "N Naik - arXiv preprint arXiv:1705.10823",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "arxiv.org",
+      "abstract": "Methods for neural network hyperparameter optimization and meta-modeling are computationally expensive due to the need to train a large number of model configurations. In this paper, we show that standard frequentist regression models can predict the final performance of partially trained model configurations using features based on network architectures, hyperparameters, and time-series validation performance data. We empirically show that our performance prediction models are much more effective than prominent …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1705.10823",
+    "num_citations": 485,
+    "citedby_url": "https://scholar.google.com/scholar?cites=14535739396438847664&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:09:22.289386"
+  },
+  "Capturing Human Category Representations by Sampling in Deep Feature Spaces": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Capturing human category representations by sampling in deep feature spaces",
+      "author": [
+        "JC Peterson",
+        "JW Suchow",
+        "K Aghi",
+        "AY Ku - arXiv preprint arXiv",
+        "2018"
+      ],
+      "pub_year": "2018",
+      "venue": "arxiv.org",
+      "abstract": "Understanding how people represent categories is a core problem in cognitive science. Decades of research have yielded a variety of formal theories of categories, but validating them with naturalistic stimuli is difficult. The challenge is that human category representations cannot be directly observed and running informative experiments with naturalistic stimuli such as images requires a workable representation of these stimuli. Deep neural networks have recently been successful in solving a range of computer vision tasks …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1805.07644",
+    "num_citations": 8,
+    "citedby_url": "https://scholar.google.com/scholar?cites=11133683223303879024&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:09:24.434245"
+  },
+  "Cross-View Training for Semi-Supervised Learning": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Cross-view training for semi-supervised learning",
+      "author": [
+        "K Clark",
+        "T Luong",
+        "QV Le"
+      ],
+      "pub_year": "2018",
+      "venue": "",
+      "abstract": "We present Cross-View Training (CVT), a simple but effective method for deep semi-supervised learning. On labeled examples, the model is trained with standard cross-entropy loss. On an unlabeled example, the model first performs inference (acting as a\" teacher\") to produce soft targets. The model then learns from these soft targets (acting as a``\" student\"). We deviate from prior work by adding multiple auxiliary student prediction layers to the model. The input to each student layer is a sub-network of the full model that has a restricted …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=HJhFVtqez",
+    "num_citations": 5,
+    "citedby_url": "https://scholar.google.com/scholar?cites=11028415106557743188&as_sdt=5,33&sciodt=0,33&hl=en",
+    "scraped_at": "2026-01-20T21:09:26.349383"
+  },
+  "The loss surface and expressivity of deep convolutional neural networks": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "The loss surface and expressivity of deep convolutional neural networks",
+      "author": [
+        "Q Nguyen",
+        "M Hein"
+      ],
+      "pub_year": "2018",
+      "venue": "",
+      "abstract": "We analyze the expressiveness and loss surface of practical deep convolutional neural networks (CNNs) with shared weights and max pooling layers. We show that such CNNs produce linearly independent features at a “wide” layer which has more neurons than the number of training samples. This condition holds eg for the VGG network. Furthermore, we provide for such wide CNNs necessary and sufficient conditions for global minima with zero training error. For the case where the wide layer is followed by a fully connected layer we …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=BJjquybCW",
+    "num_citations": 37,
+    "citedby_url": "https://scholar.google.com/scholar?cites=2975418608598838581&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:09:28.382764"
+  },
+  "Reinforcement Learning from Imperfect Demonstrations": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Reinforcement learning from imperfect demonstrations",
+      "author": [
+        "Y Gao",
+        "H Xu",
+        "J Lin",
+        "F Yu",
+        "S Levine",
+        "T Darrell - arXiv preprint arXiv",
+        "2018"
+      ],
+      "pub_year": "2018",
+      "venue": "arxiv.org",
+      "abstract": "Robust real-world learning should benefit from both demonstrations and interactions with the environment. Current approaches to learning from demonstration and reward perform supervised learning on expert demonstration data and use reinforcement learning to further improve performance based on the reward received from the environment. These tasks have divergent losses which are difficult to jointly optimize and such methods can be very sensitive to noisy demonstrations. We propose a unified reinforcement learning algorithm …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1802.05313",
+    "num_citations": 293,
+    "citedby_url": "https://scholar.google.com/scholar?cites=12599937312051323354&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:09:30.372363"
+  },
+  "Learning Representations and Generative Models for 3D Point Clouds": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Learning representations and generative models for 3d point clouds",
+      "author": [
+        "P Achlioptas",
+        "O Diamanti -  on machine learning",
+        "2018"
+      ],
+      "pub_year": "2018",
+      "venue": "proceedings.mlr.press",
+      "abstract": "Three-dimensional geometric data offer an excellent domain for studying representation learning and generative modeling. In this paper, we look at geometric data represented as point clouds. We introduce a deep AutoEncoder (AE) network with state-of-the-art reconstruction quality and generalization ability. The learned representations outperform existing methods on 3D recognition tasks and enable shape editing via simple algebraic manipulations, such as semantic part editing, shape analogies and shape interpolation, as …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://proceedings.mlr.press/v80/achlioptas18a.html",
+    "num_citations": 1957,
+    "citedby_url": "https://scholar.google.com/scholar?cites=9902857073066842718&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:09:32.329516"
+  },
+  "THE EFFECTIVENESS OF A TWO-LAYER NEURAL NETWORK FOR RECOMMENDATIONS": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "The effectiveness of a two-layer neural network for recommendations",
+      "author": [
+        "O Rybakov",
+        "V Mohan",
+        "A Misra",
+        "S LeGrand",
+        "R Joseph"
+      ],
+      "pub_year": "2018",
+      "venue": "",
+      "abstract": "We present a personalized recommender system using neural network for recommending products, such as eBooks, audio-books, Mobile Apps, Video and Music. It produces recommendations based on customer's implicit feedback history such as purchases, listens or watches. Our key contribution is to formulate recommendation problem as a model that encodes historical behavior to predict the future behavior using soft data split, combining predictor and auto-encoder models. We introduce convolutional layer for learning the …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=Bk4AB86rf",
+    "num_citations": 9,
+    "citedby_url": "https://scholar.google.com/scholar?cites=17533937007309563051&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:09:34.220948"
+  },
+  "Learning to Infer": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "A theory of learning to infer.",
+      "author": [
+        "I Dasgupta",
+        "E Schulz",
+        "JB Tenenbaum - Psychological",
+        "2020"
+      ],
+      "pub_year": "2020",
+      "venue": "psycnet.apa.org",
+      "abstract": "… Learning to infer refers to a particular approximate inference … of learned inference is both \na good approximate inference … of patterns of heuristic inference in the behavioral literature, …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://psycnet.apa.org/fulltext/2020-21913-004.html",
+    "num_citations": 129,
+    "citedby_url": "https://scholar.google.com/scholar?cites=9431395044128342731&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:09:36.475131"
+  },
+  "Neural Program Search: Solving Data Processing Tasks from Description and Examples": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Neural program search: Solving data processing tasks from description and examples",
+      "author": [
+        "I Polosukhin",
+        "A Skidanov"
+      ],
+      "pub_year": "2018",
+      "venue": "",
+      "abstract": "We present a Neural Program Search, an algorithm to generate programs from natural language description and a small number of input/output examples. The algorithm combines methods from Deep Learning and Program Synthesis fields by designing rich domain-specific language (DSL) and defining efficient search algorithm guided by a Seq2Tree model on it. To evaluate the quality of the approach we also present a semi-synthetic dataset of descriptions with test examples and corresponding programs. We show that our algorithm …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=B1KJJf-R-",
+    "num_citations": 9,
+    "citedby_url": "https://scholar.google.com/scholar?cites=12032422523523494390&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:09:38.686429"
+  },
+  "No Spurious Local Minima in a Two Hidden Unit ReLU Network": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "No spurious local minima in a two hidden unit relu network",
+      "author": [
+        "C Wu",
+        "J Luo",
+        "JD Lee"
+      ],
+      "pub_year": "2018",
+      "venue": "",
+      "abstract": "Deep learning models can be efficiently optimized via stochastic gradient descent, but there is little theoretical evidence to support this. A key question in optimization is to understand when the optimization landscape of a neural network is amenable to gradient-based optimization. We focus on a simple neural network two-layer ReLU network with two hidden units, and show that all local minimizers are global. This combined with recent work of Lee et al.(2017); Lee et al.(2016) show that gradient descent converges to the global minimizer."
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=B14uJzW0b",
+    "num_citations": 13,
+    "citedby_url": "https://scholar.google.com/scholar?cites=13443636241312263319&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:09:40.999957"
   }
 }

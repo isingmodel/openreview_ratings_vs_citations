@@ -21,8 +21,8 @@ Specifically:
 
 | Year | Mean Rating | High Conf (Experts) | Low Conf (Generalists) | Trend |
 | :--- | :--- | :--- | :--- | :--- |
-| **2017** | **0.218** | 0.163 | 0.138 | Experts > Generalists |
-| **2018** | **0.162** | 0.147 | 0.080 | Experts > Generalists |
+| **2017** | **0.383** | 0.316 | 0.314 | Experts ≈ Generalists |
+| **2018** | **0.321** | 0.309 | 0.155 | Experts >> Generalists |
 | **2019** | **0.175** | 0.135 | **0.144** | Generalists ≥ Experts |
 | **2020** | 0.135 | N/A | N/A | (Confidence data issue) |
 | **2021** | 0.174 | 0.124 | 0.112 | Experts ≥ Generalists |
@@ -34,8 +34,9 @@ Specifically:
 ## 4. Key Findings & Discussion
 
 ### Finding 1: The "Death of Merchandise" (Expertise Decay)
-In the early years (2017-2018), **Experts (High Confidence)** were indeed better predictors of impact than Generalists. However, this advantage has **diminished** over time.
-*   **2017-2018**: Traditional peer review model worked. Experts identified seminal work.
+In the early years (2017-2018), the mean rating had significantly higher predictive power (r > 0.3).
+*   **2018**: Experts (0.31) strongly outperformed Generalists (0.16), suggesting the traditional peer review model worked well.
+*   **2017**: Interestingly, both Experts and Generalists performed well (~0.31), indicating a generally high-quality review pool or easier-to-predict papers.
 *   **2023**: "Experts" performed worse than "Generalists." While positive, expert correlation ($r=0.085$) was lower than the baseline.
 
 ### Finding 2: The Rise of the Generalist

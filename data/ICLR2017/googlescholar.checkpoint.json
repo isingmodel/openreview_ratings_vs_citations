@@ -4210,5 +4210,974 @@
     "num_citations": 707,
     "citedby_url": "https://scholar.google.com/scholar?cites=8536399820764102165&as_sdt=5,24&sciodt=0,24&hl=en",
     "scraped_at": "2026-01-20T13:26:19.061571"
+  },
+  "Extrapolation and learning equations": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Extrapolation and learning equations",
+      "author": [
+        "G Martius",
+        "CH Lampert - arXiv preprint arXiv:1610.02995",
+        "2016"
+      ],
+      "pub_year": "2016",
+      "venue": "arxiv.org",
+      "abstract": "… of learning a system of equations that govern a physical system and can extrapolate to new \n… their absence in the considered physical equations. Other, predominantly local nonlinearities…"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1610.02995",
+    "num_citations": 268,
+    "citedby_url": "https://scholar.google.com/scholar?cites=2392537206754527730&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:04:47.857282"
+  },
+  "Efficient Softmax Approximation for GPUs": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Efficient softmax approximation for GPUs",
+      "author": [
+        "A Joulin",
+        "M Cissé",
+        "D Grangier -  conference on machine",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "proceedings.mlr.press",
+      "abstract": "We propose an approximate strategy to efficiently train neural network based language models over very large vocabularies. Our approach, called adaptive softmax, circumvents the linear dependency on the vocabulary size by exploiting the unbalanced word distribution to form clusters that explicitly minimize the expectation of computation time. Our approach further reduces the computational cost by exploiting the specificities of modern architectures and matrix-matrix vector operations, making it particularly suited for graphical processing …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "http://proceedings.mlr.press/v70/grave17a.html?ref=https://githubhelp.com",
+    "num_citations": 363,
+    "citedby_url": "https://scholar.google.com/scholar?cites=1046983305372158167&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:04:49.880583"
+  },
+  "Exponential Machines": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Exponential machines",
+      "author": [
+        "A Novikov",
+        "M Trofimov",
+        "I Oseledets - arXiv preprint arXiv:1605.03795",
+        "2016"
+      ],
+      "pub_year": "2016",
+      "venue": "arxiv.org",
+      "abstract": "… the performance of machine learning solutions in many … Exponential Machines (ExM), a \npredictor that models all interactions of every order. The key idea is to represent an exponentially …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1605.03795",
+    "num_citations": 189,
+    "citedby_url": "https://scholar.google.com/scholar?cites=14741276431565553156&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:04:52.022448"
+  },
+  "Generalizable Features From Unsupervised Learning": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Generalizable features from unsupervised learning",
+      "author": [
+        "M Mirza",
+        "A Courville",
+        "Y Bengio - arXiv preprint arXiv:1612.03809",
+        "2016"
+      ],
+      "pub_year": "2016",
+      "venue": "arxiv.org",
+      "abstract": "Humans learn a predictive model of the world and use this model to reason about future events and the consequences of actions. In contrast to most machine predictors, we exhibit an impressive ability to generalize to unseen scenarios and reason intelligently in these settings. One important aspect of this ability is physical intuition (Lake et al., 2016). In this work, we explore the potential of unsupervised learning to find features that promote better generalization to settings outside the supervised training distribution. Our task is predicting …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1612.03809",
+    "num_citations": 17,
+    "citedby_url": "https://scholar.google.com/scholar?cites=14930606096187073461&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:04:54.200521"
+  },
+  "Development of JavaScript-based deep learning platform and application to distributed training": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Development of JavaScript-based deep learning platform and application to distributed training",
+      "author": [
+        "M Hidaka",
+        "K Miura",
+        "T Harada - arXiv preprint arXiv:1702.01846",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "arxiv.org",
+      "abstract": "Deep learning is increasingly attracting attention for processing big data. Existing frameworks for deep learning must be set up to specialized computer systems. Gaining sufficient computing resources therefore entails high costs of deployment and maintenance. In this work, we implement a matrix library and deep learning framework that uses JavaScript. It can run on web browsers operating on ordinary personal computers and smartphones. Using JavaScript, deep learning can be accomplished in widely diverse …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1702.01846",
+    "num_citations": 3,
+    "citedby_url": "https://scholar.google.com/scholar?cites=8333595116521890538&as_sdt=5,28&sciodt=0,28&hl=en",
+    "scraped_at": "2026-01-20T21:04:56.590147"
+  },
+  "Short and Deep: Sketching and Neural Networks": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Short and deep: Sketching and neural networks",
+      "author": [
+        "A Daniely",
+        "N Lazic",
+        "Y Singer",
+        "K Talwar"
+      ],
+      "pub_year": "2017",
+      "venue": "",
+      "abstract": "Data-independent methods for dimensionality reduction such as random projections, sketches, and feature hashing have become increasingly popular in recent years. These methods often seek to reduce dimensionality while preserving the hypothesis class, resulting in inherent lower bounds on the size of projected data. For example, preserving linear separability requires $\\Omega (1/\\gamma^ 2) $ dimensions, where $\\gamma $ is the margin, and in the case of polynomial functions, the number of required dimensions has an …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=r1br_2Kge",
+    "num_citations": 11,
+    "citedby_url": "https://scholar.google.com/scholar?cites=9858238498975266247&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:04:58.831641"
+  },
+  "Semi-supervised deep learning by metric embedding": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Semi-supervised deep learning by metric embedding",
+      "author": [
+        "E Hoffer",
+        "N Ailon - arXiv preprint arXiv:1611.01449",
+        "2016"
+      ],
+      "pub_year": "2016",
+      "venue": "arxiv.org",
+      "abstract": "Deep networks are successfully used as classification models yielding state-of-the-art results when trained on a large number of labeled samples. These models, however, are usually much less suited for semi-supervised problems because of their tendency to overfit easily when trained on small amounts of data. In this work we will explore a new training objective that is targeting a semi-supervised regime with only a small subset of labeled data. This criterion is based on a deep metric embedding over distance relations within the set of …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1611.01449",
+    "num_citations": 42,
+    "citedby_url": "https://scholar.google.com/scholar?cites=11128578925116265303&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:05:00.726068"
+  },
+  "Recurrent Normalization Propagation": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Recurrent normalization propagation",
+      "author": [
+        "C Laurent",
+        "N Ballas",
+        "P Vincent"
+      ],
+      "pub_year": "2017",
+      "venue": "",
+      "abstract": "… a brief overview of the Batch-Normalized LSTM, in section 3 we derive our Normalized \nLSTM, section 4 investigates the impact of such normalization on the gradient flow, section 5 …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=r1hNW-MYg",
+    "num_citations": 2,
+    "citedby_url": "https://scholar.google.com/scholar?cites=7975972866647795459&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:05:02.973086"
+  },
+  " A Theoretical Framework for Robustness of (Deep) Classifiers against Adversarial Samples": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "A theoretical framework for robustness of (deep) classifiers against adversarial examples",
+      "author": [
+        "B Wang",
+        "J Gao",
+        "Y Qi - arXiv preprint arXiv:1612.00334",
+        "2016"
+      ],
+      "pub_year": "2016",
+      "venue": "arxiv.org",
+      "abstract": "Most machine learning classifiers, including deep neural networks, are vulnerable to adversarial examples. Such inputs are typically generated by adding small but purposeful modifications that lead to incorrect outputs while imperceptible to human eyes. The goal of this paper is not to introduce a single method, but to make theoretical steps towards fully understanding adversarial examples. By using concepts from topology, our theoretical analysis brings forth the key reasons why an adversarial example can fool a classifier ($ f_1 …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1612.00334",
+    "num_citations": 41,
+    "citedby_url": "https://scholar.google.com/scholar?cites=16756638882132842413&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:05:05.073984"
+  },
+  "On Robust Concepts and Small Neural Nets": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "[HTML] On Robust Concepts and Small Neural Nets",
+      "author": [
+        "A Deshpande - International Conference on Learning",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "academia.edu",
+      "abstract": "The universal approximation theorem for neural networks says that any reasonable function is well-approximated by a two-layer neural network with sigmoid gates but it does not provide good bounds on the number of hidden-layer nodes or the weights. However, robust concepts often have small neural networks in practice. We show an efficient analog of the universal approximation theorem on the boolean hypercube in this context. We prove that any noise-stable boolean function on n boolean-valued input variables can be well …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://www.academia.edu/download/83985802/pdf.pdf",
+    "num_citations": 0,
+    "citedby_url": "",
+    "scraped_at": "2026-01-20T21:05:07.314673"
+  },
+  "Neural Data Filter for Bootstrapping Stochastic Gradient Descent": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Neural data filter for bootstrapping stochastic gradient descent",
+      "author": [
+        "Y Fan",
+        "F Tian",
+        "T Qin",
+        "TY Liu"
+      ],
+      "pub_year": "2016",
+      "venue": "",
+      "abstract": "Mini-batch based Stochastic Gradient Descent (SGD) has been widely used to train deep neural networks efficiently. In this paper, we design a general framework to automatically and adaptively select training data for SGD. The framework is based on neural networks and we call it\\emph {\\textbf {N} eural\\textbf {D} ata\\textbf {F} ilter}(\\textbf {NDF}). In Neural Data Filter, the whole training process of the original neural network is monitored and supervised by a deep reinforcement network, which controls whether to filter some data in sequentially …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=SyJNmVqgg",
+    "num_citations": 9,
+    "citedby_url": "https://scholar.google.com/scholar?cites=2420784274028731255&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:05:09.328790"
+  },
+  "A Differentiable Physics Engine for Deep Learning in Robotics": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "A differentiable physics engine for deep learning in robotics",
+      "author": [
+        "J Degrave",
+        "M Hermans",
+        "J Dambre - Frontiers in",
+        "2019"
+      ],
+      "pub_year": "2019",
+      "venue": "frontiersin.org",
+      "abstract": "… in deep learning could be applied to robotics more efficiently with a differentiable physics \nengine, … this engine could improve existing angles at which robotics are currently approached: …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://www.frontiersin.org/articles/10.3389/fnbot.2019.00006/full",
+    "num_citations": 300,
+    "citedby_url": "https://scholar.google.com/scholar?cites=6535318790190529013&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:05:11.310781"
+  },
+  "Automated Generation of Multilingual Clusters for the Evaluation of Distributed Representations": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Automated generation of multilingual clusters for the evaluation of distributed representations",
+      "author": [
+        "P Blair",
+        "Y Merhav",
+        "J Barry - arXiv preprint arXiv:1611.01547",
+        "2016"
+      ],
+      "pub_year": "2016",
+      "venue": "arxiv.org",
+      "abstract": "We propose a language-agnostic way of automatically generating sets of semantically similar clusters of entities along with sets of\" outlier\" elements, which may then be used to perform an intrinsic evaluation of word embeddings in the outlier detection task. We used our methodology to create a gold-standard dataset, which we call WikiSem500, and evaluated multiple state-of-the-art embeddings. The results show a correlation between performance on this dataset and performance on sentiment analysis."
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1611.01547",
+    "num_citations": 28,
+    "citedby_url": "https://scholar.google.com/scholar?cites=15010971537518099310&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:05:13.329724"
+  },
+  "Perception Updating Networks: On architectural constraints for interpretable video generative models": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Video generative adversarial networks: a review",
+      "author": [
+        "N Aldausari",
+        "A Sowmya",
+        "N Marcus - ACM Computing Surveys",
+        "2022"
+      ],
+      "pub_year": "2022",
+      "venue": "dl.acm.org",
+      "abstract": "… challenges and limitations of the current video GANs models. … of generative models. This is \nbecause GANs surpass other … are pixel-wise losses, perceptual loss compares in terms of the …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://dl.acm.org/doi/abs/10.1145/3487891",
+    "num_citations": 223,
+    "citedby_url": "https://scholar.google.com/scholar?cites=13988565582916300811&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:05:15.481294"
+  },
+  "Shift Aggregate Extract Networks": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Shift aggregate extract networks",
+      "author": [
+        "F Orsini",
+        "D Baracchi",
+        "P Frasconi - Frontiers in Robotics and AI",
+        "2018"
+      ],
+      "pub_year": "2018",
+      "venue": "frontiersin.org",
+      "abstract": "… networks, which unroll a template on input graphs directly, we unroll a neural network … \nvariability that typically characterize social network graphs. Deep hierarchical decompositions are …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2018.00042/full",
+    "num_citations": 21,
+    "citedby_url": "https://scholar.google.com/scholar?cites=14478546218001990087&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:05:17.588740"
+  },
+  "Online Structure Learning for Sum-Product Networks with Gaussian Leaves": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Online structure learning for sum-product networks with gaussian leaves",
+      "author": [
+        "W Hsu",
+        "A Kalra",
+        "P Poupart - arXiv preprint arXiv:1701.05265",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "arxiv.org",
+      "abstract": "Sum-product networks have recently emerged as an attractive representation due to their dual view as a special type of deep neural network with clear semantics and a special type of probabilistic graphical model for which inference is always tractable. Those properties follow from some conditions (ie, completeness and decomposability) that must be respected by the structure of the network. As a result, it is not easy to specify a valid sum-product network by hand and therefore structure learning techniques are typically used in practice …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1701.05265",
+    "num_citations": 37,
+    "citedby_url": "https://scholar.google.com/scholar?cites=13931250777210671504&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:05:20.038507"
+  },
+  "Adversarial examples in the physical world": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Adversarial examples in the physical world",
+      "author": [
+        "A Kurakin",
+        "IJ Goodfellow",
+        "S Bengio - Artificial intelligence safety",
+        "2018"
+      ],
+      "pub_year": "2018",
+      "venue": "taylorfrancis.com",
+      "abstract": "… To explore the possibility of physical adversarial examples we ran a series of experiments \nwith photos of adversarial examples. We printed clean and adversarial images, took photos of …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://www.taylorfrancis.com/chapters/edit/10.1201/9781351251389-8/adversarial-examples-physical-world-alexey-kurakin-ian-goodfellow-samy-bengio",
+    "num_citations": 8189,
+    "citedby_url": "https://scholar.google.com/scholar?cites=16342929405179799360&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:05:22.143155"
+  },
+  "Compositional Kernel Machines": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Compositional kernel machines",
+      "author": [
+        "R Gens",
+        "P Domingos"
+      ],
+      "pub_year": "2017",
+      "venue": "",
+      "abstract": "… We propose the Compositional Kernel Machine (CKM), a kernel-based visual classifier that \nhas the symmetry and compositionality of convnets but with the training benefits of instance-…"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=S1Bm3T_lg",
+    "num_citations": 7,
+    "citedby_url": "https://scholar.google.com/scholar?cites=6662342217182930982&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:05:24.183428"
+  },
+  "Generating Interpretable Images with Controllable Structure": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Generating interpretable images with controllable structure",
+      "author": [
+        "S Reed",
+        "A van den Oord",
+        "N Kalchbrenner",
+        "V Bapst"
+      ],
+      "pub_year": "2016",
+      "venue": "",
+      "abstract": "We demonstrate improved text-to-image synthesis with controllable object locations using an extension of Pixel Convolutional Neural Networks (PixelCNN). In addition to conditioning on text, we show how the model can generate images conditioned on part keypoints and segmentation masks. The character-level text encoder and image generation network are jointly trained end-to-end via maximum likelihood. We establish quantitative baselines in terms of text and structure-conditional pixel log-likelihood for three data sets: Caltech-UCSD …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=Hyvw0L9el",
+    "num_citations": 73,
+    "citedby_url": "https://scholar.google.com/scholar?cites=12986194106056902375&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:05:26.582068"
+  },
+  "Neural Taylor Approximations: Convergence and Exploration in Rectifier Networks": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Neural taylor approximations: Convergence and exploration in rectifier networks",
+      "author": [
+        "D Balduzzi",
+        "B McWilliams -  on machine learning",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "proceedings.mlr.press",
+      "abstract": "Modern convolutional networks, incorporating rectifiers and max-pooling, are neither smooth nor convex; standard guarantees therefore do not apply. Nevertheless, methods from convex optimization such as gradient descent and Adam are widely used as building blocks for deep learning algorithms. This paper provides the first convergence guarantee applicable to modern convnets, which furthermore matches a lower bound for convex nonsmooth functions. The key technical tool is the neural Taylor approximation–a …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "http://proceedings.mlr.press/v70/balduzzi17c.html",
+    "num_citations": 42,
+    "citedby_url": "https://scholar.google.com/scholar?cites=15651118293090411832&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:05:28.762299"
+  },
+  "Gated Multimodal Units for Information Fusion": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Gated multimodal units for information fusion",
+      "author": [
+        "J Arevalo",
+        "T Solorio",
+        "M Montes-y-Gómez - arXiv preprint arXiv",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "arxiv.org",
+      "abstract": "This paper presents a novel model for multimodal learning based on gated neural networks. The Gated Multimodal Unit (GMU) model is intended to be used as an internal unit in a neural network architecture whose purpose is to find an intermediate representation based on a combination of data from different modalities. The GMU learns to decide how modalities influence the activation of the unit using multiplicative gates. It was evaluated on a multilabel scenario for genre classification of movies using the plot and the poster. The GMU improved …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1702.01992",
+    "num_citations": 624,
+    "citedby_url": "https://scholar.google.com/scholar?cites=18206021174214727264&as_sdt=5,33&sciodt=0,33&hl=en",
+    "scraped_at": "2026-01-20T21:05:31.699847"
+  },
+  "Neural Functional Programming": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Neural functional programming",
+      "author": [
+        "JK Feser",
+        "M Brockschmidt",
+        "AL Gaunt",
+        "D Tarlow"
+      ],
+      "pub_year": "2017",
+      "venue": "",
+      "abstract": "… programming language suitable for learning programs from inputoutput examples. Taking \ncues from programming … up to a simple differentiable functional programming language. Our …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=Byp_ccVte",
+    "num_citations": 13,
+    "citedby_url": "https://scholar.google.com/scholar?cites=14420512703279490945&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:05:33.704471"
+  },
+  "Programming With a Differentiable Forth Interpreter": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Programming with a differentiable forth interpreter",
+      "author": [
+        "M Bošnjak",
+        "T Rocktäschel -  on machine learning",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "proceedings.mlr.press",
+      "abstract": "Given that in practice training data is scarce for all but a small set of problems, a core question is how to incorporate prior knowledge into a model. In this paper, we consider the case of prior procedural knowledge for neural networks, such as knowing how a program should traverse a sequence, but not what local actions should be performed at each step. To this end, we present an end-to-end differentiable interpreter for the programming language Forth which enables programmers to write program sketches with slots that can be filled with …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "http://proceedings.mlr.press/v70/bosnjak17a.html?ref=https://githubhelp.com",
+    "num_citations": 133,
+    "citedby_url": "https://scholar.google.com/scholar?cites=414036379914758548&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:05:35.712412"
+  },
+  "Symmetry-Breaking Convergence Analysis of Certain Two-layered Neural Networks with ReLU nonlinearity": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Symmetry-breaking convergence analysis of certain two-layered neural networks with relu nonlinearity",
+      "author": [
+        "Y Tian"
+      ],
+      "pub_year": "2017",
+      "venue": "",
+      "abstract": "In this paper, we use dynamical system to analyze the nonlinear weight dynamics of two-layered bias-free networks in the form of $ g (\\vx;\\vw)=\\sum_ {j= 1}^ K\\sigma (\\vw_j\\trans\\vx) $, where $\\sigma (\\cdot) $ is ReLU nonlinearity. We assume that the input $\\vx $ follow Gaussian distribution. The network is trained using gradient descent to mimic the output of a teacher network of the same size with fixed parameters $\\vw\\opt $ using $ l_2 $ loss. We first show that when $ K= 1$, the nonlinear dynamics can be written in close form, and …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=Hk85q85ee",
+    "num_citations": 34,
+    "citedby_url": "https://scholar.google.com/scholar?cites=3118385903390755218&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:05:37.607157"
+  },
+  "Multiplicative LSTM for sequence modelling": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Multiplicative LSTM for sequence modelling",
+      "author": [
+        "B Krause",
+        "L Lu",
+        "I Murray",
+        "S Renals - arXiv preprint arXiv:1609.07959",
+        "2016"
+      ],
+      "pub_year": "2016",
+      "venue": "arxiv.org",
+      "abstract": "… introduce multiplicative LSTM (mLSTM), a recurrent neural network architecture for sequence \nmodelling … We compare this multiplicative LSTM hybrid architecture with other variants of …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1609.07959",
+    "num_citations": 296,
+    "citedby_url": "https://scholar.google.com/scholar?cites=15032973139552148568&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:05:39.686079"
+  },
+  "Recursive Regression with Neural Networks: Approximating the HJI PDE Solution": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Recursive regression with neural networks: Approximating the HJI PDE solution",
+      "author": [
+        "V Rubies-Royo",
+        "C Tomlin - arXiv preprint arXiv:1611.02739",
+        "2016"
+      ],
+      "pub_year": "2016",
+      "venue": "arxiv.org",
+      "abstract": "The majority of methods used to compute approximations to the Hamilton-Jacobi-Isaacs partial differential equation (HJI PDE) rely on the discretization of the state space to perform dynamic programming updates. This type of approach is known to suffer from the curse of dimensionality due to the exponential growth in grid points with the state dimension. In this work we present an approximate dynamic programming algorithm that computes an approximation of the solution of the HJI PDE by alternating between solving a regression …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1611.02739",
+    "num_citations": 14,
+    "citedby_url": "https://scholar.google.com/scholar?cites=10039102475782465147&as_sdt=5,39&sciodt=0,39&hl=en",
+    "scraped_at": "2026-01-20T21:05:41.997117"
+  },
+  "Lifelong Perceptual Programming By Example": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Lifelong perceptual programming by example",
+      "author": [
+        "AL Gaunt",
+        "M Brockschmidt",
+        "N Kushman",
+        "D Tarlow"
+      ],
+      "pub_year": "2017",
+      "venue": "",
+      "abstract": "We introduce and develop solutions for the problem of Lifelong Perceptual Programming By Example (LPPBE). The problem is to induce a series of programs that require understanding perceptual data like images or text. LPPBE systems learn from weak supervision (input-output examples) and incrementally construct a shared library of components that grows and improves as more tasks are solved. Methodologically, we extend differentiable interpreters to operate on perceptual data and to share components across tasks. Empirically we show …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=rJNulIVtx",
+    "num_citations": 5,
+    "citedby_url": "https://scholar.google.com/scholar?cites=13173370968164527482&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:05:44.308359"
+  },
+  "Learning to Discover Sparse Graphical Models": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Learning to discover sparse graphical models",
+      "author": [
+        "E Belilovsky",
+        "K Kastner",
+        "G Varoquaux -  on machine learning",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "proceedings.mlr.press",
+      "abstract": "We consider structure discovery of undirected graphical models from observational data. Inferring likely structures from few examples is a complex task often requiring the formulation of priors and sophisticated inference procedures. Popular methods rely on estimating a penalized maximum likelihood of the precision matrix. However, in these approaches structure recovery is an indirect consequence of the data-fit term, the penalty can be difficult to adapt for domain-specific knowledge, and the inference is computationally demanding. By …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://proceedings.mlr.press/v70/belilovsky17a.html",
+    "num_citations": 41,
+    "citedby_url": "https://scholar.google.com/scholar?cites=8693460984110187084&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:05:46.310322"
+  },
+  "Deep Learning with Sets and Point Clouds": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Deep learning with sets and point clouds",
+      "author": [
+        "S Ravanbakhsh",
+        "J Schneider",
+        "B Poczos - arXiv preprint arXiv:1611.04500",
+        "2016"
+      ],
+      "pub_year": "2016",
+      "venue": "arxiv.org",
+      "abstract": "We introduce a simple permutation equivariant layer for deep learning with set structure. This type of layer, obtained by parameter-sharing, has a simple implementation and linear-time complexity in the size of each set. We use deep permutation-invariant networks to perform point-could classification and MNIST-digit summation, where in both cases the output is invariant to permutations of the input. In a semi-supervised setting, where the goal is make predictions for each instance within a set, we demonstrate the usefulness of this …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1611.04500",
+    "num_citations": 230,
+    "citedby_url": "https://scholar.google.com/scholar?cites=8683960035333446376&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:05:48.280419"
+  },
+  "Dataset Augmentation in Feature Space": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Dataset augmentation in feature space",
+      "author": [
+        "T DeVries",
+        "GW Taylor - arXiv preprint arXiv:1702.05538",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "arxiv.org",
+      "abstract": "Dataset augmentation, the practice of applying a wide array of domain-specific transformations to synthetically expand a training set, is a standard tool in supervised learning. While effective in tasks such as visual recognition, the set of transformations must be carefully designed, implemented, and tested for every new domain, limiting its re-use and generality. In this paper, we adopt a simpler, domain-agnostic approach to dataset augmentation. We start with existing data points and apply simple transformations such as …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1702.05538",
+    "num_citations": 620,
+    "citedby_url": "https://scholar.google.com/scholar?cites=4882158153802743824&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:05:50.461816"
+  },
+  "Towards an automatic Turing test: Learning to evaluate dialogue responses": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Towards an automatic turing test: Learning to evaluate dialogue responses",
+      "author": [
+        "R Lowe",
+        "M Noseworthy",
+        "IV Serban - Proceedings of the",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "aclanthology.org",
+      "abstract": "Automatically evaluating the quality of dialogue responses for unstructured domains is a challenging problem. Unfortunately, existing automatic evaluation metrics are biased and correlate very poorly with human judgements of response quality (Liu et al., 2016). Yet having an accurate automatic evaluation procedure is crucial for dialogue research, as it allows rapid prototyping and testing of new models with fewer expensive human evaluations. In response to this challenge, we formulate automatic dialogue evaluation as a …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://aclanthology.org/P17-1103/",
+    "num_citations": 466,
+    "citedby_url": "https://scholar.google.com/scholar?cites=15470106720904286429&as_sdt=20000005&sciodt=0,21&hl=en",
+    "scraped_at": "2026-01-20T21:05:52.316028"
+  },
+  "Nonparametrically Learning Activation Functions in Deep Neural Nets": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Nonparametrically learning activation functions in deep neural nets",
+      "author": [
+        "C Eisenach",
+        "Z Wang",
+        "H Liu"
+      ],
+      "pub_year": "2016",
+      "venue": "",
+      "abstract": "We provide a principled framework for nonparametrically learning activation functions in deep neural networks. Currently, state-of-the-art deep networks treat choice of activation function as a hyper-parameter before training. By allowing activation functions to be estimated as part of the training procedure, we expand the class of functions that each node in the network can learn. We also provide a theoretical justification for our choice of nonparametric activation functions and demonstrate that networks with our nonparametric …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=H1wgawqxl",
+    "num_citations": 15,
+    "citedby_url": "https://scholar.google.com/scholar?cites=12488821009628208897&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:05:54.340557"
+  },
+  "Learning to Draw Samples: With Application to Amortized MLE for Generative Adversarial Learning": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Learning to draw samples: With application to amortized mle for generative adversarial learning",
+      "author": [
+        "D Wang",
+        "Q Liu - arXiv preprint arXiv:1611.01722",
+        "2016"
+      ],
+      "pub_year": "2016",
+      "venue": "arxiv.org",
+      "abstract": "We propose a simple algorithm to train stochastic neural networks to draw samples from given target distributions for probabilistic inference. Our method is based on iteratively adjusting the neural network parameters so that the output changes along a Stein variational gradient that maximumly decreases the KL divergence with the target distribution. Our method works for any target distribution specified by their unnormalized density function, and can train any black-box architectures that are differentiable in terms of the parameters …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1611.01722",
+    "num_citations": 220,
+    "citedby_url": "https://scholar.google.com/scholar?cites=11221442924595490338&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:05:56.307143"
+  },
+  "Modular Multitask Reinforcement Learning with Policy Sketches": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Modular multitask reinforcement learning with policy sketches",
+      "author": [
+        "J Andreas",
+        "D Klein",
+        "S Levine - International conference on",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "proceedings.mlr.press",
+      "abstract": "We describe a framework for multitask deep reinforcement learning guided by policy sketches. Sketches annotate tasks with sequences of named subtasks, providing information about high-level structural relationships among tasks but not how to implement them—specifically not providing the detailed guidance used by much previous work on learning policy abstractions for RL (eg intermediate rewards, subtask completion signals, or intrinsic motivations). To learn from sketches, we present a model that associates every subtask with …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "http://proceedings.mlr.press/v70/andreas17a.html",
+    "num_citations": 655,
+    "citedby_url": "https://scholar.google.com/scholar?cites=5436796240835430868&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:05:58.240857"
+  },
+  "Fast Chirplet Transform to Enhance CNN Machine Listening - Validation on Animal calls and Speech": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Fast Chirplet transform to enhance CNN machine listening-validation on animal calls and speech",
+      "author": [
+        "H Glotin",
+        "J Ricard",
+        "R Balestriero - arXiv preprint arXiv:1611.08749",
+        "2016"
+      ],
+      "pub_year": "2016",
+      "venue": "arxiv.org",
+      "abstract": "The scattering framework offers an optimal hierarchical convolutional decomposition according to its kernels. Convolutional Neural Net (CNN) can be seen as an optimal kernel decomposition, nevertheless it requires large amount of training data to learn its kernels. We propose a trade-off between these two approaches: a Chirplet kernel as an efficient Q constant bioacoustic representation to pretrain CNN. First we motivate Chirplet bioinspired auditory representation. Second we give the first algorithm (and code) of a Fast Chirplet …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1611.08749",
+    "num_citations": 5,
+    "citedby_url": "https://scholar.google.com/scholar?cites=11043567411643766391&as_sdt=5,33&sciodt=0,33&hl=en",
+    "scraped_at": "2026-01-20T21:06:00.184396"
+  },
+  "Adaptive Feature Abstraction for Translating Video to Language": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Adaptive feature abstraction for translating video to language",
+      "author": [
+        "Y Pu",
+        "MR Min",
+        "Z Gan",
+        "L Carin"
+      ],
+      "pub_year": "2017",
+      "venue": "",
+      "abstract": "A new model for video captioning is developed, using a deep three-dimensional Convolutional Neural Network (C3D) as an encoder for videos and a Recurrent Neural Network (RNN) as a decoder for captions. A novel attention mechanism with spatiotemporal alignment is employed to adaptively and sequentially focus on different layers of CNN features (levels of feature\" abstraction\"), as well as local spatiotemporal regions of the feature maps at each layer. The proposed approach is evaluated on the YouTube2Text …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=BJ0K82lKg",
+    "num_citations": 1,
+    "citedby_url": "https://scholar.google.com/scholar?cites=6050672944306405622&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:06:02.278932"
+  },
+  "Song From PI: A Musically Plausible Network for Pop Music Generation": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Song from PI: A musically plausible network for pop music generation",
+      "author": [
+        "H Chu",
+        "R Urtasun",
+        "S Fidler - arXiv preprint arXiv:1611.03477",
+        "2016"
+      ],
+      "pub_year": "2016",
+      "venue": "arxiv.org",
+      "abstract": "We present a novel framework for generating pop music. Our model is a hierarchical Recurrent Neural Network, where the layers and the structure of the hierarchy encode our prior knowledge about how pop music is composed. In particular, the bottom layers generate the melody, while the higher levels produce the drums and chords. We conduct several human studies that show strong preference of our generated music over that produced by the recent method by Google. We additionally show two applications of our framework …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1611.03477",
+    "num_citations": 183,
+    "citedby_url": "https://scholar.google.com/scholar?cites=11992580415707728615&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:06:04.311586"
+  },
+  "Bit-Pragmatic Deep Neural Network Computing": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Bit-pragmatic deep neural network computing",
+      "author": [
+        "J Albericio",
+        "A Delmás",
+        "P Judd",
+        "S Sharify - Proceedings of the 50th",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "dl.acm.org",
+      "abstract": "Deep Neural Networks expose a high degree of parallelism, making them amenable to highly \ndata parallel architectures. However, data-parallel architectures often accept inefficiency …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://dl.acm.org/doi/abs/10.1145/3123939.3123982",
+    "num_citations": 352,
+    "citedby_url": "https://scholar.google.com/scholar?cites=12554319613499195504&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:06:06.268152"
+  },
+  "Unsupervised Perceptual Rewards for Imitation Learning": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Unsupervised perceptual rewards for imitation learning",
+      "author": [
+        "P Sermanet",
+        "K Xu",
+        "S Levine - arXiv preprint arXiv:1612.06699",
+        "2016"
+      ],
+      "pub_year": "2016",
+      "venue": "arxiv.org",
+      "abstract": "Reward function design and exploration time are arguably the biggest obstacles to the deployment of reinforcement learning (RL) agents in the real world. In many real-world tasks, designing a reward function takes considerable hand engineering and often requires additional sensors to be installed just to measure whether the task has been executed successfully. Furthermore, many interesting tasks consist of multiple implicit intermediate steps that must be executed in sequence. Even when the final outcome can be measured, it …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1612.06699",
+    "num_citations": 212,
+    "citedby_url": "https://scholar.google.com/scholar?cites=3067189350575490319&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:06:08.473059"
+  },
+  "RenderGAN: Generating Realistic Labeled Data": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Rendergan: Generating realistic labeled data",
+      "author": [
+        "L Sixt",
+        "B Wild",
+        "T Landgraf - Frontiers in Robotics and AI",
+        "2018"
+      ],
+      "pub_year": "2018",
+      "venue": "frontiersin.org",
+      "abstract": "Deep Convolutional Neuronal Networks (DCNNs) are showing remarkable performance on many computer vision tasks. Due to their large parameter space, they require many labeled samples when trained in a supervised setting. The costs of annotating data manually can render the use of DCNNs infeasible. We present a novel framework called RenderGAN that can generate large amounts of realistic, labeled images by combining a 3D model and the Generative Adversarial Network framework. In our approach, image augmentations (eg …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2018.00066/full",
+    "num_citations": 224,
+    "citedby_url": "https://scholar.google.com/scholar?cites=15927402985021811547&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:06:10.418436"
+  },
+  "Surprise-Based Intrinsic Motivation for Deep Reinforcement Learning": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Surprise-based intrinsic motivation for deep reinforcement learning",
+      "author": [
+        "J Achiam",
+        "S Sastry - arXiv preprint arXiv:1703.01732",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "arxiv.org",
+      "abstract": "… in-depth reviews of the different types of intrinsic motivation, … of intrinsic motivation to the \ndeep reinforcement learning … surprise for intrinsic motivation in deep reinforcement learning. We …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1703.01732",
+    "num_citations": 321,
+    "citedby_url": "https://scholar.google.com/scholar?cites=10356749480761047266&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:06:12.453956"
+  },
+  "Discovering objects and their relations from entangled scene representations": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Discovering objects and their relations from entangled scene representations",
+      "author": [
+        "D Raposo",
+        "A Santoro",
+        "D Barrett",
+        "R Pascanu - arXiv preprint arXiv",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "arxiv.org",
+      "abstract": "Our world can be succinctly and compactly described as structured scenes of objects and relations. A typical room, for example, contains salient objects such as tables, chairs and books, and these objects typically relate to each other by their underlying causes and semantics. This gives rise to correlated features, such as position, function and shape. Humans exploit knowledge of objects and their relations for learning a wide spectrum of tasks, and more generally when learning the structure underlying observed data. In this …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1702.05068",
+    "num_citations": 135,
+    "citedby_url": "https://scholar.google.com/scholar?cites=17075890751298607392&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:06:15.130448"
+  },
+  "Modularized Morphing of Neural Networks": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Modularized morphing of neural networks",
+      "author": [
+        "T Wei",
+        "C Wang",
+        "CW Chen - arXiv preprint arXiv:1701.03281",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "arxiv.org",
+      "abstract": "In this work we study the problem of network morphism, an effective learning scheme to morph a well-trained neural network to a new one with the network function completely preserved. Different from existing work where basic morphing types on the layer level were addressed, we target at the central problem of network morphism at a higher level, ie, how a convolutional layer can be morphed into an arbitrary module of a neural network. To simplify the representation of a network, we abstract a module as a graph with blobs as vertices and …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1701.03281",
+    "num_citations": 21,
+    "citedby_url": "https://scholar.google.com/scholar?cites=12625898445651317771&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:06:17.394472"
+  },
+  "Tuning Recurrent Neural Networks with Reinforcement Learning": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Tuning recurrent neural networks with reinforcement learning",
+      "author": [
+        "N Jaques",
+        "S Gu",
+        "RE Turner",
+        "D Eck"
+      ],
+      "pub_year": "2017",
+      "venue": "",
+      "abstract": "… We propose a novel sequence-learning approach in which we use a pre-trained Recurrent \nNeural Network (RNN) to supply part of the reward value in a Reinforcement Learning (RL) …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://openreview.net/forum?id=Syyv2e-Kx",
+    "num_citations": 141,
+    "citedby_url": "https://scholar.google.com/scholar?cites=15794613327819738797&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:06:19.921675"
+  },
+  "Learning Continuous Semantic Representations of Symbolic Expressions": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Learning continuous semantic representations of symbolic expressions",
+      "author": [
+        "M Allamanis",
+        "P Chanthirasegaran - International",
+        "2017"
+      ],
+      "pub_year": "2017",
+      "venue": "proceedings.mlr.press",
+      "abstract": "Combining abstract, symbolic reasoning with continuous neural reasoning is a grand challenge of representation learning. As a step in this direction, we propose a new architecture, called neural equivalence network, for the problem of learning continuous semantic representations of algebraic and logical expressions. These networks are trained to represent semantic equivalence, even of expressions that are syntactically very different. The challenge is that semantic representations must be computed in a syntax-directed …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "http://proceedings.mlr.press/v70/allamanis17a.html",
+    "num_citations": 134,
+    "citedby_url": "https://scholar.google.com/scholar?cites=11184386302743667447&as_sdt=5,39&sciodt=0,39&hl=en",
+    "scraped_at": "2026-01-20T21:06:22.092919"
+  },
+  "Charged Point Normalization: An Efficient Solution to the Saddle Point Problem": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Charged Point Normalization: An Efficient Solution to the Saddle Point Problem",
+      "author": [
+        "A Aghajanyan - arXiv preprint arXiv:1609.09522",
+        "2016"
+      ],
+      "pub_year": "2016",
+      "venue": "arxiv.org",
+      "abstract": "Recently, the problem of local minima in very high dimensional non-convex optimization has been challenged and the problem of saddle points has been introduced. This paper introduces a dynamic type of normalization that forces the system to escape saddle points. Unlike other saddle point escaping algorithms, second order information is not utilized, and the system can be trained with an arbitrary gradient descent learner. The system drastically improves learning in a range of deep neural networks on various data-sets in comparison to …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1609.09522",
+    "num_citations": 0,
+    "citedby_url": "",
+    "scraped_at": "2026-01-20T21:06:24.186272"
+  },
+  "Learning in Implicit Generative Models": {
+    "container_type": "Publication",
+    "bib": {
+      "title": "Learning in implicit generative models",
+      "author": [
+        "S Mohamed",
+        "B Lakshminarayanan - arXiv preprint arXiv:1610.03483",
+        "2016"
+      ],
+      "pub_year": "2016",
+      "venue": "arxiv.org",
+      "abstract": "Generative adversarial networks (GANs) provide an algorithmic framework for constructing generative models with several appealing properties: they do not require a likelihood function to be specified, only a generating procedure; they provide samples that are sharp and compelling; and they allow us to harness our knowledge of building highly accurate neural network classifiers. Here, we develop our understanding of GANs with the aim of forming a rich view of this growing area of machine learning---to build connections to the …"
+    },
+    "filled": false,
+    "gsrank": 1,
+    "pub_url": "https://arxiv.org/abs/1610.03483",
+    "num_citations": 545,
+    "citedby_url": "https://scholar.google.com/scholar?cites=15485648899220126725&as_sdt=2005&sciodt=0,5&hl=en",
+    "scraped_at": "2026-01-20T21:06:26.240878"
   }
 }

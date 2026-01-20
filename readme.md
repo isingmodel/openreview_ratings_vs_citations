@@ -20,12 +20,12 @@ This analysis investigates whether peer review scores on OpenReview effectively 
 
 ## Key Finding
 
-**The correlation between review ratings and citations has remained consistently significant (r ≈ 0.14 - 0.22) over time, with no strong decline:**
+**The correlation between review ratings and citations shows a decline from the early years (r ≈ 0.38) to a stable baseline (r ≈ 0.17) in recent years:**
 
 | Year | Pearson (r) |
 |------|-------------|
-| 2017 | 0.218 |
-| 2018 | 0.162 |
+| 2017 | 0.383 |
+| 2018 | 0.321 |
 | 2019 | 0.175 |
 | 2020 | 0.135 |
 | 2021 | 0.174 |
@@ -58,7 +58,7 @@ This analysis investigates whether peer review scores on OpenReview effectively 
     - **Ratings**: [OpenReview](https://openreview.net/).
 
 
-**The previously observed "declining trend" was largely an artifact of data coverage.** When using comprehensive Google Scholar data, the predictive power of reviewers remains relatively stable (r ≈ 0.17).
+**The previously observed "declining trend" is now more visible with complete data coverage.** In the early years (2017-2018), review ratings were highly predictive (r > 0.3). As the conference grew, this predictive power dropped but has stabilized (r ≈ 0.17).
 
 **Why log(citations + 1)?**
 
@@ -76,7 +76,7 @@ Surprisingly, no. Our [Deep Dive Analysis](docs/Confidence_Analysis.md) reveals 
 ### Hypothesis 1: Reviewer Quality Degradation (Weakened)
 > *As ICLR grew, more reviewers were needed, potentially reducing review quality.*
 
-**Updated Status**: While ICLR has grown massively, the **stability of the correlation** (r ≈ 0.17) suggests that the peer review process has scaled better than expected. Despite the influx of new reviewers, the aggregate scores still serve as a valid signal for future impact.
+**Updated Status**: The data shows a **clear decline** in predictive power from 2017 (r=0.38) to 2020 (r=0.14), followed by stabilization. This supports the hypothesis that the massive growth in submissions may have diluted the "expert signal" compared to the early years.
 
 ### Hypothesis 2: Citation Lag vs. Data Source
 > *Did recent papers need more time? Or was the data incomplete?*
