@@ -285,13 +285,11 @@
   },
   "Exponential Machines": {
     "title": "Exponential Machines",
-    "openalex_id": "https://openalex.org/W2085790367",
-    "num_citations": 67,
-    "year": 1992,
-    "url": "https://openalex.org/W2085790367",
-    "similarity": 0.3877551020408163,
-    "error": "low_confidence_match",
-    "found_title": "The Output Processes of Serial Production Lines of Exponential Machines with Finite Buffers"
+    "openalex_id": "https://openalex.org/W2752217370",
+    "num_citations": 26,
+    "year": 2018,
+    "url": "https://openalex.org/W2752217370",
+    "similarity": 1.0
   },
   "Training Agent for First-Person Shooter Game with Actor-Critic Curriculum Learning": {
     "title": "Training Agent for First-Person Shooter Game with Actor-Critic Curriculum Learning",
@@ -311,13 +309,11 @@
   },
   "Steerable CNNs": {
     "title": "Steerable CNNs",
-    "openalex_id": "https://openalex.org/W2752246523",
-    "num_citations": 219,
+    "openalex_id": "https://openalex.org/W3138516063",
+    "num_citations": 87,
     "year": 2017,
-    "url": "https://openalex.org/W2752246523",
-    "similarity": 0.2597402597402597,
-    "error": "low_confidence_match",
-    "found_title": "Deformable Image Registration Based on Similarity-Steered CNN Regression"
+    "url": "https://openalex.org/W3138516063",
+    "similarity": 1.0
   },
   "FILTER SHAPING FOR CONVOLUTIONAL NEURAL NETWORKS": {
     "title": "FILTER SHAPING FOR CONVOLUTIONAL NEURAL NETWORKS",
@@ -1379,13 +1375,11 @@
   },
   "Adversarial Feature Learning": {
     "title": "Adversarial Feature Learning",
-    "openalex_id": "https://openalex.org/W2798658180",
-    "num_citations": 1174,
-    "year": 2018,
-    "url": "https://openalex.org/W2798658180",
-    "similarity": 0.6842105263157895,
-    "error": "low_confidence_match",
-    "found_title": "Domain Generalization with Adversarial Feature Learning"
+    "openalex_id": "https://openalex.org/W2412320034",
+    "num_citations": 720,
+    "year": 2016,
+    "url": "https://openalex.org/W2412320034",
+    "similarity": 1.0
   },
   "Soft Weight-Sharing for Neural Network Compression": {
     "title": "Soft Weight-Sharing for Neural Network Compression",

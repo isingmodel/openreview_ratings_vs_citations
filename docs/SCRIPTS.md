@@ -43,24 +43,43 @@ data/ICLR{year}/
 
 ---
 
-## 2. scrape_citations_openalex.py
+## 2. scrape_googlescholar.py
 
-Fetches paper citation counts using the OpenAlex API.
+Fetches paper citation counts using Google Scholar (via Zyte Proxy).
 
 ### Usage
 
 ```bash
-python scripts/scrape_citations_openalex.py \
-    --input data/ICLR2024/preprocessed.parquet \
-    --email your_email@example.com
+# Basic usage (Single year)
+python scripts/scrape_googlescholar.py --year 2023
+
+# Range of years
+python scripts/scrape_googlescholar.py --years 2017-2023
+
+# Reset mode (Delete checking point and start fresh)
+python scripts/scrape_googlescholar.py --year 2023 --reset
+
+# Test mode (3 papers)
+python scripts/scrape_googlescholar.py --test
 ```
 
-> **Note**: OpenAlex recommends providing an email for polite pool access.
+### Configuration
+Requires `api_key.txt` containing the Zyte API key.
 
 ### Output
 
 ```
-data/ICLR{year}/openalex_citations_{YYMMDD}.json
+data/ICLR{year}/googlescholar_iclr{year}_{YYMMDD}.json
+```
+
+---
+
+## 2.1. verify_data.py
+
+Verifies the integrity and completeness of scraping results.
+
+```bash
+python scripts/verify_data.py
 ```
 
 ---

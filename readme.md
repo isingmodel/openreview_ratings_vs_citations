@@ -20,17 +20,17 @@ This analysis investigates whether peer review scores on OpenReview effectively 
 
 ## Key Finding
 
-**The correlation between review ratings and citations has been declining over time:**
+**The correlation between review ratings and citations has remained consistently significant (r ≈ 0.14 - 0.22) over time, with no strong decline:**
 
 | Year | Pearson (r) |
 |------|-------------|
-| 2017 | 0.153 |
-| 2018 | 0.209 |
-| 2019 | 0.170 |
-| 2020 | 0.114 |
-| 2021 | 0.111 |
-| 2022 | 0.128 |
-| 2023 | 0.079 |
+| 2017 | 0.218 |
+| 2018 | 0.162 |
+| 2019 | 0.175 |
+| 2020 | 0.135 |
+| 2021 | 0.174 |
+| 2022 | 0.182 |
+| 2023 | 0.166 |
 
 <table>
   <tr>
@@ -54,41 +54,37 @@ This analysis investigates whether peer review scores on OpenReview effectively 
 
 - **Pearson**: Measures linear relationship between mean rating and log(citations + 1). Assumes roughly normal distributions.
 - **Data Source**: 
-    - **Citations**: [OpenAlex](https://openalex.org/) (Migrated from Google Scholar to improve reliability and scale).
+    - **Citations**: **Google Scholar** (via Zyte Proxy). Switched from OpenAlex to capture broader citation coverage (e.g., ArXiv preprints), resulting in higher and more stable correlations.
     - **Ratings**: [OpenReview](https://openreview.net/).
 
 
-**The declining trend is robust.**
+**The previously observed "declining trend" was largely an artifact of data coverage.** When using comprehensive Google Scholar data, the predictive power of reviewers remains relatively stable (r ≈ 0.17).
 
 **Why log(citations + 1)?**
 
 Citation counts follow a heavy-tailed distribution ([Redner, 1998](https://doi.org/10.1007/s100510050276); [Radicchi et al., 2008](https://doi.org/10.1073/pnas.0806977105)). Log transformation reduces outlier dominance and reflects scale-level differences (10→100 is more meaningful than 10,000→10,090).
 
-Log transformation reduces outlier dominance and reflects scale-level differences (10→100 is more meaningful than 10,000→10,090).
-
 ### Confidence Analysis
 
 **Do experts predict impact best?**
-Surprisingly, no. Our [Deep Dive Analysis](docs/Confidence_Analysis.md) reveals that **Low Confidence** reviewers (outsiders/generalists) were actually the *strongest* predictors of future citation impact ($r=0.16$), while "Experts" had a negative correlation.
+Surprisingly, no. Our [Deep Dive Analysis](docs/Confidence_Analysis.md) reveals that **Low Confidence** reviewers (outsiders/generalists) often predict future citation impact better than "Experts." This trend has become more pronounced in recent years (2022-2023).
 > *Takeaway: A "Strong Accept" from a generalist may signal broader appeal than one from a domain expert.*
 
 
-## Possible Explanations (and Their Limitations)
+## Interpretation & Hypotheses
 
-### Hypothesis 1: Reviewer Quality Degradation
+### Hypothesis 1: Reviewer Quality Degradation (Weakened)
 > *As ICLR grew, more reviewers were needed, potentially reducing review quality.*
 
-**Supporting Evidence:**
-- **Inexperience**: A 2020 survey revealed that **47%** of reviewers had not published a single paper in the field they were reviewing.
-- **Reviewer Fatigue**: The number of submissions has grown exponentially (500 in 2017 → 2,500+ in 2020), while the pool of qualified (Ph.D. level) reviewers has not kept pace. This forces the inclusion of less experienced reviewers and increases workload, potentially lowering review quality.
+**Updated Status**: While ICLR has grown massively, the **stability of the correlation** (r ≈ 0.17) suggests that the peer review process has scaled better than expected. Despite the influx of new reviewers, the aggregate scores still serve as a valid signal for future impact.
 
-### Hypothesis 2: Citation Lag (Debunked?)
-> *Recent papers haven't accumulated enough citations yet.*
+### Hypothesis 2: Citation Lag vs. Data Source
+> *Did recent papers need more time? Or was the data incomplete?*
 
-**Counter-Evidence (Indirect Verification):**
-- We compared the correlation for **2017 papers** using citations collected in **2018** (early) versus citations collected in **2022** (mature).
-- **Result**: The correlation coefficients were nearly identical.
-- **Conclusion**: If "citation lag" were the main factor, the correlation for 2017 papers should have been much lower in 2018 than in 2022. The fact that it was stable suggests that the *initialsignal* (or lack thereof) appears early, and simply waiting longer does not necessarily restore the correlation.
+**Conclusion**: The discrepancy between our previous analysis (r=0.08 in 2023) and the current analysis (r=0.17 in 2023) was due to **Data Source differences** (OpenAlex vs. Google Scholar).
+- **OpenAlex**: Missed many citations for recent AI papers (possibly preprints/ArXiv).
+- **Google Scholar**: Captured the full citation graph, revealing that the "signal" from reviewers is still present and healthy.
+- **Citation Lag**: Does not appear to be the primary factor. High correlation is observable even for recent papers (2022-2023) when using the right data source.
 
 
 ---

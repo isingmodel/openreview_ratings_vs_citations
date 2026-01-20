@@ -175,7 +175,10 @@ def scrape_openreview_v2(year: int, limit: int | None = None) -> tuple[list, pd.
             # Determine if accepted
             is_accepted = False
             if decision:
-                is_accepted = "accept" in decision.lower()
+                d_lower = decision.lower()
+                is_accepted = ("accept" in d_lower or 
+                             "invite" in d_lower or 
+                             "workshop" in d_lower)
             elif venue:
                 is_accepted = "reject" not in venue.lower() and venue != ""
 
@@ -386,7 +389,10 @@ def scrape_openreview_v1(year: int, limit: int | None = None, offset: int = 0) -
             # Check acceptance using final_decision
             is_accepted = False
             if final_decision:
-                is_accepted = "Accept" in final_decision or "Poster" in final_decision or "Spotlight" in final_decision or "Oral" in final_decision or "notable" in final_decision.lower()
+                is_accepted = ("Accept" in final_decision or "Poster" in final_decision or 
+                             "Spotlight" in final_decision or "Oral" in final_decision or 
+                             "notable" in final_decision.lower() or 
+                             "Workshop" in final_decision or "Invite" in final_decision)
                 if "Reject" in final_decision:
                     is_accepted = False
 

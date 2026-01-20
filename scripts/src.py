@@ -149,9 +149,13 @@ def load_data(data_dir: Path) -> pd.DataFrame:
         return np.mean(vals) if vals else None
     df["low_conf_rating"] = df["rating_data"].apply(mean_low_conf)
 
-    # Load citations
-    citation_files = list(data_dir.glob("openalex*.json"))
+    # Load citations (Prioritize Google Scholar as requested)
+    citation_files = list(data_dir.glob("googlescholar*.json"))
     
+    if not citation_files:
+        logger.warning(f"No Google Scholar data found in {data_dir}. Checking for OpenAlex...")
+        citation_files = list(data_dir.glob("openalex*.json"))
+
     if citation_files:
         # Sort to pick the latest file if multiple exist
         citation_file = sorted(citation_files)[-1]
@@ -172,6 +176,6 @@ def load_data(data_dir: Path) -> pd.DataFrame:
         )
         logger.info(f"Merged citations from {citation_file.name}")
     else:
-        logger.warning(f"No OpenAlex citation file found in {data_dir}!")
+        logger.warning(f"No citation file (Google Scholar or OpenAlex) found in {data_dir}!")
 
     return df

@@ -1,0 +1,3778 @@
+{
+  "timestamp": "2026-01-20T11:09:36.845756",
+  "total_failures": 702,
+  "failures_by_type": {
+    "API Error 400": [
+      "Offline bilingual word vectors, orthogonal transformations and the inverted softmax",
+      "Snapshot Ensembles: Train 1, Get M for Free",
+      "Learning to Query, Reason, and Answer Questions On Ambiguous Texts",
+      "Attend, Adapt and Transfer: Attentive Deep Architecture for Adaptive Transfer from multiple sources in the same domain",
+      "Progressive Growing of GANs for Improved Quality, Stability, and Variation",
+      "Fast and Accurate Text Classification: Skimming, Rereading and Early Stopping",
+      "A Compressed Sensing View of Unsupervised Text Embeddings, Bag-of-n-Grams, and LSTMs",
+      "To Prune, or Not to Prune: Exploring the Efficacy of Pruning for Model Compression",
+      "Stochastic gradient descent performs variational inference, converges to limit cycles for deep networks",
+      "Don't Decay the Learning Rate, Increase the Batch Size",
+      "Emergent Communication in a Multi-Modal, Multi-Step Referential Game",
+      "A Closer Look At Deep Learning Heuristics: Learning Rate Restarts, Warmup And Distillation",
+      "Plan Online, Learn Offline: Efficient Learning And Exploration Via Model-based Control",
+      "Unsupervised Discovery Of Parts, Structure, And Dynamics",
+      "Woulda, Coulda, Shoulda: Counterfactually-guided Policy Search",
+      "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+      "A Comprehensive, Application-oriented Study Of Catastrophic Forgetting In Dnns",
+      "Deep, Skinny Neural Networks Are Not Universal Approximators",
+      "Slalom: Fast, Verifiable And Private Execution Of Neural Networks In Trusted Hardware",
+      "Learning To Adapt In Dynamic, Real-world Environments Through Meta-reinforcement Learning",
+      "The Neuro-symbolic Concept Learner: Interpreting Scenes, Words, And Sentences From Natural Supervision",
+      "Attention, Learn To Solve Routing Problems!",
+      "On Random Deep Weight-tied Autoencoders: Exact Asymptotic Analysis, Phase Transitions, And Implications To Training",
+      "Variational Discriminator Bottleneck: Improving Imitation Learning, Inverse Rl, And Gans By Constraining Information Flow",
+      "Towards Robust, Locally Linear Deep Networks",
+      "Learning Particle Dynamics For Manipulating Rigid Bodies, Deformable Objects, And Fluids",
+      "Improving Differentiable Neural Computers Through Memory Masking, De-allocation, And Link Distribution Sharpness Control",
+      "Don't Settle For Average, Go For The Max: Fuzzy Sets And Max-pooled Word Vectors",
+      "Watch, Try, Learn: Meta-learning From Demonstrations And Rewards",
+      "Ridge Regression: Structure, Cross-validation, And Sketching",
+      "Don't Use Large Mini-batches, Use Local Sgd",
+      "Deep Batch Active Learning By Diverse, Uncertain Gradient Lower Bounds",
+      "Deep Imitative Models For Flexible Inference, Planning, And Control",
+      "Kaleidoscope: An Efficient, Learnable Representation For All Structured Linear Maps",
+      "Generative Models For Effective Ml On Private, Decentralized Datasets",
+      "Pay Attention To Features, Transfer Learn Faster Cnns",
+      "Triple Wins: Boosting Accuracy, Robustness And Efficiency Together By Enabling Input-adaptive Inference",
+      "A Critical Analysis Of Self-supervision, Or What We Can Learn From A Single Image",
+      "Understanding L4-based Dictionary Learning: Interpretation, Stability, And Robustness",
+      "Neural Tangent Kernels, Transportation Mappings, And Universal Approximation",
+      "To Relieve Your Headache Of Training An Mrf, Take Advil",
+      "Prediction, Consistency, Curvature: Representation Learning For Locally-linear Control",
+      "Real Or Not Real, That Is The Question",
+      "Physics-aware, probabilistic model order reduction with guaranteed stability",
+      "Few-Shot Learning via Learning the Representation, Provably",
+      "On the Stability of Fine-tuning BERT: Misconceptions, Explanations, and Strong Baselines",
+      "Signatory: differentiable computations of the signature and logsignature transforms, on both CPU and GPU",
+      "MultiModalQA: complex question answering over text, tables and images",
+      "Cut out the annotator, keep the cutout: better segmentation with weak supervision",
+      "Self-supervised Adversarial Robustness for the Low-label, High-data Regime",
+      "Factorizing Declarative and Procedural Knowledge in Structured, Dynamical Environments",
+      "Heating up decision boundaries: isocapacitory saturation, adversarial scenarios and generalization bounds",
+      "For self-supervised learning, Rationality implies generalization, provably",
+      "Kanerva++: Extending the Kanerva Machine With Differentiable, Locally Block Allocated Latent Memory",
+      "Deep Encoder, Shallow Decoder: Reevaluating Non-autoregressive Machine Translation",
+      "Learning Incompressible Fluid Dynamics from Scratch - Towards Fast, Differentiable Fluid Models that Generalize",
+      "SAFENet: A Secure, Accurate and Fast Neural Network Inference",
+      "On InstaHide, Phase Retrieval, and Sparse Matrix Factorization",
+      "A Panda? No, It's a Sloth: Slowdown Attacks on Adaptive Multi-Exit Neural Network Inference",
+      "AUXILIARY TASK UPDATE DECOMPOSITION: THE GOOD, THE BAD AND THE NEUTRAL",
+      "Energy-Based Learning for Cooperative Games, with Applications to Valuation Problems in Machine Learning",
+      "MobileViT: Light-weight, General-purpose, and Mobile-friendly Vision Transformer",
+      "Do Users Benefit From Interpretable Vision? A User Study, Baseline, And Dataset",
+      "Learning Fast, Learning Slow: A General Continual Learning Method based on Complementary Learning System",
+      "Evaluation Metrics for Graph Generative Models: Problems, Pitfalls, and Practical Solutions",
+      "Offline Neural Contextual Bandits: Pessimism, Optimization and Generalization",
+      "In a Nutshell, the Human Asked for This: Latent Goals for Following Temporal Specifications",
+      "Peek-a-Boo: What (More) is Disguised in a Randomly Weighted Neural Network, and How to Find It Efficiently",
+      "Machine Learning For Elliptic PDEs: Fast Rate Generalization Bound, Neural Scaling Law and Minimax Optimality",
+      "FALCON: Fast Visual Concept Learning by Integrating Images, Linguistic descriptions, and Conceptual Relations",
+      "Fixed Neural Network Steganography: Train the images, not the network",
+      "Signing the Supermask: Keep, Hide, Invert",
+      "Bundle Networks: Fiber Bundles, Local Trivializations, and a Generative Approach to Exploring Many-to-one Maps",
+      "Axiomatic Explanations for Visual Search, Retrieval, and Similarity Learning",
+      "Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation",
+      "Bandit Learning with Joint Effect of Incentivized Sampling, Delayed Sampling Feedback, and Self-Reinforcing User Preferences",
+      "Learning Pruning-Friendly Networks via Frank-Wolfe: One-Shot, Any-Sparsity, And No Retraining",
+      "Learn Locally, Correct Globally: A Distributed Algorithm for Training Graph Neural Networks",
+      "Bayesian Modeling and Uncertainty Quantification for Learning to Optimize: What, Why, and How",
+      "Audio Lottery: Speech Recognition Made Ultra-Lightweight, Noise-Robust, and Transferable",
+      "AdaRL: What, Where, and How to Adapt in Transfer Reinforcement Learning",
+      "When, Why, and Which Pretrained GANs Are Useful?",
+      "Associated Learning: an Alternative to End-to-End Backpropagation that Works on CNN, RNN, and Transformer",
+      "More Centralized Training, Still Decentralized Execution: Multi-Agent Conditional Policy Factorization",
+      "Momentum Stiefel Optimizer, with Applications to Suitably-Orthogonal Attention, and Optimal Transport",
+      "Programmatically Grounded, Compositionally Generalizable Robotic Manipulation",
+      "Variance Reduction is an Antidote to Byzantines: Better Rates, Weaker Assumptions and Communication Compression as a Cherry on the Top",
+      "Where to Diffuse, How to Diffuse, and How to Get Back: Automated Learning for Multivariate Diffusions",
+      "Backpropagation at the Infinitesimal Inference Limit of Energy-Based Models: Unifying Predictive Coding, Equilibrium Propagation, and Contrastive Hebbian Learning",
+      "DiffDock: Diffusion Steps, Twists, and Turns for Molecular Docking",
+      "A Minimalist Dataset for Systematic Generalization of Perception, Syntax, and Semantics",
+      "A Theoretical Understanding of Shallow Vision Transformers: Learning, Generalization, and Sample Complexity",
+      "A view of mini-batch SGD via generating functions: conditions of convergence, phase transitions,  benefit from negative momenta.",
+      "On the Usefulness of Embeddings, Clusters and Strings for Text Generation Evaluation",
+      "FedSpeed: Larger Local Interval, Less Communication Round, and Higher Generalization Accuracy",
+      "Sampling-based inference for large linear models, with application to linearised Laplace",
+      "Noise Is Not the Main Factor Behind the Gap Between Sgd and Adam on Transformers, But Sign Descent Might Be",
+      "Deep Learning From Crowdsourced Labels: Coupled Cross-Entropy Minimization, Identifiability, and Regularization",
+      "Evolve Smoothly, Fit Consistently: Learning Smooth Latent Dynamics For Advection-Dominated Systems",
+      "Towards Understanding Ensemble, Knowledge Distillation and Self-Distillation in Deep Learning",
+      "Contextual bandits with concave rewards, and an application to fair ranking",
+      "On the Convergence of AdaGrad(Norm) on $\\mathbb{R}^d$: Beyond Convexity, Non-Asymptotic Rate and Acceleration",
+      "Learning Zero-Shot Cooperation with Humans, Assuming Humans Are Biased",
+      "Multi-Objective Reinforcement Learning: Convexity, Stationarity and Pareto Optimality",
+      "Draft, Sketch, and Prove: Guiding Formal Theorem Provers with Informal Proofs",
+      "Multi-Rate VAE: Train Once, Get the Full Rate-Distortion Curve",
+      "Simplifying Model-based RL: Learning Representations, Latent-space Models, and Policies with One Objective",
+      "When and Why Vision-Language Models Behave like Bags-Of-Words, and What to Do About It?",
+      "A Statistical Framework for Personalized Federated Learning and Estimation: Theory, Algorithms, and Privacy",
+      "UNIFIED-IO: A Unified Model for Vision, Language, and Multi-modal Tasks",
+      "A Unified Approach to Reinforcement Learning, Quantal Response Equilibria, and Two-Player Zero-Sum Games",
+      "Learning MLPs on Graphs: A Unified View of Effectiveness, Robustness, and Efficiency",
+      "MPCFORMER: FAST, PERFORMANT AND PRIVATE TRANSFORMER INFERENCE WITH MPC",
+      "Symmetries, Flat Minima, and the Conserved Quantities of Gradient Flow",
+      "Is Reinforcement Learning (Not) for Natural Language Processing: Benchmarks, Baselines, and Building Blocks for Natural Language Policy Optimization",
+      "OTOv2: Automatic, Generic, User-Friendly",
+      "Chasing All-Round Graph Representation Robustness: Model, Training, and Optimization",
+      "Inequality phenomenon in $l_{\\infty}$-adversarial training, and its unrealized threats",
+      "How Much Data Are Augmentations Worth?  An Investigation into Scaling Laws, Invariance, and Implicit Regularization",
+      "Seeing Differently, Acting Similarly: Heterogeneously Observable Imitation Learning",
+      "Priors, Hierarchy, and Information Asymmetry for Skill Transfer in Reinforcement Learning",
+      "A law of adversarial risk, interpolation, and label noise",
+      "Towards Lightweight, Model-Agnostic and Diversity-Aware Active Anomaly Detection",
+      "Generalization Bounds for Federated Learning: Fast Rates, Unparticipating Clients and Unbounded Losses"
+    ],
+    "low_confidence_match": [
+      "Learning to Optimize",
+      "Nonparametric Neural Networks",
+      "HyperNetworks",
+      "Neuron as an Agent",
+      "Learning to Infer",
+      "Adaptive Memory Networks",
+      "Learning To Simulate",
+      "Learning To Link",
+      "Comparing Fine-tuning And Rewinding In Neural Network Pruning",
+      "Efficient Transformer For Mobile Applications",
+      "Compositional Continual Language Learning",
+      "Neural Delay Differential Equations",
+      "Self-Joint Supervised Learning",
+      "Feature Kernel Distillation",
+      "Variational oracle guiding for reinforcement learning",
+      "Topological Graph Neural Networks",
+      "Online Adversarial Attacks",
+      "Bootstrapped Meta-Learning",
+      "Boosted Curriculum Reinforcement Learning",
+      "Planning in Stochastic Environments with a Learned Model",
+      "Anomaly Transformer: Time Series Anomaly Detection with Association Discrepancy",
+      "Transformer-based Transform Coding",
+      "Causal Contextual Bandits with Targeted Interventions",
+      "Hybrid Random Features",
+      "Emergent Communication at Scale",
+      "Multi-Task Processes",
+      "SGD Can Converge to Local Maxima",
+      "Adversarially Robust Conformal Prediction",
+      "Learning by Directional Gradient Descent",
+      "On Pre-training Language Model for Antibody",
+      "Robust Graph Dictionary Learning",
+      "Replicable Bandits",
+      "Measure the Predictive Heterogeneity",
+      "Multi-Objective Online Learning",
+      "Label Propagation with Weak Supervision",
+      "Contextual Convolutional Networks",
+      "Distributional Meta-Gradient Reinforcement Learning",
+      "Active Image Indexing",
+      "Multiple sequence alignment as a sequence-to-sequence learning problem",
+      "Recursive Time Series Data Augmentation",
+      "Short-Term Memory Convolutions",
+      "Single-shot General Hyper-parameter Optimization for Federated Learning"
+    ],
+    "not_found": [
+      "Introspection:Accelerating Neural Network Training By Learning Weight Evolution",
+      "Learning Robust Rewards with Adverserial Inverse Reinforcement Learning",
+      "M^3rl: Mind-aware Multi-agent Management Reinforcement Learning",
+      "Poincare Glove: Hyperbolic Word Embeddings",
+      "Query-efficient Hard-label Black-box Attack: An Optimization-based Approach",
+      "V4d: 4d Convonlutional Neural Networks For Video-level Representation Learning",
+      "An Exponential Learning Rate Schedule For Batch Normalized Networks",
+      "Incremental Rnn: A Dynamical View.",
+      "Extracting And Leveraging Feature Interaction Interpretations",
+      "Spatially Parallel Attention And Component Extraction For Scene Decomposition",
+      "Transformer-xh: Multi-hop Question Answering With Extra Hop Attention",
+      "Nas-bench-102: Extending The Scope Of Reproducible Neural Architecture Search",
+      "The Function Of Contextual Illusions",
+      "Plug And Play Language Model: A Simple Baseline For Controlled Language Generation",
+      "Learning From Explanations With Neural Module Execution Tree",
+      "Learning To Explore Using Active Neural Mapping",
+      "How The Choice Of Activation Affects Training Of Overparametrized Neural Nets",
+      "Going Beyond Token-level Pre-training For Embedding-based Large-scale Retrieval",
+      "On The Geometry And Learning Low-dimensional Embeddings For Directed Graphs",
+      "Single Episode Transfer For Differing Environmental Dynamics In Reinforcement Learning",
+      "Rethinking The Security Of Skip Connections In Resnet-like Neural Networks",
+      "Attributes Obfuscation With Complex-valued Features",
+      "On Computation And Generalization Of Gener- Ative Adversarial Imitation Learning",
+      "Domain Adaptive Multiflow Networks",
+      "Convergence Behaviour Of Some Gradient-based Methods On Bilinear Zero-sum Games",
+      "Nonlinearities In Activations Substantially Shape The Loss Surfaces Of Neural Networks",
+      "RaCT: Toward Amortized Ranking-Critical Training For Collaborative Filtering ",
+      "HW-NAS-Bench: Hardware-Aware Neural Architecture Search Benchmark",
+      "Understanding Over-parameterization in Generative Adversarial Networks",
+      "ConFeSS: A Framework for Single Source Cross-Domain Few-Shot Learning",
+      "FP-DETR: Detection Transformer Advanced by Fully Pre-training",
+      "Certified Robustness for Deep Equilibrium Models via Interval Bound Propagation",
+      "On the approximation properties of recurrent encoder-decoder architectures",
+      "TAMP-S2GCNets: Coupling Time-Aware Multipersistence Knowledge Representation with Spatio-Supra Graph Convolutional Networks for Time-Series Forecasting",
+      "Pareto Policy Adaptation",
+      "Differentiable Scaffolding Tree for Molecule Optimization",
+      "D-CODE: Discovering Closed-form ODEs from Observed Trajectories",
+      "Spanning Tree-based Graph Generation for Molecules",
+      "EXACT: Scalable Graph Neural Networks Training via Extreme Activation Compression",
+      "Superclass-Conditional Gaussian Mixture Model For Learning Fine-Grained Embeddings",
+      "Dive Deeper Into Integral Pose Regression",
+      "A New Perspective on \"How Graph Neural Networks Go Beyond Weisfeiler-Lehman?\"",
+      "Stiffness-aware neural network for learning Hamiltonian systems",
+      "Modeling Label Space Interactions in Multi-label Classification using Box Embeddings",
+      "Efficient Computation of Deep Nonlinear Infinite-Width Neural Networks that Learn Features",
+      "Optimal Transport for Long-Tailed Recognition with Learnable Cost Matrix",
+      "Conditioning Sequence-to-sequence Networks with Learned Activations",
+      "Understanding and Leveraging Overparameterization in Recursive Value Estimation",
+      "Gradient Information Matters in Policy Optimization by Back-propagating through Model",
+      "AdaAug: Learning Class- and Instance-adaptive Data Augmentation Policies",
+      "Multi-Critic Actor Learning: Teaching RL Policies to Act with Style",
+      "CrowdPlay: Crowdsourcing Human Demonstrations for Offline Learning",
+      "Exploiting Class Activation Value for Partial-Label Learning",
+      "Variational Inference for Discriminative Learning with Generative Modeling of Feature Incompletion",
+      "GPT-Critic: Offline Reinforcement Learning for End-to-End Task-Oriented Dialogue Systems",
+      "It Takes Four to Tango: Multiagent Self Play for Automatic Curriculum Generation",
+      "Declarative nets that are equilibrium models",
+      "Target-Side Input Augmentation for Sequence to Sequence Generation",
+      "Contrastive Clustering to Mine Pseudo Parallel Data for Unsupervised Translation",
+      "Temporal Alignment Prediction for Supervised Representation Learning and Few-Shot Sequence Classification",
+      "Visual hyperacuity with moving sensor and recurrent neural computations",
+      "Decentralized Learning for Overparameterized Problems: A Multi-Agent Kernel Approximation Approach",
+      "Neural Network Approximation based on Hausdorff distance of Tropical Zonotopes",
+      "Einops: Clear and Reliable Tensor Manipulations with Einstein-like Notation",
+      "OBJECT DYNAMICS DISTILLATION FOR SCENE DECOMPOSITION AND REPRESENTATION",
+      "Self-Supervision Enhanced Feature Selection with Correlated Gates",
+      "Diverse Client Selection for Federated Learning via Submodular Maximization",
+      "Optimization inspired Multi-Branch Equilibrium Models",
+      "AlphaZero-based Proof Cost Network to Aid Game Solving",
+      "UniFormer: Unified Transformer for Efficient Spatial-Temporal Representation Learning",
+      "Learned Simulators for Turbulence",
+      "What’s Wrong with Deep Learning in Tree Search for Combinatorial Optimization",
+      "Continual Learning with Filter Atom Swapping",
+      "Regularized Autoencoders for Isometric Representation Learning",
+      "Implicit Bias of Adversarial Training for Deep Neural Networks",
+      "Demystifying Limited Adversarial Transferability in Automatic Speech Recognition Systems",
+      "Towards Better Understanding and Better Generalization of Low-shot Classification in Histology Images with Contrastive Learning",
+      "Visual Representation Learning over Latent Domains",
+      "Attention-based Interpretability with Concept Transformers",
+      "Learning to Schedule Learning rate with Graph Neural Networks",
+      "Cross-Lingual Transfer with Class-Weighted Language-Invariant Representations",
+      "DeSKO: Stability-Assured Robust Control with a Deep Stochastic Koopman Operator",
+      "Maximizing Ensemble Diversity in Deep Reinforcement Learning",
+      "Automatic Loss Function Search for Predict-Then-Optimize Problems with Strong Ranking Property",
+      "Coherence-based Label Propagation over Time Series for Accelerated Active Learning",
+      "Spherical Message Passing for 3D Molecular Graphs",
+      "Rethinking Adversarial Transferability from a Data Distribution Perspective",
+      "Compositional Training for End-to-End Deep AUC Maximization",
+      "Equivariant Self-Supervised Learning: Encouraging Equivariance in Representations",
+      "Mapping Language Models to Grounded Conceptual Spaces",
+      "The Close Relationship Between Contrastive Learning and Meta-Learning",
+      "High Probability Generalization Bounds with Fast Rates for Minimax Problems",
+      "How Did the Model Change? Efficiently Assessing Machine Learning API Shifts ",
+      "End-to-End Learning of Probabilistic Hierarchies on Graphs",
+      "Structure-Aware Transformer Policy for Inhomogeneous Multi-Task Reinforcement Learning",
+      "Pretrained Language Model in Continual Learning: A Comparative Study",
+      "Fast Generic Interaction Detection for Model Interpretability and Compression",
+      "Learning to Dequantise with Truncated Flows",
+      "Scale Efficiently: Insights from Pretraining and Finetuning Transformers",
+      "An Information Fusion Approach to Learning with Instance-Dependent Label Noise",
+      "LEARNING GUARANTEES FOR GRAPH CONVOLUTIONAL NETWORKS ON THE STOCHASTIC BLOCK MODEL",
+      "Learnability of convolutional neural networks for infinite dimensional input via mixed and anisotropic smoothness",
+      "Optimization and Adaptive Generalization of Three layer Neural Networks",
+      "Non-Linear Operator Approximations for Initial Value Problems",
+      "Group-based Interleaved Pipeline Parallelism for Large-scale DNN Training",
+      "A Fine-Tuning Approach to Belief State Modeling",
+      "Reversible Instance Normalization for Accurate Time-Series Forecasting against Distribution Shift",
+      "SketchODE: Learning neural sketch representation in continuous time",
+      "Generalized Natural Gradient Flows in Hidden Convex-Concave Games and GANs",
+      "Sequence Approximation using Feedforward Spiking Neural Network for Spatiotemporal Learning: Theory and Optimization Methods",
+      "Learning Efficient Online 3D Bin Packing on Packing Configuration Trees",
+      "Robust Unlearnable Examples: Protecting Data Privacy Against Adversarial Learning",
+      "A NON-PARAMETRIC REGRESSION VIEWPOINT : GENERALIZATION OF OVERPARAMETRIZED DEEP RELU NETWORK UNDER NOISY OBSERVATIONS",
+      "Policy improvement by planning with Gumbel",
+      "Asymmetry Learning for Counterfactually-invariant Classification in OOD Tasks",
+      "Divisive Feature Normalization Improves Image Recognition Performance in AlexNet",
+      "Anomaly Detection for Tabular Data with Internal Contrastive Learning",
+      "A Class of Short-term Recurrence Anderson Mixing Methods and Their Applications",
+      "Constructing Orthogonal Convolutions in an Explicit Manner",
+      "Generalisation in Lifelong Reinforcement Learning through Logical Composition ",
+      "SUMNAS: Supernet with Unbiased Meta-Features for Neural Architecture Search",
+      "The Hidden Convex Optimization Landscape of Regularized Two-Layer ReLU Networks: an Exact Characterization of Optimal Solutions",
+      "Generalized Demographic Parity for Group Fairness",
+      "An Agnostic Approach to Federated Learning with Class Imbalance",
+      "GLASS: GNN with Labeling Tricks for Subgraph Representation Learning",
+      "HyperDQN: A Randomized Exploration Method for Deep Reinforcement Learning",
+      "Model-augmented Prioritized Experience Replay",
+      "Scene Transformer: A unified architecture for predicting future trajectories of multiple agents",
+      "CodeTrek: Flexible Modeling of Code using an Extensible Relational Representation",
+      "A Program to Build E(N)-Equivariant Steerable CNNs ",
+      "Sparse Attention with Learning to Hash",
+      "Tuformer: Data-driven Design of Transformers for Improved Generalization or Efficiency",
+      "Measuring CLEVRness: Black-box Testing of Visual Reasoning Models",
+      "What Makes Better Augmentation Strategies? Augment Difficult but Not too Different",
+      "Graph-based Nearest Neighbor Search in Hyperbolic Spaces",
+      "Differentiable Gradient Sampling for Learning Implicit 3D Scene Reconstructions from a Single Image",
+      "T-WaveNet: A Tree-Structured Wavelet Neural Network for Time Series Signal Analysis",
+      "Curriculum learning as a tool to uncover learning principles in the brain ",
+      "Bridging Recommendation and Marketing via Recurrent Intensity Modeling",
+      "Deep Attentive Variational Inference",
+      "On the Uncomputability of Partition Functions in Energy-Based Sequence Models",
+      "Looking Back on Learned Experiences  For Class/task Incremental Learning",
+      "Provably Filtering Exogenous Distractors using Multistep Inverse Dynamics",
+      "Zero-CL: Instance and Feature decorrelation for negative-free symmetric contrastive learning",
+      "Toward Faithful Case-based Reasoning through Learning Prototypes in a Nearest Neighbor-friendly Space.",
+      "Understanding the Variance Collapse of SVGD in High Dimensions",
+      "Distilling GANs with Style-Mixed Triplets for X2I Translation with Limited Data",
+      "NASViT: Neural Architecture Search for Efficient Vision Transformers with Gradient Conflict aware Supernet Training",
+      "Inductive Relation Prediction Using Analogy Subgraph Embeddings",
+      "Particle Stochastic Dual Coordinate Ascent: Exponential convergent algorithm for mean field neural network optimization",
+      "Reinforcement Learning under a Multi-agent Predictive State Representation Model: Method and Theory",
+      "Explaining Point Processes by Learning Interpretable Temporal Logic Rules",
+      "Using Graph Representation Learning with Schema Encoders to Measure the Severity of Depressive Symptoms",
+      "Pareto Policy Pool for Model-based Offline Reinforcement Learning",
+      "A Loss Curvature Perspective on Training Instabilities of Deep Learning Models",
+      "A Zest of LIME: Towards Architecture-Independent Model Distances",
+      "Convergent and Efficient Deep Q Learning Algorithm",
+      "Practical Integration via Separable Bijective Networks",
+      "Normalization of Language Embeddings for Cross-Lingual Alignment",
+      "Who Is Your Right Mixup Partner in Positive and Unlabeled Learning",
+      "Unsupervised Vision-Language Grammar Induction with Shared Structure Modeling",
+      "iFlood: A Stable and Effective Regularizer",
+      "Know Your Action Set: Learning Action Relations for Reinforcement Learning",
+      "Differentiable Expectation-Maximization for Set Representation Learning",
+      "GraphENS: Neighbor-Aware Ego Network Synthesis for Class-Imbalanced Node Classification",
+      "$\\pi$BO: Augmenting Acquisition Functions with User Beliefs for Bayesian Optimization",
+      "A Biologically Interpretable Graph Convolutional Network to Link Genetic Risk Pathways and Imaging Phenotypes of Disease ",
+      "Bi-linear Value Networks for Multi-goal Reinforcement Learning",
+      "Revisit Kernel Pruning with Lottery Regulated Grouped Convolutions",
+      "L0-Sparse Canonical Correlation Analysis",
+      "NASPY: Automated Extraction of Automated Machine Learning Models",
+      "Meta-Imitation Learning by Watching Video Demonstrations",
+      "Comparing Distributions by Measuring Differences that Affect Decision Making",
+      "Anisotropic Random Feature Regression in High Dimensions",
+      "Improving the Accuracy of Learning Example Weights for Imbalance Classification",
+      "Path Auxiliary Proposal for MCMC in Discrete Space",
+      "How to deal with missing data in supervised deep learning?",
+      "Sample Efficient Stochastic Policy Extragradient Algorithm for Zero-Sum Markov Game",
+      "Improving Non-Autoregressive Translation Models Without Distillation",
+      "FedBABU: Toward Enhanced Representation for Federated Image Classification",
+      "Generative Pseudo-Inverse Memory",
+      "Hot-Refresh Model Upgrades with Regression-Free Compatible Training in Image Retrieval",
+      "Neural Relational Inference with Node-Specific Information ",
+      "Hybrid Local SGD for Federated Learning with Heterogeneous Communications",
+      "Switch to Generalize: Domain-Switch Learning for Cross-Domain Few-Shot Classification",
+      "Effect of scale on catastrophic forgetting in neural networks",
+      "DictFormer: Tiny Transformer with Shared Dictionary",
+      "The Evolution of Uncertainty of Learning in Games",
+      "Ancestral protein sequence reconstruction using a tree-structured Ornstein-Uhlenbeck variational autoencoder",
+      "TPU-GAN: Learning temporal coherence from dynamic point cloud sequences",
+      "Resolving Training Biases via Influence-based Data Relabeling",
+      "Efficient Token Mixing for Transformers via Adaptive Fourier Neural Operators",
+      "GRAND++: Graph Neural Diffusion with A Source Term",
+      "Diurnal or Nocturnal? Federated Learning of Multi-branch Networks from Periodically Shifting Distributions",
+      "Actor-Critic Policy Optimization in a Large-Scale Imperfect-Information Game",
+      "Environment Predictive Coding for Visual Navigation",
+      "Explainable GNN-Based Models over Knowledge Graphs",
+      "Recursive Disentanglement Network",
+      "Connectome-constrained Latent Variable Model of Whole-Brain Neural Activity",
+      "Distributional Reinforcement Learning with Monotonic Splines",
+      "An Autoregressive Flow Model for 3D Molecular Geometry Generation from Scratch",
+      "Provable Learning-based Algorithm For Sparse Recovery",
+      "DemoDICE: Offline Imitation Learning with Supplementary Imperfect Demonstrations",
+      "Towards Understanding the Robustness Against Evasion Attack on Categorical Data",
+      "EViT: Expediting Vision Transformers via Token Reorganizations",
+      "LOSSY COMPRESSION WITH DISTRIBUTION SHIFT AS ENTROPY CONSTRAINED OPTIMAL TRANSPORT",
+      "Learning Object-Oriented Dynamics for Planning from Text",
+      "Data Poisoning Won’t Save You From Facial Recognition",
+      "Neural Deep Equilibrium Solvers",
+      "Understanding the Role of Self Attention for Efficient Speech Recognition",
+      "Learning Efficient Image Super-Resolution Networks via Structure-Regularized Pruning",
+      "Shallow and Deep Networks are Near-Optimal Approximators of Korobov Functions",
+      "Should I Run Offline Reinforcement Learning or Behavioral Cloning?",
+      "Nonlinear ICA Using Volume-Preserving Transformations",
+      "Task Relatedness-Based Generalization Bounds for Meta Learning",
+      "Huber Additive Models for Non-stationary Time Series Analysis",
+      "Prototypical Contrastive Predictive Coding",
+      "A General Analysis of Example-Selection for Stochastic Gradient Descent",
+      "Energy-Inspired Molecular Conformation Optimization",
+      "Neural Markov Controlled SDE: Stochastic Optimization for Continuous-Time Data",
+      "Evolutionary Diversity Optimization with Clustering-based Selection for Reinforcement Learning",
+      "Revisiting flow generative models for Out-of-distribution detection",
+      "Stability Regularization for Discrete Representation Learning",
+      "Few-shot Learning via Dirichlet Tessellation Ensemble",
+      "Multi-Mode Deep Matrix and Tensor Factorization",
+      "Programmatic Reinforcement Learning without Oracles",
+      "Goal-Directed Planning via Hindsight Experience Replay",
+      "Privacy Implications of Shuffling",
+      "Adaptive Wavelet Transformer Network for 3D Shape Representation Learning",
+      "switch-GLAT: Multilingual Parallel Machine Translation Via Code-Switch Decoder",
+      "CrossMatch: Cross-Classifier Consistency Regularization for Open-Set Single Domain Generalization",
+      "Graph-Augmented Normalizing Flows for Anomaly Detection of Multiple Time Series",
+      "Unraveling Model-Agnostic Meta-Learning via The Adaptation Learning Rate",
+      "GDA-AM: ON THE EFFECTIVENESS OF SOLVING MIN-IMAX OPTIMIZATION VIA ANDERSON MIXING",
+      "Toward Efficient Low-Precision Training: Data Format Optimization and Hysteresis Quantization",
+      "Online Ad Hoc Teamwork under Partial Observability",
+      "W-CTC: a Connectionist Temporal Classification Loss with Wild Cards",
+      "Pyraformer: Low-Complexity Pyramidal Attention for Long-Range Time Series Modeling and Forecasting",
+      "Learning Scenario Representation for Solving Two-stage Stochastic Integer Programs",
+      "Finite-Time Convergence and Sample Complexity of Multi-Agent Actor-Critic Reinforcement Learning with Average Reward",
+      "Fairness in Representation for Multilingual NLP: Insights from Controlled Experiments on Conditional Language Modeling",
+      "Invariant Causal Representation Learning for Out-of-Distribution Generalization",
+      "NETWORK INSENSITIVITY TO PARAMETER NOISE VIA PARAMETER ATTACK DURING TRAINING",
+      "MICN: Multi-scale Local and Global Context Modeling for Long-term Series Forecasting",
+      "Improved Training of Physics-Informed Neural Networks Using Energy-Based Priors: a Study on Electrical Impedance Tomography",
+      "Adaptive Optimization in the $\\infty$-Width Limit",
+      "Achieving Sub-linear Regret in Infinite Horizon Average Reward Constrained MDP with Linear Function Approximation",
+      "Semi-supervised learning with a principled likelihood from a generative model of data curation",
+      "Is Adversarial Training Really a Silver Bullet for Mitigating Data Poisoning?",
+      "Progressive Voronoi Diagram Subdivision Enables Accurate Data-free Class-Incremental Learning",
+      "Feature Reconstruction From Outputs Can Mitigate Simplicity Bias in Neural Networks",
+      "Winning Both the Accuracy of Floating Point Activation and the Simplicity of Integer Arithmetic",
+      "Red PANDA: Disambiguating Image Anomaly Detection by Removing Nuisance Factors",
+      "AnyDA: Anytime Domain Adaptation",
+      "SoftMatch: Addressing the Quantity-Quality Tradeoff in Semi-supervised Learning",
+      "Graph-based Deterministic Policy Gradient for Repetitive Combinatorial Optimization Problems",
+      "Evidential Uncertainty and Diversity Guided Active Learning for Scene Graph Generation",
+      "Hard-Meta-Dataset++: Towards Understanding Few-Shot Performance on Difficult Tasks",
+      "Fairness-aware Contrastive Learning with Partially Annotated Sensitive Attributes",
+      "Which Layer is Learning Faster? A Systematic Exploration of Layer-wise Convergence Rate for Deep Neural Networks",
+      " Cycle-consistent Masked AutoEncoder for Unsupervised Domain Generalization",
+      "Subsampling in Large Graphs Using Ricci Curvature",
+      "Towards Robust Object Detection Invariant to Real-World Domain Shifts",
+      "Discovering Informative and Robust Positives for Video Domain Adaptation",
+      "Crossformer: Transformer Utilizing Cross-Dimension Dependency for Multivariate Time Series Forecasting",
+      "wav2tok: Deep Sequence Tokenizer for Audio Retrieval",
+      "Efficient Federated Domain Translation ",
+      "REVISITING PRUNING AT INITIALIZATION THROUGH THE LENS OF RAMANUJAN GRAPH",
+      "Adversarial Diversity in Hanabi",
+      "Selective Frequency Network for Image Restoration",
+      "OPTQ: Accurate Quantization for Generative Pre-trained Transformers",
+      "Revisit Finetuning strategy for Few-Shot Learning to Transfer the Emdeddings",
+      "Scenario-based Question Answering with Interacting Contextual Properties",
+      "WiNeRT: Towards Neural Ray Tracing for Wireless Channel Modelling and Differentiable Simulations",
+      "Feature selection and low test error in shallow low-rotation ReLU networks",
+      "Anisotropic Message Passing: Graph Neural Networks with Directional and Long-Range Interactions",
+      "MMVAE+: Enhancing the Generative Quality of Multimodal VAEs without Compromises",
+      "Impossibly Good Experts and How to Follow Them",
+      "Accurate Bayesian Meta-Learning by Accurate Task Posterior Inference",
+      "TVSPrune - Pruning Non-discriminative filters via Total Variation separability of intermediate representations without fine tuning",
+      "Budgeted Training for Vision Transformer",
+      "Learning Adversarial Linear Mixture Markov Decision Processes with Bandit Feedback and Unknown Transition",
+      "Investigating Multi-task Pretraining and Generalization in Reinforcement Learning",
+      "Learning About Progress From Experts",
+      "Few-shot Cross-domain Image Generation via Inference-time Latent-code Learning",
+      "SCoMoE: Efficient Mixtures of Experts with Structured Communication",
+      "Towards Addressing Label Skews in One-Shot Federated Learning",
+      "Gray-Box Gaussian Processes for Automated Reinforcement Learning",
+      "Multivariate Time-series Imputation with Disentangled Temporal Representations",
+      "On Compositional Uncertainty Quantification for Seq2seq Graph Parsing",
+      "Clean-image Backdoor: Attacking Multi-label Models with Poisoned Labels Only",
+      "Curriculum-based Co-design of Morphology and Control of Voxel-based Soft Robots",
+      "Approximation and non-parametric estimation of functions over high-dimensional spheres via deep ReLU networks",
+      "Making Better Decision by Directly Planning in Continuous Control",
+      "Online Boundary-Free Continual Learning by Scheduled Data Prior",
+      "Matching receptor to odorant with protein language and graph neural networks",
+      "When to Make and Break Commitments?",
+      "DepthFL : Depthwise Federated Learning for Heterogeneous Clients",
+      "Transfer NAS with Meta-learned Bayesian Surrogates",
+      "Learning Uncertainty for Unknown Domains with Zero-Target-Assumption",
+      "Everybody Needs Good Neighbours: An Unsupervised Locality-based Method for Bias Mitigation",
+      "Scalable Subset Sampling with Neural Conditional Poisson Networks",
+      "$\\Lambda$-DARTS: Mitigating Performance Collapse by Harmonizing Operation Selection among Cells",
+      "Stochastic No-regret Learning for General Games with Variance Reduction",
+      "Composite Slice Transformer: An Efficient Transformer with Composition of Multi-Scale Multi-Range Attentions",
+      " Decompose to Generalize: Species-Generalized Animal Pose Estimation",
+      "Minimalistic Unsupervised Representation Learning with the Sparse Manifold Transform",
+      "An Extensible Multi-modal Multi-task Object Dataset with Materials",
+      "Zeroth-Order Optimization with Trajectory-Informed Derivative Estimation",
+      "EA-HAS-Bench: Energy-aware Hyperparameter and Architecture Search Benchmark",
+      "Revisiting Populations in multi-agent Communication",
+      "DFPC: Data flow driven pruning of coupled channels without data.",
+      "Turning the Curse of Heterogeneity in Federated Learning into a Blessing for Out-of-Distribution Detection",
+      "This Looks Like It Rather Than That: ProtoKNN For Similarity-Based Classifiers",
+      "Any-scale Balanced Samplers for Discrete Space",
+      "Koopman Neural Operator Forecaster for Time-series with Temporal Distributional Shifts",
+      "HypeR: Multitask Hyper-Prompted Training Enables Large-Scale Retrieval Generalization",
+      "Statistical Guarantees for Consensus Clustering",
+      "Warping the Space: Weight Space Rotation for Class-Incremental Few-Shot Learning",
+      "Self-Supervised Set Representation Learning for Unsupervised Meta-Learning",
+      "Partial Label Unsupervised Domain Adaptation with Class-Prototype Alignment",
+      "Efficient Edge Inference by Selective Query",
+      "Mini-batch $k$-means terminates within $O(d/\\epsilon)$ iterations",
+      "Memory Gym: Partially Observable Challenges to Memory-Based Agents",
+      "MIMT: Masked Image Modeling Transformer for Video Compression",
+      "Unbiased Stochastic Proximal Solver for Graph Neural Networks with Equilibrium States",
+      "Revisiting Intrinsic Reward for Exploration in Procedurally Generated Environments",
+      "Continual Unsupervised Disentangling of Self-Organizing Representations",
+      "Bayesian Oracle for bounding information gain in neural encoding models",
+      " BEEF: Bi-Compatible Class-Incremental Learning via Energy-Based Expansion and Fusion",
+      "Confidential-PROFITT: Confidential PROof of FaIr Training of Trees",
+      "PerFedMask: Personalized Federated Learning with Optimized Masking Vectors",
+      "Towards Interpretable Deep Reinforcement Learning with Human-Friendly Prototypes",
+      "Pink Noise Is All You Need: Colored Noise Exploration in Deep Reinforcement Learning",
+      "Enhancing Meta Learning via Multi-Objective Soft Improvement Functions",
+      "Towards One-shot Neural Combinatorial Solvers: Theoretical and Empirical Notes on the Cardinality-Constrained Case",
+      "Computing all Optimal Partial Transports",
+      "Fundamental limits on the robustness of image classifiers",
+      "Learning without Prejudices: Continual Unbiased Learning via Benign and Malignant Forgetting",
+      "TEMPERA: Test-Time Prompt Editing via Reinforcement Learning",
+      "Domain Generalization via Heckman-type Selection Models ",
+      "Filter-Recovery Network for Multi-Speaker Audio-Visual Speech Separation",
+      "Efficient Model Updates for Approximate Unlearning of Graph-Structured Data",
+      "Generate rather than Retrieve: Large Language Models are Strong Context Generators",
+      "Learning Symbolic Models for Graph-structured Physical Mechanism",
+      "Learning where and when to reason in neuro-symbolic inference",
+      "In-sample Actor Critic for Offline Reinforcement Learning",
+      "A General Rank Preserving Framework for Asymmetric Image Retrieval",
+      "Revisiting Graph Adversarial Attack and Defense From a Data Distribution Perspective",
+      "Malign Overfitting: Interpolation and Invariance are Fundamentally at Odds",
+      "Arbitrary Virtual Try-on Network: Characteristics Representation and Trade-off between Body and Clothing",
+      "Neural Lagrangian Schr\\\"{o}dinger Bridge: Diffusion Modeling for Population Dynamics",
+      "Mind the Pool: Convolutional Neural Networks Can Overfit Input Size",
+      "Extracting Robust Models with Uncertain Examples",
+      "Fisher-Legendre (FishLeg) optimization of deep neural networks",
+      "The Dark Side of AutoML: Towards Architectural Backdoor Search",
+      "Average Sensitivity of Decision Tree Learning",
+      "Adversarial Imitation Learning with Preferences",
+      "Quality-Similar Diversity via Population Based Reinforcement Learning",
+      "A new characterization of the edge of stability based on a sharpness measure aware of batch gradient distribution",
+      "On the Word Boundaries of Emergent Languages Based on Harris's Articulation Scheme",
+      "A Higher Precision Algorithm for Computing the $1$-Wasserstein Distance",
+      "GEASS: Neural causal feature selection for high-dimensional biological data",
+      "A Holistic View of Label Noise Transition Matrix in Deep Learning and Beyond",
+      "Over-parameterized Model Optimization with Polyak-{\\L}ojasiewicz Condition",
+      "Approximate Bayesian Inference with Stein Functional Variational Gradient Descent",
+      "Revisiting the Assumption of Latent Separability for Backdoor Defenses",
+      "Geometrically regularized autoencoders for non-Euclidean data",
+      "Data-Free One-Shot Federated Learning Under Very High Statistical Heterogeneity",
+      "Bayes-MIL: A New Probabilistic Perspective on Attention-based Multiple Instance Learning for Whole Slide Images",
+      "Eva: Practical Second-order Optimization with Kronecker-vectorized Approximation",
+      "Uniform-in-time propagation of chaos for the mean-field gradient Langevin dynamics",
+      "SYNC: SAFETY-AWARE NEURAL CONTROL FOR STABILIZING STOCHASTIC DELAY-DIFFERENTIAL EQUATIONS",
+      "BSTT: A Bayesian Spatial-Temporal Transformer for Sleep Staging",
+      "Learning to CROSS exchange to solve min-max vehicle routing problems",
+      "Associative Memory Augmented Asynchronous Spatiotemporal Representation Learning for Event-based Perception",
+      "The Tilted Variational Autoencoder: Improving Out-of-Distribution Detection",
+      "Learning with Auxiliary Activation for Memory-Efficient Training",
+      "Weighted Clock Logic Point Process",
+      "Can We Faithfully Represent Absence States to Compute Shapley Values on a DNN?",
+      "Bit-Pruning: A Sparse Multiplication-Less Dot-Product",
+      "Multi-level Protein Structure Pre-training via Prompt Learning",
+      "Efficient approximation of neural population structure and correlations with probabilistic circuits",
+      "Understanding and Adopting Rational Behavior by Bellman Score Estimation",
+      "Re-calibrating Feature Attributions for Model Interpretation",
+      "Neural DAG Scheduling via One-Shot Priority Sampling",
+      "LiftedCL: Lifting Contrastive Learning for Human-Centric Perception",
+      "Learning Diffusion Bridges on Constrained Domains",
+      "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "HiT-MDP: Learning the SMDP option framework on MDPs with Hidden Temporal Embeddings",
+      "Optimizing Spca-based Continual Learning: A Theoretical Approach",
+      "Protein Representation Learning via Knowledge Enhanced Primary Structure Reasoning",
+      "Block and Subword-Scaling Floating-Point (BSFP) : An Efficient Non-Uniform Quantization For Low Precision Inference",
+      "Sparse Token Transformer with Attention Back Tracking",
+      "Discrete Predictor-Corrector Diffusion Models for Image Synthesis",
+      "Generating Diverse Cooperative Agents by Learning Incompatible Policies",
+      "Learned Index with Dynamic $\\epsilon$",
+      "Learning to Jointly Share and Prune Weights for Grounding Based Vision and Language Models",
+      "Transformer-based model for symbolic regression via joint supervised learning",
+      "Towards Minimax Optimal Reward-free Reinforcement Learning in Linear MDPs",
+      "Multi-domain image generation and translation with identifiability guarantees",
+      "Improving Differentiable Neural Architecture Search by Encouraging Transferability",
+      "Interpretable Debiasing of Vectorized Language Representations with Iterative Orthogonalization",
+      "Don’t fear the unlabelled: safe semi-supervised learning via debiasing",
+      "In-Situ Text-Only Adaptation of Speech Models with Low-Overhead Speech Imputations",
+      "Serving Graph Compression for Graph Neural Networks",
+      "Become a Proficient Player with Limited Data through Watching Pure Videos",
+      "Replay Memory as An Empirical MDP: Combining Conservative Estimation with Experience Replay",
+      "Bag of Tricks for Unsupervised Text-to-Speech",
+      "CASR: Generating Complex Sequences with Autoregressive Self-Boost Refinement",
+      "Molecule Generation For Target Protein Binding with Structural Motifs",
+      "GAIN: On the Generalization of Instructional Action Understanding",
+      "Diversify and Disambiguate: Out-of-Distribution Robustness via Disagreement",
+      "$\\mathrm{SE}(3)$-Equivariant Attention Networks for Shape Reconstruction in Function Space",
+      "Efficient Discrete Multi Marginal Optimal Transport Regularization",
+      "MaskFusion: Feature Augmentation for Click-Through Rate Prediction via Input-adaptive Mask Fusion",
+      "Effective passive membership inference attacks in federated learning against overparameterized models",
+      "Provably Efficient Lifelong Reinforcement Learning with Linear Representation",
+      "Fake It Until You Make It : Towards Accurate Near-Distribution Novelty Detection",
+      "Ensuring DNN Solution Feasibility for Optimization Problems with Linear Constraints",
+      "CO3: Cooperative Unsupervised 3D Representation Learning for Autonomous Driving",
+      "Achieving Near-Optimal Individual Regret & Low Communications in Multi-Agent Bandits",
+      "Loss Landscapes are All You Need: Neural Network Generalization Can Be Explained Without the Implicit Bias of Gradient Descent",
+      "Synthetic Data Generation of Many-to-Many Datasets via Random Graph Generation",
+      "Min-Max Multi-objective Bilevel Optimization with Applications in Robust Machine Learning",
+      "Real-Time Image Demoir$\\acute{e}$ing on Mobile Devices",
+      "DySR: Adaptive Super-Resolution via Algorithm and System Co-design",
+      "Switch-NeRF: Learning Scene Decomposition with Mixture of Experts for Large-scale Neural Radiance Fields",
+      "Continuous-Discrete Convolution for Geometry-Sequence Modeling in Proteins",
+      "Graph Domain Adaptation via Theory-Grounded Spectral Regularization",
+      "Boosting Multiagent Reinforcement Learning via Permutation Invariant and Permutation Equivariant Networks",
+      "Sample-Efficient Reinforcement Learning by Breaking the Replay Ratio Barrier",
+      "StyleMorph: Disentangled 3D-Aware Image Synthesis with a 3D Morphable StyleGAN",
+      "TabCaps: A Capsule Neural Network for Tabular Data Classification with BoW Routing",
+      "Rethinking Symbolic Regression: Morphology and Adaptability in the Context of Evolutionary Algorithms",
+      "ILA-DA: Improving Transferability of Intermediate Level Attack with Data Augmentation",
+      "FIGARO: Controllable Music Generation using Learned and Expert Features",
+      "GoBigger: A Scalable Platform for Cooperative-Competitive Multi-Agent Interactive Simulation",
+      "DamoFD: Digging into Backbone Design on Face Detection",
+      "NERDS: A General Framework to Train Camera Denoisers from Raw-RGB Noisy Image Pairs",
+      "Learning Simultaneous Navigation and Construction in Grid Worlds ",
+      "MECTA: Memory-Economic Continual Test-Time Model Adaptation",
+      "Scaffolding a Student to Instill Knowledge",
+      "On The Inadequacy of Optimizing Alignment and Uniformity in Contrastive Learning of Sentence Representations",
+      "Active Learning for Object Detection with Evidential Deep Learning and Hierarchical Uncertainty Aggregation",
+      "SpeedyZero: Mastering Atari with Limited Data and Time",
+      "Out-of-Distribution Detection based on In-Distribution Data Patterns Memorization with Modern Hopfield Energy",
+      "Video Scene Graph Generation from Single-Frame Weak Supervision",
+      "Not All Tasks Are Born Equal: Understanding Zero-Shot Generalization",
+      "Faster Gradient-Free Methods for Escaping Saddle Points",
+      "Understanding Train-Validation Split in Meta-Learning with Neural Networks",
+      "Interaction-Based Disentanglement of Entities for Object-Centric World Models",
+      "Learning to Generate Columns with Application to Vertex Coloring",
+      "Mosaic Representation Learning for Self-supervised Visual Pre-training",
+      "A Simple Yet Powerful Deep Active Learning With Snapshots Ensembles",
+      "Finding Actual Descent Directions for Adversarial Training",
+      "MA-BERT: Towards Matrix Arithmetic-only BERT Inference by Eliminating Complex Non-Linear Functions",
+      "RPM: Generalizable Multi-Agent Policies for Multi-Agent Reinforcement Learning",
+      "Can Neural Networks Learn Implicit Logic from Physical Reasoning?",
+      "Provable Robustness against Wasserstein Distribution Shifts via Input Randomization",
+      "Progressive Mix-Up for Few-Shot Supervised Multi-Source Domain Transfer",
+      "Improving the imputation of missing data with Markov Blanket discovery",
+      "AutoGT: Automated Graph Transformer Architecture Search",
+      "Improved Convergence of Differential Private SGD with Gradient Clipping",
+      "Instance-wise Batch Label Restoration via Gradients in Federated Learning",
+      "Volumetric Optimal Transportation by Fast Fourier Transform",
+      "Mutual Partial Label Learning with Competitive Label Noise",
+      "How gradient estimator variance and bias impact learning in neural networks",
+      "How Does Semi-supervised Learning with Pseudo-labelers Work? A Case Study",
+      "Searching Lottery Tickets in Graph Neural Networks: A Dual Perspective",
+      "Learning Sparse Group Models Through Boolean Relaxation",
+      "Neural ePDOs: Spatially Adaptive Equivariant Partial Differential Operator Based  Networks",
+      "Stay Moral and Explore: Learn to Behave Morally in Text-based Games",
+      "Win: Weight-Decay-Integrated Nesterov Acceleration for Adaptive Gradient Algorithms",
+      "BALTO: fast tensor program optimization with diversity-based active learning",
+      "Suppressing the Heterogeneity: A Strong Feature Extractor for Few-shot Segmentation",
+      "MACTA: A Multi-agent Reinforcement Learning Approach for Cache Timing Attacks and Detection",
+      "SIMPLE: Specialized Model-Sample Matching for Domain Generalization",
+      "Explaining Temporal Graph Models through an Explorer-Navigator Framework",
+      "Causal Imitation Learning via Inverse Reinforcement Learning",
+      "Enhancing the Inductive Biases of Graph Neural ODE for Modeling Physical Systems",
+      "Panning for Gold in Federated Learning: Targeted Text Extraction under Arbitrarily Large-Scale Aggregation",
+      "Contextual Image Masking Modeling via Synergized Contrasting without View Augmentation for Faster and Better Visual Pretraining",
+      "Optimistic Exploration with Learned Features Provably Solves Markov Decision Processes with Neural Dynamics",
+      "Pseudoinverse-Guided Diffusion Models for Inverse Problems",
+      "AE-FLOW: Autoencoders with Normalizing Flows  for  Medical Images Anomaly Detection ",
+      "Finding the Global Semantic Representation in GAN through Fréchet Mean",
+      "Trainable Weight Averaging: Efficient Training by Optimizing Historical Solutions",
+      "Represent to Control Partially Observed Systems: Representation Learning with Provable Sample Efficiency",
+      "GReTo: Remedying dynamic graph topology-task discordance via target homophily",
+      "Causality Compensated Attention for Contextual Biased Visual Recognition",
+      "Progressively Compressed Auto-Encoder for Self-supervised Representation Learning",
+      "Provable Memorization Capacity of Transformers",
+      "Sharper Bounds for Uniformly Stable Algorithms with Stationary Mixing Process",
+      "Cycle to Clique (Cy2C) Graph Neural Network: A Sight to See beyond Neighborhood Aggregation",
+      "Encoding Recurrence into Transformers",
+      "Towards Robustness Certification Against Universal Perturbations",
+      "Moderate Coreset: A Universal Method of Data Selection for Real-world Data-efficient Deep Learning",
+      "Sequential Latent Variable Models for Few-Shot High-Dimensional Time-Series Forecasting",
+      "Subquadratic Algorithms for Kernel Matrices via Kernel Density Estimation",
+      "Learning Continuous Normalizing Flows For Faster Convergence To Target Distribution via Ascent Regularizations",
+      "Compositional Task Representations for Large Language Models",
+      "Generalize Learned Heuristics to Solve Large-scale Vehicle Routing Problems in Real-time",
+      "A VAE for Transformers with Nonparametric Variational Information Bottleneck",
+      "Learning a Data-Driven Policy Network for Pre-Training Automated Feature Engineering",
+      "$\\mathcal{O}$-GNN: incorporating ring priors into molecular modeling",
+      "$\\mathscr{N}$-WL: A New Hierarchy of Expressivity for Graph Neural Networks",
+      "DFlow: Learning to Synthesize Better Optical Flow Datasets via a Differentiable Pipeline",
+      "Discovering Generalizable Multi-agent Coordination Skills from Multi-task Offline Data",
+      "Mid-Vision Feedback",
+      "SketchKnitter: Vectorized Sketch Generation with Diffusion Models",
+      "3D Segmenter: 3D Transformer based Semantic Segmentation via 2D Panoramic Distillation",
+      "Exploring perceptual straightness in learned visual representations",
+      "Adaptive Robust Evidential Optimization For Open Set Detection from Imbalanced Data",
+      "HiViT: A Simpler and More Efficient Design of Hierarchical Vision Transformer",
+      "Don’t forget the nullspace! Nullspace occupancy as a mechanism for out of distribution failure",
+      "ROCO: A General Framework for Evaluating Robustness of Combinatorial Optimization Solvers on Graphs",
+      "LogicDP: Creating Labels for Graph Data via Inductive Logic Programming",
+      "MocoSFL: enabling cross-client collaborative self-supervised learning",
+      "Data Continuity Matters: Improving Sequence Modeling with Lipschitz Regularizer",
+      "Performance Bounds for Model and Policy Transfer in Hidden-parameter MDPs",
+      "Exponential Generalization Bounds with Near-Optimal Rates for $L_q$-Stable Algorithms",
+      "A Simple Approach for Visual Room Rearrangement: 3D Mapping and Semantic Search",
+      "Online Bias Correction for Task-Free Continual Learning",
+      "Improving Out-of-distribution Generalization with Indirection Representations",
+      "Targeted Hyperparameter Optimization with Lexicographic Preferences Over Multiple Objectives",
+      "Exploring Low-Rank Property in Multiple Instance Learning for Whole Slide Image Classification",
+      "SeaFormer: Squeeze-enhanced Axial Transformer for Mobile Semantic Segmentation",
+      "On the Data-Efficiency with Contrastive Image Transformation in Reinforcement Learning",
+      "Approximate Nearest Neighbor Search through Modern Error-Correcting Codes",
+      "Risk-Aware Reinforcement Learning with Coherent Risk Measures and Non-linear Function Approximation",
+      "Learning Domain-Agnostic Representation for Disease Diagnosis",
+      "Learning Kernelized Contextual Bandits in a Distributed and Asynchronous Environment",
+      "TaskPrompter: Spatial-Channel Multi-Task Prompting for Dense Scene Understanding",
+      "An Exact Poly-Time Membership-Queries Algorithm for Extracting a Three-Layer ReLU Network"
+    ],
+    "API Error 500": [
+      "Plateau in Monotonic Linear Interpolation --- A \"Biased\" View of Loss Landscape for Deep Networks"
+    ]
+  },
+  "details": [
+    {
+      "title": "Offline bilingual word vectors, orthogonal transformations and the inverted softmax",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Snapshot Ensembles: Train 1, Get M for Free",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Learning to Query, Reason, and Answer Questions On Ambiguous Texts",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Learning to Optimize",
+      "openalex_id": "https://openalex.org/W2164934768",
+      "num_citations": 2226,
+      "year": 2002,
+      "url": "https://openalex.org/W2164934768",
+      "similarity": 0.4383561643835616,
+      "error": "low_confidence_match",
+      "found_title": "Learning and optimization using the clonal selection principle"
+    },
+    {
+      "title": "Attend, Adapt and Transfer: Attentive Deep Architecture for Adaptive Transfer from multiple sources in the same domain",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Nonparametric Neural Networks",
+      "openalex_id": "https://openalex.org/W1971918769",
+      "num_citations": 25,
+      "year": 2011,
+      "url": "https://openalex.org/W1971918769",
+      "similarity": 0.574468085106383,
+      "error": "low_confidence_match",
+      "found_title": "Nonparametric neural network modeling of hedonic prices in the housing market"
+    },
+    {
+      "title": "HyperNetworks",
+      "openalex_id": "https://openalex.org/W2888572441",
+      "num_citations": 211,
+      "year": 2019,
+      "url": "https://openalex.org/W2888572441",
+      "similarity": 0.5306122448979592,
+      "error": "low_confidence_match",
+      "found_title": "Hypernetwork Knowledge Graph Embeddings"
+    },
+    {
+      "title": "Introspection:Accelerating Neural Network Training By Learning Weight Evolution",
+      "error": "not_found"
+    },
+    {
+      "title": "Progressive Growing of GANs for Improved Quality, Stability, and Variation",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Fast and Accurate Text Classification: Skimming, Rereading and Early Stopping",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Neuron as an Agent",
+      "openalex_id": "https://openalex.org/W2152092709",
+      "num_citations": 38,
+      "year": 2004,
+      "url": "https://openalex.org/W2152092709",
+      "similarity": 0.37142857142857144,
+      "error": "low_confidence_match",
+      "found_title": "The evolution of imitation and mirror neurons in adaptive agents"
+    },
+    {
+      "title": "Learning to Infer",
+      "openalex_id": "https://openalex.org/W206739251",
+      "num_citations": 676,
+      "year": 2007,
+      "url": "https://openalex.org/W206739251",
+      "similarity": 0.45614035087719296,
+      "error": "low_confidence_match",
+      "found_title": "Learning and inferring transportation routines"
+    },
+    {
+      "title": "A Compressed Sensing View of Unsupervised Text Embeddings, Bag-of-n-Grams, and LSTMs",
+      "error": "API Error 400"
+    },
+    {
+      "title": "To Prune, or Not to Prune: Exploring the Efficacy of Pruning for Model Compression",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Stochastic gradient descent performs variational inference, converges to limit cycles for deep networks",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Adaptive Memory Networks",
+      "openalex_id": "https://openalex.org/W3032369419",
+      "num_citations": 17,
+      "year": 2020,
+      "url": "https://openalex.org/W3032369419",
+      "similarity": 0.45161290322580644,
+      "error": "low_confidence_match",
+      "found_title": "Attention-Based Adaptive Memory Network for Recommendation With Review and Rating"
+    },
+    {
+      "title": "Don't Decay the Learning Rate, Increase the Batch Size",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Emergent Communication in a Multi-Modal, Multi-Step Referential Game",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Learning Robust Rewards with Adverserial Inverse Reinforcement Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "A Closer Look At Deep Learning Heuristics: Learning Rate Restarts, Warmup And Distillation",
+      "error": "API Error 400"
+    },
+    {
+      "title": "M^3rl: Mind-aware Multi-agent Management Reinforcement Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Plan Online, Learn Offline: Efficient Learning And Exploration Via Model-based Control",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Poincare Glove: Hyperbolic Word Embeddings",
+      "error": "not_found"
+    },
+    {
+      "title": "Unsupervised Discovery Of Parts, Structure, And Dynamics",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Query-efficient Hard-label Black-box Attack: An Optimization-based Approach",
+      "error": "not_found"
+    },
+    {
+      "title": "Woulda, Coulda, Shoulda: Counterfactually-guided Policy Search",
+      "error": "API Error 400"
+    },
+    {
+      "title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+      "error": "API Error 400"
+    },
+    {
+      "title": "A Comprehensive, Application-oriented Study Of Catastrophic Forgetting In Dnns",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Learning To Simulate",
+      "openalex_id": "https://openalex.org/W3080501557",
+      "num_citations": 125,
+      "year": 2020,
+      "url": "https://openalex.org/W3080501557",
+      "similarity": 0.7346938775510204,
+      "error": "low_confidence_match",
+      "found_title": "Learning to Simulate Human Mobility"
+    },
+    {
+      "title": "Deep, Skinny Neural Networks Are Not Universal Approximators",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Slalom: Fast, Verifiable And Private Execution Of Neural Networks In Trusted Hardware",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Learning To Adapt In Dynamic, Real-world Environments Through Meta-reinforcement Learning",
+      "error": "API Error 400"
+    },
+    {
+      "title": "The Neuro-symbolic Concept Learner: Interpreting Scenes, Words, And Sentences From Natural Supervision",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Attention, Learn To Solve Routing Problems!",
+      "error": "API Error 400"
+    },
+    {
+      "title": "On Random Deep Weight-tied Autoencoders: Exact Asymptotic Analysis, Phase Transitions, And Implications To Training",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Variational Discriminator Bottleneck: Improving Imitation Learning, Inverse Rl, And Gans By Constraining Information Flow",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Towards Robust, Locally Linear Deep Networks",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Learning Particle Dynamics For Manipulating Rigid Bodies, Deformable Objects, And Fluids",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Improving Differentiable Neural Computers Through Memory Masking, De-allocation, And Link Distribution Sharpness Control",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Don't Settle For Average, Go For The Max: Fuzzy Sets And Max-pooled Word Vectors",
+      "error": "API Error 400"
+    },
+    {
+      "title": "V4d: 4d Convonlutional Neural Networks For Video-level Representation Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "An Exponential Learning Rate Schedule For Batch Normalized Networks",
+      "error": "not_found"
+    },
+    {
+      "title": "Learning To Link",
+      "openalex_id": "https://openalex.org/W2100341149",
+      "num_citations": 1264,
+      "year": 2008,
+      "url": "https://openalex.org/W2100341149",
+      "similarity": 0.6829268292682927,
+      "error": "low_confidence_match",
+      "found_title": "Learning to link with wikipedia"
+    },
+    {
+      "title": "Incremental Rnn: A Dynamical View.",
+      "error": "not_found"
+    },
+    {
+      "title": "Watch, Try, Learn: Meta-learning From Demonstrations And Rewards",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Comparing Fine-tuning And Rewinding In Neural Network Pruning",
+      "openalex_id": "https://openalex.org/W2995816250",
+      "num_citations": 179,
+      "year": 2020,
+      "url": "https://openalex.org/W2995816250",
+      "similarity": 0.7735849056603774,
+      "error": "low_confidence_match",
+      "found_title": "Comparing Rewinding and Fine-tuning in Neural Network Pruning"
+    },
+    {
+      "title": "Extracting And Leveraging Feature Interaction Interpretations",
+      "error": "not_found"
+    },
+    {
+      "title": "Spatially Parallel Attention And Component Extraction For Scene Decomposition",
+      "error": "not_found"
+    },
+    {
+      "title": "Transformer-xh: Multi-hop Question Answering With Extra Hop Attention",
+      "error": "not_found"
+    },
+    {
+      "title": "Ridge Regression: Structure, Cross-validation, And Sketching",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Don't Use Large Mini-batches, Use Local Sgd",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Efficient Transformer For Mobile Applications",
+      "openalex_id": "https://openalex.org/W4320036918",
+      "num_citations": 248,
+      "year": 2023,
+      "url": "https://openalex.org/W4320036918",
+      "similarity": 0.6612903225806451,
+      "error": "low_confidence_match",
+      "found_title": "EdgeNeXt: Efficiently Amalgamated CNN-Transformer Architecture for Mobile Vision Applications"
+    },
+    {
+      "title": "Deep Batch Active Learning By Diverse, Uncertain Gradient Lower Bounds",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Deep Imitative Models For Flexible Inference, Planning, And Control",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Nas-bench-102: Extending The Scope Of Reproducible Neural Architecture Search",
+      "error": "not_found"
+    },
+    {
+      "title": "Kaleidoscope: An Efficient, Learnable Representation For All Structured Linear Maps",
+      "error": "API Error 400"
+    },
+    {
+      "title": "The Function Of Contextual Illusions",
+      "error": "not_found"
+    },
+    {
+      "title": "Plug And Play Language Model: A Simple Baseline For Controlled Language Generation",
+      "error": "not_found"
+    },
+    {
+      "title": "Learning From Explanations With Neural Module Execution Tree",
+      "error": "not_found"
+    },
+    {
+      "title": "Learning To Explore Using Active Neural Mapping",
+      "error": "not_found"
+    },
+    {
+      "title": "How The Choice Of Activation Affects Training Of Overparametrized Neural Nets",
+      "error": "not_found"
+    },
+    {
+      "title": "Going Beyond Token-level Pre-training For Embedding-based Large-scale Retrieval",
+      "error": "not_found"
+    },
+    {
+      "title": "Generative Models For Effective Ml On Private, Decentralized Datasets",
+      "error": "API Error 400"
+    },
+    {
+      "title": "On The Geometry And Learning Low-dimensional Embeddings For Directed Graphs",
+      "error": "not_found"
+    },
+    {
+      "title": "Pay Attention To Features, Transfer Learn Faster Cnns",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Compositional Continual Language Learning",
+      "openalex_id": "https://openalex.org/W3010801434",
+      "num_citations": 30,
+      "year": 2020,
+      "url": "https://openalex.org/W3010801434",
+      "similarity": 0.7894736842105263,
+      "error": "low_confidence_match",
+      "found_title": "Compositional Language Continual Learning"
+    },
+    {
+      "title": "Single Episode Transfer For Differing Environmental Dynamics In Reinforcement Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Triple Wins: Boosting Accuracy, Robustness And Efficiency Together By Enabling Input-adaptive Inference",
+      "error": "API Error 400"
+    },
+    {
+      "title": "A Critical Analysis Of Self-supervision, Or What We Can Learn From A Single Image",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Rethinking The Security Of Skip Connections In Resnet-like Neural Networks",
+      "error": "not_found"
+    },
+    {
+      "title": "Understanding L4-based Dictionary Learning: Interpretation, Stability, And Robustness",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Attributes Obfuscation With Complex-valued Features",
+      "error": "not_found"
+    },
+    {
+      "title": "Neural Tangent Kernels, Transportation Mappings, And Universal Approximation",
+      "error": "API Error 400"
+    },
+    {
+      "title": "On Computation And Generalization Of Gener- Ative Adversarial Imitation Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Domain Adaptive Multiflow Networks",
+      "error": "not_found"
+    },
+    {
+      "title": "To Relieve Your Headache Of Training An Mrf, Take Advil",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Convergence Behaviour Of Some Gradient-based Methods On Bilinear Zero-sum Games",
+      "error": "not_found"
+    },
+    {
+      "title": "Nonlinearities In Activations Substantially Shape The Loss Surfaces Of Neural Networks",
+      "error": "not_found"
+    },
+    {
+      "title": "Prediction, Consistency, Curvature: Representation Learning For Locally-linear Control",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Real Or Not Real, That Is The Question",
+      "error": "API Error 400"
+    },
+    {
+      "title": "RaCT: Toward Amortized Ranking-Critical Training For Collaborative Filtering ",
+      "error": "not_found"
+    },
+    {
+      "title": "Physics-aware, probabilistic model order reduction with guaranteed stability",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Few-Shot Learning via Learning the Representation, Provably",
+      "error": "API Error 400"
+    },
+    {
+      "title": "On the Stability of Fine-tuning BERT: Misconceptions, Explanations, and Strong Baselines",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Signatory: differentiable computations of the signature and logsignature transforms, on both CPU and GPU",
+      "error": "API Error 400"
+    },
+    {
+      "title": "MultiModalQA: complex question answering over text, tables and images",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Cut out the annotator, keep the cutout: better segmentation with weak supervision",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Self-supervised Adversarial Robustness for the Low-label, High-data Regime",
+      "error": "API Error 400"
+    },
+    {
+      "title": "HW-NAS-Bench: Hardware-Aware Neural Architecture Search Benchmark",
+      "error": "not_found"
+    },
+    {
+      "title": "Factorizing Declarative and Procedural Knowledge in Structured, Dynamical Environments",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Heating up decision boundaries: isocapacitory saturation, adversarial scenarios and generalization bounds",
+      "error": "API Error 400"
+    },
+    {
+      "title": "For self-supervised learning, Rationality implies generalization, provably",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Kanerva++: Extending the Kanerva Machine With Differentiable, Locally Block Allocated Latent Memory",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Neural Delay Differential Equations",
+      "openalex_id": "https://openalex.org/W2994718135",
+      "num_citations": 49,
+      "year": 2019,
+      "url": "https://openalex.org/W2994718135",
+      "similarity": 0.735632183908046,
+      "error": "low_confidence_match",
+      "found_title": "Neural Network Solution of Single-Delay Differential Equations"
+    },
+    {
+      "title": "Deep Encoder, Shallow Decoder: Reevaluating Non-autoregressive Machine Translation",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Learning Incompressible Fluid Dynamics from Scratch - Towards Fast, Differentiable Fluid Models that Generalize",
+      "error": "API Error 400"
+    },
+    {
+      "title": "SAFENet: A Secure, Accurate and Fast Neural Network Inference",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Understanding Over-parameterization in Generative Adversarial Networks",
+      "error": "not_found"
+    },
+    {
+      "title": "On InstaHide, Phase Retrieval, and Sparse Matrix Factorization",
+      "error": "API Error 400"
+    },
+    {
+      "title": "A Panda? No, It's a Sloth: Slowdown Attacks on Adaptive Multi-Exit Neural Network Inference",
+      "error": "API Error 400"
+    },
+    {
+      "title": "AUXILIARY TASK UPDATE DECOMPOSITION: THE GOOD, THE BAD AND THE NEUTRAL",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Self-Joint Supervised Learning",
+      "openalex_id": "https://openalex.org/W2970235454",
+      "num_citations": 53,
+      "year": 2019,
+      "url": "https://openalex.org/W2970235454",
+      "similarity": 0.5542168674698795,
+      "error": "low_confidence_match",
+      "found_title": "Joint-task Self-supervised Learning for Temporal Correspondence"
+    },
+    {
+      "title": "ConFeSS: A Framework for Single Source Cross-Domain Few-Shot Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "FP-DETR: Detection Transformer Advanced by Fully Pre-training",
+      "error": "not_found"
+    },
+    {
+      "title": "Certified Robustness for Deep Equilibrium Models via Interval Bound Propagation",
+      "error": "not_found"
+    },
+    {
+      "title": "Energy-Based Learning for Cooperative Games, with Applications to Valuation Problems in Machine Learning",
+      "error": "API Error 400"
+    },
+    {
+      "title": "On the approximation properties of recurrent encoder-decoder architectures",
+      "error": "not_found"
+    },
+    {
+      "title": "TAMP-S2GCNets: Coupling Time-Aware Multipersistence Knowledge Representation with Spatio-Supra Graph Convolutional Networks for Time-Series Forecasting",
+      "error": "not_found"
+    },
+    {
+      "title": "Pareto Policy Adaptation",
+      "error": "not_found"
+    },
+    {
+      "title": "Differentiable Scaffolding Tree for Molecule Optimization",
+      "error": "not_found"
+    },
+    {
+      "title": "D-CODE: Discovering Closed-form ODEs from Observed Trajectories",
+      "error": "not_found"
+    },
+    {
+      "title": "Spanning Tree-based Graph Generation for Molecules",
+      "error": "not_found"
+    },
+    {
+      "title": "EXACT: Scalable Graph Neural Networks Training via Extreme Activation Compression",
+      "error": "not_found"
+    },
+    {
+      "title": "MobileViT: Light-weight, General-purpose, and Mobile-friendly Vision Transformer",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Superclass-Conditional Gaussian Mixture Model For Learning Fine-Grained Embeddings",
+      "error": "not_found"
+    },
+    {
+      "title": "Dive Deeper Into Integral Pose Regression",
+      "error": "not_found"
+    },
+    {
+      "title": "Do Users Benefit From Interpretable Vision? A User Study, Baseline, And Dataset",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Learning Fast, Learning Slow: A General Continual Learning Method based on Complementary Learning System",
+      "error": "API Error 400"
+    },
+    {
+      "title": "A New Perspective on \"How Graph Neural Networks Go Beyond Weisfeiler-Lehman?\"",
+      "error": "not_found"
+    },
+    {
+      "title": "Stiffness-aware neural network for learning Hamiltonian systems",
+      "error": "not_found"
+    },
+    {
+      "title": "Modeling Label Space Interactions in Multi-label Classification using Box Embeddings",
+      "error": "not_found"
+    },
+    {
+      "title": "Efficient Computation of Deep Nonlinear Infinite-Width Neural Networks that Learn Features",
+      "error": "not_found"
+    },
+    {
+      "title": "Evaluation Metrics for Graph Generative Models: Problems, Pitfalls, and Practical Solutions",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Feature Kernel Distillation",
+      "openalex_id": "https://openalex.org/W4384297309",
+      "num_citations": 3,
+      "year": 2023,
+      "url": "https://openalex.org/W4384297309",
+      "similarity": 0.40816326530612246,
+      "error": "low_confidence_match",
+      "found_title": "Feature structure distillation with Centered Kernel Alignment in BERT transferring"
+    },
+    {
+      "title": "Optimal Transport for Long-Tailed Recognition with Learnable Cost Matrix",
+      "error": "not_found"
+    },
+    {
+      "title": "Conditioning Sequence-to-sequence Networks with Learned Activations",
+      "error": "not_found"
+    },
+    {
+      "title": "Understanding and Leveraging Overparameterization in Recursive Value Estimation",
+      "error": "not_found"
+    },
+    {
+      "title": "Offline Neural Contextual Bandits: Pessimism, Optimization and Generalization",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Gradient Information Matters in Policy Optimization by Back-propagating through Model",
+      "error": "not_found"
+    },
+    {
+      "title": "AdaAug: Learning Class- and Instance-adaptive Data Augmentation Policies",
+      "error": "not_found"
+    },
+    {
+      "title": "In a Nutshell, the Human Asked for This: Latent Goals for Following Temporal Specifications",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Multi-Critic Actor Learning: Teaching RL Policies to Act with Style",
+      "error": "not_found"
+    },
+    {
+      "title": "CrowdPlay: Crowdsourcing Human Demonstrations for Offline Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Exploiting Class Activation Value for Partial-Label Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Variational Inference for Discriminative Learning with Generative Modeling of Feature Incompletion",
+      "error": "not_found"
+    },
+    {
+      "title": "GPT-Critic: Offline Reinforcement Learning for End-to-End Task-Oriented Dialogue Systems",
+      "error": "not_found"
+    },
+    {
+      "title": "It Takes Four to Tango: Multiagent Self Play for Automatic Curriculum Generation",
+      "error": "not_found"
+    },
+    {
+      "title": "Declarative nets that are equilibrium models",
+      "error": "not_found"
+    },
+    {
+      "title": "Target-Side Input Augmentation for Sequence to Sequence Generation",
+      "error": "not_found"
+    },
+    {
+      "title": "Variational oracle guiding for reinforcement learning",
+      "openalex_id": "https://openalex.org/W4400222928",
+      "num_citations": 1,
+      "year": 2024,
+      "url": "https://openalex.org/W4400222928",
+      "similarity": 0.5970149253731343,
+      "error": "low_confidence_match",
+      "found_title": "Fuzzy Logic Guided Reward Function Variation: An Oracle for Testing Reinforcement Learning Programs"
+    },
+    {
+      "title": "Contrastive Clustering to Mine Pseudo Parallel Data for Unsupervised Translation",
+      "error": "not_found"
+    },
+    {
+      "title": "Temporal Alignment Prediction for Supervised Representation Learning and Few-Shot Sequence Classification",
+      "error": "not_found"
+    },
+    {
+      "title": "Visual hyperacuity with moving sensor and recurrent neural computations",
+      "error": "not_found"
+    },
+    {
+      "title": "Topological Graph Neural Networks",
+      "openalex_id": "https://openalex.org/W2025830639",
+      "num_citations": 41,
+      "year": 1988,
+      "url": "https://openalex.org/W2025830639",
+      "similarity": 0.631578947368421,
+      "error": "low_confidence_match",
+      "found_title": "Recognition of topological features of graphs and images in neural networks"
+    },
+    {
+      "title": "Decentralized Learning for Overparameterized Problems: A Multi-Agent Kernel Approximation Approach",
+      "error": "not_found"
+    },
+    {
+      "title": "Neural Network Approximation based on Hausdorff distance of Tropical Zonotopes",
+      "error": "not_found"
+    },
+    {
+      "title": "Einops: Clear and Reliable Tensor Manipulations with Einstein-like Notation",
+      "error": "not_found"
+    },
+    {
+      "title": "OBJECT DYNAMICS DISTILLATION FOR SCENE DECOMPOSITION AND REPRESENTATION",
+      "error": "not_found"
+    },
+    {
+      "title": "Self-Supervision Enhanced Feature Selection with Correlated Gates",
+      "error": "not_found"
+    },
+    {
+      "title": "Diverse Client Selection for Federated Learning via Submodular Maximization",
+      "error": "not_found"
+    },
+    {
+      "title": "Optimization inspired Multi-Branch Equilibrium Models",
+      "error": "not_found"
+    },
+    {
+      "title": "AlphaZero-based Proof Cost Network to Aid Game Solving",
+      "error": "not_found"
+    },
+    {
+      "title": "UniFormer: Unified Transformer for Efficient Spatial-Temporal Representation Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Learned Simulators for Turbulence",
+      "error": "not_found"
+    },
+    {
+      "title": "Peek-a-Boo: What (More) is Disguised in a Randomly Weighted Neural Network, and How to Find It Efficiently",
+      "error": "API Error 400"
+    },
+    {
+      "title": "What’s Wrong with Deep Learning in Tree Search for Combinatorial Optimization",
+      "error": "not_found"
+    },
+    {
+      "title": "Machine Learning For Elliptic PDEs: Fast Rate Generalization Bound, Neural Scaling Law and Minimax Optimality",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Continual Learning with Filter Atom Swapping",
+      "error": "not_found"
+    },
+    {
+      "title": "Regularized Autoencoders for Isometric Representation Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Implicit Bias of Adversarial Training for Deep Neural Networks",
+      "error": "not_found"
+    },
+    {
+      "title": "Demystifying Limited Adversarial Transferability in Automatic Speech Recognition Systems",
+      "error": "not_found"
+    },
+    {
+      "title": "Towards Better Understanding and Better Generalization of Low-shot Classification in Histology Images with Contrastive Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Visual Representation Learning over Latent Domains",
+      "error": "not_found"
+    },
+    {
+      "title": "Attention-based Interpretability with Concept Transformers",
+      "error": "not_found"
+    },
+    {
+      "title": "Learning to Schedule Learning rate with Graph Neural Networks",
+      "error": "not_found"
+    },
+    {
+      "title": "Cross-Lingual Transfer with Class-Weighted Language-Invariant Representations",
+      "error": "not_found"
+    },
+    {
+      "title": "FALCON: Fast Visual Concept Learning by Integrating Images, Linguistic descriptions, and Conceptual Relations",
+      "error": "API Error 400"
+    },
+    {
+      "title": "DeSKO: Stability-Assured Robust Control with a Deep Stochastic Koopman Operator",
+      "error": "not_found"
+    },
+    {
+      "title": "Maximizing Ensemble Diversity in Deep Reinforcement Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Fixed Neural Network Steganography: Train the images, not the network",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Automatic Loss Function Search for Predict-Then-Optimize Problems with Strong Ranking Property",
+      "error": "not_found"
+    },
+    {
+      "title": "Coherence-based Label Propagation over Time Series for Accelerated Active Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Spherical Message Passing for 3D Molecular Graphs",
+      "error": "not_found"
+    },
+    {
+      "title": "Rethinking Adversarial Transferability from a Data Distribution Perspective",
+      "error": "not_found"
+    },
+    {
+      "title": "Compositional Training for End-to-End Deep AUC Maximization",
+      "error": "not_found"
+    },
+    {
+      "title": "Equivariant Self-Supervised Learning: Encouraging Equivariance in Representations",
+      "error": "not_found"
+    },
+    {
+      "title": "Mapping Language Models to Grounded Conceptual Spaces",
+      "error": "not_found"
+    },
+    {
+      "title": "The Close Relationship Between Contrastive Learning and Meta-Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "High Probability Generalization Bounds with Fast Rates for Minimax Problems",
+      "error": "not_found"
+    },
+    {
+      "title": "How Did the Model Change? Efficiently Assessing Machine Learning API Shifts ",
+      "error": "not_found"
+    },
+    {
+      "title": "End-to-End Learning of Probabilistic Hierarchies on Graphs",
+      "error": "not_found"
+    },
+    {
+      "title": "Structure-Aware Transformer Policy for Inhomogeneous Multi-Task Reinforcement Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Pretrained Language Model in Continual Learning: A Comparative Study",
+      "error": "not_found"
+    },
+    {
+      "title": "Fast Generic Interaction Detection for Model Interpretability and Compression",
+      "error": "not_found"
+    },
+    {
+      "title": "Learning to Dequantise with Truncated Flows",
+      "error": "not_found"
+    },
+    {
+      "title": "Scale Efficiently: Insights from Pretraining and Finetuning Transformers",
+      "error": "not_found"
+    },
+    {
+      "title": "An Information Fusion Approach to Learning with Instance-Dependent Label Noise",
+      "error": "not_found"
+    },
+    {
+      "title": "Signing the Supermask: Keep, Hide, Invert",
+      "error": "API Error 400"
+    },
+    {
+      "title": "LEARNING GUARANTEES FOR GRAPH CONVOLUTIONAL NETWORKS ON THE STOCHASTIC BLOCK MODEL",
+      "error": "not_found"
+    },
+    {
+      "title": "Learnability of convolutional neural networks for infinite dimensional input via mixed and anisotropic smoothness",
+      "error": "not_found"
+    },
+    {
+      "title": "Optimization and Adaptive Generalization of Three layer Neural Networks",
+      "error": "not_found"
+    },
+    {
+      "title": "Non-Linear Operator Approximations for Initial Value Problems",
+      "error": "not_found"
+    },
+    {
+      "title": "Group-based Interleaved Pipeline Parallelism for Large-scale DNN Training",
+      "error": "not_found"
+    },
+    {
+      "title": "A Fine-Tuning Approach to Belief State Modeling",
+      "error": "not_found"
+    },
+    {
+      "title": "Reversible Instance Normalization for Accurate Time-Series Forecasting against Distribution Shift",
+      "error": "not_found"
+    },
+    {
+      "title": "SketchODE: Learning neural sketch representation in continuous time",
+      "error": "not_found"
+    },
+    {
+      "title": "Generalized Natural Gradient Flows in Hidden Convex-Concave Games and GANs",
+      "error": "not_found"
+    },
+    {
+      "title": "Sequence Approximation using Feedforward Spiking Neural Network for Spatiotemporal Learning: Theory and Optimization Methods",
+      "error": "not_found"
+    },
+    {
+      "title": "Learning Efficient Online 3D Bin Packing on Packing Configuration Trees",
+      "error": "not_found"
+    },
+    {
+      "title": "Robust Unlearnable Examples: Protecting Data Privacy Against Adversarial Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "A NON-PARAMETRIC REGRESSION VIEWPOINT : GENERALIZATION OF OVERPARAMETRIZED DEEP RELU NETWORK UNDER NOISY OBSERVATIONS",
+      "error": "not_found"
+    },
+    {
+      "title": "Online Adversarial Attacks",
+      "openalex_id": "https://openalex.org/W3170519291",
+      "num_citations": 47,
+      "year": 2021,
+      "url": "https://openalex.org/W3170519291",
+      "similarity": 0.48484848484848486,
+      "error": "low_confidence_match",
+      "found_title": "Online inverse reinforcement learning for nonlinear systems with adversarial attacks"
+    },
+    {
+      "title": "Policy improvement by planning with Gumbel",
+      "error": "not_found"
+    },
+    {
+      "title": "Bootstrapped Meta-Learning",
+      "openalex_id": "https://openalex.org/W4285601729",
+      "num_citations": 10,
+      "year": 2022,
+      "url": "https://openalex.org/W4285601729",
+      "similarity": 0.5168539325842697,
+      "error": "low_confidence_match",
+      "found_title": "Bootstrapping Informative Graph Augmentation via A Meta Learning Approach"
+    },
+    {
+      "title": "Asymmetry Learning for Counterfactually-invariant Classification in OOD Tasks",
+      "error": "not_found"
+    },
+    {
+      "title": "Boosted Curriculum Reinforcement Learning",
+      "openalex_id": "https://openalex.org/W7106783639",
+      "num_citations": 0,
+      "year": 2025,
+      "url": "https://openalex.org/W7106783639",
+      "similarity": 0.43548387096774194,
+      "error": "low_confidence_match",
+      "found_title": "Boosting Reinforcement Learning in 3D Visuospatial Tasks Through Human-Informed Curriculum Design"
+    },
+    {
+      "title": "Divisive Feature Normalization Improves Image Recognition Performance in AlexNet",
+      "error": "not_found"
+    },
+    {
+      "title": "Bundle Networks: Fiber Bundles, Local Trivializations, and a Generative Approach to Exploring Many-to-one Maps",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Anomaly Detection for Tabular Data with Internal Contrastive Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "A Class of Short-term Recurrence Anderson Mixing Methods and Their Applications",
+      "error": "not_found"
+    },
+    {
+      "title": "Constructing Orthogonal Convolutions in an Explicit Manner",
+      "error": "not_found"
+    },
+    {
+      "title": "Generalisation in Lifelong Reinforcement Learning through Logical Composition ",
+      "error": "not_found"
+    },
+    {
+      "title": "SUMNAS: Supernet with Unbiased Meta-Features for Neural Architecture Search",
+      "error": "not_found"
+    },
+    {
+      "title": "The Hidden Convex Optimization Landscape of Regularized Two-Layer ReLU Networks: an Exact Characterization of Optimal Solutions",
+      "error": "not_found"
+    },
+    {
+      "title": "Generalized Demographic Parity for Group Fairness",
+      "error": "not_found"
+    },
+    {
+      "title": "An Agnostic Approach to Federated Learning with Class Imbalance",
+      "error": "not_found"
+    },
+    {
+      "title": "GLASS: GNN with Labeling Tricks for Subgraph Representation Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Planning in Stochastic Environments with a Learned Model",
+      "openalex_id": "https://openalex.org/W4319927126",
+      "num_citations": 0,
+      "year": 2022,
+      "url": "https://openalex.org/W4319927126",
+      "similarity": 0.6213592233009708,
+      "error": "low_confidence_match",
+      "found_title": "Learned mixture model for planning in stochastic environments"
+    },
+    {
+      "title": "HyperDQN: A Randomized Exploration Method for Deep Reinforcement Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Model-augmented Prioritized Experience Replay",
+      "error": "not_found"
+    },
+    {
+      "title": "Scene Transformer: A unified architecture for predicting future trajectories of multiple agents",
+      "error": "not_found"
+    },
+    {
+      "title": "CodeTrek: Flexible Modeling of Code using an Extensible Relational Representation",
+      "error": "not_found"
+    },
+    {
+      "title": "A Program to Build E(N)-Equivariant Steerable CNNs ",
+      "error": "not_found"
+    },
+    {
+      "title": "Sparse Attention with Learning to Hash",
+      "error": "not_found"
+    },
+    {
+      "title": "Tuformer: Data-driven Design of Transformers for Improved Generalization or Efficiency",
+      "error": "not_found"
+    },
+    {
+      "title": "Measuring CLEVRness: Black-box Testing of Visual Reasoning Models",
+      "error": "not_found"
+    },
+    {
+      "title": "What Makes Better Augmentation Strategies? Augment Difficult but Not too Different",
+      "error": "not_found"
+    },
+    {
+      "title": "Graph-based Nearest Neighbor Search in Hyperbolic Spaces",
+      "error": "not_found"
+    },
+    {
+      "title": "Differentiable Gradient Sampling for Learning Implicit 3D Scene Reconstructions from a Single Image",
+      "error": "not_found"
+    },
+    {
+      "title": "T-WaveNet: A Tree-Structured Wavelet Neural Network for Time Series Signal Analysis",
+      "error": "not_found"
+    },
+    {
+      "title": "Axiomatic Explanations for Visual Search, Retrieval, and Similarity Learning",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Curriculum learning as a tool to uncover learning principles in the brain ",
+      "error": "not_found"
+    },
+    {
+      "title": "Bridging Recommendation and Marketing via Recurrent Intensity Modeling",
+      "error": "not_found"
+    },
+    {
+      "title": "Deep Attentive Variational Inference",
+      "error": "not_found"
+    },
+    {
+      "title": "On the Uncomputability of Partition Functions in Energy-Based Sequence Models",
+      "error": "not_found"
+    },
+    {
+      "title": "Looking Back on Learned Experiences  For Class/task Incremental Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Provably Filtering Exogenous Distractors using Multistep Inverse Dynamics",
+      "error": "not_found"
+    },
+    {
+      "title": "Zero-CL: Instance and Feature decorrelation for negative-free symmetric contrastive learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Toward Faithful Case-based Reasoning through Learning Prototypes in a Nearest Neighbor-friendly Space.",
+      "error": "not_found"
+    },
+    {
+      "title": "Understanding the Variance Collapse of SVGD in High Dimensions",
+      "error": "not_found"
+    },
+    {
+      "title": "Distilling GANs with Style-Mixed Triplets for X2I Translation with Limited Data",
+      "error": "not_found"
+    },
+    {
+      "title": "NASViT: Neural Architecture Search for Efficient Vision Transformers with Gradient Conflict aware Supernet Training",
+      "error": "not_found"
+    },
+    {
+      "title": "Bandit Learning with Joint Effect of Incentivized Sampling, Delayed Sampling Feedback, and Self-Reinforcing User Preferences",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Inductive Relation Prediction Using Analogy Subgraph Embeddings",
+      "error": "not_found"
+    },
+    {
+      "title": "Particle Stochastic Dual Coordinate Ascent: Exponential convergent algorithm for mean field neural network optimization",
+      "error": "not_found"
+    },
+    {
+      "title": "Reinforcement Learning under a Multi-agent Predictive State Representation Model: Method and Theory",
+      "error": "not_found"
+    },
+    {
+      "title": "Explaining Point Processes by Learning Interpretable Temporal Logic Rules",
+      "error": "not_found"
+    },
+    {
+      "title": "Using Graph Representation Learning with Schema Encoders to Measure the Severity of Depressive Symptoms",
+      "error": "not_found"
+    },
+    {
+      "title": "Pareto Policy Pool for Model-based Offline Reinforcement Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "A Loss Curvature Perspective on Training Instabilities of Deep Learning Models",
+      "error": "not_found"
+    },
+    {
+      "title": "A Zest of LIME: Towards Architecture-Independent Model Distances",
+      "error": "not_found"
+    },
+    {
+      "title": "Convergent and Efficient Deep Q Learning Algorithm",
+      "error": "not_found"
+    },
+    {
+      "title": "Learning Pruning-Friendly Networks via Frank-Wolfe: One-Shot, Any-Sparsity, And No Retraining",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Practical Integration via Separable Bijective Networks",
+      "error": "not_found"
+    },
+    {
+      "title": "Normalization of Language Embeddings for Cross-Lingual Alignment",
+      "error": "not_found"
+    },
+    {
+      "title": "Who Is Your Right Mixup Partner in Positive and Unlabeled Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Unsupervised Vision-Language Grammar Induction with Shared Structure Modeling",
+      "error": "not_found"
+    },
+    {
+      "title": "iFlood: A Stable and Effective Regularizer",
+      "error": "not_found"
+    },
+    {
+      "title": "Know Your Action Set: Learning Action Relations for Reinforcement Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Differentiable Expectation-Maximization for Set Representation Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "GraphENS: Neighbor-Aware Ego Network Synthesis for Class-Imbalanced Node Classification",
+      "error": "not_found"
+    },
+    {
+      "title": "$\\pi$BO: Augmenting Acquisition Functions with User Beliefs for Bayesian Optimization",
+      "error": "not_found"
+    },
+    {
+      "title": "Anomaly Transformer: Time Series Anomaly Detection with Association Discrepancy",
+      "openalex_id": "https://openalex.org/W4407949303",
+      "num_citations": 2,
+      "year": 2025,
+      "url": "https://openalex.org/W4407949303",
+      "similarity": 0.7125,
+      "error": "low_confidence_match",
+      "found_title": "AD2T: Multivariate Time-Series Anomaly Detection With Association Discrepancy Dual-Decoder Transformer"
+    },
+    {
+      "title": "A Biologically Interpretable Graph Convolutional Network to Link Genetic Risk Pathways and Imaging Phenotypes of Disease ",
+      "error": "not_found"
+    },
+    {
+      "title": "Bi-linear Value Networks for Multi-goal Reinforcement Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Revisit Kernel Pruning with Lottery Regulated Grouped Convolutions",
+      "error": "not_found"
+    },
+    {
+      "title": "L0-Sparse Canonical Correlation Analysis",
+      "error": "not_found"
+    },
+    {
+      "title": "NASPY: Automated Extraction of Automated Machine Learning Models",
+      "error": "not_found"
+    },
+    {
+      "title": "Meta-Imitation Learning by Watching Video Demonstrations",
+      "error": "not_found"
+    },
+    {
+      "title": "Comparing Distributions by Measuring Differences that Affect Decision Making",
+      "error": "not_found"
+    },
+    {
+      "title": "Anisotropic Random Feature Regression in High Dimensions",
+      "error": "not_found"
+    },
+    {
+      "title": "Improving the Accuracy of Learning Example Weights for Imbalance Classification",
+      "error": "not_found"
+    },
+    {
+      "title": "Path Auxiliary Proposal for MCMC in Discrete Space",
+      "error": "not_found"
+    },
+    {
+      "title": "How to deal with missing data in supervised deep learning?",
+      "error": "not_found"
+    },
+    {
+      "title": "Sample Efficient Stochastic Policy Extragradient Algorithm for Zero-Sum Markov Game",
+      "error": "not_found"
+    },
+    {
+      "title": "Transformer-based Transform Coding",
+      "openalex_id": "https://openalex.org/W4414538894",
+      "num_citations": 0,
+      "year": 2025,
+      "url": "https://openalex.org/W4414538894",
+      "similarity": 0.543859649122807,
+      "error": "low_confidence_match",
+      "found_title": "Transformer-Based Nonlinear Transform Coding for Multi-Rate CSI Compression in MIMO-OFDM Systems"
+    },
+    {
+      "title": "Improving Non-Autoregressive Translation Models Without Distillation",
+      "error": "not_found"
+    },
+    {
+      "title": "FedBABU: Toward Enhanced Representation for Federated Image Classification",
+      "error": "not_found"
+    },
+    {
+      "title": "Generative Pseudo-Inverse Memory",
+      "error": "not_found"
+    },
+    {
+      "title": "Hot-Refresh Model Upgrades with Regression-Free Compatible Training in Image Retrieval",
+      "error": "not_found"
+    },
+    {
+      "title": "Neural Relational Inference with Node-Specific Information ",
+      "error": "not_found"
+    },
+    {
+      "title": "Hybrid Local SGD for Federated Learning with Heterogeneous Communications",
+      "error": "not_found"
+    },
+    {
+      "title": "Switch to Generalize: Domain-Switch Learning for Cross-Domain Few-Shot Classification",
+      "error": "not_found"
+    },
+    {
+      "title": "Effect of scale on catastrophic forgetting in neural networks",
+      "error": "not_found"
+    },
+    {
+      "title": "DictFormer: Tiny Transformer with Shared Dictionary",
+      "error": "not_found"
+    },
+    {
+      "title": "The Evolution of Uncertainty of Learning in Games",
+      "error": "not_found"
+    },
+    {
+      "title": "Learn Locally, Correct Globally: A Distributed Algorithm for Training Graph Neural Networks",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Ancestral protein sequence reconstruction using a tree-structured Ornstein-Uhlenbeck variational autoencoder",
+      "error": "not_found"
+    },
+    {
+      "title": "TPU-GAN: Learning temporal coherence from dynamic point cloud sequences",
+      "error": "not_found"
+    },
+    {
+      "title": "Causal Contextual Bandits with Targeted Interventions",
+      "openalex_id": "https://openalex.org/W4393846083",
+      "num_citations": 0,
+      "year": 2021,
+      "url": "https://openalex.org/W4393846083",
+      "similarity": 0.6274509803921569,
+      "error": "low_confidence_match",
+      "found_title": "Data used in real world-inspired experiments for submission titled \"Causal Contextual Bandits with Targeted Interventions\""
+    },
+    {
+      "title": "Resolving Training Biases via Influence-based Data Relabeling",
+      "error": "not_found"
+    },
+    {
+      "title": "Efficient Token Mixing for Transformers via Adaptive Fourier Neural Operators",
+      "error": "not_found"
+    },
+    {
+      "title": "Bayesian Modeling and Uncertainty Quantification for Learning to Optimize: What, Why, and How",
+      "error": "API Error 400"
+    },
+    {
+      "title": "GRAND++: Graph Neural Diffusion with A Source Term",
+      "error": "not_found"
+    },
+    {
+      "title": "Hybrid Random Features",
+      "openalex_id": "https://openalex.org/W2791891314",
+      "num_citations": 44,
+      "year": 2018,
+      "url": "https://openalex.org/W2791891314",
+      "similarity": 0.5263157894736842,
+      "error": "low_confidence_match",
+      "found_title": "Deep hybrid neural-kernel networks using random Fourier features"
+    },
+    {
+      "title": "Diurnal or Nocturnal? Federated Learning of Multi-branch Networks from Periodically Shifting Distributions",
+      "error": "not_found"
+    },
+    {
+      "title": "Actor-Critic Policy Optimization in a Large-Scale Imperfect-Information Game",
+      "error": "not_found"
+    },
+    {
+      "title": "Environment Predictive Coding for Visual Navigation",
+      "error": "not_found"
+    },
+    {
+      "title": "Explainable GNN-Based Models over Knowledge Graphs",
+      "error": "not_found"
+    },
+    {
+      "title": "Recursive Disentanglement Network",
+      "error": "not_found"
+    },
+    {
+      "title": "Connectome-constrained Latent Variable Model of Whole-Brain Neural Activity",
+      "error": "not_found"
+    },
+    {
+      "title": "Distributional Reinforcement Learning with Monotonic Splines",
+      "error": "not_found"
+    },
+    {
+      "title": "An Autoregressive Flow Model for 3D Molecular Geometry Generation from Scratch",
+      "error": "not_found"
+    },
+    {
+      "title": "Provable Learning-based Algorithm For Sparse Recovery",
+      "error": "not_found"
+    },
+    {
+      "title": "DemoDICE: Offline Imitation Learning with Supplementary Imperfect Demonstrations",
+      "error": "not_found"
+    },
+    {
+      "title": "Towards Understanding the Robustness Against Evasion Attack on Categorical Data",
+      "error": "not_found"
+    },
+    {
+      "title": "EViT: Expediting Vision Transformers via Token Reorganizations",
+      "error": "not_found"
+    },
+    {
+      "title": "LOSSY COMPRESSION WITH DISTRIBUTION SHIFT AS ENTROPY CONSTRAINED OPTIMAL TRANSPORT",
+      "error": "not_found"
+    },
+    {
+      "title": "Learning Object-Oriented Dynamics for Planning from Text",
+      "error": "not_found"
+    },
+    {
+      "title": "Data Poisoning Won’t Save You From Facial Recognition",
+      "error": "not_found"
+    },
+    {
+      "title": "Neural Deep Equilibrium Solvers",
+      "error": "not_found"
+    },
+    {
+      "title": "Understanding the Role of Self Attention for Efficient Speech Recognition",
+      "error": "not_found"
+    },
+    {
+      "title": "Learning Efficient Image Super-Resolution Networks via Structure-Regularized Pruning",
+      "error": "not_found"
+    },
+    {
+      "title": "Shallow and Deep Networks are Near-Optimal Approximators of Korobov Functions",
+      "error": "not_found"
+    },
+    {
+      "title": "Emergent Communication at Scale",
+      "openalex_id": "https://openalex.org/W2035347202",
+      "num_citations": 0,
+      "year": 2011,
+      "url": "https://openalex.org/W2035347202",
+      "similarity": 0.5,
+      "error": "low_confidence_match",
+      "found_title": "An Emergent Architecture for Scaling Decentralized Communication Systems (DCS)"
+    },
+    {
+      "title": "Should I Run Offline Reinforcement Learning or Behavioral Cloning?",
+      "error": "not_found"
+    },
+    {
+      "title": "Nonlinear ICA Using Volume-Preserving Transformations",
+      "error": "not_found"
+    },
+    {
+      "title": "Task Relatedness-Based Generalization Bounds for Meta Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Multi-Task Processes",
+      "openalex_id": "https://openalex.org/W2119595900",
+      "num_citations": 850,
+      "year": 2007,
+      "url": "https://openalex.org/W2119595900",
+      "similarity": 0.6538461538461539,
+      "error": "low_confidence_match",
+      "found_title": "Multi-task Gaussian Process Prediction"
+    },
+    {
+      "title": "Huber Additive Models for Non-stationary Time Series Analysis",
+      "error": "not_found"
+    },
+    {
+      "title": "SGD Can Converge to Local Maxima",
+      "openalex_id": "https://openalex.org/W4287068372",
+      "num_citations": 1,
+      "year": 2021,
+      "url": "https://openalex.org/W4287068372",
+      "similarity": 0.6428571428571429,
+      "error": "low_confidence_match",
+      "found_title": "SGD with a Constant Large Learning Rate Can Converge to Local Maxima"
+    },
+    {
+      "title": "Audio Lottery: Speech Recognition Made Ultra-Lightweight, Noise-Robust, and Transferable",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Adversarially Robust Conformal Prediction",
+      "openalex_id": "https://openalex.org/W7105738706",
+      "num_citations": 0,
+      "year": 2025,
+      "url": "https://openalex.org/W7105738706",
+      "similarity": 0.5390070921985816,
+      "error": "low_confidence_match",
+      "found_title": "Safe Planning in Interactive Environments via Iterative Policy Updates and Adversarially Robust Conformal Prediction"
+    },
+    {
+      "title": "Prototypical Contrastive Predictive Coding",
+      "error": "not_found"
+    },
+    {
+      "title": "AdaRL: What, Where, and How to Adapt in Transfer Reinforcement Learning",
+      "error": "API Error 400"
+    },
+    {
+      "title": "A General Analysis of Example-Selection for Stochastic Gradient Descent",
+      "error": "not_found"
+    },
+    {
+      "title": "Energy-Inspired Molecular Conformation Optimization",
+      "error": "not_found"
+    },
+    {
+      "title": "Neural Markov Controlled SDE: Stochastic Optimization for Continuous-Time Data",
+      "error": "not_found"
+    },
+    {
+      "title": "Evolutionary Diversity Optimization with Clustering-based Selection for Reinforcement Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Revisiting flow generative models for Out-of-distribution detection",
+      "error": "not_found"
+    },
+    {
+      "title": "Stability Regularization for Discrete Representation Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Few-shot Learning via Dirichlet Tessellation Ensemble",
+      "error": "not_found"
+    },
+    {
+      "title": "Multi-Mode Deep Matrix and Tensor Factorization",
+      "error": "not_found"
+    },
+    {
+      "title": "Programmatic Reinforcement Learning without Oracles",
+      "error": "not_found"
+    },
+    {
+      "title": "Goal-Directed Planning via Hindsight Experience Replay",
+      "error": "not_found"
+    },
+    {
+      "title": "Learning by Directional Gradient Descent",
+      "openalex_id": "https://openalex.org/W2892866250",
+      "num_citations": 5,
+      "year": 2018,
+      "url": "https://openalex.org/W2892866250",
+      "similarity": 0.4126984126984127,
+      "error": "low_confidence_match",
+      "found_title": "Directional Analysis of Stochastic Gradient Descent via von Mises-Fisher Distributions in Deep learning"
+    },
+    {
+      "title": "Privacy Implications of Shuffling",
+      "error": "not_found"
+    },
+    {
+      "title": "Adaptive Wavelet Transformer Network for 3D Shape Representation Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "switch-GLAT: Multilingual Parallel Machine Translation Via Code-Switch Decoder",
+      "error": "not_found"
+    },
+    {
+      "title": "When, Why, and Which Pretrained GANs Are Useful?",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Associated Learning: an Alternative to End-to-End Backpropagation that Works on CNN, RNN, and Transformer",
+      "error": "API Error 400"
+    },
+    {
+      "title": "CrossMatch: Cross-Classifier Consistency Regularization for Open-Set Single Domain Generalization",
+      "error": "not_found"
+    },
+    {
+      "title": "Graph-Augmented Normalizing Flows for Anomaly Detection of Multiple Time Series",
+      "error": "not_found"
+    },
+    {
+      "title": "Unraveling Model-Agnostic Meta-Learning via The Adaptation Learning Rate",
+      "error": "not_found"
+    },
+    {
+      "title": "GDA-AM: ON THE EFFECTIVENESS OF SOLVING MIN-IMAX OPTIMIZATION VIA ANDERSON MIXING",
+      "error": "not_found"
+    },
+    {
+      "title": "Toward Efficient Low-Precision Training: Data Format Optimization and Hysteresis Quantization",
+      "error": "not_found"
+    },
+    {
+      "title": "Online Ad Hoc Teamwork under Partial Observability",
+      "error": "not_found"
+    },
+    {
+      "title": "W-CTC: a Connectionist Temporal Classification Loss with Wild Cards",
+      "error": "not_found"
+    },
+    {
+      "title": "Pyraformer: Low-Complexity Pyramidal Attention for Long-Range Time Series Modeling and Forecasting",
+      "error": "not_found"
+    },
+    {
+      "title": "Learning Scenario Representation for Solving Two-stage Stochastic Integer Programs",
+      "error": "not_found"
+    },
+    {
+      "title": "Finite-Time Convergence and Sample Complexity of Multi-Agent Actor-Critic Reinforcement Learning with Average Reward",
+      "error": "not_found"
+    },
+    {
+      "title": "Fairness in Representation for Multilingual NLP: Insights from Controlled Experiments on Conditional Language Modeling",
+      "error": "not_found"
+    },
+    {
+      "title": "Invariant Causal Representation Learning for Out-of-Distribution Generalization",
+      "error": "not_found"
+    },
+    {
+      "title": "NETWORK INSENSITIVITY TO PARAMETER NOISE VIA PARAMETER ATTACK DURING TRAINING",
+      "error": "not_found"
+    },
+    {
+      "title": "MICN: Multi-scale Local and Global Context Modeling for Long-term Series Forecasting",
+      "error": "not_found"
+    },
+    {
+      "title": "Improved Training of Physics-Informed Neural Networks Using Energy-Based Priors: a Study on Electrical Impedance Tomography",
+      "error": "not_found"
+    },
+    {
+      "title": "More Centralized Training, Still Decentralized Execution: Multi-Agent Conditional Policy Factorization",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Adaptive Optimization in the $\\infty$-Width Limit",
+      "error": "not_found"
+    },
+    {
+      "title": "On Pre-training Language Model for Antibody",
+      "openalex_id": "https://openalex.org/W4385568338",
+      "num_citations": 11,
+      "year": 2023,
+      "url": "https://openalex.org/W4385568338",
+      "similarity": 0.6086956521739131,
+      "error": "low_confidence_match",
+      "found_title": "Pre-training Antibody Language Models for Antigen-Specific Computational Antibody Design"
+    },
+    {
+      "title": "Achieving Sub-linear Regret in Infinite Horizon Average Reward Constrained MDP with Linear Function Approximation",
+      "error": "not_found"
+    },
+    {
+      "title": "Semi-supervised learning with a principled likelihood from a generative model of data curation",
+      "error": "not_found"
+    },
+    {
+      "title": "Is Adversarial Training Really a Silver Bullet for Mitigating Data Poisoning?",
+      "error": "not_found"
+    },
+    {
+      "title": "Progressive Voronoi Diagram Subdivision Enables Accurate Data-free Class-Incremental Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Feature Reconstruction From Outputs Can Mitigate Simplicity Bias in Neural Networks",
+      "error": "not_found"
+    },
+    {
+      "title": "Winning Both the Accuracy of Floating Point Activation and the Simplicity of Integer Arithmetic",
+      "error": "not_found"
+    },
+    {
+      "title": "Red PANDA: Disambiguating Image Anomaly Detection by Removing Nuisance Factors",
+      "error": "not_found"
+    },
+    {
+      "title": "Plateau in Monotonic Linear Interpolation --- A \"Biased\" View of Loss Landscape for Deep Networks",
+      "error": "API Error 500"
+    },
+    {
+      "title": "AnyDA: Anytime Domain Adaptation",
+      "error": "not_found"
+    },
+    {
+      "title": "SoftMatch: Addressing the Quantity-Quality Tradeoff in Semi-supervised Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Graph-based Deterministic Policy Gradient for Repetitive Combinatorial Optimization Problems",
+      "error": "not_found"
+    },
+    {
+      "title": "Evidential Uncertainty and Diversity Guided Active Learning for Scene Graph Generation",
+      "error": "not_found"
+    },
+    {
+      "title": "Hard-Meta-Dataset++: Towards Understanding Few-Shot Performance on Difficult Tasks",
+      "error": "not_found"
+    },
+    {
+      "title": "Fairness-aware Contrastive Learning with Partially Annotated Sensitive Attributes",
+      "error": "not_found"
+    },
+    {
+      "title": "Which Layer is Learning Faster? A Systematic Exploration of Layer-wise Convergence Rate for Deep Neural Networks",
+      "error": "not_found"
+    },
+    {
+      "title": " Cycle-consistent Masked AutoEncoder for Unsupervised Domain Generalization",
+      "error": "not_found"
+    },
+    {
+      "title": "Subsampling in Large Graphs Using Ricci Curvature",
+      "error": "not_found"
+    },
+    {
+      "title": "Towards Robust Object Detection Invariant to Real-World Domain Shifts",
+      "error": "not_found"
+    },
+    {
+      "title": "Discovering Informative and Robust Positives for Video Domain Adaptation",
+      "error": "not_found"
+    },
+    {
+      "title": "Crossformer: Transformer Utilizing Cross-Dimension Dependency for Multivariate Time Series Forecasting",
+      "error": "not_found"
+    },
+    {
+      "title": "Momentum Stiefel Optimizer, with Applications to Suitably-Orthogonal Attention, and Optimal Transport",
+      "error": "API Error 400"
+    },
+    {
+      "title": "wav2tok: Deep Sequence Tokenizer for Audio Retrieval",
+      "error": "not_found"
+    },
+    {
+      "title": "Efficient Federated Domain Translation ",
+      "error": "not_found"
+    },
+    {
+      "title": "REVISITING PRUNING AT INITIALIZATION THROUGH THE LENS OF RAMANUJAN GRAPH",
+      "error": "not_found"
+    },
+    {
+      "title": "Adversarial Diversity in Hanabi",
+      "error": "not_found"
+    },
+    {
+      "title": "Selective Frequency Network for Image Restoration",
+      "error": "not_found"
+    },
+    {
+      "title": "OPTQ: Accurate Quantization for Generative Pre-trained Transformers",
+      "error": "not_found"
+    },
+    {
+      "title": "Revisit Finetuning strategy for Few-Shot Learning to Transfer the Emdeddings",
+      "error": "not_found"
+    },
+    {
+      "title": "Scenario-based Question Answering with Interacting Contextual Properties",
+      "error": "not_found"
+    },
+    {
+      "title": "WiNeRT: Towards Neural Ray Tracing for Wireless Channel Modelling and Differentiable Simulations",
+      "error": "not_found"
+    },
+    {
+      "title": "Feature selection and low test error in shallow low-rotation ReLU networks",
+      "error": "not_found"
+    },
+    {
+      "title": "Anisotropic Message Passing: Graph Neural Networks with Directional and Long-Range Interactions",
+      "error": "not_found"
+    },
+    {
+      "title": "MMVAE+: Enhancing the Generative Quality of Multimodal VAEs without Compromises",
+      "error": "not_found"
+    },
+    {
+      "title": "Impossibly Good Experts and How to Follow Them",
+      "error": "not_found"
+    },
+    {
+      "title": "Accurate Bayesian Meta-Learning by Accurate Task Posterior Inference",
+      "error": "not_found"
+    },
+    {
+      "title": "TVSPrune - Pruning Non-discriminative filters via Total Variation separability of intermediate representations without fine tuning",
+      "error": "not_found"
+    },
+    {
+      "title": "Budgeted Training for Vision Transformer",
+      "error": "not_found"
+    },
+    {
+      "title": "Learning Adversarial Linear Mixture Markov Decision Processes with Bandit Feedback and Unknown Transition",
+      "error": "not_found"
+    },
+    {
+      "title": "Investigating Multi-task Pretraining and Generalization in Reinforcement Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Learning About Progress From Experts",
+      "error": "not_found"
+    },
+    {
+      "title": "Few-shot Cross-domain Image Generation via Inference-time Latent-code Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "SCoMoE: Efficient Mixtures of Experts with Structured Communication",
+      "error": "not_found"
+    },
+    {
+      "title": "Towards Addressing Label Skews in One-Shot Federated Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Gray-Box Gaussian Processes for Automated Reinforcement Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Multivariate Time-series Imputation with Disentangled Temporal Representations",
+      "error": "not_found"
+    },
+    {
+      "title": "Programmatically Grounded, Compositionally Generalizable Robotic Manipulation",
+      "error": "API Error 400"
+    },
+    {
+      "title": "On Compositional Uncertainty Quantification for Seq2seq Graph Parsing",
+      "error": "not_found"
+    },
+    {
+      "title": "Clean-image Backdoor: Attacking Multi-label Models with Poisoned Labels Only",
+      "error": "not_found"
+    },
+    {
+      "title": "Curriculum-based Co-design of Morphology and Control of Voxel-based Soft Robots",
+      "error": "not_found"
+    },
+    {
+      "title": "Approximation and non-parametric estimation of functions over high-dimensional spheres via deep ReLU networks",
+      "error": "not_found"
+    },
+    {
+      "title": "Making Better Decision by Directly Planning in Continuous Control",
+      "error": "not_found"
+    },
+    {
+      "title": "Robust Graph Dictionary Learning",
+      "openalex_id": "https://openalex.org/W2898110643",
+      "num_citations": 7,
+      "year": 2018,
+      "url": "https://openalex.org/W2898110643",
+      "similarity": 0.5319148936170213,
+      "error": "low_confidence_match",
+      "found_title": "Learning of robust spectral graph dictionaries for distributed processing"
+    },
+    {
+      "title": "Online Boundary-Free Continual Learning by Scheduled Data Prior",
+      "error": "not_found"
+    },
+    {
+      "title": "Matching receptor to odorant with protein language and graph neural networks",
+      "error": "not_found"
+    },
+    {
+      "title": "When to Make and Break Commitments?",
+      "error": "not_found"
+    },
+    {
+      "title": "Variance Reduction is an Antidote to Byzantines: Better Rates, Weaker Assumptions and Communication Compression as a Cherry on the Top",
+      "error": "API Error 400"
+    },
+    {
+      "title": "DepthFL : Depthwise Federated Learning for Heterogeneous Clients",
+      "error": "not_found"
+    },
+    {
+      "title": "Transfer NAS with Meta-learned Bayesian Surrogates",
+      "error": "not_found"
+    },
+    {
+      "title": "Learning Uncertainty for Unknown Domains with Zero-Target-Assumption",
+      "error": "not_found"
+    },
+    {
+      "title": "Everybody Needs Good Neighbours: An Unsupervised Locality-based Method for Bias Mitigation",
+      "error": "not_found"
+    },
+    {
+      "title": "Scalable Subset Sampling with Neural Conditional Poisson Networks",
+      "error": "not_found"
+    },
+    {
+      "title": "$\\Lambda$-DARTS: Mitigating Performance Collapse by Harmonizing Operation Selection among Cells",
+      "error": "not_found"
+    },
+    {
+      "title": "Where to Diffuse, How to Diffuse, and How to Get Back: Automated Learning for Multivariate Diffusions",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Stochastic No-regret Learning for General Games with Variance Reduction",
+      "error": "not_found"
+    },
+    {
+      "title": "Composite Slice Transformer: An Efficient Transformer with Composition of Multi-Scale Multi-Range Attentions",
+      "error": "not_found"
+    },
+    {
+      "title": " Decompose to Generalize: Species-Generalized Animal Pose Estimation",
+      "error": "not_found"
+    },
+    {
+      "title": "Minimalistic Unsupervised Representation Learning with the Sparse Manifold Transform",
+      "error": "not_found"
+    },
+    {
+      "title": "Backpropagation at the Infinitesimal Inference Limit of Energy-Based Models: Unifying Predictive Coding, Equilibrium Propagation, and Contrastive Hebbian Learning",
+      "error": "API Error 400"
+    },
+    {
+      "title": "An Extensible Multi-modal Multi-task Object Dataset with Materials",
+      "error": "not_found"
+    },
+    {
+      "title": "Zeroth-Order Optimization with Trajectory-Informed Derivative Estimation",
+      "error": "not_found"
+    },
+    {
+      "title": "EA-HAS-Bench: Energy-aware Hyperparameter and Architecture Search Benchmark",
+      "error": "not_found"
+    },
+    {
+      "title": "Revisiting Populations in multi-agent Communication",
+      "error": "not_found"
+    },
+    {
+      "title": "DFPC: Data flow driven pruning of coupled channels without data.",
+      "error": "not_found"
+    },
+    {
+      "title": "Turning the Curse of Heterogeneity in Federated Learning into a Blessing for Out-of-Distribution Detection",
+      "error": "not_found"
+    },
+    {
+      "title": "This Looks Like It Rather Than That: ProtoKNN For Similarity-Based Classifiers",
+      "error": "not_found"
+    },
+    {
+      "title": "Any-scale Balanced Samplers for Discrete Space",
+      "error": "not_found"
+    },
+    {
+      "title": "Koopman Neural Operator Forecaster for Time-series with Temporal Distributional Shifts",
+      "error": "not_found"
+    },
+    {
+      "title": "HypeR: Multitask Hyper-Prompted Training Enables Large-Scale Retrieval Generalization",
+      "error": "not_found"
+    },
+    {
+      "title": "Statistical Guarantees for Consensus Clustering",
+      "error": "not_found"
+    },
+    {
+      "title": "Warping the Space: Weight Space Rotation for Class-Incremental Few-Shot Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "DiffDock: Diffusion Steps, Twists, and Turns for Molecular Docking",
+      "error": "API Error 400"
+    },
+    {
+      "title": "A Minimalist Dataset for Systematic Generalization of Perception, Syntax, and Semantics",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Self-Supervised Set Representation Learning for Unsupervised Meta-Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Partial Label Unsupervised Domain Adaptation with Class-Prototype Alignment",
+      "error": "not_found"
+    },
+    {
+      "title": "Efficient Edge Inference by Selective Query",
+      "error": "not_found"
+    },
+    {
+      "title": "Mini-batch $k$-means terminates within $O(d/\\epsilon)$ iterations",
+      "error": "not_found"
+    },
+    {
+      "title": "Memory Gym: Partially Observable Challenges to Memory-Based Agents",
+      "error": "not_found"
+    },
+    {
+      "title": "A Theoretical Understanding of Shallow Vision Transformers: Learning, Generalization, and Sample Complexity",
+      "error": "API Error 400"
+    },
+    {
+      "title": "MIMT: Masked Image Modeling Transformer for Video Compression",
+      "error": "not_found"
+    },
+    {
+      "title": "Unbiased Stochastic Proximal Solver for Graph Neural Networks with Equilibrium States",
+      "error": "not_found"
+    },
+    {
+      "title": "Revisiting Intrinsic Reward for Exploration in Procedurally Generated Environments",
+      "error": "not_found"
+    },
+    {
+      "title": "Continual Unsupervised Disentangling of Self-Organizing Representations",
+      "error": "not_found"
+    },
+    {
+      "title": "Bayesian Oracle for bounding information gain in neural encoding models",
+      "error": "not_found"
+    },
+    {
+      "title": " BEEF: Bi-Compatible Class-Incremental Learning via Energy-Based Expansion and Fusion",
+      "error": "not_found"
+    },
+    {
+      "title": "Confidential-PROFITT: Confidential PROof of FaIr Training of Trees",
+      "error": "not_found"
+    },
+    {
+      "title": "PerFedMask: Personalized Federated Learning with Optimized Masking Vectors",
+      "error": "not_found"
+    },
+    {
+      "title": "Towards Interpretable Deep Reinforcement Learning with Human-Friendly Prototypes",
+      "error": "not_found"
+    },
+    {
+      "title": "Pink Noise Is All You Need: Colored Noise Exploration in Deep Reinforcement Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Enhancing Meta Learning via Multi-Objective Soft Improvement Functions",
+      "error": "not_found"
+    },
+    {
+      "title": "Towards One-shot Neural Combinatorial Solvers: Theoretical and Empirical Notes on the Cardinality-Constrained Case",
+      "error": "not_found"
+    },
+    {
+      "title": "Computing all Optimal Partial Transports",
+      "error": "not_found"
+    },
+    {
+      "title": "Fundamental limits on the robustness of image classifiers",
+      "error": "not_found"
+    },
+    {
+      "title": "Learning without Prejudices: Continual Unbiased Learning via Benign and Malignant Forgetting",
+      "error": "not_found"
+    },
+    {
+      "title": "Replicable Bandits",
+      "openalex_id": "https://openalex.org/W4283732699",
+      "num_citations": 4,
+      "year": 2022,
+      "url": "https://openalex.org/W4283732699",
+      "similarity": 0.42105263157894735,
+      "error": "low_confidence_match",
+      "found_title": "Inference replication at edges via combinatorial multi-armed bandit"
+    },
+    {
+      "title": "TEMPERA: Test-Time Prompt Editing via Reinforcement Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Measure the Predictive Heterogeneity",
+      "openalex_id": "https://openalex.org/W1532887284",
+      "num_citations": 10,
+      "year": 1992,
+      "url": "https://openalex.org/W1532887284",
+      "similarity": 0.5773195876288659,
+      "error": "low_confidence_match",
+      "found_title": "Measuring and predicting reservoir heterogeneity in complex deposystems"
+    },
+    {
+      "title": "Domain Generalization via Heckman-type Selection Models ",
+      "error": "not_found"
+    },
+    {
+      "title": "Filter-Recovery Network for Multi-Speaker Audio-Visual Speech Separation",
+      "error": "not_found"
+    },
+    {
+      "title": "Efficient Model Updates for Approximate Unlearning of Graph-Structured Data",
+      "error": "not_found"
+    },
+    {
+      "title": "Generate rather than Retrieve: Large Language Models are Strong Context Generators",
+      "error": "not_found"
+    },
+    {
+      "title": "Learning Symbolic Models for Graph-structured Physical Mechanism",
+      "error": "not_found"
+    },
+    {
+      "title": "Learning where and when to reason in neuro-symbolic inference",
+      "error": "not_found"
+    },
+    {
+      "title": "In-sample Actor Critic for Offline Reinforcement Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "A General Rank Preserving Framework for Asymmetric Image Retrieval",
+      "error": "not_found"
+    },
+    {
+      "title": "Revisiting Graph Adversarial Attack and Defense From a Data Distribution Perspective",
+      "error": "not_found"
+    },
+    {
+      "title": "Malign Overfitting: Interpolation and Invariance are Fundamentally at Odds",
+      "error": "not_found"
+    },
+    {
+      "title": "Multi-Objective Online Learning",
+      "openalex_id": "https://openalex.org/W2062770324",
+      "num_citations": 18,
+      "year": 2014,
+      "url": "https://openalex.org/W2062770324",
+      "similarity": 0.6363636363636364,
+      "error": "low_confidence_match",
+      "found_title": "A multi-objective ensemble method for online class imbalance learning"
+    },
+    {
+      "title": "Arbitrary Virtual Try-on Network: Characteristics Representation and Trade-off between Body and Clothing",
+      "error": "not_found"
+    },
+    {
+      "title": "Neural Lagrangian Schr\\\"{o}dinger Bridge: Diffusion Modeling for Population Dynamics",
+      "error": "not_found"
+    },
+    {
+      "title": "Mind the Pool: Convolutional Neural Networks Can Overfit Input Size",
+      "error": "not_found"
+    },
+    {
+      "title": "Extracting Robust Models with Uncertain Examples",
+      "error": "not_found"
+    },
+    {
+      "title": "Fisher-Legendre (FishLeg) optimization of deep neural networks",
+      "error": "not_found"
+    },
+    {
+      "title": "A view of mini-batch SGD via generating functions: conditions of convergence, phase transitions,  benefit from negative momenta.",
+      "error": "API Error 400"
+    },
+    {
+      "title": "On the Usefulness of Embeddings, Clusters and Strings for Text Generation Evaluation",
+      "error": "API Error 400"
+    },
+    {
+      "title": "The Dark Side of AutoML: Towards Architectural Backdoor Search",
+      "error": "not_found"
+    },
+    {
+      "title": "Average Sensitivity of Decision Tree Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Adversarial Imitation Learning with Preferences",
+      "error": "not_found"
+    },
+    {
+      "title": "FedSpeed: Larger Local Interval, Less Communication Round, and Higher Generalization Accuracy",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Quality-Similar Diversity via Population Based Reinforcement Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "A new characterization of the edge of stability based on a sharpness measure aware of batch gradient distribution",
+      "error": "not_found"
+    },
+    {
+      "title": "On the Word Boundaries of Emergent Languages Based on Harris's Articulation Scheme",
+      "error": "not_found"
+    },
+    {
+      "title": "Sampling-based inference for large linear models, with application to linearised Laplace",
+      "error": "API Error 400"
+    },
+    {
+      "title": "A Higher Precision Algorithm for Computing the $1$-Wasserstein Distance",
+      "error": "not_found"
+    },
+    {
+      "title": "GEASS: Neural causal feature selection for high-dimensional biological data",
+      "error": "not_found"
+    },
+    {
+      "title": "A Holistic View of Label Noise Transition Matrix in Deep Learning and Beyond",
+      "error": "not_found"
+    },
+    {
+      "title": "Label Propagation with Weak Supervision",
+      "openalex_id": "https://openalex.org/W2755136704",
+      "num_citations": 202,
+      "year": 2017,
+      "url": "https://openalex.org/W2755136704",
+      "similarity": 0.5740740740740741,
+      "error": "low_confidence_match",
+      "found_title": "Learning Random-Walk Label Propagation for Weakly-Supervised Semantic Segmentation"
+    },
+    {
+      "title": "Over-parameterized Model Optimization with Polyak-{\\L}ojasiewicz Condition",
+      "error": "not_found"
+    },
+    {
+      "title": "Noise Is Not the Main Factor Behind the Gap Between Sgd and Adam on Transformers, But Sign Descent Might Be",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Approximate Bayesian Inference with Stein Functional Variational Gradient Descent",
+      "error": "not_found"
+    },
+    {
+      "title": "Revisiting the Assumption of Latent Separability for Backdoor Defenses",
+      "error": "not_found"
+    },
+    {
+      "title": "Deep Learning From Crowdsourced Labels: Coupled Cross-Entropy Minimization, Identifiability, and Regularization",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Geometrically regularized autoencoders for non-Euclidean data",
+      "error": "not_found"
+    },
+    {
+      "title": "Data-Free One-Shot Federated Learning Under Very High Statistical Heterogeneity",
+      "error": "not_found"
+    },
+    {
+      "title": "Bayes-MIL: A New Probabilistic Perspective on Attention-based Multiple Instance Learning for Whole Slide Images",
+      "error": "not_found"
+    },
+    {
+      "title": "Eva: Practical Second-order Optimization with Kronecker-vectorized Approximation",
+      "error": "not_found"
+    },
+    {
+      "title": "Uniform-in-time propagation of chaos for the mean-field gradient Langevin dynamics",
+      "error": "not_found"
+    },
+    {
+      "title": "SYNC: SAFETY-AWARE NEURAL CONTROL FOR STABILIZING STOCHASTIC DELAY-DIFFERENTIAL EQUATIONS",
+      "error": "not_found"
+    },
+    {
+      "title": "BSTT: A Bayesian Spatial-Temporal Transformer for Sleep Staging",
+      "error": "not_found"
+    },
+    {
+      "title": "Learning to CROSS exchange to solve min-max vehicle routing problems",
+      "error": "not_found"
+    },
+    {
+      "title": "Associative Memory Augmented Asynchronous Spatiotemporal Representation Learning for Event-based Perception",
+      "error": "not_found"
+    },
+    {
+      "title": "Evolve Smoothly, Fit Consistently: Learning Smooth Latent Dynamics For Advection-Dominated Systems",
+      "error": "API Error 400"
+    },
+    {
+      "title": "The Tilted Variational Autoencoder: Improving Out-of-Distribution Detection",
+      "error": "not_found"
+    },
+    {
+      "title": "Learning with Auxiliary Activation for Memory-Efficient Training",
+      "error": "not_found"
+    },
+    {
+      "title": "Weighted Clock Logic Point Process",
+      "error": "not_found"
+    },
+    {
+      "title": "Can We Faithfully Represent Absence States to Compute Shapley Values on a DNN?",
+      "error": "not_found"
+    },
+    {
+      "title": "Bit-Pruning: A Sparse Multiplication-Less Dot-Product",
+      "error": "not_found"
+    },
+    {
+      "title": "Multi-level Protein Structure Pre-training via Prompt Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Efficient approximation of neural population structure and correlations with probabilistic circuits",
+      "error": "not_found"
+    },
+    {
+      "title": "Understanding and Adopting Rational Behavior by Bellman Score Estimation",
+      "error": "not_found"
+    },
+    {
+      "title": "Re-calibrating Feature Attributions for Model Interpretation",
+      "error": "not_found"
+    },
+    {
+      "title": "Neural DAG Scheduling via One-Shot Priority Sampling",
+      "error": "not_found"
+    },
+    {
+      "title": "LiftedCL: Lifting Contrastive Learning for Human-Centric Perception",
+      "error": "not_found"
+    },
+    {
+      "title": "Learning Diffusion Bridges on Constrained Domains",
+      "error": "not_found"
+    },
+    {
+      "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "error": "not_found"
+    },
+    {
+      "title": "HiT-MDP: Learning the SMDP option framework on MDPs with Hidden Temporal Embeddings",
+      "error": "not_found"
+    },
+    {
+      "title": "Optimizing Spca-based Continual Learning: A Theoretical Approach",
+      "error": "not_found"
+    },
+    {
+      "title": "Protein Representation Learning via Knowledge Enhanced Primary Structure Reasoning",
+      "error": "not_found"
+    },
+    {
+      "title": "Block and Subword-Scaling Floating-Point (BSFP) : An Efficient Non-Uniform Quantization For Low Precision Inference",
+      "error": "not_found"
+    },
+    {
+      "title": "Sparse Token Transformer with Attention Back Tracking",
+      "error": "not_found"
+    },
+    {
+      "title": "Discrete Predictor-Corrector Diffusion Models for Image Synthesis",
+      "error": "not_found"
+    },
+    {
+      "title": "Towards Understanding Ensemble, Knowledge Distillation and Self-Distillation in Deep Learning",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Generating Diverse Cooperative Agents by Learning Incompatible Policies",
+      "error": "not_found"
+    },
+    {
+      "title": "Learned Index with Dynamic $\\epsilon$",
+      "error": "not_found"
+    },
+    {
+      "title": "Contextual bandits with concave rewards, and an application to fair ranking",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Learning to Jointly Share and Prune Weights for Grounding Based Vision and Language Models",
+      "error": "not_found"
+    },
+    {
+      "title": "Transformer-based model for symbolic regression via joint supervised learning",
+      "error": "not_found"
+    },
+    {
+      "title": "On the Convergence of AdaGrad(Norm) on $\\mathbb{R}^d$: Beyond Convexity, Non-Asymptotic Rate and Acceleration",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Towards Minimax Optimal Reward-free Reinforcement Learning in Linear MDPs",
+      "error": "not_found"
+    },
+    {
+      "title": "Multi-domain image generation and translation with identifiability guarantees",
+      "error": "not_found"
+    },
+    {
+      "title": "Learning Zero-Shot Cooperation with Humans, Assuming Humans Are Biased",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Improving Differentiable Neural Architecture Search by Encouraging Transferability",
+      "error": "not_found"
+    },
+    {
+      "title": "Interpretable Debiasing of Vectorized Language Representations with Iterative Orthogonalization",
+      "error": "not_found"
+    },
+    {
+      "title": "Multi-Objective Reinforcement Learning: Convexity, Stationarity and Pareto Optimality",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Don’t fear the unlabelled: safe semi-supervised learning via debiasing",
+      "error": "not_found"
+    },
+    {
+      "title": "In-Situ Text-Only Adaptation of Speech Models with Low-Overhead Speech Imputations",
+      "error": "not_found"
+    },
+    {
+      "title": "Serving Graph Compression for Graph Neural Networks",
+      "error": "not_found"
+    },
+    {
+      "title": "Become a Proficient Player with Limited Data through Watching Pure Videos",
+      "error": "not_found"
+    },
+    {
+      "title": "Replay Memory as An Empirical MDP: Combining Conservative Estimation with Experience Replay",
+      "error": "not_found"
+    },
+    {
+      "title": "Bag of Tricks for Unsupervised Text-to-Speech",
+      "error": "not_found"
+    },
+    {
+      "title": "CASR: Generating Complex Sequences with Autoregressive Self-Boost Refinement",
+      "error": "not_found"
+    },
+    {
+      "title": "Draft, Sketch, and Prove: Guiding Formal Theorem Provers with Informal Proofs",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Molecule Generation For Target Protein Binding with Structural Motifs",
+      "error": "not_found"
+    },
+    {
+      "title": "GAIN: On the Generalization of Instructional Action Understanding",
+      "error": "not_found"
+    },
+    {
+      "title": "Diversify and Disambiguate: Out-of-Distribution Robustness via Disagreement",
+      "error": "not_found"
+    },
+    {
+      "title": "$\\mathrm{SE}(3)$-Equivariant Attention Networks for Shape Reconstruction in Function Space",
+      "error": "not_found"
+    },
+    {
+      "title": "Efficient Discrete Multi Marginal Optimal Transport Regularization",
+      "error": "not_found"
+    },
+    {
+      "title": "MaskFusion: Feature Augmentation for Click-Through Rate Prediction via Input-adaptive Mask Fusion",
+      "error": "not_found"
+    },
+    {
+      "title": "Effective passive membership inference attacks in federated learning against overparameterized models",
+      "error": "not_found"
+    },
+    {
+      "title": "Provably Efficient Lifelong Reinforcement Learning with Linear Representation",
+      "error": "not_found"
+    },
+    {
+      "title": "Fake It Until You Make It : Towards Accurate Near-Distribution Novelty Detection",
+      "error": "not_found"
+    },
+    {
+      "title": "Ensuring DNN Solution Feasibility for Optimization Problems with Linear Constraints",
+      "error": "not_found"
+    },
+    {
+      "title": "CO3: Cooperative Unsupervised 3D Representation Learning for Autonomous Driving",
+      "error": "not_found"
+    },
+    {
+      "title": "Achieving Near-Optimal Individual Regret & Low Communications in Multi-Agent Bandits",
+      "error": "not_found"
+    },
+    {
+      "title": "Loss Landscapes are All You Need: Neural Network Generalization Can Be Explained Without the Implicit Bias of Gradient Descent",
+      "error": "not_found"
+    },
+    {
+      "title": "Synthetic Data Generation of Many-to-Many Datasets via Random Graph Generation",
+      "error": "not_found"
+    },
+    {
+      "title": "Min-Max Multi-objective Bilevel Optimization with Applications in Robust Machine Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Real-Time Image Demoir$\\acute{e}$ing on Mobile Devices",
+      "error": "not_found"
+    },
+    {
+      "title": "Contextual Convolutional Networks",
+      "openalex_id": "https://openalex.org/W2204578866",
+      "num_citations": 266,
+      "year": 2015,
+      "url": "https://openalex.org/W2204578866",
+      "similarity": 0.6896551724137931,
+      "error": "low_confidence_match",
+      "found_title": "Human Parsing with Contextualized Convolutional Neural Network"
+    },
+    {
+      "title": "DySR: Adaptive Super-Resolution via Algorithm and System Co-design",
+      "error": "not_found"
+    },
+    {
+      "title": "Switch-NeRF: Learning Scene Decomposition with Mixture of Experts for Large-scale Neural Radiance Fields",
+      "error": "not_found"
+    },
+    {
+      "title": "Continuous-Discrete Convolution for Geometry-Sequence Modeling in Proteins",
+      "error": "not_found"
+    },
+    {
+      "title": "Graph Domain Adaptation via Theory-Grounded Spectral Regularization",
+      "error": "not_found"
+    },
+    {
+      "title": "Boosting Multiagent Reinforcement Learning via Permutation Invariant and Permutation Equivariant Networks",
+      "error": "not_found"
+    },
+    {
+      "title": "Sample-Efficient Reinforcement Learning by Breaking the Replay Ratio Barrier",
+      "error": "not_found"
+    },
+    {
+      "title": "StyleMorph: Disentangled 3D-Aware Image Synthesis with a 3D Morphable StyleGAN",
+      "error": "not_found"
+    },
+    {
+      "title": "TabCaps: A Capsule Neural Network for Tabular Data Classification with BoW Routing",
+      "error": "not_found"
+    },
+    {
+      "title": "Rethinking Symbolic Regression: Morphology and Adaptability in the Context of Evolutionary Algorithms",
+      "error": "not_found"
+    },
+    {
+      "title": "ILA-DA: Improving Transferability of Intermediate Level Attack with Data Augmentation",
+      "error": "not_found"
+    },
+    {
+      "title": "Multi-Rate VAE: Train Once, Get the Full Rate-Distortion Curve",
+      "error": "API Error 400"
+    },
+    {
+      "title": "FIGARO: Controllable Music Generation using Learned and Expert Features",
+      "error": "not_found"
+    },
+    {
+      "title": "GoBigger: A Scalable Platform for Cooperative-Competitive Multi-Agent Interactive Simulation",
+      "error": "not_found"
+    },
+    {
+      "title": "DamoFD: Digging into Backbone Design on Face Detection",
+      "error": "not_found"
+    },
+    {
+      "title": "NERDS: A General Framework to Train Camera Denoisers from Raw-RGB Noisy Image Pairs",
+      "error": "not_found"
+    },
+    {
+      "title": "Learning Simultaneous Navigation and Construction in Grid Worlds ",
+      "error": "not_found"
+    },
+    {
+      "title": "MECTA: Memory-Economic Continual Test-Time Model Adaptation",
+      "error": "not_found"
+    },
+    {
+      "title": "Scaffolding a Student to Instill Knowledge",
+      "error": "not_found"
+    },
+    {
+      "title": "On The Inadequacy of Optimizing Alignment and Uniformity in Contrastive Learning of Sentence Representations",
+      "error": "not_found"
+    },
+    {
+      "title": "Active Learning for Object Detection with Evidential Deep Learning and Hierarchical Uncertainty Aggregation",
+      "error": "not_found"
+    },
+    {
+      "title": "SpeedyZero: Mastering Atari with Limited Data and Time",
+      "error": "not_found"
+    },
+    {
+      "title": "Simplifying Model-based RL: Learning Representations, Latent-space Models, and Policies with One Objective",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Distributional Meta-Gradient Reinforcement Learning",
+      "openalex_id": "https://openalex.org/W7124305817",
+      "num_citations": 0,
+      "year": 2026,
+      "url": "https://openalex.org/W7124305817",
+      "similarity": 0.43781094527363185,
+      "error": "low_confidence_match",
+      "found_title": "Coordinated dispatch of hybrid mobile power sources for distribution network restoration: A dynamic gradient masking embedded multi-agent meta-deep reinforcement learning method"
+    },
+    {
+      "title": "Out-of-Distribution Detection based on In-Distribution Data Patterns Memorization with Modern Hopfield Energy",
+      "error": "not_found"
+    },
+    {
+      "title": "When and Why Vision-Language Models Behave like Bags-Of-Words, and What to Do About It?",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Video Scene Graph Generation from Single-Frame Weak Supervision",
+      "error": "not_found"
+    },
+    {
+      "title": "Not All Tasks Are Born Equal: Understanding Zero-Shot Generalization",
+      "error": "not_found"
+    },
+    {
+      "title": "Faster Gradient-Free Methods for Escaping Saddle Points",
+      "error": "not_found"
+    },
+    {
+      "title": "Active Image Indexing",
+      "openalex_id": "https://openalex.org/W2130924028",
+      "num_citations": 9,
+      "year": 2009,
+      "url": "https://openalex.org/W2130924028",
+      "similarity": 0.7916666666666666,
+      "error": "low_confidence_match",
+      "found_title": "Active tagging for image indexing"
+    },
+    {
+      "title": "Understanding Train-Validation Split in Meta-Learning with Neural Networks",
+      "error": "not_found"
+    },
+    {
+      "title": "Interaction-Based Disentanglement of Entities for Object-Centric World Models",
+      "error": "not_found"
+    },
+    {
+      "title": "Learning to Generate Columns with Application to Vertex Coloring",
+      "error": "not_found"
+    },
+    {
+      "title": "Mosaic Representation Learning for Self-supervised Visual Pre-training",
+      "error": "not_found"
+    },
+    {
+      "title": "A Simple Yet Powerful Deep Active Learning With Snapshots Ensembles",
+      "error": "not_found"
+    },
+    {
+      "title": "Finding Actual Descent Directions for Adversarial Training",
+      "error": "not_found"
+    },
+    {
+      "title": "MA-BERT: Towards Matrix Arithmetic-only BERT Inference by Eliminating Complex Non-Linear Functions",
+      "error": "not_found"
+    },
+    {
+      "title": "RPM: Generalizable Multi-Agent Policies for Multi-Agent Reinforcement Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Can Neural Networks Learn Implicit Logic from Physical Reasoning?",
+      "error": "not_found"
+    },
+    {
+      "title": "Provable Robustness against Wasserstein Distribution Shifts via Input Randomization",
+      "error": "not_found"
+    },
+    {
+      "title": "Progressive Mix-Up for Few-Shot Supervised Multi-Source Domain Transfer",
+      "error": "not_found"
+    },
+    {
+      "title": "Improving the imputation of missing data with Markov Blanket discovery",
+      "error": "not_found"
+    },
+    {
+      "title": "AutoGT: Automated Graph Transformer Architecture Search",
+      "error": "not_found"
+    },
+    {
+      "title": "A Statistical Framework for Personalized Federated Learning and Estimation: Theory, Algorithms, and Privacy",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Improved Convergence of Differential Private SGD with Gradient Clipping",
+      "error": "not_found"
+    },
+    {
+      "title": "Instance-wise Batch Label Restoration via Gradients in Federated Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Volumetric Optimal Transportation by Fast Fourier Transform",
+      "error": "not_found"
+    },
+    {
+      "title": "Mutual Partial Label Learning with Competitive Label Noise",
+      "error": "not_found"
+    },
+    {
+      "title": "How gradient estimator variance and bias impact learning in neural networks",
+      "error": "not_found"
+    },
+    {
+      "title": "UNIFIED-IO: A Unified Model for Vision, Language, and Multi-modal Tasks",
+      "error": "API Error 400"
+    },
+    {
+      "title": "How Does Semi-supervised Learning with Pseudo-labelers Work? A Case Study",
+      "error": "not_found"
+    },
+    {
+      "title": "Searching Lottery Tickets in Graph Neural Networks: A Dual Perspective",
+      "error": "not_found"
+    },
+    {
+      "title": "A Unified Approach to Reinforcement Learning, Quantal Response Equilibria, and Two-Player Zero-Sum Games",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Learning Sparse Group Models Through Boolean Relaxation",
+      "error": "not_found"
+    },
+    {
+      "title": "Neural ePDOs: Spatially Adaptive Equivariant Partial Differential Operator Based  Networks",
+      "error": "not_found"
+    },
+    {
+      "title": "Stay Moral and Explore: Learn to Behave Morally in Text-based Games",
+      "error": "not_found"
+    },
+    {
+      "title": "Learning MLPs on Graphs: A Unified View of Effectiveness, Robustness, and Efficiency",
+      "error": "API Error 400"
+    },
+    {
+      "title": "MPCFORMER: FAST, PERFORMANT AND PRIVATE TRANSFORMER INFERENCE WITH MPC",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Win: Weight-Decay-Integrated Nesterov Acceleration for Adaptive Gradient Algorithms",
+      "error": "not_found"
+    },
+    {
+      "title": "BALTO: fast tensor program optimization with diversity-based active learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Suppressing the Heterogeneity: A Strong Feature Extractor for Few-shot Segmentation",
+      "error": "not_found"
+    },
+    {
+      "title": "MACTA: A Multi-agent Reinforcement Learning Approach for Cache Timing Attacks and Detection",
+      "error": "not_found"
+    },
+    {
+      "title": "SIMPLE: Specialized Model-Sample Matching for Domain Generalization",
+      "error": "not_found"
+    },
+    {
+      "title": "Explaining Temporal Graph Models through an Explorer-Navigator Framework",
+      "error": "not_found"
+    },
+    {
+      "title": "Causal Imitation Learning via Inverse Reinforcement Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Enhancing the Inductive Biases of Graph Neural ODE for Modeling Physical Systems",
+      "error": "not_found"
+    },
+    {
+      "title": "Panning for Gold in Federated Learning: Targeted Text Extraction under Arbitrarily Large-Scale Aggregation",
+      "error": "not_found"
+    },
+    {
+      "title": "Contextual Image Masking Modeling via Synergized Contrasting without View Augmentation for Faster and Better Visual Pretraining",
+      "error": "not_found"
+    },
+    {
+      "title": "Optimistic Exploration with Learned Features Provably Solves Markov Decision Processes with Neural Dynamics",
+      "error": "not_found"
+    },
+    {
+      "title": "Pseudoinverse-Guided Diffusion Models for Inverse Problems",
+      "error": "not_found"
+    },
+    {
+      "title": "Symmetries, Flat Minima, and the Conserved Quantities of Gradient Flow",
+      "error": "API Error 400"
+    },
+    {
+      "title": "AE-FLOW: Autoencoders with Normalizing Flows  for  Medical Images Anomaly Detection ",
+      "error": "not_found"
+    },
+    {
+      "title": "Finding the Global Semantic Representation in GAN through Fréchet Mean",
+      "error": "not_found"
+    },
+    {
+      "title": "Trainable Weight Averaging: Efficient Training by Optimizing Historical Solutions",
+      "error": "not_found"
+    },
+    {
+      "title": "Represent to Control Partially Observed Systems: Representation Learning with Provable Sample Efficiency",
+      "error": "not_found"
+    },
+    {
+      "title": "Multiple sequence alignment as a sequence-to-sequence learning problem",
+      "openalex_id": "https://openalex.org/W2946145748",
+      "num_citations": 32,
+      "year": 2019,
+      "url": "https://openalex.org/W2946145748",
+      "similarity": 0.4444444444444444,
+      "error": "low_confidence_match",
+      "found_title": "Using deep reinforcement learning approach for solving the multiple sequence alignment problem"
+    },
+    {
+      "title": "GReTo: Remedying dynamic graph topology-task discordance via target homophily",
+      "error": "not_found"
+    },
+    {
+      "title": "Is Reinforcement Learning (Not) for Natural Language Processing: Benchmarks, Baselines, and Building Blocks for Natural Language Policy Optimization",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Causality Compensated Attention for Contextual Biased Visual Recognition",
+      "error": "not_found"
+    },
+    {
+      "title": "Progressively Compressed Auto-Encoder for Self-supervised Representation Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Provable Memorization Capacity of Transformers",
+      "error": "not_found"
+    },
+    {
+      "title": "Sharper Bounds for Uniformly Stable Algorithms with Stationary Mixing Process",
+      "error": "not_found"
+    },
+    {
+      "title": "OTOv2: Automatic, Generic, User-Friendly",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Chasing All-Round Graph Representation Robustness: Model, Training, and Optimization",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Cycle to Clique (Cy2C) Graph Neural Network: A Sight to See beyond Neighborhood Aggregation",
+      "error": "not_found"
+    },
+    {
+      "title": "Encoding Recurrence into Transformers",
+      "error": "not_found"
+    },
+    {
+      "title": "Towards Robustness Certification Against Universal Perturbations",
+      "error": "not_found"
+    },
+    {
+      "title": "Moderate Coreset: A Universal Method of Data Selection for Real-world Data-efficient Deep Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Sequential Latent Variable Models for Few-Shot High-Dimensional Time-Series Forecasting",
+      "error": "not_found"
+    },
+    {
+      "title": "Subquadratic Algorithms for Kernel Matrices via Kernel Density Estimation",
+      "error": "not_found"
+    },
+    {
+      "title": "Learning Continuous Normalizing Flows For Faster Convergence To Target Distribution via Ascent Regularizations",
+      "error": "not_found"
+    },
+    {
+      "title": "Compositional Task Representations for Large Language Models",
+      "error": "not_found"
+    },
+    {
+      "title": "Generalize Learned Heuristics to Solve Large-scale Vehicle Routing Problems in Real-time",
+      "error": "not_found"
+    },
+    {
+      "title": "A VAE for Transformers with Nonparametric Variational Information Bottleneck",
+      "error": "not_found"
+    },
+    {
+      "title": "Learning a Data-Driven Policy Network for Pre-Training Automated Feature Engineering",
+      "error": "not_found"
+    },
+    {
+      "title": "Recursive Time Series Data Augmentation",
+      "openalex_id": "https://openalex.org/W4284959276",
+      "num_citations": 1,
+      "year": 2022,
+      "url": "https://openalex.org/W4284959276",
+      "similarity": 0.7692307692307693,
+      "error": "low_confidence_match",
+      "found_title": "Don't overfit the history -- Recursive time series data augmentation"
+    },
+    {
+      "title": "$\\mathcal{O}$-GNN: incorporating ring priors into molecular modeling",
+      "error": "not_found"
+    },
+    {
+      "title": "$\\mathscr{N}$-WL: A New Hierarchy of Expressivity for Graph Neural Networks",
+      "error": "not_found"
+    },
+    {
+      "title": "DFlow: Learning to Synthesize Better Optical Flow Datasets via a Differentiable Pipeline",
+      "error": "not_found"
+    },
+    {
+      "title": "Discovering Generalizable Multi-agent Coordination Skills from Multi-task Offline Data",
+      "error": "not_found"
+    },
+    {
+      "title": "Inequality phenomenon in $l_{\\infty}$-adversarial training, and its unrealized threats",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Mid-Vision Feedback",
+      "error": "not_found"
+    },
+    {
+      "title": "SketchKnitter: Vectorized Sketch Generation with Diffusion Models",
+      "error": "not_found"
+    },
+    {
+      "title": "3D Segmenter: 3D Transformer based Semantic Segmentation via 2D Panoramic Distillation",
+      "error": "not_found"
+    },
+    {
+      "title": "Exploring perceptual straightness in learned visual representations",
+      "error": "not_found"
+    },
+    {
+      "title": "Short-Term Memory Convolutions",
+      "openalex_id": "https://openalex.org/W3015829105",
+      "num_citations": 50,
+      "year": 2020,
+      "url": "https://openalex.org/W3015829105",
+      "similarity": 0.5360824742268041,
+      "error": "low_confidence_match",
+      "found_title": "Sleep staging by bidirectional long short-term memory convolution neural network"
+    },
+    {
+      "title": "Adaptive Robust Evidential Optimization For Open Set Detection from Imbalanced Data",
+      "error": "not_found"
+    },
+    {
+      "title": "How Much Data Are Augmentations Worth?  An Investigation into Scaling Laws, Invariance, and Implicit Regularization",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Seeing Differently, Acting Similarly: Heterogeneously Observable Imitation Learning",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Single-shot General Hyper-parameter Optimization for Federated Learning",
+      "openalex_id": "https://openalex.org/W4225668139",
+      "num_citations": 1,
+      "year": 2022,
+      "url": "https://openalex.org/W4225668139",
+      "similarity": 0.7619047619047619,
+      "error": "low_confidence_match",
+      "found_title": "Single-shot Hyper-parameter Optimization for Federated Learning: A General Algorithm &amp; Analysis"
+    },
+    {
+      "title": "HiViT: A Simpler and More Efficient Design of Hierarchical Vision Transformer",
+      "error": "not_found"
+    },
+    {
+      "title": "Don’t forget the nullspace! Nullspace occupancy as a mechanism for out of distribution failure",
+      "error": "not_found"
+    },
+    {
+      "title": "ROCO: A General Framework for Evaluating Robustness of Combinatorial Optimization Solvers on Graphs",
+      "error": "not_found"
+    },
+    {
+      "title": "LogicDP: Creating Labels for Graph Data via Inductive Logic Programming",
+      "error": "not_found"
+    },
+    {
+      "title": "MocoSFL: enabling cross-client collaborative self-supervised learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Data Continuity Matters: Improving Sequence Modeling with Lipschitz Regularizer",
+      "error": "not_found"
+    },
+    {
+      "title": "Performance Bounds for Model and Policy Transfer in Hidden-parameter MDPs",
+      "error": "not_found"
+    },
+    {
+      "title": "Exponential Generalization Bounds with Near-Optimal Rates for $L_q$-Stable Algorithms",
+      "error": "not_found"
+    },
+    {
+      "title": "A Simple Approach for Visual Room Rearrangement: 3D Mapping and Semantic Search",
+      "error": "not_found"
+    },
+    {
+      "title": "Online Bias Correction for Task-Free Continual Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Priors, Hierarchy, and Information Asymmetry for Skill Transfer in Reinforcement Learning",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Improving Out-of-distribution Generalization with Indirection Representations",
+      "error": "not_found"
+    },
+    {
+      "title": "A law of adversarial risk, interpolation, and label noise",
+      "error": "API Error 400"
+    },
+    {
+      "title": "Targeted Hyperparameter Optimization with Lexicographic Preferences Over Multiple Objectives",
+      "error": "not_found"
+    },
+    {
+      "title": "Exploring Low-Rank Property in Multiple Instance Learning for Whole Slide Image Classification",
+      "error": "not_found"
+    },
+    {
+      "title": "Towards Lightweight, Model-Agnostic and Diversity-Aware Active Anomaly Detection",
+      "error": "API Error 400"
+    },
+    {
+      "title": "SeaFormer: Squeeze-enhanced Axial Transformer for Mobile Semantic Segmentation",
+      "error": "not_found"
+    },
+    {
+      "title": "On the Data-Efficiency with Contrastive Image Transformation in Reinforcement Learning",
+      "error": "not_found"
+    },
+    {
+      "title": "Approximate Nearest Neighbor Search through Modern Error-Correcting Codes",
+      "error": "not_found"
+    },
+    {
+      "title": "Risk-Aware Reinforcement Learning with Coherent Risk Measures and Non-linear Function Approximation",
+      "error": "not_found"
+    },
+    {
+      "title": "Learning Domain-Agnostic Representation for Disease Diagnosis",
+      "error": "not_found"
+    },
+    {
+      "title": "Learning Kernelized Contextual Bandits in a Distributed and Asynchronous Environment",
+      "error": "not_found"
+    },
+    {
+      "title": "Generalization Bounds for Federated Learning: Fast Rates, Unparticipating Clients and Unbounded Losses",
+      "error": "API Error 400"
+    },
+    {
+      "title": "TaskPrompter: Spatial-Channel Multi-Task Prompting for Dense Scene Understanding",
+      "error": "not_found"
+    },
+    {
+      "title": "An Exact Poly-Time Membership-Queries Algorithm for Extracting a Three-Layer ReLU Network",
+      "error": "not_found"
+    }
+  ]
+}

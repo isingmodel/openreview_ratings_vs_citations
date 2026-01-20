@@ -46,7 +46,7 @@ def compute_metrics_for_year(year: int, data_dir: Path) -> dict:
     metric_cols = {
         "Mean Rating": "mean_rating",
         "Weighted Rating": "weighted_rating",
-        "High Conf (>4)": "high_conf_rating",
+        "High Conf (>=4)": "high_conf_rating",
         "Low Conf (<4)": "low_conf_rating",
     }
     
@@ -144,7 +144,7 @@ def main():
             def fmt(val):
                 return f"{val:.3f}" if val is not None else "N/A   "
             
-            print(f"{year:<6} | {fmt(metrics.get('Mean Rating'))}    | {fmt(metrics.get('Weighted Rating'))}    | {fmt(metrics.get('High Conf (>4)'))}    | {fmt(metrics.get('Low Conf (<4)'))}    | {fmt(metrics.get('Rating Variance'))}")
+            print(f"{year:<6} | {fmt(metrics.get('Mean Rating'))}    | {fmt(metrics.get('Weighted Rating'))}    | {fmt(metrics.get('High Conf (>=4)'))}    | {fmt(metrics.get('Low Conf (<4)'))}    | {fmt(metrics.get('Rating Variance'))}")
     
     if results:
         # Save plots to analysis/correlation/figs
