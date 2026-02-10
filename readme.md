@@ -34,19 +34,19 @@ This analysis investigates whether peer review scores on OpenReview effectively 
 
 <table>
   <tr>
-    <td><img src="analysis/correlation/figs/Log_Citation_vs_Review_Rating_ICLR_2017.png" width="400"/></td>
-    <td><img src="analysis/correlation/figs/Log_Citation_vs_Review_Rating_ICLR_2018.png" width="400"/></td>
+    <td><img src="analysis/1_impact_correlation/figs/Log_Citation_vs_Review_Rating_ICLR_2017.png" width="400"/></td>
+    <td><img src="analysis/1_impact_correlation/figs/Log_Citation_vs_Review_Rating_ICLR_2018.png" width="400"/></td>
   </tr>
   <tr>
-    <td><img src="analysis/correlation/figs/Log_Citation_vs_Review_Rating_ICLR_2019.png" width="400"/></td>
-    <td><img src="analysis/correlation/figs/Log_Citation_vs_Review_Rating_ICLR_2020.png" width="400"/></td>
+    <td><img src="analysis/1_impact_correlation/figs/Log_Citation_vs_Review_Rating_ICLR_2019.png" width="400"/></td>
+    <td><img src="analysis/1_impact_correlation/figs/Log_Citation_vs_Review_Rating_ICLR_2020.png" width="400"/></td>
   </tr>
   <tr>
-    <td><img src="analysis/correlation/figs/Log_Citation_vs_Review_Rating_ICLR_2021.png" width="400"/></td>
-    <td><img src="analysis/correlation/figs/Log_Citation_vs_Review_Rating_ICLR_2022.png" width="400"/></td>
+    <td><img src="analysis/1_impact_correlation/figs/Log_Citation_vs_Review_Rating_ICLR_2021.png" width="400"/></td>
+    <td><img src="analysis/1_impact_correlation/figs/Log_Citation_vs_Review_Rating_ICLR_2022.png" width="400"/></td>
   </tr>
   <tr>
-    <td><img src="analysis/correlation/figs/Log_Citation_vs_Review_Rating_ICLR_2023.png" width="400"/></td>
+    <td><img src="analysis/1_impact_correlation/figs/Log_Citation_vs_Review_Rating_ICLR_2023.png" width="400"/></td>
   </tr>
 </table>
 
@@ -99,13 +99,13 @@ pip install -r requirements.txt
 
 ```bash
 # 1. Fetch OpenReview data
-python scripts/scrape_openreview.py --year 2024
+python scripts/data_collection/scrape_openreview.py --year 2024
 
 # 2. Get OpenAlex citations
-python scripts/scrape_citations_openalex.py --input data/ICLR2024/preprocessed.parquet --email your_email@example.com
+python scripts/data_collection/scrape_citations_openalex.py --input data/ICLR2024/preprocessed.parquet --email your_email@example.com
 
 # 3. Generate correlation plot
-python analysis/correlation/analyze_correlation.py --year 2024
+python analysis/1_impact_correlation/analyze_correlation.py --year 2024
 # **Options:**
 #- `--min-rating 6.0` — Exclude papers below 6 (filter desk #rejects influenced by Program Chairs)
 #- `--output figs/custom/` — Custom output directory
@@ -116,17 +116,25 @@ python analysis/correlation/analyze_correlation.py --year 2024
 
 ```
 ├── scripts/
-│   ├── scrape_openreview.py          # Fetch data from OpenReview (v1/v2 API)
-│   ├── scrape_citations_openalex.py  # Fetch OpenAlex citations
-│   └── src.py                        # Linked data loading logic
+│   ├── data_collection/
+│   │   ├── scrape_openreview.py          # Fetch data from OpenReview (v1/v2 API)
+│   │   ├── scrape_citations_openalex.py  # Fetch OpenAlex citations
+│   │   └── scrape_googlescholar.py       # Fetch Google Scholar citations
+│   └── utils/
+│       ├── src.py                        # Linked data loading logic
+│       └── verify_data.py                # Data verification
 ├── analysis/
-│   ├── correlation/
+│   ├── 1_impact_correlation/
 │   │   ├── analyze_correlation.py    # Single year correlation
 │   │   ├── analyze_trends.py         # Multi-year trends
 │   │   └── figs/                     # Correlation plots
-│   └── confidence_analysis/
-│       ├── analyze_confidence.py     # Confidence impact analysis
-│       └── figs/                     # Confidence plots
+│   ├── 2_reviewer_expertise/
+│   │   ├── analyze_confidence.py     # Confidence impact analysis
+│   │   └── figs/                     # Confidence plots
+│   ├── 3_decision_label_bias/
+│   │   └── ...
+│   └── 4_reviewer_disagreement/
+│       └── ...
 ├── tests/                            # Unit tests
 ├── docs/
 │   └── SCRIPTS.md                    # Detailed script documentation

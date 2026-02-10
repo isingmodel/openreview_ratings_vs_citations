@@ -4,7 +4,7 @@ Detailed documentation for scraping and analysis scripts.
 
 ---
 
-## 1. scrape_openreview.py
+## 1. scripts/data_collection/scrape_openreview.py
 
 Collects ICLR paper data from OpenReview.
 
@@ -24,13 +24,13 @@ scrape_openreview(year)  # Tries v1 → falls back to v2 (2021+)
 
 ```bash
 # Basic usage
-python scripts/scrape_openreview.py --year 2024
+python scripts/data_collection/scrape_openreview.py --year 2024
 
 # Testing (limited)
-python scripts/scrape_openreview.py --year 2024 --limit 100
+python scripts/data_collection/scrape_openreview.py --year 2024 --limit 100
 
 # Resume from offset
-python scripts/scrape_openreview.py --year 2019 --offset 500
+python scripts/data_collection/scrape_openreview.py --year 2019 --offset 500
 ```
 
 ### Output
@@ -43,7 +43,7 @@ data/ICLR{year}/
 
 ---
 
-## 2. scrape_googlescholar.py
+## 2. scripts/data_collection/scrape_googlescholar.py
 
 Fetches paper citation counts using Google Scholar (via Zyte Proxy).
 
@@ -51,16 +51,16 @@ Fetches paper citation counts using Google Scholar (via Zyte Proxy).
 
 ```bash
 # Basic usage (Single year)
-python scripts/scrape_googlescholar.py --year 2023
+python scripts/data_collection/scrape_googlescholar.py --year 2023
 
 # Range of years
-python scripts/scrape_googlescholar.py --years 2017-2023
+python scripts/data_collection/scrape_googlescholar.py --years 2017-2023
 
 # Reset mode (Delete checking point and start fresh)
-python scripts/scrape_googlescholar.py --year 2023 --reset
+python scripts/data_collection/scrape_googlescholar.py --year 2023 --reset
 
 # Test mode (3 papers)
-python scripts/scrape_googlescholar.py --test
+python scripts/data_collection/scrape_googlescholar.py --test
 ```
 
 ### Configuration
@@ -74,17 +74,17 @@ data/ICLR{year}/googlescholar_iclr{year}_{YYMMDD}.json
 
 ---
 
-## 2.1. verify_data.py
+## 2.1. scripts/utils/verify_data.py
 
 Verifies the integrity and completeness of scraping results.
 
 ```bash
-python scripts/verify_data.py
+python scripts/utils/verify_data.py
 ```
 
 ---
 
-## 3. analysis/correlation/analyze_correlation.py
+## 3. analysis/1_impact_correlation/analyze_correlation.py
 
 Analyzes the correlation between review scores and citation counts.
 
@@ -110,25 +110,25 @@ low_conf_rating    # Mean of reviews with Confidence < 4
 
 ```bash
 # Basic analysis
-python analysis/correlation/analyze_correlation.py --year 2024
+python analysis/1_impact_correlation/analyze_correlation.py --year 2024
 
 # Filter by minimum rating
-python analysis/correlation/analyze_correlation.py --year 2019 --min-rating 6.0
+python analysis/1_impact_correlation/analyze_correlation.py --year 2019 --min-rating 6.0
 
 # Custom output directory
-python analysis/correlation/analyze_correlation.py --year 2024 --output figs/custom/
+python analysis/1_impact_correlation/analyze_correlation.py --year 2024 --output figs/custom/
 ```
 
 ---
 
-## 4. analysis/correlation/analyze_trends.py
+## 4. analysis/1_impact_correlation/analyze_trends.py
 
 Analyzes trends across multiple years.
 
 ### Usage
 
 ```bash
-python analysis/correlation/analyze_trends.py --years 2017 2018 2019 2020 2021 2022 2023
+python analysis/1_impact_correlation/analyze_trends.py --years 2017 2018 2019 2020 2021 2022 2023
 ```
 
 ### Output

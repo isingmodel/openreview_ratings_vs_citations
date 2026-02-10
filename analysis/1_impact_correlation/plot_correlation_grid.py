@@ -12,7 +12,7 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 from scipy import stats
-from scripts.src import load_data
+from scripts.utils.src import load_data
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
