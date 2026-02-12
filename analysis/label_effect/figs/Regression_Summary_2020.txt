@@ -1,0 +1,27 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          log_citations   R-squared:                       0.033
+Model:                            OLS   Adj. R-squared:                  0.028
+Method:                 Least Squares   F-statistic:                     7.667
+Date:                Wed, 11 Feb 2026   Prob (F-statistic):           4.80e-05
+Time:                        23:07:21   Log-Likelihood:                -1187.3
+No. Observations:                 687   AIC:                             2383.
+Df Residuals:                     683   BIC:                             2401.
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+===============================================================================================================
+                                                  coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------------
+Intercept                                       4.0209      0.443      9.080      0.000       3.151       4.890
+C(decision_tier)[T.Middle Tier (Spotlight)]     0.4854      0.158      3.071      0.002       0.175       0.796
+C(decision_tier)[T.Top Tier (Oral)]             0.4102      0.237      1.729      0.084      -0.056       0.876
+mean_rating                                     0.0995      0.073      1.358      0.175      -0.044       0.243
+==============================================================================
+Omnibus:                       16.960   Durbin-Watson:                   1.953
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               26.339
+Skew:                          -0.199   Prob(JB):                     1.91e-06
+Kurtosis:                       3.873   Cond. No.                         57.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

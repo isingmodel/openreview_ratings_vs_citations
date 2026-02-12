@@ -2,7 +2,9 @@
 **An Empirical Analysis of ICLR (2017–2023)**
 
 ## Abstract
-This study investigates the relationship between peer review ratings, conference decision labels (e.g., Oral, Spotlight, Poster), and future scientific impact (measured by citations). Analyzing data from ICLR 2017 to 2023, we test the **"Label Effect Hypothesis"**: that the visible distinction assigned by the conference affects citation counts more significantly than the underlying review scores. Our results confirm a strong and increasing "Matthew Effect," where the "Oral" label significantly boosts citations regardless of the review rating. Most notably, in 2023, the predictive power of review ratings collapsed to statistical insignificance, while the "Oral" label remained the dominant predictor of impact (`Coef=1.09`, `p<0.001`).
+This study investigates the relationship between peer review ratings, conference decision labels (e.g., Oral, Spotlight, Poster), and future scientific impact (measured by citations). Analyzing data from ICLR 2017 to 2023, we test the **"Label Effect Hypothesis"**: that the visible distinction assigned by the conference affects citation counts more significantly than the underlying review scores. In early years (2017–2018), review ratings were the dominant predictor of citations, with the Oral label playing a secondary role. However, this relationship reversed over time: by 2023, the predictive power of review ratings collapsed to statistical insignificance, while the "Oral" label became the dominant predictor of impact (`Coef=1.09`, `p<0.001`). This crossover provides strong evidence for a growing "Matthew Effect" driven by conference label visibility.
+
+> **Note**: "Invite to Workshop Track" papers (present in 2017–2018) are **excluded** from this analysis. Analysis 8 demonstrated these papers are statistically distinct from Poster-tier papers (lower ratings and citations), making their inclusion inappropriate.
 
 ---
 
@@ -30,6 +32,7 @@ Peer review scores are intended to be a proxy for paper quality. Ideally, a pape
         - **Top Tier**: Oral, Talk, Notable-Top-5%
         - **Middle Tier**: Spotlight, Notable-Top-25%
         - **Base Tier**: Poster
+    - **Excluded**: "Invite to Workshop Track" (2017–2018 only)
 
 ### 2.2 Statistical Model
 We employ an Ordinary Least Squares (OLS) regression model to isolate the effect of the Label from the Rating:
@@ -71,8 +74,24 @@ We tracked the regression coefficients ($\beta_1$ vs $\beta_3$) over 7 years to 
 | **2023** | **1.090** | **0.090 (ns)** | **12.1x** |
 
 **Trend Analysis**:
-1.  **Persistent Gap**: The Oral label has consistently been a stronger predictor than the rating score (ranging from 2.3x to 12.1x stronger).
-2.  **The 2023 Divergence**: While the Label Effect has fluctuated, the Rating Effect collapsed in 2023. This suggests a transition where the community may be relying almost exclusively on the "badge" of the decision rather than the granular quality signal of the reviews.
+1.  **A Dramatic Crossover**: In early years (2017–2018), the Rating Effect was comparable to or stronger than the Oral Label Effect (ratio ≤ 1.0x). From 2019 onward, the Label Effect dominates, with the gap widening to 12.1x by 2023.
+2.  **The 2023 Divergence**: The Rating Effect collapsed in 2023 to statistical insignificance, while the Oral label reached its strongest coefficient (1.09). This suggests a transition where the community may be relying almost exclusively on the "badge" of the decision rather than the granular quality signal of the reviews.
+
+### 3.3 Direct Comparison: Same Rating, Different Label
+
+To further validate the regression findings, we directly compare the mean `log(citations)` of papers with the **same review rating** but different decision labels. Papers are binned by integer rating, and only groups with $n \geq 5$ are included to avoid small-sample artifacts.
+
+![Label Effect Controlled by Rating](figs/Label_Effect_Controlled_by_Rating.png)
+
+The figure confirms that Oral papers receive significantly more citations than Poster papers at every rating level where both labels have sufficient data. The shaded bands represent 95% confidence intervals, and sample sizes ($n$) are annotated for the Oral group.
+
+| Rating | Oral vs Poster (log gap) | Approx. Citation Multiplier |
+|--------|--------------------------|----------------------------|
+| 6      | 0.279                    | 1.3x                      |
+| 7      | 0.892                    | 2.4x                      |
+| 8      | 0.695                    | 2.0x                      |
+
+**Key Insight**: Even at rating 7–8 (the overlap zone where both Oral and Poster papers coexist), the Oral label provides approximately **2–2.4x more citations**. This effect cannot be attributed to paper quality (as measured by reviewers) and is consistent with a visibility/prestige-driven mechanism.
 
 ---
 

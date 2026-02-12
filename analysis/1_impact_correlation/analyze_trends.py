@@ -27,6 +27,8 @@ def compute_metrics_for_year(year: int, data_dir: Path) -> dict:
         return None
 
     df = load_data(year_dir)
+    # Exclude "Invite to Workshop Track" papers (2017-2018 only)
+    df = df[~df['decision'].str.contains('Workshop', case=False, na=False)]
     if df.empty or "citations" not in df.columns:
         logger.warning(f"No valid data for {year}.")
         return None
@@ -45,9 +47,6 @@ def compute_metrics_for_year(year: int, data_dir: Path) -> dict:
     # 1. Standard Metrics
     metric_cols = {
         "Mean Rating": "mean_rating",
-        "Weighted Rating": "weighted_rating",
-        "High Conf (>=4)": "high_conf_rating",
-        "Low Conf (<4)": "low_conf_rating",
     }
     
     for label, col in metric_cols.items():
@@ -132,8 +131,8 @@ def main():
     
     results = []
     
-    print(f"{'Year':<6} | {'Mean':<8} | {'Weighted':<8} | {'HighConf':<8} | {'LowConf':<8} | {'Var':<8}")
-    print("-" * 65)
+    print(f"{'Year':<6} | {'Mean':<8} | {'Var':<8}")
+    print("-" * 30)
 
     for year in args.years:
         metrics = compute_metrics_for_year(year, data_dir)
@@ -144,7 +143,7 @@ def main():
             def fmt(val):
                 return f"{val:.3f}" if val is not None else "N/A   "
             
-            print(f"{year:<6} | {fmt(metrics.get('Mean Rating'))}    | {fmt(metrics.get('Weighted Rating'))}    | {fmt(metrics.get('High Conf (>=4)'))}    | {fmt(metrics.get('Low Conf (<4)'))}    | {fmt(metrics.get('Rating Variance'))}")
+            print(f"{year:<6} | {fmt(metrics.get('Mean Rating'))}    | {fmt(metrics.get('Rating Variance'))}")
     
     if results:
         # Save plots to analysis/correlation/figs

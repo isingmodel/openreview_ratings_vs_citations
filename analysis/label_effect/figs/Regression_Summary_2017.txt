@@ -1,0 +1,29 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          log_citations   R-squared:                       0.068
+Model:                            OLS   Adj. R-squared:                  0.058
+Method:                 Least Squares   F-statistic:                     7.089
+Date:                Wed, 11 Feb 2026   Prob (F-statistic):            0.00107
+Time:                        23:07:20   Log-Likelihood:                -379.38
+No. Observations:                 198   AIC:                             764.8
+Df Residuals:                     195   BIC:                             774.6
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+===============================================================================================================
+                                                  coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------------
+Intercept                                       3.3115      1.298      2.551      0.012       0.751       5.872
+C(decision_tier)[T.Middle Tier (Spotlight)]  -1.19e-15   5.78e-16     -2.059      0.041   -2.33e-15   -5.03e-17
+C(decision_tier)[T.Top Tier (Oral)]             1.0401      0.504      2.062      0.041       0.045       2.035
+mean_rating                                     0.3418      0.189      1.807      0.072      -0.031       0.715
+==============================================================================
+Omnibus:                        2.573   Durbin-Watson:                   2.063
+Prob(Omnibus):                  0.276   Jarque-Bera (JB):                2.182
+Skew:                          -0.195   Prob(JB):                        0.336
+Kurtosis:                       3.336   Cond. No.                     8.64e+18
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 1.31e-34. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.

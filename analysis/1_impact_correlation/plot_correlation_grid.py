@@ -122,6 +122,8 @@ def main():
             continue
 
         df = load_data(data_dir)
+        # Exclude "Invite to Workshop Track" papers (2017-2018 only)
+        df = df[~df['decision'].str.contains('Workshop', case=False, na=False)]
         scatter = plot_single_panel(axes[i], df, year)
         if scatter:
             global_scatter = scatter

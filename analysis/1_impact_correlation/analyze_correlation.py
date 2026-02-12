@@ -187,6 +187,9 @@ def main(year):
         return
 
     df = load_data(data_dir)
+    # Exclude "Invite to Workshop Track" papers (2017-2018 only)
+    # Analysis 8 proved these are statistically distinct from Poster papers
+    df = df[~df['decision'].str.contains('Workshop', case=False, na=False)]
     print_summary(df, year)
     plot_correlation(df, year, output_dir, args.min_rating)
 

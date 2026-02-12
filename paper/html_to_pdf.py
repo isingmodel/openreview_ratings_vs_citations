@@ -102,4 +102,4 @@ def convert_to_pdf(input_file: str, output_file: str):
 
 
 if __name__ == "__main__":
-    convert_to_pdf("draft.md", "draft.pdf") #"draft.md"
+    convert_to_pdf("./paper/draft.md", "./paper/draft.pdf") #"draft.md"

@@ -37,8 +37,8 @@ def calculate_metrics(df: pd.DataFrame) -> pd.DataFrame:
             return 0
 
     df = df.copy()
-    if 'rating' in df.columns:
-        df['rating_range'] = df['rating'].apply(get_range)
+    if 'rating_data' in df.columns:
+        df['rating_range'] = df['rating_data'].apply(get_range)
     
     # Define "Controversial" as Range >= 4
     df['is_controversial'] = df['rating_range'] >= 4
@@ -82,6 +82,10 @@ def analyze_year(year: int, data_dir: Path, output_dir: Path):
     df = calculate_metrics(df)
     
     # Filter for valid data
+    # Exclude "Invite to Workshop Track" papers (2017-2018 only)
+    if 'decision' in df.columns:
+        df = df[~df['decision'].str.contains('Workshop', case=False, na=False)]
+
     df = df.dropna(subset=['mean_rating', 'citations'])
     
     # Stats

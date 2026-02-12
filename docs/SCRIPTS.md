@@ -122,23 +122,40 @@ python analysis/1_impact_correlation/analyze_correlation.py --year 2024 --output
 ---
 
 ## 4. analysis/1_impact_correlation/analyze_trends.py
-
-Analyzes trends across multiple years.
-
-### Usage
-
-```bash
-python analysis/1_impact_correlation/analyze_trends.py --years 2017 2018 2019 2020 2021 2022 2023
-```
-
-### Output
-
-- `figs/analysis/Correlation_Trends_2017_2023.png`
-- `analysis/result.md`
-
----
-
-## Testing
+ 
+ Analyzes correlation trends across multiple years (Review Rating vs Citations).
+ 
+ ### Usage
+ 
+ ```bash
+ python analysis/1_impact_correlation/analyze_trends.py --years 2017 2018 2019 2020 2021 2022 2023
+ ```
+ 
+ ---
+ 
+ ## 5. analysis/5_impact_by_confidence/
+ 
+ Scripts for analyzing the impact of reviewer confidence on citation prediction.
+ 
+ ### 5.1. analyze_confidence_trends.py
+ 
+ Analyzes how the predictive power of "Weighted Rating", "High Confidence", and "Low Confidence" reviews changes over time.
+ 
+ ```bash
+ python analysis/5_impact_by_confidence/analyze_confidence_trends.py
+ ```
+ 
+ ### 5.2. analyze_confidence_year.py
+ 
+ detailed analysis for a specific year, comparing different rating aggregations.
+ 
+ ```bash
+ python analysis/5_impact_by_confidence/analyze_confidence_year.py --year 2023
+ ```
+ 
+ ---
+ 
+ ## Testing
 
 ### Setup
 

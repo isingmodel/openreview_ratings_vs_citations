@@ -109,6 +109,8 @@ def main():
         return
 
     df = load_data(data_dir)
+    # Exclude "Invite to Workshop Track" papers (2017-2018 only)
+    df = df[~df['decision'].str.contains('Workshop', case=False, na=False)]
     plot_confidence_analysis(df, args.year, output_dir)
 
 

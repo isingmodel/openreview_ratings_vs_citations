@@ -1,161 +1,107 @@
-# OpenReview Ratings vs Citations
-
-> **Do peer review scores predict scientific impact?**  
-> An empirical analysis of ICLR papers (2017–2023)
+# The Signal and the Noise
+> **An Empirical Autopsy of ICLR Peer Review (2017–2023)**
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-📺 **[PyCon Korea 2022 talk (Korean)](https://www.youtube.com/watch?v=MqM2ROgWwhU)**
+---
+
+## 1. Introduction: The Scale Problem
+
+In 2017, ICLR received fewer than 500 submissions. By 2024, that number had surged past 7,000. This exponential growth has fueled a pervasive anxiety within the machine learning community: **Has the signal-to-noise ratio of peer review collapsed?**
+
+The prevailing hypothesis is one of decay. As the volume of papers outpaces the supply of qualified reviewers, the "wisdom of the crowd" is assumed to be diluting into randomness. Critics argue that the peer review score—once a gold standard of quality—has become a noisy, unreliable metric, incapable of distinguishing the "sprouts" of seminal research from merely competent work.
+
+This project is an attempt to audit that hypothesis with data. By analyzing the entire history of ICLR on OpenReview (2017–2023), we investigate the stability of the **Reviewer Signal** (the correlation between review scores and future impact) and the distorting effects of the **Conference Label** (Oral/Spotlight/Poster).
 
 ---
 
-## Overview
+## 2. The Persistence of Signal
+*Contrary to popular belief, the predictive power of peer review has remained stable.*
 
-This project explores the question: **"Can reviewers recognize the 'sprouts' of seminal research?"**
+Our initial analysis seemed to confirm the community's fears: the correlation between review ratings and log-citations appeared to drop from a robust `r=0.40` in 2017 to a mediocre `r=0.15` in recent years. However, a forensic examination of the data revealed this "decline" to be a statistical artifact. The inclusion of "Invite to Workshop Track" papers in the 2017–2018 dataset artificially inflated early correlations by clustering a distinct, lower-tier group of papers at the bottom of the distribution.
 
-This analysis investigates whether peer review scores on OpenReview effectively predict the future impact (citation count) of papers. With the rapid growth of the ML field, the hypothesis is that the predictive power of reviews may be declining due to reviewer fatigue and the influx of less experienced reviewers with the explosion of paper submissions.
+**Upon correcting for this artifact, a surprising stability emerged:**
 
----
+| Year | Pearson Correlation ($r$) | Statistical Significance ($p$) |
+| :--- | :--- | :--- |
+| **2017** | **0.218** | $p < 0.01$ |
+| **2018** | **0.162** | $p < 0.01$ |
+| ...      | ...       | ...        |
+| **2022** | **0.182** | $p < 0.01$ |
+| **2023** | **0.166** | $p < 0.01$ |
 
-## Key Finding
-
-**The correlation between review ratings and citations shows a decline from the early years (r ≈ 0.38) to a stable baseline (r ≈ 0.17) in recent years:**
-
-| Year | Pearson (r) |
-|------|-------------|
-| 2017 | 0.383 |
-| 2018 | 0.321 |
-| 2019 | 0.175 |
-| 2020 | 0.135 |
-| 2021 | 0.174 |
-| 2022 | 0.182 |
-| 2023 | 0.166 |
-
-<table>
-  <tr>
-    <td><img src="analysis/1_impact_correlation/figs/Log_Citation_vs_Review_Rating_ICLR_2017.png" width="400"/></td>
-    <td><img src="analysis/1_impact_correlation/figs/Log_Citation_vs_Review_Rating_ICLR_2018.png" width="400"/></td>
-  </tr>
-  <tr>
-    <td><img src="analysis/1_impact_correlation/figs/Log_Citation_vs_Review_Rating_ICLR_2019.png" width="400"/></td>
-    <td><img src="analysis/1_impact_correlation/figs/Log_Citation_vs_Review_Rating_ICLR_2020.png" width="400"/></td>
-  </tr>
-  <tr>
-    <td><img src="analysis/1_impact_correlation/figs/Log_Citation_vs_Review_Rating_ICLR_2021.png" width="400"/></td>
-    <td><img src="analysis/1_impact_correlation/figs/Log_Citation_vs_Review_Rating_ICLR_2022.png" width="400"/></td>
-  </tr>
-  <tr>
-    <td><img src="analysis/1_impact_correlation/figs/Log_Citation_vs_Review_Rating_ICLR_2023.png" width="400"/></td>
-  </tr>
-</table>
-
-### Methodology
-
-- **Pearson**: Measures linear relationship between mean rating and log(citations + 1). Assumes roughly normal distributions.
-- **Data Source**: 
-    - **Citations**: **Google Scholar** (via Zyte Proxy). Switched from OpenAlex to capture broader citation coverage (e.g., ArXiv preprints), resulting in higher and more stable correlations.
-    - **Ratings**: [OpenReview](https://openreview.net/).
-
-
-**The previously observed "declining trend" is now more visible with complete data coverage.** In the early years (2017-2018), review ratings were highly predictive (r > 0.3). As the conference grew, this predictive power dropped but has stabilized (r ≈ 0.17).
-
-**Why log(citations + 1)?**
-
-Citation counts follow a heavy-tailed distribution ([Redner, 1998](https://doi.org/10.1007/s100510050276); [Radicchi et al., 2008](https://doi.org/10.1073/pnas.0806977105)). Log transformation reduces outlier dominance and reflects scale-level differences (10→100 is more meaningful than 10,000→10,090).
-
-### Confidence Analysis
-
-**Do experts predict impact best?**
-Surprisingly, no. Our [Deep Dive Analysis](docs/Confidence_Analysis.md) reveals that **Low Confidence** reviewers (outsiders/generalists) often predict future citation impact better than "Experts." This trend has become more pronounced in recent years (2022-2023).
-> *Takeaway: A "Strong Accept" from a generalist may signal broader appeal than one from a domain expert.*
-
-
-## Interpretation & Hypotheses
-
-### Hypothesis 1: Reviewer Quality Degradation (Weakened)
-> *As ICLR grew, more reviewers were needed, potentially reducing review quality.*
-
-**Updated Status**: The data shows a **clear decline** in predictive power from 2017 (r=0.38) to 2020 (r=0.14), followed by stabilization. This supports the hypothesis that the massive growth in submissions may have diluted the "expert signal" compared to the early years.
-
-### Hypothesis 2: Citation Lag vs. Data Source
-> *Did recent papers need more time? Or was the data incomplete?*
-
-**Conclusion**: The discrepancy between our previous analysis (r=0.08 in 2023) and the current analysis (r=0.17 in 2023) was due to **Data Source differences** (OpenAlex vs. Google Scholar).
-- **OpenAlex**: Missed many citations for recent AI papers (possibly preprints/ArXiv).
-- **Google Scholar**: Captured the full citation graph, revealing that the "signal" from reviewers is still present and healthy.
-- **Citation Lag**: Does not appear to be the primary factor. High correlation is observable even for recent papers (2022-2023) when using the right data source.
-
+**Insight**: The core signal from reviewers has effectively plateaued at $r \approx 0.17$. While modest, this correlation has been remarkably resilient to the 10x explosion in submissions. The "Reviewer Decay" hypothesis is not supported by the data; the signal is faint, but it is not dying.
 
 ---
 
-## Quick Start
+## 3. The Distortion of Labels (The Matthew Effect)
+*When the measure becomes a target, the label eats the score.*
+
+If reviewer signal is stable, why does the system *feel* more broken? Our analysis points to a growing **"Matthew Effect"**—the phenomenon where the rich get richer. In the context of ICLR, the "rich" are papers designated as **Oral** or **Spotlight**.
+
+We performed a mediation analysis to disentangle the effect of the **Review Score** (quality signal) from the effect of the **Decision Label** (visibility signal). Determining the "Oral" status of a paper is a discrete decision made by Program Chairs, often based on the same review scores.
+
+### The Crossover Event (2023)
+By 2023, the influence of the label completely overtook the influence of the score. In a regression model predicting citations:
+
+*   **Oral Label Effect**: **Highly Significant** ($\beta \approx 1.09, p < 0.001$). An Oral label is associated with a **~3x increase** in citations compared to a Poster paper with the *exact same review score*.
+*   **Review Rating Effect**: **Statistically Insignificant** ($\beta \approx 0.09, p = 0.09$). Once the label is known, the granular review score adds no predictive value.
+
+![Label Effect Trends](analysis/3_decision_label_bias/figs/Label_Effect_Trends_2017_2023.png)
+
+**Implication**: The community has shifted from consuming research based on granular quality signals (reading the reviews/scores) to consuming research based on heuristic badges (the label). This creates a "Kingmaker" dynamic where the Program Chairs' binary decision—not the collective intelligence of the reviewers—determines a paper's future impact.
+
+---
+
+## 4. The Specialist's Fallacy
+*The "Generalist" reviewer is a better predictor of impact than the "Expert".*
+
+We often assume that high-confidence reviewers ("Experts") provide the most accurate assessment of a paper's value. Our data suggests the opposite.
+
+In 2023, papers highly rated by **Low Confidence** reviewers ("Generalists") had a stronger correlation with future citations ($r=0.11$) than those rated by **High Confidence** reviewers ($r=0.08$).
+
+**Why?** In an era of hyper-specialization, experts may be overfitting to technical correctness or novelty within a narrow sub-field ("Reviewer 2" syndrome). Generalists, by contrast, may be evaluating a paper based on its broader clarity, accessibility, and potential utility to the wider field—attributes that drive citation counts.
+
+---
+
+## 5. Conclusion: Goodhart's Law in Action
+
+Our "empirical autopsy" reveals a system in flux, but not in decay. The fundamental ability of the peer review corps to rank papers has preserved its modest predictive power ($r \approx 0.17$) for seven years.
+
+However, the **incentive structure** has warped. The "Label Effect" demonstrates a classic case of Goodhart's Law: as the conference label became the primary target for visibility in a saturated field, it ceased to be a mere reflection of quality and became a self-fulfilling prophecy of impact. The future of open peer review may depend less on improving reviewer quality and more on dampening the "Kingmaker" effect of binary acceptance labels.
+
+---
+
+## Technical Appendix
+
+The code for this analysis is open source and reproducible.
+
+### Quick Start
 
 ```bash
+# 1. Install dependencies
 pip install -r requirements.txt
-```
 
-### Scrape & Analyze
-
-```bash
-# 1. Fetch OpenReview data
+# 2. Fetch data (e.g., ICLR 2024)
 python scripts/data_collection/scrape_openreview.py --year 2024
 
-# 2. Get OpenAlex citations
-python scripts/data_collection/scrape_citations_openalex.py --input data/ICLR2024/preprocessed.parquet --email your_email@example.com
+# 3. Fetch citations (Google Scholar via Zyte Proxy)
+python scripts/data_collection/scrape_googlescholar.py --year 2024
 
-# 3. Generate correlation plot
+# 4. Run core analysis
 python analysis/1_impact_correlation/analyze_correlation.py --year 2024
-# **Options:**
-#- `--min-rating 6.0` — Exclude papers below 6 (filter desk #rejects influenced by Program Chairs)
-#- `--output figs/custom/` — Custom output directory
-```
----
-
-## Project Structure
-
-```
-├── scripts/
-│   ├── data_collection/
-│   │   ├── scrape_openreview.py          # Fetch data from OpenReview (v1/v2 API)
-│   │   ├── scrape_citations_openalex.py  # Fetch OpenAlex citations
-│   │   └── scrape_googlescholar.py       # Fetch Google Scholar citations
-│   └── utils/
-│       ├── src.py                        # Linked data loading logic
-│       └── verify_data.py                # Data verification
-├── analysis/
-│   ├── 1_impact_correlation/
-│   │   ├── analyze_correlation.py    # Single year correlation
-│   │   ├── analyze_trends.py         # Multi-year trends
-│   │   └── figs/                     # Correlation plots
-│   ├── 2_reviewer_expertise/
-│   │   ├── analyze_confidence.py     # Confidence impact analysis
-│   │   └── figs/                     # Confidence plots
-│   ├── 3_decision_label_bias/
-│   │   └── ...
-│   └── 4_reviewer_disagreement/
-│       └── ...
-├── tests/                            # Unit tests
-├── docs/
-│   └── SCRIPTS.md                    # Detailed script documentation
-├── data/ICLR20**/
-│   ├── preprocessed.parquet    # Processed paper data
-│   └── openalex_*.json         # Citation data
-└── figs/                       # Generated plots
 ```
 
-📖 **[Detailed Script Documentation](docs/SCRIPTS.md)** — API versioning, usage examples, testing
+### Project Structure
 
----
-
-## References
-
-- [OpenReview Explorer](https://horace.io/OpenReviewExplorer/) — Interactive visualization
-- [An Open Review of OpenReview](https://openreview.net/forum?id=Cn706AbJaKW) — Critical analysis of ML peer review
-- [Dynamic Patterns of Open Review Process](https://www.sciencedirect.com/science/article/abs/pii/S0378437121005185) — Dynamics of review systems
+*   [`analysis/1_impact_correlation`](analysis/1_impact_correlation/REPORT.md): The stability analysis (Section 2).
+*   [`analysis/3_decision_label_bias`](analysis/3_decision_label_bias/REPORT.md): The "Label Effect" regression (Section 3).
+*   [`analysis/5_impact_by_confidence`](analysis/5_impact_by_confidence/Confidence_Analysis.md): The Expert vs. Generalist analysis (Section 4).
+*   [`analysis/8_workshop_classification`](analysis/8_workshop_classification/REPORT.md): The "Workshop Artifact" forensic analysis.
 
 ---
 
 <p align="center">
-  <i>Questions or ideas? Open an issue!</i>
+  <i>Questions or ideas? Open an issue.</i>
 </p>

@@ -2,7 +2,7 @@
 title: "The Death of Merchandise: When Peer-Review Scores Stop Predicting Impact"
 ---
 # Abstract
-As AI/ML conference submissions scale, peer review increasingly functions as a coarse filter rather than a reliable ranking signal within accepted papers. We study this shift in ICLR 2017–2023 by linking OpenReview review signals (mean ratings, confidence, and decision labels such as Poster/Spotlight/Oral) to later citation counts captured in a single early-2024 Google Scholar snapshot. Using year-wise correlations and within-year regressions of log-citations on mean rating and labels, we find substantial erosion in score predictiveness among accepted papers: the correlation between mean rating and log-citations declines from roughly 0.38 (2017) to about 0.17 (2023). In contrast, a growing “label premium” emerges: high-visibility tiers—especially Oral—are strongly associated with higher subsequent citations even after controlling for ratings (e.g., in 2023, an Oral coefficient around 1.09 implies ~3× citations conditional on score). Confidence-weighted and “expert-vs-generalist” splits do not consistently improve predictiveness in later years. These results suggest that, under attention scarcity, conference-mediated visibility signals increasingly dominate marginal score differences, with implications for how stratified programs shape discovery and cumulative advantage.
+As AI/ML conference submissions scale, peer review increasingly functions as a coarse filter rather than a reliable ranking signal within accepted papers. We study this shift in ICLR 2017–2023 by linking OpenReview review signals (mean ratings, confidence, and decision labels such as Poster/Spotlight/Oral) to later citation counts captured in a single early-2026 Google Scholar snapshot. Using year-wise correlations and within-year regressions of log-citations on mean rating and labels, we find substantial erosion in score predictiveness among accepted papers: the correlation between mean rating and log-citations declines from roughly 0.38 (2017) to about 0.17 (2023). In contrast, a growing “label premium” emerges: high-visibility tiers—especially Oral—are strongly associated with higher subsequent citations even after controlling for ratings (e.g., in 2023, an Oral coefficient around 1.09 implies ~3× citations conditional on score). Confidence-weighted and “expert-vs-generalist” splits do not consistently improve predictiveness in later years. These results suggest that, under attention scarcity, conference-mediated visibility signals increasingly dominate marginal score differences, with implications for how stratified programs shape discovery and cumulative advantage.
 
 # Introduction
 
@@ -112,7 +112,8 @@ The scatter plots below illustrate the year-wise relationship between \(\bar{R}\
 1. **Compression of score variance among accepted papers.** As the acceptance threshold and scoring calibration shift under scale, many accepted papers cluster in a narrow band of ratings, limiting score-based separability.
 2. **Persistence of high-citation outliers across the score spectrum.** Highly cited papers increasingly appear at a wide range of mean ratings, indicating that factors outside the numeric score (topic timing, community attention, institutional signals) contribute strongly to eventual impact.
 
-![ICLR_Corr_Trend](analysis/correlation/figs/combined_correlation_grid.png)
+![ICLR_Corr_Trend](../analysis/1_impact_correlation/figs/combined_correlation_grid.png)
+*Figure 1: Year-wise scatter plots of Mean Review Rating vs. Log(Citations+1) for ICLR 2017–2023. The correlation (Pearson r) annotated in each panel highlights the declining predictive power of review scores over time, while the distribution of accepted papers becomes increasingly compressed.*
 
 ## 4.3 The Signal Dilution Hypothesis
 
@@ -159,7 +160,7 @@ Interpreting in the log space, \(\beta_3\approx 1.09\) corresponds to an approxi
 
 The non-significance of \(\beta_1\) in 2023 does **not** mean that quality is irrelevant. It means that within the accepted set and after conditioning on the label, the remaining variation in mean score does not explain additional citation variance at conventional significance thresholds—consistent with the idea that labels are a stronger *observable* sorting mechanism for attention than small score differences.
 
-![Label Effect Trends](analysis/label_effect/figs/Label_Effect_Trends_2017_2023.png)
+![Label Effect Trends](../analysis/3_decision_label_bias/figs/Label_Effect_Trends_2017_2023.png)
 *Figure 2: Evolution of regression coefficients \(\beta_1\) (Rating) vs. \(\beta_3\) (Oral Label). The widening gap highlights the increasing dominance of the badge-like label over the numeric score in predicting citations.*
 
 ---

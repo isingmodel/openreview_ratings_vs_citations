@@ -21,8 +21,8 @@ Specifically:
 
 | Year | Mean Rating | High Conf (Experts) | Low Conf (Generalists) | Trend |
 | :--- | :--- | :--- | :--- | :--- |
-| **2017** | **0.383** | 0.316 | 0.314 | Experts ≈ Generalists |
-| **2018** | **0.321** | 0.309 | 0.155 | Experts >> Generalists |
+| **2017** | **0.218** | 0.163 | 0.138 | Experts ≈ Generalists |
+| **2018** | 0.162 | **0.147** | 0.080 | Experts > Generalists |
 | **2019** | **0.175** | 0.135 | **0.144** | Generalists ≥ Experts |
 | **2020** | 0.135 | N/A | N/A | (Confidence data issue) |
 | **2021** | 0.174 | 0.124 | 0.112 | Experts ≥ Generalists |
@@ -33,11 +33,11 @@ Specifically:
 
 ## 4. Key Findings & Discussion
 
-### Finding 1: The "Death of Merchandise" (Expertise Decay)
-In the early years (2017-2018), the mean rating had significantly higher predictive power (r > 0.3).
-*   **2018**: Experts (0.31) strongly outperformed Generalists (0.16), suggesting the traditional peer review model worked well.
-*   **2017**: Interestingly, both Experts and Generalists performed well (~0.31), indicating a generally high-quality review pool or easier-to-predict papers.
-*   **2023**: "Experts" performed worse than "Generalists." While positive, expert correlation ($r=0.085$) was lower than the baseline.
+### Finding 1: No Massive "Expertise Decay"
+After excluding Workshop papers, the early years (2017-2018) show correlations ($r \approx 0.16-0.22$) much closer to recent years ($r \approx 0.17$). The previously observed "Death of Merchandise" (where $r > 0.3$) was largely an artifact.
+*   **2017**: Experts (0.163) and Generalists (0.138) performed similarly.
+*   **2018**: Experts (0.147) outperformed Generalists (0.080), providing the strongest evidence for expert value in the dataset.
+*   **2023**: "Experts" performed worse ($r=0.085$) than "Generalists" ($r=0.110$), maintaining the trend of declining expert advantage.
 
 ### Finding 2: The Rise of the Generalist
 As the field has exploded, **Low Confidence (<4) reviewers** have become a reliable signal for future impact ($r \approx 0.11-0.16$ in recent years).
