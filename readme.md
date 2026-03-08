@@ -101,6 +101,10 @@ python analysis/1_impact_correlation/analyze_correlation.py --year 2024
 *   [`analysis/8_workshop_classification`](analysis/8_workshop_classification/REPORT.md): The "Workshop Artifact" forensic analysis.
 
 ---
+### reference & related articles
+- Lack of reviewers threatens robustness of neuroscience literature
+ https://www.thetransmitter.org/publishing/lack-of-reviewers-threatens-robustness-of-neuroscience-literature/
+
 
 <p align="center">
   <i>Questions or ideas? Open an issue.</i>
